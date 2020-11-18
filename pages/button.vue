@@ -41,17 +41,17 @@
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="button size">
-      <Button classes="xl">Huge</Button>
       <Button classes="lg">Large</Button>
-      <Button classes="">Medium</Button>
+      <Button classes="">Normal</Button>
       <Button classes="sm">Small</Button>
+      <Button classes="xs">Tiny</Button>
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="button wide">
-      <Button classes="wide lg">neutral</Button>
-      <Button classes="wide lg primary">primary</Button>
-      <Button classes="wide lg secondary">secondary</Button>
-      <Button classes="wide lg accent">accent</Button>
+      <Button classes="wide">neutral</Button>
+      <Button classes="wide primary">primary</Button>
+      <Button classes="wide secondary">secondary</Button>
+      <Button classes="wide accent">accent</Button>
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="button group">
@@ -81,93 +81,93 @@
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="icon button start">
-      <Button classes="xl">
-        <Icon glyph="close" class="inline-block w-6 mr-2 stroke-current" />
-        Huge
-      </Button>
       <Button classes="lg">
         <Icon glyph="close" class="inline-block w-6 mr-2 stroke-current" />
         Large
       </Button>
-      <Button>
-        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
-        Medium
+      <Button classes="">
+        <Icon glyph="close" class="inline-block w-6 mr-2 stroke-current" />
+        Normal
       </Button>
       <Button classes="sm">
         <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
         Small
+      </Button>
+      <Button classes="xs">
+        <Icon glyph="close" class="inline-block w-4 mr-1 stroke-current" />
+        Tiny
       </Button>
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="icon button end">
-      <Button classes="xl">
-        Huge
-        <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
-      </Button>
       <Button classes="lg">
         Large
         <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
       </Button>
-      <Button>
-        Medium
-        <Icon glyph="arrow" class="inline-block w-4 ml-2 stroke-current" />
+      <Button classes="">
+        Normal
+        <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
       </Button>
       <Button classes="sm">
         Small
         <Icon glyph="arrow" class="inline-block w-4 ml-2 stroke-current" />
       </Button>
+      <Button classes="xs">
+        Tiny
+        <Icon glyph="arrow" class="inline-block w-4 ml-1 stroke-current" />
+      </Button>
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="button shapes">
-      <Button classes="circle xl">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
-      </Button>
       <Button classes="circle lg">
         <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
       <Button classes="circle">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
       <Button classes="circle sm">
         <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
-
-      <Button classes="square xl">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+      <Button classes="circle xs">
+        <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
+
       <Button classes="square lg">
         <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
       <Button classes="square">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
       <Button classes="square sm">
         <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
-
-      <Button classes="outline circle xl">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+      <Button classes="square xs">
+        <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
+
       <Button classes="outline circle lg">
         <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
       <Button classes="outline circle">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
       <Button classes="outline circle sm">
         <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
-
-      <Button classes="outline square xl">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+      <Button classes="outline circle xs">
+        <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
+
       <Button classes="outline square lg">
         <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
       <Button classes="outline square">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
       <Button classes="outline square sm">
+        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+      </Button>
+      <Button classes="outline square xs">
         <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
     </Wrapper>
@@ -177,26 +177,26 @@
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="button loading">
-      <Button classes="xl loading">loading</Button>
-      <Button classes="lg primary loading">loading</Button>
-      <Button classes="secondary loading">loading</Button>
-      <Button classes="sm accent loading">loading</Button>
-      <Button classes="outline primary loading">loading</Button>
-      <Button classes="outline secondary loading">loading</Button>
-      <Button classes="outline accent loading">loading</Button>
-      <Button classes="ghost loading">loading</Button>
+      <Button classes="lg loading">loading</Button>
+      <Button classes="primary loading">loading</Button>
+      <Button classes="sm secondary loading">loading</Button>
+      <Button classes="xs accent loading">loading</Button>
+      <Button classes="sm outline primary loading">loading</Button>
+      <Button classes="sm outline secondary loading">loading</Button>
+      <Button classes="sm outline accent loading">loading</Button>
+      <Button classes="sm ghost loading">loading</Button>
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="button loading">
-      <Button classes="xl square loading"></Button>
       <Button classes="lg square loading"></Button>
       <Button classes="square loading"></Button>
       <Button classes="sm square loading"></Button>
+      <Button classes="xs square loading"></Button>
 
-      <Button classes="xl circle loading"></Button>
       <Button classes="lg circle loading"></Button>
       <Button classes="circle loading"></Button>
       <Button classes="sm circle loading"></Button>
+      <Button classes="xs circle loading"></Button>
     </Wrapper>
 
   </div>

@@ -20,8 +20,8 @@
           <h2 class="card-title">Image bottom</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
-            <Button classes="primary">Get Started</Button>
-            <Button classes="ghost">More info</Button>
+            <Button classes="primary">Login</Button>
+            <Button classes="ghost">Register</Button>
           </div>
         </div>
         <figure>
@@ -138,7 +138,7 @@
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-end space-x-2 card-actions">
-            <Button classes="primary lg">
+            <Button classes="primary">
               More info
               <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
             </Button>
@@ -149,7 +149,7 @@
       <Card class="shadow-2xl side bg-secondary text-content-secondary">
         <div class="card-body">
           <div class="justify-end space-x-2 card-actions">
-            <Button classes="secondary square lg">
+            <Button classes="secondary square">
               <Icon glyph="close" class="inline-block w-6 stroke-current" />
             </Button>
           </div>
@@ -161,8 +161,8 @@
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-center space-x-2 card-actions">
-            <Button classes="accent lg">Start now</Button>
-            <Button classes="accent lg">More info</Button>
+            <Button classes="accent">Start now</Button>
+            <Button classes="accent">More info</Button>
           </div>
         </div>
       </Card>

@@ -1,5 +1,5 @@
 .btn {
-  @apply h-8 flex items-center justify-center font-normal text-center px-4 leading-8 text-base rounded-lg cursor-pointer bg-content-600 border border-content-600 text-content-50 select-none transition duration-200 ease-in-out;
+  @apply flex items-center justify-center font-normal text-center rounded-lg cursor-pointer bg-content-600 border border-content-600 text-content-50 select-none transition duration-200 ease-in-out;
 }
 .btn:hover, .btn.active {
   @apply bg-content-700 border-content-700;
@@ -72,13 +72,16 @@
 .btn.wide {
   @apply w-64;
 }
-.btn.xl {
+.btn.lg {
   @apply px-10 leading-loose text-xl h-16;
 }
-.btn.lg {
+.btn {
   @apply px-6 leading-loose text-lg h-12;
 }
 .btn.sm {
+  @apply px-4 leading-8 text-base h-8;
+}
+.btn.xs {
   @apply px-2 text-sm leading-relaxed h-6;
 }
 
@@ -104,28 +107,28 @@
 }
 
 /* shapes */
-.btn.square {
-  @apply h-8 w-8 p-0;
-}
-.btn.square.sm {
+.btn.square.xs {
   @apply h-6 w-6 p-0;
 }
-.btn.square.lg {
+.btn.square.sm {
+  @apply h-8 w-8 p-0;
+}
+.btn.square {
   @apply h-12 w-12 p-0;
 }
-.btn.square.xl {
+.btn.square.lg {
   @apply h-16 w-16 p-0;
 }
-.btn.circle {
-  @apply rounded-full h-8 w-8 p-0;
-}
-.btn.circle.sm {
+.btn.circle.xs {
   @apply rounded-full h-6 w-6 p-0;
 }
-.btn.circle.lg {
+.btn.circle.sm {
+  @apply rounded-full h-8 w-8 p-0;
+}
+.btn.circle {
   @apply rounded-full h-12 w-12 p-0;
 }
-.btn.circle.xl {
+.btn.circle.lg {
   @apply rounded-full h-16 w-16 p-0;
 }
 
@@ -151,10 +154,10 @@
 .btn.loading.square:before, .btn.loading.circle:before{
   @apply mr-0;
 }
-.btn.loading.lg:before, .btn.loading.xl:before{
+.btn.loading.xl:before, .btn.loading.lg:before{
   @apply h-5 w-5;
 }
-.btn.loading.sm:before{
+.btn.loading.sm:before, .btn.loading.xs:before{
   @apply h-3 w-3;
 }
 .btn.primary.loading:before{
