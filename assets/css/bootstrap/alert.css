@@ -1,0 +1,27 @@
+.alert {
+  @apply relative px-5 py-3 rounded border border-transparent;
+}
+.alert-primary {
+  @apply text-dark bg-primary;
+  --primary-l: 90%;
+}
+.alert-secondary {
+  @apply text-dark bg-secondary;
+  --secondary-l: 90%;
+}
+.alert-success {
+  @apply text-dark bg-success;
+  --success-l: 90%;
+}
+.alert-danger {
+  @apply text-dark bg-danger;
+  --danger-l: 90%;
+}
+.alert-warning {
+  @apply text-dark bg-warning;
+  --warning-l: 90%;
+}
+.alert-info {
+  @apply text-dark bg-info;
+  --info-l: 90%;
+}

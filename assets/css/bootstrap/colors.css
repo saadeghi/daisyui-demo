@@ -1,0 +1,46 @@
+:root {
+  --primary-h: 211;
+  --primary-s: 100%;
+  --primary-l: 50%;
+  --primary-a: 1;
+  
+  --secondary-h: 208;
+  --secondary-s: 7%;
+  --secondary-l: 46%;
+  --secondary-a: 1;
+  
+  --success-h: 134;
+  --success-s: 61%;
+  --success-l: 41%;
+  --success-a: 1;
+  
+  --danger-h: 354;
+  --danger-s: 70%;
+  --danger-l: 54%;
+  --danger-a: 1;
+  
+  --warning-h: 45;
+  --warning-s: 100%;
+  --warning-l: 51%;
+  --warning-a: 1;
+  
+  --info-h: 188;
+  --info-s: 78%;
+  --info-l: 41%;
+  --info-a: 1;
+  
+  --light-h: 210;
+  --light-s: 17%;
+  --light-l: 98%;
+  --light-a: 1;
+  
+  --dark-h: 210;
+  --dark-s: 10%;
+  --dark-l: 23%;
+  --dark-a: 1;
+  
+  --white-h: 0;
+  --white-s: 0%;
+  --white-l: 100%;
+  --white-a: 1;
+}

@@ -1,0 +1,127 @@
+.btn {
+  @apply inline-block font-normal text-center px-3 py-2 leading-normal text-base rounded cursor-pointer;
+}
+.btn-primary {
+  @apply text-white bg-primary border border-primary;
+}
+.btn-primary:hover {
+  --primary-l: 43%;
+}
+.btn-secondary {
+  @apply text-white bg-secondary border border-secondary;
+}
+.btn-secondary:hover {
+  --secondary-h: 206;
+  --secondary-l: 38%;
+}
+.btn-success {
+  @apply text-white bg-success border border-success;
+}
+.btn-success:hover {
+  --success-h: 133;
+  --success-l: 33%;
+}
+.btn-danger {
+  @apply text-white bg-danger border border-danger;
+}
+.btn-danger:hover {
+  --danger-l: 46%;
+}
+.btn-warning {
+  @apply text-dark bg-warning border border-warning;
+}
+.btn-warning:hover {
+  --warning-l: 44%;
+}
+.btn-info {
+  @apply text-white bg-info border border-info;
+}
+.btn-info:hover {
+  --info-l: 33%;
+}
+.btn-light {
+  @apply text-dark bg-light border border-light;
+}
+.btn-light:hover {
+  --light-s: 16%;
+  --light-l: 90%;
+}
+.btn-dark {
+  @apply text-white bg-dark border border-dark;
+}
+.btn-dark:hover {
+  --dark-l: 15%;
+}
+.btn-link {
+  @apply text-primary;
+}
+.btn-link:hover {
+  --primary-l: 35%;
+}
+.btn-outline-primary {
+  @apply border text-primary border-primary;
+}
+.btn-outline-primary:hover {
+  @apply bg-primary text-white;
+}
+.btn-outline-secondary {
+  @apply border text-secondary border-secondary;
+}
+.btn-outline-secondary:hover {
+  @apply bg-secondary text-white;
+}
+.btn-outline-success {
+  @apply border text-success border-success;
+}
+.btn-outline-success:hover {
+  @apply bg-success text-white;
+}
+.btn-outline-danger {
+  @apply border text-danger border-danger;
+}
+.btn-outline-danger:hover {
+  @apply bg-danger text-white;
+}
+.btn-outline-warning {
+  @apply border text-warning border-warning;
+}
+.btn-outline-warning:hover {
+  @apply bg-warning text-white;
+}
+.btn-outline-info {
+  @apply border text-info border-info;
+}
+.btn-outline-info:hover {
+  @apply bg-info text-white;
+}
+.btn-outline-light {
+  @apply border text-light border-light;
+}
+.btn-outline-light:hover {
+  @apply bg-light text-white;
+}
+.btn-outline-dark {
+  @apply border text-dark border-dark;
+}
+.btn-outline-dark:hover {
+  @apply bg-dark text-white;
+}
+.btn-outline-link {
+  @apply border text-primary border-primary;
+}
+.btn-outline-link:hover {
+  --primary-l: 35%;
+}
+.btn-lg {
+  @apply px-6 py-3 text-xl;
+}
+.btn-sm {
+  @apply px-2 py-1 text-sm;
+}
+.btn-block {
+  @apply block w-full;
+}
+.btn>i.material-icons{
+  vertical-align: sub;
+  font-size: 1.2em;
+}

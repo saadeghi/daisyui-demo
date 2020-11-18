@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./wip/colors.css";
+@import "./wip/alert.css";
+@import "./wip/badge.css";
+@import "./wip/button.css";
+@import "./wip/card.css";
+@import "./wip/dropdown.css";
+@import "./wip/form.css";
+@import "./wip/list-group.css";
+@import "./wip/modal.css";
+@import "./wip/navbar.css";
