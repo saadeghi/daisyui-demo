@@ -1,0 +1,167 @@
+<template>
+  <div>
+    <Wrapper title="card" classes="grid grid-cols-3 gap-6">
+
+      <Card>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">With button</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="justify-end space-x-2 card-actions">
+            <Button classes="ghost">More info</Button>
+          </div>
+        </div>
+      </Card>
+
+      <Card>
+        <div class="card-body">
+          <h2 class="card-title">Image bottom</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="space-x-2 card-actions">
+            <Button classes="primary">Get Started</Button>
+            <Button classes="ghost">More info</Button>
+          </div>
+        </div>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+        </figure>
+      </Card>
+
+      <Card>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=50&amp;q=80" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Small image file</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+        </div>
+      </Card>
+
+    </Wrapper>
+
+    <Wrapper title="card with shadow, image-full, small image size" classes="grid grid-cols-3 gap-6">
+
+      <Card class="text-center shadow-2xl">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">With shadow and center</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="justify-center space-x-2 card-actions">
+            <Button classes="ghost">More info</Button>
+          </div>
+        </div>
+      </Card>
+
+      <Card class="shadow-xl image-full">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+        </figure>
+        <div class="justify-end card-body">
+          <h2 class="card-title">Image bottom</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="space-x-2 card-actions">
+            <Button classes="primary">Get Started</Button>
+          </div>
+        </div>
+      </Card>
+
+      <Card class="shadow-sm bg-accent text-content-accent">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Accent color</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="space-x-2 card-actions">
+            <Button classes="secondary">More info</Button>
+          </div>
+        </div>
+      </Card>
+
+    </Wrapper>
+
+    <Wrapper title="card with side image" classes="grid grid-cols-1 gap-6">
+
+      <Card class="side">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Two Buttons</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="space-x-2 card-actions">
+            <Button classes="primary">Get Started</Button>
+            <Button classes="ghost">More info</Button>
+          </div>
+        </div>
+      </Card>
+
+      <Card class="side">
+        <div class="w-1/2 card-body">
+          <h2 class="card-title">Image on other side <Badge>NEW</Badge></h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="space-x-2 card-actions">
+            <Button classes="primary">Get Started</Button>
+            <Button classes="ghost">More info</Button>
+          </div>
+        </div>
+        <figure class="w-1/2">
+          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+        </figure>
+      </Card>
+
+
+    </Wrapper>
+
+    <Wrapper title="card with out image" classes="grid grid-cols-1 gap-6">
+
+      <Card class="side">
+        <div class="card-body">
+          <h2 class="card-title">No Images</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="space-x-2 card-actions">
+            <Button classes="primary">Get Started</Button>
+            <Button classes="ghost">More info</Button>
+          </div>
+        </div>
+      </Card>
+
+    </Wrapper>
+
+    <Wrapper title="mini cards" classes="grid grid-cols-3 gap-6">
+
+      <Card class="shadow-2xl side bg-primary text-content-primary rounded-xl">
+        <div class="card-body">
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
+          <div class="justify-end space-x-2 card-actions">
+            <Button classes="primary">More info</Button>
+          </div>
+        </div>
+      </Card>
+
+      <Card class="shadow-2xl side bg-secondary text-content-secondary rounded-xl">
+        <div class="card-body">
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
+          <div class="justify-end space-x-2 card-actions">
+            <Button classes="secondary">More info</Button>
+          </div>
+        </div>
+      </Card>
+
+      <Card class="shadow-2xl side bg-accent text-content-accent rounded-xl">
+        <div class="card-body">
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
+          <div class="justify-end space-x-2 card-actions">
+            <Button classes="accent">More info</Button>
+          </div>
+        </div>
+      </Card>
+
+    </Wrapper>
+
+  </div>
+</template>
