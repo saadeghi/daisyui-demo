@@ -20,10 +20,10 @@
   @apply flex items-start;
 }
 .card-actions:first-child{
-  @apply mb-3;
+  @apply mb-2;
 }
 .card-actions:last-child{
-  @apply mt-3;
+  @apply mt-6;
 }
 .card.image-full{
   @apply grid;
