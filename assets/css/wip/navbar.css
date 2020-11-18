@@ -1,0 +1,25 @@
+.fixed-top {
+  @apply fixed top-0 right-0 left-0 z-40;
+}
+.navbar {
+  @apply relative flex flex-wrap items-center justify-between py-1 px-4;
+}
+.navbar-toggler {
+  @apply inline-block py-1 px-3 leading-none border border-transparent rounded;
+}
+.navbar-collapse {
+  @apply hidden w-full flex-grow items-center;
+}
+.navbar-collapse.show, .navbar-collapse.in {
+  @apply block;
+}
+.navbar-nav {
+  @apply flex flex-col pl-0 mb-0 list-none;
+}
+.navbar .nav-link {
+  @apply block py-2 px-4;
+}
+.navbar .collapse.show .nav-link,
+.navbar .collapse.in .nav-link {
+  @apply px-0;
+}

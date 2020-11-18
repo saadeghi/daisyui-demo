@@ -1,0 +1,30 @@
+form {
+  @apply block;
+}
+label {
+  @apply inline-block mb-2;
+}
+.form-group {
+  @apply mb-4;
+}
+.form-check {
+  @apply relative block pl-5;
+}
+.form-check-input {
+  @apply absolute mt-1 -ml-5;
+}
+.form-check-label {
+  @apply mb-0;
+}
+.form-control {
+  @apply block w-full py-2 px-3 text-base font-normal leading-normal text-content-900 bg-default border border-content-200 rounded;
+}
+.form-inline {
+  @apply flex flex-wrap flex-row items-center;
+}
+.form-inline .form-control {
+  @apply inline-block w-auto align-middle;
+}
+.form-text {
+  @apply block mt-1;
+}

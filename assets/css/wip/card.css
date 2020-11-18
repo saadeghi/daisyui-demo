@@ -1,0 +1,41 @@
+.card {
+  @apply flex flex-col relative rounded border border-content-200 overflow-hidden;
+}
+.card.side{
+  @apply flex-row;
+}
+.card-body {
+  @apply flex flex-col flex-auto p-8;
+}
+.card:not(.side)>figure, .card:not(.side)>figure>* {
+  @apply w-full;
+}
+.card.side{
+  @apply items-stretch;
+}
+.card-title {
+  @apply mb-3 text-xl;
+}
+.card-actions{
+  @apply mt-3 flex items-start;
+}
+.card.image-full{
+  @apply grid;
+}
+.card.image-full:before{
+  @apply bg-content-900 z-10 relative opacity-75;
+  content: '';
+}
+.card.image-full:before, .card.image-full>*{
+  @apply row-start-1 col-start-1;
+}
+.card.image-full>figure img{
+  @apply object-cover h-full;
+}
+.card.side.image-full>figure img{
+  @apply w-full;
+}
+.card.image-full>.card-body{
+  @apply text-content-50 z-20 relative;
+}
+

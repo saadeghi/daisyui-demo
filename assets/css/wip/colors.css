@@ -1,0 +1,171 @@
+:root {
+  --color-default: hsl(0, 0%, 100%);
+
+  --color-primary: hsl(340, 82%, 52%);
+  --color-primary-lighten: hsl(340, 82%, 62%);
+  --color-primary-darken: hsl(340, 82%, 48%);
+
+  --color-secondary: hsl(262, 52%, 46%);
+  --color-secondary-lighten: hsl(262, 52%, 50%);
+  --color-secondary-darken: hsl(262, 52%, 42%);
+
+  --color-accent: hsl(199, 98%, 48%);
+  --color-accent-lighten: hsl(199, 98%, 52%);
+  --color-accent-darken: hsl(199, 98%, 44%);
+
+  --color-content-primary: hsl(0, 0%, 100%);
+  --color-content-secondary: hsl(0, 0%, 100%);
+  --color-content-accent: hsl(0, 0%, 100%);
+
+  --color-content-50: hsl(220, 14%, 98%);
+  --color-content-100: hsl(220, 14%, 96%);
+  --color-content-200: hsl(220, 14%, 93%);
+  --color-content-300: hsl(220, 14%, 84%);
+  --color-content-400: hsl(220, 14%, 65%);
+  --color-content-500: hsl(220, 14%, 46%);
+  --color-content-600: hsl(220, 14%, 37%);
+  --color-content-700: hsl(220, 14%, 28%);
+  --color-content-800: hsl(220, 14%, 19%);
+  --color-content-900: hsl(220, 14%, 10%);
+}
+
+[data-theme='dark'] {
+  --color-default: hsl(220, 14%, 10%);
+
+  --color-content-900: hsl(220, 14%, 98%);
+  --color-content-800: hsl(220, 14%, 96%);
+  --color-content-700: hsl(220, 14%, 93%);
+  --color-content-600: hsl(220, 14%, 84%);
+  --color-content-500: hsl(220, 14%, 65%);
+  --color-content-400: hsl(220, 14%, 46%);
+  --color-content-300: hsl(220, 14%, 37%);
+  --color-content-200: hsl(220, 14%, 28%);
+  --color-content-100: hsl(220, 14%, 19%);
+  --color-content-50: hsl(220, 14%, 10%);
+}
+
+[data-theme='black'] {
+  --color-default: #000;
+
+  --color-primary: #fff;
+  --color-primary-lighten: #fff;
+  --color-primary-darken: #fff;
+
+  --color-secondary: #fff;
+  --color-secondary-lighten: #fff;
+  --color-secondary-darken: #fff;
+
+  --color-accent: #fff;
+  --color-accent-lighten: #fff;
+  --color-accent-darken: #fff;
+
+  --color-content-primary: #000;
+  --color-content-secondary: #000;
+  --color-content-accent: #000;
+
+  --color-content-900: #fff;
+  --color-content-800: #fff;
+  --color-content-700: #fff;
+  --color-content-600: #666;
+  --color-content-500: #666;
+  --color-content-400: #666;
+  --color-content-300: #000;
+  --color-content-200: #000;
+  --color-content-100: #000;
+  --color-content-50: #000;
+}
+
+[data-theme='retro'] {
+  --color-default: #e4d8b4;
+
+  --color-primary: #e86f68;
+  --color-primary-lighten: #e86f68;
+  --color-primary-darken: #e86f68;
+
+  --color-secondary: #83b799;
+  --color-secondary-lighten: #83b799;
+  --color-secondary-darken: #83b799;
+
+  --color-accent: #e2cd6d;
+  --color-accent-lighten: #e2cd6d;
+  --color-accent-darken: #e2cd6d;
+
+  --color-content-primary: #272324;
+  --color-content-secondary: #272324;
+  --color-content-accent: #272324;
+
+  --color-content-900: #272324;
+  --color-content-800: #272324;
+  --color-content-700: #272324;
+  --color-content-600: #9e8f6c;
+  --color-content-500: #9e8f6c;
+  --color-content-400: #9e8f6c;
+  --color-content-300: #e4d8b4;
+  --color-content-200: #e4d8b4;
+  --color-content-100: #e4d8b4;
+  --color-content-50: #e4d8b4;
+}
+
+
+[data-theme='dracula'] {
+  --color-default: #1d1e26;
+
+  --color-primary: #ff80bf;
+  --color-primary-lighten: #ff80bf;
+  --color-primary-darken: #ff80bf;
+
+  --color-secondary: #8aff80;
+  --color-secondary-lighten: #8aff80;
+  --color-secondary-darken: #8aff80;
+
+  --color-accent: #ffff80;
+  --color-accent-lighten: #ffff80;
+  --color-accent-darken: #ffff80;
+
+  --color-content-primary: #1d1e26;
+  --color-content-secondary: #1d1e26;
+  --color-content-accent: #1d1e26;
+
+  --color-content-900: #9580ff;
+  --color-content-800: #9580ff;
+  --color-content-700: #9580ff;
+  --color-content-600: #9580ff;
+  --color-content-500: #d0caea;
+  --color-content-400: #d0caea;
+  --color-content-300: #22212c;
+  --color-content-200: #22212c;
+  --color-content-100: #22212c;
+  --color-content-50: #22212c;
+}
+
+[data-theme='christmas'] {
+  --color-default: #ECEBF1;
+
+  --color-primary: #5F1326;
+  --color-primary-lighten: #5F1326;
+  --color-primary-darken: #5F1326;
+
+  --color-secondary: #D34250;
+  --color-secondary-lighten: #D34250;
+  --color-secondary-darken: #D34250;
+
+  --color-accent: #5EB69D;
+  --color-accent-lighten: #5EB69D;
+  --color-accent-darken: #5EB69D;
+
+  --color-content-primary: #fff;
+  --color-content-secondary: #fff;
+  --color-content-accent: #fff;
+
+  --color-content-900: #2A5B53;
+  --color-content-800: #2A5B53;
+  --color-content-700: #2A5B53;
+  --color-content-600: #2A5B53;
+  --color-content-500: #5EB69D;
+  --color-content-400: #5EB69D;
+  --color-content-300: #ceeae2;
+  --color-content-200: #ceeae2;
+  --color-content-100: #ceeae2;
+  --color-content-50: #ceeae2;
+
+}
