@@ -1,5 +1,5 @@
 .alert {
-  @apply relative p-3 rounded bg-content-100 flex justify-between items-center leading-8;
+  @apply relative p-3 rounded-2xl bg-content-100 flex justify-between items-center leading-8;
 }
 .alert>*{
   @apply flex-shrink-0;

@@ -134,29 +134,35 @@
 
     <Wrapper title="mini cards" classes="grid grid-cols-3 gap-6">
 
-      <Card class="shadow-2xl side bg-primary text-content-primary rounded-xl">
+      <Card class="shadow-2xl side bg-primary text-content-primary">
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-end space-x-2 card-actions">
-            <Button classes="primary">More info</Button>
+            <Button classes="primary lg">
+              More info
+              <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
+            </Button>
           </div>
         </div>
       </Card>
 
-      <Card class="shadow-2xl side bg-secondary text-content-secondary rounded-xl">
+      <Card class="shadow-2xl side bg-secondary text-content-secondary">
         <div class="card-body">
-          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-end space-x-2 card-actions">
-            <Button classes="secondary">More info</Button>
+            <Button classes="secondary square lg">
+              <Icon glyph="close" class="inline-block w-6 stroke-current" />
+            </Button>
           </div>
+          <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
         </div>
       </Card>
 
-      <Card class="shadow-2xl side bg-accent text-content-accent rounded-xl">
+      <Card class="text-center shadow-2xl side bg-accent text-content-accent">
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
-          <div class="justify-end space-x-2 card-actions">
-            <Button classes="accent">More info</Button>
+          <div class="justify-center space-x-2 card-actions">
+            <Button classes="accent lg">Start now</Button>
+            <Button classes="accent lg">More info</Button>
           </div>
         </div>
       </Card>

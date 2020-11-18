@@ -1,5 +1,5 @@
 .card {
-  @apply flex flex-col relative rounded border border-content-200 overflow-hidden;
+  @apply flex flex-col relative rounded-2xl border border-content-200 overflow-hidden;
 }
 .card.side{
   @apply flex-row;
@@ -17,7 +17,13 @@
   @apply mb-3 text-xl;
 }
 .card-actions{
-  @apply mt-3 flex items-start;
+  @apply flex items-start;
+}
+.card-actions:first-child{
+  @apply mb-3;
+}
+.card-actions:last-child{
+  @apply mt-3;
 }
 .card.image-full{
   @apply grid;

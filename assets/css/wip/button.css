@@ -1,5 +1,5 @@
 .btn {
-  @apply h-8 flex items-center justify-center font-normal text-center px-4 leading-8 text-base rounded cursor-pointer bg-content-600 border border-content-600 text-content-50 select-none transition duration-200 ease-in-out;
+  @apply h-8 flex items-center justify-center font-normal text-center px-4 leading-8 text-base rounded-lg cursor-pointer bg-content-600 border border-content-600 text-content-50 select-none transition duration-200 ease-in-out;
 }
 .btn:hover, .btn.active {
   @apply bg-content-700 border-content-700;
