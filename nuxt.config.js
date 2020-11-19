@@ -39,5 +39,10 @@ export default {
     cache: true,
     hardSource: false,
     sourceMap: false,
+    postcss: {
+      plugins: {
+        'postcss-nested': {},
+      },
+    }
   }
 }
