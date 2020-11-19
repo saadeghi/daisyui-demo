@@ -101,7 +101,7 @@
       </Card>
 
       <Card class="side">
-        <div class="w-1/2 card-body">
+        <div class="w-2/3 card-body">
           <h2 class="card-title">Image on other side <Badge>NEW</Badge></h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
@@ -109,7 +109,7 @@
             <Button classes="ghost">More info</Button>
           </div>
         </div>
-        <figure class="w-1/2">
+        <figure class="w-1/3">
           <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
         </figure>
       </Card>
