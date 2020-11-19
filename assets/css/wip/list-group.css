@@ -20,5 +20,5 @@
   @apply text-content-900 bg-content-200;
 }
 .list-group-item.active {
-  @apply text-content-50 bg-primary z-10 border-primary;
+  @apply text-content-100 bg-primary z-10 border-primary;
 }

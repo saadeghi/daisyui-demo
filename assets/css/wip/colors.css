@@ -17,7 +17,6 @@
   --color-content-secondary: #ffffff;
   --color-content-accent: #ffffff;
 
-  --color-content-50: color-mod(#657086 l(95%));
   --color-content-100: color-mod(#657086 l(90%));
   --color-content-200: color-mod(#657086 l(80%));
   --color-content-300: color-mod(#657086 l(70%));
@@ -41,7 +40,6 @@
   --color-content-300: #515a6c;
   --color-content-200: #3d4451;
   --color-content-100: #2a2e37;
-  --color-content-50: #16181d;
 }
 
 [data-theme='black'] {
@@ -72,7 +70,6 @@
   --color-content-300: #000;
   --color-content-200: #000;
   --color-content-100: #000;
-  --color-content-50: #000;
 }
 
 [data-theme='retro'] {
@@ -103,7 +100,6 @@
   --color-content-300: #e4d8b4;
   --color-content-200: #e4d8b4;
   --color-content-100: #e4d8b4;
-  --color-content-50: #e4d8b4;
 }
 
 
@@ -135,7 +131,6 @@
   --color-content-300: #22212c;
   --color-content-200: #22212c;
   --color-content-100: #22212c;
-  --color-content-50: #22212c;
 }
 
 [data-theme='christmas'] {
@@ -166,6 +161,5 @@
   --color-content-300: #ceeae2;
   --color-content-200: #ceeae2;
   --color-content-100: #ceeae2;
-  --color-content-50: #ceeae2;
 
 }

@@ -1,5 +1,5 @@
 .badge {
-  @apply inline-block bg-content-600 border border-content-600 text-content-50 rounded leading-4 text-sm px-1 transition duration-200 ease-in-out;
+  @apply inline-block bg-content-600 border border-content-600 text-content-100 rounded leading-4 text-sm px-1 transition duration-200 ease-in-out;
   &.primary {
     @apply bg-primary border-primary text-content-primary;
   }
@@ -27,13 +27,13 @@
 .btn .badge {
   @apply bg-default text-content-600 border-transparent;
   &.outline {
-    @apply bg-transparent text-content-50 border-content-50;
+    @apply bg-transparent text-content-100 border-content-100;
   }
 }
 
 .btn.outline {
   .badge {
-    @apply bg-content-600 text-content-50 border-content-600;
+    @apply bg-content-600 text-content-100 border-content-600;
   }
   &.primary .badge {
     @apply bg-primary text-content-primary border-primary;
@@ -59,9 +59,9 @@
   }
 
   &:hover .badge {
-    @apply bg-content-50 text-content-700 border-content-50;
+    @apply bg-content-100 text-content-700 border-content-100;
     &.outline {
-      @apply bg-content-700 text-content-50 border-content-50;
+      @apply bg-content-700 text-content-100 border-content-100;
     }
   }
   &.primary:hover .badge {

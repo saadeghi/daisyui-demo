@@ -43,6 +43,6 @@
     @apply w-full;
   }
   &.image-full > &-body {
-    @apply text-content-50 z-20 relative;
+    @apply text-content-100 z-20 relative;
   }
 }
