@@ -1,47 +1,47 @@
 :root {
-  --color-default: hsl(0, 0%, 100%);
+  --color-default: #ffffff;
 
-  --color-primary: hsl(340, 82%, 52%);
-  --color-primary-lighten: hsl(340, 82%, 62%);
-  --color-primary-darken: hsl(340, 82%, 48%);
+  --color-primary: #e92063;
+  --color-primary-lighten: color-mod(#e92063 l(60%));
+  --color-primary-darken: color-mod(#e92063 l(40%));
 
-  --color-secondary: hsl(262, 52%, 46%);
-  --color-secondary-lighten: hsl(262, 52%, 50%);
-  --color-secondary-darken: hsl(262, 52%, 42%);
+  --color-secondary: #6538b2;
+  --color-secondary-lighten: color-mod(#6538b2 l(60%));
+  --color-secondary-darken: color-mod(#6538b2 l(40%));
 
-  --color-accent: hsl(199, 98%, 48%);
-  --color-accent-lighten: hsl(199, 98%, 52%);
-  --color-accent-darken: hsl(199, 98%, 44%);
+  --color-accent: #02a6f2;
+  --color-accent-lighten: color-mod(#02a6f2 l(60%));
+  --color-accent-darken: color-mod(#02a6f2 l(40%));
 
-  --color-content-primary: hsl(0, 0%, 100%);
-  --color-content-secondary: hsl(0, 0%, 100%);
-  --color-content-accent: hsl(0, 0%, 100%);
+  --color-content-primary: #ffffff;
+  --color-content-secondary: #ffffff;
+  --color-content-accent: #ffffff;
 
-  --color-content-50: hsl(220, 14%, 98%);
-  --color-content-100: hsl(220, 14%, 96%);
-  --color-content-200: hsl(220, 14%, 93%);
-  --color-content-300: hsl(220, 14%, 84%);
-  --color-content-400: hsl(220, 14%, 65%);
-  --color-content-500: hsl(220, 14%, 46%);
-  --color-content-600: hsl(220, 14%, 37%);
-  --color-content-700: hsl(220, 14%, 28%);
-  --color-content-800: hsl(220, 14%, 19%);
-  --color-content-900: hsl(220, 14%, 10%);
+  --color-content-50: color-mod(#657086 l(95%));
+  --color-content-100: color-mod(#657086 l(90%));
+  --color-content-200: color-mod(#657086 l(80%));
+  --color-content-300: color-mod(#657086 l(70%));
+  --color-content-400: color-mod(#657086 l(60%));
+  --color-content-500: #657086;
+  --color-content-600: color-mod(#657086 l(40%));
+  --color-content-700: color-mod(#657086 l(30%));
+  --color-content-800: color-mod(#657086 l(20%));
+  --color-content-900: color-mod(#657086 l(10%));
 }
 
 [data-theme='dark'] {
-  --color-default: hsl(220, 14%, 10%);
+  --color-default: #16181d;
 
-  --color-content-900: hsl(220, 14%, 98%);
-  --color-content-800: hsl(220, 14%, 96%);
-  --color-content-700: hsl(220, 14%, 93%);
-  --color-content-600: hsl(220, 14%, 84%);
-  --color-content-500: hsl(220, 14%, 65%);
-  --color-content-400: hsl(220, 14%, 46%);
-  --color-content-300: hsl(220, 14%, 37%);
-  --color-content-200: hsl(220, 14%, 28%);
-  --color-content-100: hsl(220, 14%, 19%);
-  --color-content-50: hsl(220, 14%, 10%);
+  --color-content-900: #f9fafb;
+  --color-content-800: #f3f4f6;
+  --color-content-700: #ebecf0;
+  --color-content-600: #d0d4dc;
+  --color-content-500: #99a2b2;
+  --color-content-400: #657086;
+  --color-content-300: #515a6c;
+  --color-content-200: #3d4451;
+  --color-content-100: #2a2e37;
+  --color-content-50: #16181d;
 }
 
 [data-theme='black'] {
