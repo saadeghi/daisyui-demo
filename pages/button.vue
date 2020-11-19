@@ -54,32 +54,6 @@
       <Button classes="wide accent">accent</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="button group">
-      <div class="btn-group" data-toggle="buttons">
-        <Button class="active">Button</Button>
-        <Button>Button</Button>
-        <Button>Button</Button>
-        <Button>
-          <Icon glyph="dots" class="inline-block w-4 stroke-current" />
-        </Button>
-      </div>
-      <div class="btn-group" data-toggle="buttons">
-        <Button class="outline active">Button</Button>
-        <Button class="outline">Button</Button>
-        <Button class="outline">Button</Button>
-        <Button class="outline">
-          <Icon glyph="dots" class="inline-block w-4 stroke-current" />
-        </Button>
-      </div>
-      <div class="btn-group" data-toggle="buttons">
-        <input class="btn" type="radio" name="options" id="option1" checked data-title="1">
-        <input class="btn" type="radio" name="options" id="option2" data-title="2">
-        <input class="btn" type="radio" name="options" id="option3" data-title="3">
-        <input class="btn" type="radio" name="options" id="option4" data-title="4">
-        <input class="btn" type="radio" name="options" id="option5" data-title="5">
-      </div>
-    </Wrapper>
-
     <Wrapper classes="flex items-start space-x-2" title="icon button start">
       <Button classes="lg">
         <Icon glyph="close" class="inline-block w-6 mr-2 stroke-current" />

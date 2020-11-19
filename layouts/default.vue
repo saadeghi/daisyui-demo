@@ -72,6 +72,7 @@ export default {
           'alert',
           'badge',
           'button',
+          'button-group',
           'card',
         ],
       },
