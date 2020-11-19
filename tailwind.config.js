@@ -30,23 +30,19 @@ module.exports = {
       transparent: "transparent",
       default: "var(--color-default)",
 
-      "primary": {
-        default: "var(--color-primary)",
-        lighten: "var(--color-primary-lighten)",
-        darken: "var(--color-primary-darken)",
-      },
-      "secondary": {
-        default: "var(--color-secondary)",
-        lighten: "var(--color-secondary-lighten)",
-        darken: "var(--color-secondary-darken)",
-      },
-      "accent": {
-        default: "var(--color-accent)",
-        lighten: "var(--color-accent-lighten)",
-        darken: "var(--color-accent-darken)",
-      },
+      "primary" : "var(--color-primary)",
+      "primary-lighten" : "var(--color-primary-lighten)",
+      "primary-darken" : "var(--color-primary-darken)",
+
+      "secondary" : "var(--color-secondary)",
+      "secondary-lighten" : "var(--color-secondary-lighten)",
+      "secondary-darken" : "var(--color-secondary-darken)",
+
+      "accent" : "var(--color-accent)",
+      "accent-lighten" : "var(--color-accent-lighten)",
+      "accent-darken" : "var(--color-accent-darken)",
+
       "content": {
-        default: "var(--color-content-primary)",
         primary: "var(--color-content-primary)",
         secondary: "var(--color-content-secondary)",
         accent: "var(--color-content-accent)",
