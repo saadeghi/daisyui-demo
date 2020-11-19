@@ -2,30 +2,30 @@
   --color-default: #ffffff;
 
   --color-primary: #e92063;
-  --color-primary-lighten: color-mod(#e92063 l(60%));
-  --color-primary-darken: color-mod(#e92063 l(40%));
+  --color-primary-lighten: color(#e92063 l(10));
+  --color-primary-darken: color(#e92063 d(10));
 
   --color-secondary: #6538b2;
-  --color-secondary-lighten: color-mod(#6538b2 l(60%));
-  --color-secondary-darken: color-mod(#6538b2 l(40%));
+  --color-secondary-lighten: color(#6538b2 l(10));
+  --color-secondary-darken: color(#6538b2 d(10));
 
   --color-accent: #02a6f2;
-  --color-accent-lighten: color-mod(#02a6f2 l(60%));
-  --color-accent-darken: color-mod(#02a6f2 l(40%));
+  --color-accent-lighten: color(#02a6f2 l(10));
+  --color-accent-darken: color(#02a6f2 d(10));
 
   --color-content-primary: #ffffff;
   --color-content-secondary: #ffffff;
   --color-content-accent: #ffffff;
 
-  --color-content-100: color-mod(#657086 l(90%));
-  --color-content-200: color-mod(#657086 l(80%));
-  --color-content-300: color-mod(#657086 l(70%));
-  --color-content-400: color-mod(#657086 l(60%));
+  --color-content-100: #f3f4f6;
+  --color-content-200: #ebecf0;
+  --color-content-300: #d0d4dc;
+  --color-content-400: #99a2b2;
   --color-content-500: #657086;
-  --color-content-600: color-mod(#657086 l(40%));
-  --color-content-700: color-mod(#657086 l(30%));
-  --color-content-800: color-mod(#657086 l(20%));
-  --color-content-900: color-mod(#657086 l(10%));
+  --color-content-600: #515a6c;
+  --color-content-700: #3d4451;
+  --color-content-800: #2a2e37;
+  --color-content-900: #16181d;
 }
 
 [data-theme='dark'] {
@@ -76,16 +76,16 @@
   --color-default: #e4d8b4;
 
   --color-primary: #e86f68;
-  --color-primary-lighten: #e86f68;
-  --color-primary-darken: #e86f68;
+  --color-primary-lighten: color(#e86f68 l(10));
+  --color-primary-darken: color(#e86f68 d(10));
 
   --color-secondary: #83b799;
-  --color-secondary-lighten: #83b799;
-  --color-secondary-darken: #83b799;
+  --color-secondary-lighten: color(#83b799 l(10));
+  --color-secondary-darken: color(#83b799 d(10));
 
   --color-accent: #e2cd6d;
-  --color-accent-lighten: #e2cd6d;
-  --color-accent-darken: #e2cd6d;
+  --color-accent-lighten: color(#e2cd6d l(10));
+  --color-accent-darken: color(#e2cd6d d(10));
 
   --color-content-primary: #272324;
   --color-content-secondary: #272324;
@@ -107,16 +107,16 @@
   --color-default: #1d1e26;
 
   --color-primary: #ff80bf;
-  --color-primary-lighten: #ff80bf;
-  --color-primary-darken: #ff80bf;
+  --color-primary-lighten: color(#ff80bf l(10));
+  --color-primary-darken: color(#ff80bf d(10));
 
   --color-secondary: #8aff80;
-  --color-secondary-lighten: #8aff80;
-  --color-secondary-darken: #8aff80;
+  --color-secondary-lighten: color(#8aff80 l(10));
+  --color-secondary-darken: color(#8aff80 d(10));
 
   --color-accent: #ffff80;
-  --color-accent-lighten: #ffff80;
-  --color-accent-darken: #ffff80;
+  --color-accent-lighten: color(#ffff80 l(10));
+  --color-accent-darken: color(#ffff80 d(10));
 
   --color-content-primary: #1d1e26;
   --color-content-secondary: #1d1e26;

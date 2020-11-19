@@ -9,8 +9,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "postcss-color-adjustment": "^0.1.6"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.1.0"
