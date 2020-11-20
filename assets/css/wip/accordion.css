@@ -1,0 +1,39 @@
+.accordion {
+  @apply flex flex-col;
+  & > * + *{
+    .accordion-title{
+      &:before{
+        content: '';
+        top: -1rem;
+        @apply block h-px bg-content-100 relative;
+      }
+    }
+  }
+  li{
+    @apply overflow-hidden flex flex-col -mb-px;
+    .accordion-title{
+      @apply transition-all ease-in-out duration-300 cursor-pointer mb-0 pb-4 pt-4 px-4 rounded-lg;
+      &:hover{
+        @apply bg-content-100;
+      }
+    }
+    .accordion-body {
+      max-height: 0px;
+      @apply transition-all ease-in-out duration-300 pb-0 px-4 rounded-lg;
+    }
+    input {
+      @apply hidden;
+      &:checked {
+        & + .accordion-title {
+          @apply bg-content-100 mt-1 rounded-b-none;
+          &:before{
+            @apply bg-transparent;
+          }
+        }
+        & ~ .accordion-body {
+          @apply bg-content-100 max-h-screen pb-4 mb-1 rounded-t-none;
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@
 @import "tailwindcss/utilities";
 
 @import "./wip/colors.css";
+@import "./wip/accordion.css";
 @import "./wip/alert.css";
 @import "./wip/badge.css";
 @import "./wip/button.css";

@@ -71,6 +71,7 @@ export default {
           'typography',
         ],
         'components' : [
+          'accordion',
           'alert',
           'badge',
           'button',
