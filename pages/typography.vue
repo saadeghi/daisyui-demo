@@ -1,6 +1,6 @@
 <template>
   <div class="prose text-content-800">
-    <Wrapper title="headings">
+    <Wrapper title="headings" nocode>
       <h1>Heading</h1>
       <h2>Heading</h2>
       <h3>Heading</h3>
@@ -9,7 +9,7 @@
       <h6>Heading</h6>
     </Wrapper>
 
-    <Wrapper title="paragraph">
+    <Wrapper title="paragraph" nocode>
       <p>
         Inventore non totam deserunt est alias ducimus. Corrupti quidem debitis
         quo corrupti et laborum totam. Ut aperiam et delectus aliquam nulla
@@ -17,7 +17,7 @@
       </p>
     </Wrapper>
 
-    <Wrapper title="quote">
+    <Wrapper title="quote" nocode>
       <blockquote>
         Inventore non totam deserunt est alias ducimus. Corrupti quidem debitis
         quo corrupti et laborum totam. Ut aperiam et delectus aliquam nulla
@@ -25,17 +25,17 @@
       </blockquote>
     </Wrapper>
 
-    <Wrapper title="link">
+    <Wrapper title="link" nocode>
       <blockquote>Hello, <a href="#">This is a link</a>.</blockquote>
     </Wrapper>
 
-    <Wrapper title="code">
+    <Wrapper title="code" nocode>
       <pre><code>Inventore non totam deserunt est alias ducimus. Corrupti quidem debitis
 quo corrupti et laborum totam. Ut aperiam et delectus aliquam nulla
 magnam quis perspiciatis.</code></pre>
     </Wrapper>
 
-    <Wrapper title="text decorators">
+    <Wrapper title="text decorators" nocode>
       <p>You can use the mark tag to <mark>highlight</mark> text.</p>
       <p>
         <del>This line of text is meant to be treated as deleted text.</del>
@@ -61,7 +61,7 @@ magnam quis perspiciatis.</code></pre>
       </p>
     </Wrapper>
 
-    <Wrapper title="list">
+    <Wrapper title="list" nocode>
       <ul class="list-unstyled">
         <li>Lorem ipsum dolor sit amet</li>
         <li>Consectetur adipiscing elit</li>
@@ -81,7 +81,7 @@ magnam quis perspiciatis.</code></pre>
         <li>Eget porttitor lorem</li>
       </ul>
     </Wrapper>
-    <Wrapper title="list nesting">
+    <Wrapper title="list nesting" nocode>
       <ol>
         <li>
           <strong>Nested lists are rarely a good idea.</strong>
@@ -126,7 +126,7 @@ magnam quis perspiciatis.</code></pre>
       </ol>
     </Wrapper>
 
-    <Wrapper title="image">
+    <Wrapper title="image" nocode>
       <figure>
         <img
           src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
@@ -140,7 +140,7 @@ magnam quis perspiciatis.</code></pre>
       </figure>
     </Wrapper>
 
-    <Wrapper title="table">
+    <Wrapper title="table" nocode>
       <table>
         <thead>
           <tr>

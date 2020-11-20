@@ -19,10 +19,12 @@
           </ul>
         </li>
       </ul>
-      <select id="theme-change" class="absolute bottom-0 capitalize" data-choose-theme>
-        <option value="">Default</option>
-        <option v-for="(theme, index) in themes" :value="theme">{{ theme }}</option>
-      </select>
+      <div class="absolute bottom-0">
+        <select id="theme-change" class="capitalize" data-choose-theme>
+          <option value="">Default</option>
+          <option v-for="(theme, index) in themes" :value="theme">{{ theme }}</option>
+        </select>
+      </div>
     </aside>
     <main class="w-4/5 p-10 bg-default text-content-900">
       <Nuxt />

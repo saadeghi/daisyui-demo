@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Wrapper title="colors" classes="grid grid-cols-3 gap-6">
+    <Wrapper title="colors" classes="grid grid-cols-3 gap-6" nocode>
       <div class="block h-40" v-for="(variant, index) in colors.variants">
         <div class="relative flex h-32 overflow-hidden rounded shadow-lg">
           <div class="absolute flex items-center justify-center w-full h-full text-content-primary"><span class="font-mono tracking-widest uppercase">{{ index }}</span></div>
@@ -9,7 +9,7 @@
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">{{ index }}</div>
       </div>
     </Wrapper>
-    <Wrapper title="content colors" classes="grid grid-cols-5 gap-6">
+    <Wrapper title="content colors" classes="grid grid-cols-5 gap-6" nocode>
       <div class="block h-40">
         <div class="h-32 overflow-hidden rounded shadow-lg bg-default"></div>
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">default</div>
