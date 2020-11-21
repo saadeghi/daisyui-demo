@@ -5,8 +5,8 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <aside id="sidebar" class="sticky top-0 w-1/5 h-screen px-6 py-10">
-      <ul class="flex flex-col text-sm">
+    <aside id="sidebar" class="sticky top-0 flex flex-col justify-between w-1/5 h-screen px-6 pt-10 pb-0 overflow-y-auto">
+      <ul class="flex flex-col px-10 text-sm">
         <li>
           <NuxtLink to="/">Home</NuxtLink>
         </li>
@@ -19,8 +19,8 @@
           </ul>
         </li>
       </ul>
-      <div class="absolute bottom-0 left-0 w-full">
-        <select id="theme-change" class="capitalize" data-choose-theme>
+      <div id="theme-change" class="sticky bottom-0 w-full">
+        <select class="capitalize" data-choose-theme>
           <option value="">Default</option>
           <option v-for="(theme, index) in themes" :value="theme">{{ theme }}</option>
         </select>
@@ -49,10 +49,12 @@
   padding-left: 1em;
 }
 #theme-change {
+  background: hsl(208deg 16% 97%);
+}
+#theme-change select {
   background-color: transparent;
   padding: 1em;
-  width: 90%;
-  margin: 0 5%;
+  width: 100%;
   font-size: 0.8em;
 }
 </style>
