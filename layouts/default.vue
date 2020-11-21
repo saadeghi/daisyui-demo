@@ -19,7 +19,7 @@
           </ul>
         </li>
       </ul>
-      <div class="absolute bottom-0">
+      <div class="absolute bottom-0 left-0 w-full">
         <select id="theme-change" class="capitalize" data-choose-theme>
           <option value="">Default</option>
           <option v-for="(theme, index) in themes" :value="theme">{{ theme }}</option>
@@ -50,9 +50,8 @@
 }
 #theme-change {
   background-color: transparent;
-  padding: 0.5em;
+  padding: 1em;
   width: 90%;
-  left: 0;
   margin: 0 5%;
   font-size: 0.8em;
 }
