@@ -13,14 +13,16 @@ module.exports = {
     ]
   },
   theme: {
-    typography: {
-      default: {
-        css: {
-          color: null,
-          "a, ol > li::before, blockquote, figure figcaption, a code, thead, strong, h1, h2, h3, h4": {
-            color: 'inherit',
-            '&:hover': {
+    extend: {
+      typography: {
+        default: {
+          css: {
+            color: null,
+            "a, ol > li::before, blockquote, figure figcaption, a code, thead, strong, h1, h2, h3, h4": {
               color: 'inherit',
+              '&:hover': {
+                color: 'inherit',
+              },
             },
           },
         },
@@ -30,17 +32,17 @@ module.exports = {
       transparent: "transparent",
       default: "var(--color-default)",
 
-      "primary" : "var(--color-primary)",
-      "primary-lighten" : "var(--color-primary-lighten)",
-      "primary-darken" : "var(--color-primary-darken)",
+      "primary": "var(--color-primary)",
+      "primary-lighten": "var(--color-primary-lighten)",
+      "primary-darken": "var(--color-primary-darken)",
 
-      "secondary" : "var(--color-secondary)",
-      "secondary-lighten" : "var(--color-secondary-lighten)",
-      "secondary-darken" : "var(--color-secondary-darken)",
+      "secondary": "var(--color-secondary)",
+      "secondary-lighten": "var(--color-secondary-lighten)",
+      "secondary-darken": "var(--color-secondary-darken)",
 
-      "accent" : "var(--color-accent)",
-      "accent-lighten" : "var(--color-accent-lighten)",
-      "accent-darken" : "var(--color-accent-darken)",
+      "accent": "var(--color-accent)",
+      "accent-lighten": "var(--color-accent-lighten)",
+      "accent-darken": "var(--color-accent-darken)",
 
       "content": {
         primary: "var(--color-content-primary)",
