@@ -5,7 +5,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <aside id="sidebar" class="sticky top-0 flex flex-col justify-between w-1/5 h-screen px-6 pt-10 pb-0 overflow-y-auto">
+    <aside id="sidebar" class="sticky top-0 flex flex-col justify-between w-1/5 h-screen pt-10 pb-0 overflow-y-auto">
       <ul class="flex flex-col px-10 text-sm">
         <li>
           <NuxtLink to="/">Home</NuxtLink>
@@ -19,7 +19,7 @@
           </ul>
         </li>
       </ul>
-      <div id="theme-change" class="sticky bottom-0 w-full">
+      <div id="theme-change" class="sticky bottom-0 w-full px-10">
         <select class="capitalize" data-choose-theme>
           <option value="">Default</option>
           <option v-for="(theme, index) in themes" :value="theme">{{ theme }}</option>
@@ -45,11 +45,11 @@
 #sidebar a:hover {
   color: #49a5ba;
 }
-#sidebar ul {
+#sidebar ul ul {
   padding-left: 1em;
 }
 #theme-change {
-  background: hsl(208deg 16% 97%);
+  background: #eaebf0;
 }
 #theme-change select {
   background-color: transparent;
