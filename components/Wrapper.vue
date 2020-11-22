@@ -8,14 +8,18 @@
       {{ title }}
     </div>
     <div>
-      <div v-if="!showcode">
-        <div :class="classes" ref="component">
-          <slot></slot>
-        </div>
-      </div>
+      <collapse-transition>
       <div v-if="!nocode && showcode">
         <pre id="myInput" v-highlightjs="sourcecode"><code class="h-64 p-4 font-mono text-xs rounded-lg html"></code></pre>
       </div>
+      </collapse-transition>
+      <collapse-transition>
+        <div v-if="!showcode">
+          <div :class="classes" ref="component">
+            <slot></slot>
+          </div>
+        </div>
+      </collapse-transition>
     </div>
   </div>
 </template>
@@ -63,3 +67,4 @@ export default {
   },
 };
 </script>
+
