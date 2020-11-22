@@ -1,11 +1,21 @@
 <template>
-  <div class="py-10">
-    <div class="py-2 text-xs capitalize opacity-50">{{ title }}</div>
-    <div :class="classes" ref="component">
-      <slot></slot>
+  <div class="py-2">
+    <div class="py-2 text-xs capitalize opacity-50">
+    <div v-if="!nocode" v-on:click="showcode = !showcode" class="inline-block select-none">
+      <Icon v-if="!showcode" glyph="code" class="inline-block w-4 mr-2 cursor-pointer stroke-current" />
+      <Icon v-if="showcode" glyph="eye" class="inline-block w-4 mr-2 cursor-pointer stroke-current" />
     </div>
-    <div v-if="!nocode">
-      <pre id="myInput" class="mt-4" v-highlightjs="sourcecode"><code class="h-48 p-4 font-mono text-xs rounded-lg html"></code></pre>
+      {{ title }}
+    </div>
+    <div>
+      <div v-if="!showcode">
+        <div :class="classes" ref="component">
+          <slot></slot>
+        </div>
+      </div>
+      <div v-if="!nocode && showcode">
+        <pre id="myInput" v-highlightjs="sourcecode"><code class="h-64 p-4 font-mono text-xs rounded-lg html"></code></pre>
+      </div>
     </div>
   </div>
 </template>
@@ -19,7 +29,8 @@ export default {
   },
   data: function() {
     return {
-      sourcecode: ""
+      sourcecode: "",
+      showcode: false,
     };
   },
   methods: {
