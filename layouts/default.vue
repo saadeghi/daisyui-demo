@@ -6,11 +6,11 @@
       rel="stylesheet"
     />
     <aside id="sidebar" class="sticky top-0 flex flex-col justify-between w-1/5 h-screen bg-content-100">
-      <Menu class="flex flex-col pt-10 overflow-y-auto wide">
+      <Menu class="flex flex-col py-10 overflow-y-auto wide compact">
         <MenuItem>
           <NuxtLink to="/">Home</NuxtLink>
         </MenuItem>
-        <MenuItem v-for="(category, index) in nav" v-bind:key="category.index">
+        <MenuItem class="disabled" v-for="(category, index) in nav" v-bind:key="category.index">
           <span>{{ index }}</span>
           <Menu>
             <MenuItem v-for="(item, index) in category" v-bind:key="item.index">
