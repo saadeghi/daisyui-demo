@@ -31,8 +31,9 @@
   --color-content-900: #16181d;
 
   /* border-radius variants */
-  --rounded-btn: 0.5rem;
   --rounded-box: 1rem;
+  --rounded-btn: 0.5rem;
+  --rounded-badge: 0.25rem;
 }
 
 [data-theme='dark'] {
@@ -77,6 +78,13 @@
   --color-content-300: #000;
   --color-content-200: #000;
   --color-content-100: #000;
+
+
+  /* border-radius variants */
+  --rounded-btn: 0;
+  --rounded-box: 0;
+  --rounded-badge: 0;
+
 }
 
 [data-theme='retro'] {

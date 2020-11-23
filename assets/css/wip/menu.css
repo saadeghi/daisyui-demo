@@ -19,8 +19,7 @@
     a{
       @apply cursor-pointer hover:bg-content-200 hover:text-content-900;
       &:focus {
-        @apply relative outline-none;
-        box-shadow: 0 0 0 2px var(--color-default) inset, 0 0 0 4px var(--color-content-700) inset;
+        @apply outline-none bg-content-200 text-content-900;
       }
     }
     &.disabled{

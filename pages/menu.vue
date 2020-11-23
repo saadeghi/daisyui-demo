@@ -1,8 +1,8 @@
 <template>
   <div>
     <Wrapper title="veritcal" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-2xl">
-        <Menu class="py-3 shadow-2xl rounded-2xl">
+      <div class="p-10 w-96 bg-content-400 rounded-box">
+        <Menu class="py-3 shadow-2xl rounded-box">
           <MenuItem>
             <a>
               Item with link
@@ -41,8 +41,8 @@
       </div>
     </Wrapper>
     <Wrapper title="horizontal" classes="flex flex-col space-y-2">
-      <div class="p-10 bg-content-400 rounded-2xl">
-        <Menu class="items-stretch px-3 shadow-2xl horizontal rounded-2xl">
+      <div class="p-10 bg-content-400 rounded-box">
+        <Menu class="items-stretch px-3 shadow-2xl horizontal rounded-box">
           <MenuItem>
             <a>
               With link
@@ -71,8 +71,8 @@
       </div>
     </Wrapper>
     <Wrapper title="veritcal with colors" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-2xl">
-        <Menu class="rounded-2xl">
+      <div class="p-10 w-96 bg-content-400 rounded-box">
+        <Menu class="rounded-box">
           <MenuItem class="active">
             <a>
               active color
@@ -103,8 +103,8 @@
     </Wrapper>
 
     <Wrapper title="veritcal with icon" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-2xl">
-        <Menu class="w-16 py-3 shadow-2xl rounded-2xl">
+      <div class="p-10 w-96 bg-content-400 rounded-box">
+        <Menu class="w-16 py-3 shadow-2xl rounded-box">
           <MenuItem>
             <a>
               <Icon glyph="bell" class="inline-block w-6 stroke-current" />
@@ -126,8 +126,8 @@
 
 
     <Wrapper title="horizontal with icon" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-2xl">
-        <Menu class="px-3 shadow-2xl rounded-2xl horizontal">
+      <div class="p-10 w-96 bg-content-400 rounded-box">
+        <Menu class="px-3 shadow-2xl rounded-box horizontal">
           <MenuItem>
             <a>
               <Icon glyph="bell" class="inline-block w-6 stroke-current" />
@@ -148,8 +148,8 @@
     </Wrapper>
 
     <Wrapper title="veritcal with submenu" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-2xl">
-        <Menu class="py-3 shadow-2xl rounded-2xl">
+      <div class="p-10 w-96 bg-content-400 rounded-box">
+        <Menu class="py-3 shadow-2xl rounded-box">
           <MenuItem>
             <a>
               Level 1

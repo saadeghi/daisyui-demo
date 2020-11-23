@@ -4,7 +4,7 @@
       <div class="block h-40" v-for="(variant, index) in colors.variants">
         <div class="relative flex h-32 overflow-hidden rounded shadow-lg">
           <div class="absolute flex items-center justify-center w-full h-full text-content-primary"><span class="font-mono tracking-widest uppercase">{{ index }}</span></div>
-          <div v-for="(shade, index) in variant" :class="'w-1/3 bg-'+ shade"></div>
+          <div v-for="(shade, index) in variant" :class="'w-1/3 '+ shade"></div>
         </div>
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">{{ index }}</div>
       </div>
@@ -15,7 +15,7 @@
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">default</div>
       </div>
       <div class="block h-40" v-for="(color, index) in colors.content">
-        <div :class="'h-32 overflow-hidden rounded shadow-lg bg-' + color"></div>
+        <div :class="'h-32 overflow-hidden rounded shadow-lg ' + color"></div>
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">{{ color }}</div>
       </div>
     </Wrapper>
@@ -30,31 +30,31 @@ export default {
       colors: {
         'variants': {
           'primary': [
-            'primary-lighten',
-            'primary',
-            'primary-darken',
+            'bg-primary-lighten',
+            'bg-primary',
+            'bg-primary-darken',
           ],
           'secondary': [
-            'secondary-lighten',
-            'secondary',
-            'secondary-darken',
+            'bg-secondary-lighten',
+            'bg-secondary',
+            'bg-secondary-darken',
           ],
           'accent': [
-            'accent-lighten',
-            'accent',
-            'accent-darken',
+            'bg-accent-lighten',
+            'bg-accent',
+            'bg-accent-darken',
           ],
         },
         'content': [
-          'content-100',
-          'content-200',
-          'content-300',
-          'content-400',
-          'content-500',
-          'content-600',
-          'content-700',
-          'content-800',
-          'content-900',
+          'bg-content-100',
+          'bg-content-200',
+          'bg-content-300',
+          'bg-content-400',
+          'bg-content-500',
+          'bg-content-600',
+          'bg-content-700',
+          'bg-content-800',
+          'bg-content-900',
         ]
       }
     }
