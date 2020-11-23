@@ -123,5 +123,37 @@
         </AccordionItem>
       </Accordion>
     </Wrapper>
+
+    <Wrapper title="accordion with border" classes="flex flex-col space-y-2">
+      <Accordion class="w-64 bordered arrow">
+        <AccordionItem
+          classes="text-xl font-medium accordion-title"
+          title="Aperiam iure?"
+        >
+          <p>
+            Aperiam iure expedita non fugit. Voluptatem est repellat a aut sit
+            est nostrum maiores aut.
+          </p>
+        </AccordionItem>
+        <AccordionItem
+          classes="text-xl font-medium accordion-title"
+          title="Aperiam iure?"
+        >
+          <p>
+            Aperiam iure expedita non fugit. Voluptatem est repellat a aut sit
+            est nostrum maiores aut.
+          </p>
+        </AccordionItem>
+        <AccordionItem
+          classes="text-xl font-medium accordion-title"
+          title="Aperiam iure?"
+        >
+          <p>
+            Aperiam iure expedita non fugit. Voluptatem est repellat a aut sit
+            est nostrum maiores aut.
+          </p>
+        </AccordionItem>
+      </Accordion>
+    </Wrapper>
   </div>
 </template>
