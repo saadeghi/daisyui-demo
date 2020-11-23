@@ -18,10 +18,10 @@
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="disabled button">
-      <Button disabled>disabled neutral</Button>
-      <Button disabled classes="primary">disabled primary</Button>
-      <Button disabled classes="ghost">disabled ghost</Button>
-      <Button disabled classes="link">disabled link</Button>
+      <Button disabled>neutral</Button>
+      <Button disabled classes="primary">primary</Button>
+      <Button disabled classes="ghost">ghost</Button>
+      <Button disabled classes="link">link</Button>
       <Button classes="disabled" tabindex="-1" role="button" aria-disabled="true">visually disabled</Button>
     </Wrapper>
 
@@ -29,6 +29,7 @@
       <Button classes="active" role="button" aria-pressed="true">neutral</Button>
       <Button classes="primary active" role="button" aria-pressed="true">primary</Button>
       <Button classes="secondary active" role="button" aria-pressed="true">secondary</Button>
+      <Button classes="accent active" role="button" aria-pressed="true">accent</Button>
       <Button classes="link active" role="button" aria-pressed="true">link</Button>
     </Wrapper>
 
@@ -48,10 +49,10 @@
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="button wide">
-      <Button classes="wide">neutral</Button>
+      <Button classes="wide lg">neutral large</Button>
       <Button classes="wide primary">primary</Button>
-      <Button classes="wide secondary">secondary</Button>
-      <Button classes="wide accent">accent</Button>
+      <Button classes="wide sm secondary">secondary small</Button>
+      <Button classes="wide xs accent">accent tiny</Button>
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="icon button start">

@@ -1,6 +1,5 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-@import "tailwindcss/utilities";
 
 @import "./wip/colors.css";
 @import "./wip/accordion.css";
@@ -13,3 +12,5 @@
 @import "./wip/list-group.css";
 @import "./wip/modal.css";
 @import "./wip/navbar.css";
+
+@import "tailwindcss/utilities";
