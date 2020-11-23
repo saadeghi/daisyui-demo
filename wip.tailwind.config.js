@@ -38,7 +38,7 @@ module.exports = {
         "badge": "var(--rounded-badge, 0.25rem)",
       },
       typography: {
-        default: {
+        DEFAULT: {
           css: {
             color: null,
             "a, ol > li::before, blockquote, figure figcaption, a code, thead, strong, h1, h2, h3, h4": {
