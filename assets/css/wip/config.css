@@ -1,4 +1,7 @@
 :root {
+
+
+  /* color variants */
   --color-default: #ffffff;
 
   --color-primary: #e92063;
@@ -26,6 +29,10 @@
   --color-content-700: #3d4451;
   --color-content-800: #2a2e37;
   --color-content-900: #16181d;
+
+  /* border-radius variants */
+  --rounded-btn: 0.5rem;
+  --rounded-box: 1rem;
 }
 
 [data-theme='dark'] {

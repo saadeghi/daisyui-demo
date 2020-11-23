@@ -1,7 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
-@import "./wip/colors.css";
+@import "./wip/config.css";
 @import "./wip/accordion.css";
 @import "./wip/alert.css";
 @import "./wip/badge.css";

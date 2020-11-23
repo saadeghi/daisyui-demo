@@ -10,16 +10,16 @@
     }
   }
   li{
-    @apply overflow-hidden flex flex-col -mb-px rounded-lg;
+    @apply overflow-hidden flex flex-col -mb-px rounded-box;
     .accordion-title{
-      @apply transition-all ease-in-out duration-300 cursor-pointer mb-0 pb-4 pt-4 px-4 rounded-lg relative;
+      @apply transition-all ease-in-out duration-300 cursor-pointer mb-0 pb-4 pt-4 px-4 rounded-box relative;
       &:hover{
         @apply bg-content-100;
       }
     }
     .accordion-body {
       max-height: 0px;
-      @apply transition-all ease-in-out duration-300 pb-0 px-4 rounded-lg;
+      @apply transition-all ease-in-out duration-300 pb-0 px-4 rounded-box;
     }
     input {
       @apply hidden;

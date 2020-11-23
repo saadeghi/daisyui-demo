@@ -1,5 +1,5 @@
 .card {
-  @apply flex flex-col relative rounded-2xl border border-content-200 overflow-hidden;
+  @apply flex flex-col relative rounded-box border border-content-200 overflow-hidden;
   &.side {
     @apply flex-row;
   }
