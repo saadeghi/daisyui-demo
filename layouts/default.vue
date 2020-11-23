@@ -5,20 +5,20 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <aside id="sidebar" class="sticky top-0 flex flex-col justify-between w-1/5 h-screen pt-10 pb-0 overflow-y-auto">
-      <ul class="flex flex-col px-10 text-sm">
-        <li>
+    <aside id="sidebar" class="sticky top-0 flex flex-col justify-between w-1/5 h-screen bg-content-100">
+      <Menu class="flex flex-col pt-10 overflow-y-auto wide">
+        <MenuItem>
           <NuxtLink to="/">Home</NuxtLink>
-        </li>
-        <li v-for="(category, index) in nav">
+        </MenuItem>
+        <MenuItem v-for="(category, index) in nav" v-bind:key="category.index">
           <span>{{ index }}</span>
-          <ul>
-            <li v-for="(item, index) in category">
+          <Menu>
+            <MenuItem v-for="(item, index) in category" v-bind:key="item.index">
               <NuxtLink :to="item">{{ item }}</NuxtLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+            </MenuItem>
+          </Menu>
+        </MenuItem>
+      </Menu>
       <div id="theme-change" class="sticky bottom-0 w-full px-10">
         <select class="capitalize" data-choose-theme>
           <option value="">Default</option>
@@ -33,21 +33,6 @@
 </template>
 
 <style>
-#sidebar {
-  background: hsl(208deg 16% 97%);
-}
-#sidebar a,
-#sidebar span {
-  padding: 3px;
-  display: block;
-  text-transform: capitalize;
-}
-#sidebar a:hover {
-  color: #49a5ba;
-}
-#sidebar ul ul {
-  padding-left: 1em;
-}
 #theme-change {
   background: #eaebf0;
 }
@@ -78,6 +63,7 @@ export default {
           'button',
           'button-group',
           'card',
+          'menu',
         ],
       },
       themes: [
