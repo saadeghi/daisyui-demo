@@ -30,6 +30,11 @@
   --color-content-800: #2a2e37;
   --color-content-900: #16181d;
 
+  --color-info: #2196f3;
+  --color-success: #009688;
+  --color-warning: #FF9800;
+  --color-error: #ff5722;
+
   /* border-radius variants */
   --rounded-box: 1rem;
   --rounded-btn: 0.5rem;

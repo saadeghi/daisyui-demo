@@ -16,6 +16,11 @@ module.exports = {
       "accent-lighten": "var(--color-accent-lighten, #2abafd)",
       "accent-darken": "var(--color-accent-darken, #0283bf)",
 
+      "info": "var(--color-info, #2196f3)",
+      "success": "var(--color-success, #009688)",
+      "warning": "var(--color-warning, #FF9800)",
+      "error": "var(--color-error, #ff5722)",
+
       "content": {
         primary: "var(--color-content-primary, #ffffff)",
         secondary: "var(--color-content-secondary, #ffffff)",
