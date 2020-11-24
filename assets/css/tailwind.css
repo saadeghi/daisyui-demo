@@ -1,17 +1,18 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
-@import "./wip/config.css";
-@import "./wip/accordion.css";
-@import "./wip/alert.css";
-@import "./wip/badge.css";
-@import "./wip/button.css";
-@import "./wip/card.css";
-@import "./wip/dropdown.css";
-@import "./wip/form.css";
-@import "./wip/list-group.css";
-@import "./wip/modal.css";
-@import "./wip/navbar.css";
-@import "./wip/menu.css";
+@import "./wip/config";
+@import "./wip/accordion";
+@import "./wip/alert";
+@import "./wip/badge";
+@import "./wip/button";
+@import "./wip/card";
+@import "./wip/dropdown";
+@import "./wip/form";
+@import "./wip/list-group";
+@import "./wip/modal";
+@import "./wip/navbar";
+@import "./wip/menu";
+@import "./wip/form";
 
 @import "tailwindcss/utilities";
