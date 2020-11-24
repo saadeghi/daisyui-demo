@@ -63,6 +63,7 @@ export default {
           'button',
           'button-group',
           'card',
+          'input-text',
           'menu',
         ],
       },

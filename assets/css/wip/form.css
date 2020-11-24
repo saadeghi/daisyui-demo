@@ -1,30 +1,58 @@
-form {
-  @apply block;
-}
-label {
-  @apply inline-block mb-2;
-}
-.form-group {
-  @apply mb-4;
-}
-.form-check {
-  @apply relative block pl-5;
-}
-.form-check-input {
-  @apply absolute mt-1 -ml-5;
-}
-.form-check-label {
-  @apply mb-0;
-}
-.form-control {
-  @apply block w-full py-2 px-3 text-base font-normal leading-normal text-content-900 bg-default border border-content-200 rounded;
-}
-.form-inline {
-  @apply flex flex-wrap flex-row items-center;
-}
-.form-inline .form-control {
-  @apply inline-block w-auto align-middle;
-}
-.form-text {
-  @apply block mt-1;
+.form-control{
+  @apply flex flex-col;
+  label{
+    @apply px-1 flex items-center justify-between py-2;
+    .label-text{
+      @apply text-sm text-content-500;
+    }
+    .label-text-alt{
+      @apply text-xs text-content-400;
+    }
+    a{
+      @apply hover:text-content-800;
+    }
+  }
+  input[type=text]{
+    @apply bg-default px-6 leading-loose text-lg h-12 rounded-btn border border-content-300 transition duration-200 ease-in-out;
+    &:focus {
+      @apply relative outline-none;
+      box-shadow: 0 0 0 2px var(--color-default), 0 0 0 4px var(--color-content-300);
+    }
+  }
+  &.info{
+    input[type=text]{
+      @apply border-info;
+      &:focus {
+        @apply relative outline-none;
+        box-shadow: 0 0 0 2px var(--color-default), 0 0 0 4px var(--color-info);
+      }
+    }
+  }
+  &.success{
+    input[type=text]{
+      @apply border-success;
+      &:focus {
+        @apply relative outline-none;
+        box-shadow: 0 0 0 2px var(--color-default), 0 0 0 4px var(--color-success);
+      }
+    }
+  }
+  &.warning{
+    input[type=text]{
+      @apply border-warning;
+      &:focus {
+        @apply relative outline-none;
+        box-shadow: 0 0 0 2px var(--color-default), 0 0 0 4px var(--color-warning);
+      }
+    }
+  }
+  &.error{
+    input[type=text]{
+      @apply border-error;
+      &:focus {
+        @apply relative outline-none;
+        box-shadow: 0 0 0 2px var(--color-default), 0 0 0 4px var(--color-error);
+      }
+    }
+  }
 }
