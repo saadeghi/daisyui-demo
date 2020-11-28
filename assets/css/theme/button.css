@@ -1,11 +1,10 @@
 .btn {
-  @apply flex items-center justify-center font-normal text-center rounded-btn cursor-pointer bg-content-600 border border-content-600 text-content-100 select-none transition duration-200 ease-in-out;
+  @apply font-normal rounded-btn bg-content-600 border border-content-600 text-content-100;
   &:hover,
   &.active {
     @apply bg-content-700 border-content-700;
   }
   &:focus {
-    @apply relative outline-none;
     box-shadow: 0 0 0 2px var(--color-default), 0 0 0 4px var(--color-content-700);
   }
 
@@ -90,76 +89,13 @@
   /* disabled */
   &.disabled,
   &[disabled] {
-    @apply bg-content-200 border-content-200 text-content-400 pointer-events-none;
+    @apply bg-content-200 border-content-200 text-content-400;
   }
 
-  /* sizes */
-  &.wide {
-    @apply w-64;
-  }
-  &.lg {
-    @apply px-10 leading-loose text-xl h-16;
-  }
-  & {
-    @apply px-6 leading-loose text-lg h-12;
-  }
-  &.sm {
-    @apply px-4 leading-8 text-base h-8;
-  }
-  &.xs {
-    @apply px-2 text-sm leading-relaxed h-6;
-  }
 
-  /* shapes */
-  &.square {
-    &.xs {
-      @apply h-6 w-6 p-0;
-    }
-    &.sm {
-      @apply h-8 w-8 p-0;
-    }
-    & {
-      @apply h-12 w-12 p-0;
-    }
-    &.lg {
-      @apply h-16 w-16 p-0;
-    }
-  }
-  &.circle {
-    &.xs {
-      @apply rounded-full h-6 w-6 p-0;
-    }
-    &.sm {
-      @apply rounded-full h-8 w-8 p-0;
-    }
-    & {
-      @apply rounded-full h-12 w-12 p-0;
-    }
-    &.lg {
-      @apply rounded-full h-16 w-16 p-0;
-    }
-  }
-
-  /* block */
-  &.block {
-    @apply w-full;
-  }
 
   /* loading */
   &.loading {
-    &,
-    &:hover {
-      @apply pointer-events-none;
-    }
-    &:before {
-      @apply animate-spin h-4 w-4 rounded-full mr-2;
-      content: "";
-      border: 2px solid;
-      border-top-color: transparent;
-      border-left-color: transparent;
-      border-bottom-color: var(--color-content-100);
-      border-right-color: var(--color-content-100);
-    }
     &.square:before,
     &.circle:before {
       @apply mr-0;
@@ -210,16 +146,9 @@
 }
 /* group */
 .btn-group {
-  @apply flex;
-  & > input[type="radio"].btn {
-    @apply appearance-none;
-  }
   & > input[type="radio"]:checked.btn,
   & > .active.btn {
     @apply bg-primary border-primary text-content-primary;
-  }
-  & > input[type="radio"].btn:before {
-    content: attr(data-title);
   }
   & > .btn:not(:first-child) {
     @apply rounded-l-none -ml-px;
