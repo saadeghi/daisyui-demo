@@ -1,20 +1,4 @@
-# nuxt-test
+# DaisyUI workshop
 
-## Build Setup
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb76b89b-0d38-40c5-b318-da866905d02c/deploy-status)](https://app.netlify.com/sites/daisyui/deploys)
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
