@@ -9,6 +9,10 @@ module.exports = {
     ]
   },
   presets: [
-    require('./wip.tailwind.config.js')
+    require('./daisyui/preset')
+  ],
+  plugins: [
+    require('@tailwindcss/typography'),
+    // require('./../daisyui'),
   ],
 }
