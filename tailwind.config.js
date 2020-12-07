@@ -9,10 +9,11 @@ module.exports = {
     ]
   },
   presets: [
-    require('./daisyui/preset')
+    // require('./daisyui/preset')
+    require('daisyui/preset')
   ],
   plugins: [
     require('@tailwindcss/typography'),
-    // require('./../daisyui'),
+    require('daisyui/styled'),
   ],
 }

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "daisyui": "file:daisyui",
     "nuxt": "^2.14.6",
     "postcss-color-adjustment": "^0.1.6",
     "vue-highlightjs": "^1.3.3"
