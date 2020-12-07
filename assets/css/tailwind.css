@@ -1,22 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
-@import "../../daisyui/base/accordion";
-@import "../../daisyui/base/alert";
-@import "../../daisyui/base/badge";
-@import "../../daisyui/base/button";
-@import "../../daisyui/base/card";
-@import "../../daisyui/base/form";
-@import "../../daisyui/base/menu";
-
-@import "assets/css/config";
-/* @import "../../daisyui/styled/config"; */
-@import "../../daisyui/styled/accordion";
-@import "../../daisyui/styled/alert";
-@import "../../daisyui/styled/badge";
-@import "../../daisyui/styled/button";
-@import "../../daisyui/styled/card";
-@import "../../daisyui/styled/form";
-@import "../../daisyui/styled/menu";
+/* @import "assets/css/daisy-ui-dev"; */
 
 @import "tailwindcss/utilities";
