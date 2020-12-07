@@ -5,6 +5,9 @@
 @import "../../daisyui/base/alert";
 @import "../../daisyui/base/badge";
 @import "../../daisyui/base/button";
+@import "../../daisyui/base/card";
+@import "../../daisyui/base/form";
+@import "../../daisyui/base/menu";
 
 @import "assets/css/config";
 /* @import "../../daisyui/styled/config"; */

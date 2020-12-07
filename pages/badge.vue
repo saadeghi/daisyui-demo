@@ -5,13 +5,26 @@
       <Badge class="primary">primary</Badge>
       <Badge class="secondary">secondary</Badge>
       <Badge class="accent">accent</Badge>
+      <Badge class="ghost">ghost</Badge>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="badge with icon">
-      <Badge>neutral</Badge>
-      <Badge class="primary">primary</Badge>
-      <Badge class="secondary">secondary</Badge>
-      <Badge class="accent">accent</Badge>
+    <Wrapper classes="flex items-start space-x-2" title="badge variants">
+      <Badge class="info">
+        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        info
+      </Badge>
+      <Badge class="success">
+        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        success
+      </Badge>
+      <Badge class="warning">
+        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        warning
+      </Badge>
+      <Badge class="error">
+        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        error
+      </Badge>
     </Wrapper>
 
     <Wrapper classes="flex items-start space-x-2" title="badge outline">
