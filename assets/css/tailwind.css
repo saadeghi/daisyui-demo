@@ -1,24 +1,19 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
-/* @import "ivyui"; */
-@import "ivyui/styled";
+@import "../../daisyui/base/accordion";
+@import "../../daisyui/base/alert";
+@import "../../daisyui/base/badge";
+@import "../../daisyui/base/button";
 
-/* @import "./layout/accordion"; */
-/* @import "./layout/alert"; */
-/* @import "./layout/badge"; */
-/* @import "./layout/button"; */
-/* @import "./layout/card"; */
-/* @import "./layout/form"; */
-/* @import "./layout/menu"; */
-/*
-@import "./theme/config";
-@import "./theme/accordion";
-@import "./theme/alert";
-@import "./theme/badge";
-@import "./theme/button";
-@import "./theme/card";
-@import "./theme/form";
-@import "./theme/menu"; */
+@import "assets/css/config";
+/* @import "../../daisyui/styled/config"; */
+@import "../../daisyui/styled/accordion";
+@import "../../daisyui/styled/alert";
+@import "../../daisyui/styled/badge";
+@import "../../daisyui/styled/button";
+@import "../../daisyui/styled/card";
+@import "../../daisyui/styled/form";
+@import "../../daisyui/styled/menu";
 
 @import "tailwindcss/utilities";
