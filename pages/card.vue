@@ -7,7 +7,7 @@
           <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">With button <Badge class="outline">NEW</Badge></h2>
+          <h2 class="card-title">With button <Badge class="success">NEW</Badge></h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="justify-end space-x-2 card-actions">
             <Button classes="ghost">More info</Button>
@@ -36,6 +36,11 @@
         <div class="card-body">
           <h2 class="card-title">Small image file</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+          <div class="space-x-2 card-actions">
+            <Badge class="ghost">Article</Badge>
+            <Badge class="ghost">Photography</Badge>
+            <Badge class="ghost">Creativity</Badge>
+          </div>
         </div>
       </Card>
 
