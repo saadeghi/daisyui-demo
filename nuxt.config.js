@@ -43,7 +43,6 @@ export default {
     postcss: {
       plugins: {
         'postcss-nested': {},
-        'postcss-color-adjustment': {},
       },
     }
   }
