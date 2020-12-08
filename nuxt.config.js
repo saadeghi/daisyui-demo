@@ -14,7 +14,32 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    '~/assets/css/tailwind',
+
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/accordion']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/alert']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/avatar']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/badge']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/button']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/card']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/form']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/menu']),
+
+    // I'm using this theme config instead of original one because color names change when they convert to json object
+    ...(process.env.NODE_ENV === 'production' ? [] : ['~/assets/css/daisy-config']),
+
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/accordion']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/alert']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/avatar']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/badge']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/button']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/card']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/form']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/menu']),
+
   ],
+
+
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
@@ -27,7 +52,7 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    // '@nuxtjs/tailwindcss',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -43,6 +68,7 @@ export default {
     postcss: {
       plugins: {
         'postcss-nested': {},
+        'tailwindcss': {},
       },
     }
   }

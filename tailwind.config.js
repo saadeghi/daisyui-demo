@@ -9,7 +9,7 @@ module.exports = {
     ]
   },
   presets: [
-    process.env.NODE_ENV === 'production' ? require('daisyui/preset') : require('./daisyui/preset')
+    process.env.NODE_ENV === 'production' ? require('daisyui/preset') : require('../daisyui/preset')
   ],
   plugins: [
     require('@tailwindcss/typography'),
