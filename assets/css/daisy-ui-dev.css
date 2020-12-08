@@ -1,6 +1,7 @@
 
 @import "../../daisyui/base/accordion";
 @import "../../daisyui/base/alert";
+@import "../../daisyui/base/avatar";
 @import "../../daisyui/base/badge";
 @import "../../daisyui/base/button";
 @import "../../daisyui/base/card";
@@ -9,6 +10,7 @@
 
 @import "../../daisyui/styled/accordion";
 @import "../../daisyui/styled/alert";
+@import "../../daisyui/styled/avatar";
 @import "../../daisyui/styled/badge";
 @import "../../daisyui/styled/button";
 @import "../../daisyui/styled/card";

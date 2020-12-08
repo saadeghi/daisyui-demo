@@ -59,6 +59,7 @@ export default {
         'components' : [
           'accordion',
           'alert',
+          'avatar',
           'badge',
           'button',
           'button-group',
