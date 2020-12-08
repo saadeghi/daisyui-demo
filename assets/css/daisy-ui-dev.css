@@ -16,7 +16,7 @@
 @import "../../daisyui/styled/card";
 @import "../../daisyui/styled/form";
 @import "../../daisyui/styled/menu";
-
+/*! purgecss start ignore */
 :root {
 
   /* color variants */
@@ -192,3 +192,4 @@
 
 
 }
+/*! purgecss end ignore */
