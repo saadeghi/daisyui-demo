@@ -14,7 +14,9 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '~/assets/css/tailwind',
+    // '~/assets/css/tailwind',
+    'node_modules/tailwindcss/base',
+    'node_modules/tailwindcss/components',
 
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/accordion']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/alert']),
@@ -36,6 +38,8 @@ export default {
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/card']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/form']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/menu']),
+
+    'node_modules/tailwindcss/utilities',
 
   ],
 
