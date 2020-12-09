@@ -1,10 +1,5 @@
 <template>
   <div class="flex min-h-screen">
-    <script src="https://unpkg.com/theme-change"></script>
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
     <aside id="sidebar" class="sticky top-0 flex flex-col justify-between w-1/5 h-screen bg-content-100">
       <Menu class="flex flex-col py-10 overflow-y-auto wide compact">
         <MenuItem>
@@ -69,7 +64,6 @@ export default {
     this.nestedRoutes.push({
       name: 'core',
     })
-    console.log(this.nestedRoutes)
     this.$router.options.routes.forEach((routeOption) => {
       if (routeOption.path.startsWith('/core')) {
         this.nestedRoutes.push({
