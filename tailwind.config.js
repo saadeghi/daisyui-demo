@@ -8,14 +8,16 @@ module.exports = {
       'nuxt.config.js',
     ],
     options: {
-      safelist: ["[data-theme='dark']", "[data-theme='black']", "[data-theme='retro']", "[data-theme='dracula']", "[data-theme='christmas']"],
+      safelist: [
+        /data-theme$/,
+      ],
     },
   },
-  presets: [
-    process.env.NODE_ENV === 'production' ? require('daisyui/preset') : require('../daisyui/preset')
-  ],
   plugins: [
     require('@tailwindcss/typography'),
     process.env.NODE_ENV === 'production' ? require('daisyui/styled') : ''
+  ],
+  presets: [
+    process.env.NODE_ENV === 'production' ? require('daisyui/preset') : require('../daisyui/preset')
   ],
 }
