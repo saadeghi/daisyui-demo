@@ -10,13 +10,17 @@
         <MenuItem>
           <NuxtLink to="/">Home</NuxtLink>
         </MenuItem>
-        <MenuItem class="disabled" v-for="(category, index) in nav" v-bind:key="category.index">
-          <span>{{ index }}</span>
-          <Menu>
-            <MenuItem v-for="(item, index) in category" v-bind:key="item.index">
-              <NuxtLink :to="item">{{ item }}</NuxtLink>
-            </MenuItem>
-          </Menu>
+        <MenuItem v-for="(item, itemindex) in nestedRoutes" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
+          <NuxtLink class="capitalize" v-if="item.path" :to="item.path">
+            {{ item.name }}
+          </NuxtLink>
+          <span class="capitalize" v-if="!item.path">
+            <Icon
+              glyph="folder"
+              class="inline-block w-4 mr-2 -ml-6 stroke-current color-primary"
+            />
+            {{ item.name }}
+          </span>
         </MenuItem>
       </Menu>
       <div id="theme-change" class="sticky bottom-0 w-full px-10">
@@ -51,24 +55,7 @@ export default {
   },
   data() {
     return {
-      'nav': {
-        'general' : [
-          'colors',
-          'typography',
-        ],
-        'components' : [
-          'accordion',
-          'alert',
-          'avatar',
-          'badge',
-          'button',
-          'button-group',
-          'card',
-          'input-text',
-          'menu',
-          'pagination',
-        ],
-      },
+      nestedRoutes: [],
       themes: [
         'dark',
         'black',
@@ -78,5 +65,41 @@ export default {
       ],
     }
   },
+  created () {
+    this.nestedRoutes.push({
+      name: 'core',
+    })
+    console.log(this.nestedRoutes)
+    this.$router.options.routes.forEach((routeOption) => {
+      if (routeOption.path.startsWith('/core')) {
+        this.nestedRoutes.push({
+          name: routeOption.name.replace("core-", ""),
+          path: routeOption.path,
+        })
+      }
+    })
+    this.nestedRoutes.push({
+      name: 'components',
+    })
+    this.$router.options.routes.forEach((routeOption) => {
+      if (routeOption.path.startsWith('/components')) {
+        this.nestedRoutes.push({
+          name: routeOption.name.replace("components-", ""),
+          path: routeOption.path,
+        })
+      }
+    })
+    this.nestedRoutes.push({
+      name: 'demos',
+    })
+    this.$router.options.routes.forEach((routeOption) => {
+      if (routeOption.path.startsWith('/demos')) {
+        this.nestedRoutes.push({
+          name: routeOption.name.replace("demos-", ""),
+          path: routeOption.path,
+        })
+      }
+    })
+  }
 }
 </script>
