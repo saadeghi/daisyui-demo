@@ -1,39 +1,57 @@
 <template>
   <div>
-    <Wrapper title="veritcal" classes="flex flex-col space-y-2">
+    <Wrapper title="veritcal with icons" classes="flex flex-col space-y-2">
       <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="py-3 shadow-2xl rounded-box">
-          <MenuItem>
-            <a>
-              Item with link
-            </a>
-          </MenuItem>
-          <MenuItem class="bordered">
-            <a>
-              Bordered
-            </a>
-          </MenuItem>
-          <MenuItem class="hover-bordered">
-            <a>
-              Bordered with link and a very very very very very long text
-            </a>
-          </MenuItem>
-          <MenuItem class="disabled">
-            <a>
-              Item with disabled class
-            </a>
-          </MenuItem>
-          <MenuItem>
+        <Menu class="py-3 shadow-2xl bg-content-100 rounded-box">
+          <MenuItem class="menu-label">
             <span>
-              Item with a span instead of link
+              Menu Title
             </span>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon
-                glyph="eye"
-                class="inline-block w-6 mr-2 stroke-current"
-              />
+              <Icon glyph="eye" class="inline-block w-5 mr-2 stroke-current" />
+              Item with icon
+            </a>
+          </MenuItem>
+          <MenuItem>
+            <a>
+              Item without icon
+            </a>
+          </MenuItem>
+          <MenuItem>
+            <a>
+              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              Item with icon
+              <Badge class="ml-2 success">3</Badge>
+            </a>
+          </MenuItem>
+        </Menu>
+      </div>
+    </Wrapper>
+    <Wrapper title="veritcal with icons and padding" classes="flex flex-col space-y-2">
+      <div class="p-10 w-96 bg-content-400 rounded-box">
+        <Menu class="p-4 shadow-2xl bg-content-100 rounded-box">
+          <MenuItem class="menu-label">
+            <span>
+              Menu Title
+            </span>
+          </MenuItem>
+          <MenuItem>
+            <a>
+              <Icon glyph="eye" class="inline-block w-5 mr-2 stroke-current" />
+              Item with icon
+            </a>
+          </MenuItem>
+          <MenuItem>
+            <a>
+              <Icon glyph="code" class="inline-block w-5 mr-2 stroke-current" />
+              Item with icon
+            </a>
+          </MenuItem>
+          <MenuItem>
+            <a>
+              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
               Item with icon
             </a>
           </MenuItem>
@@ -42,7 +60,7 @@
     </Wrapper>
     <Wrapper title="horizontal" classes="flex flex-col space-y-2">
       <div class="p-10 bg-content-400 rounded-box">
-        <Menu class="items-stretch px-3 shadow-2xl horizontal rounded-box">
+        <Menu class="items-stretch px-3 shadow-2xl bg-content-100 horizontal rounded-box">
           <MenuItem>
             <a>
               With link
@@ -70,41 +88,10 @@
         </Menu>
       </div>
     </Wrapper>
-    <Wrapper title="veritcal with colors" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="rounded-box">
-          <MenuItem class="active">
-            <a>
-              active color
-            </a>
-          </MenuItem>
-          <MenuItem class="primary">
-            <a>
-              primary color
-            </a>
-          </MenuItem>
-          <MenuItem class="secondary">
-            <a>
-              secondary color
-            </a>
-          </MenuItem>
-          <MenuItem class="accent">
-            <a>
-              accent color
-            </a>
-          </MenuItem>
-          <MenuItem class="ghost">
-            <a>
-              ghost color
-            </a>
-          </MenuItem>
-        </Menu>
-      </div>
-    </Wrapper>
 
     <Wrapper title="veritcal with icon" classes="flex flex-col space-y-2">
       <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="w-16 py-3 shadow-2xl rounded-box">
+        <Menu class="w-16 py-3 shadow-2xl bg-content-100 rounded-box">
           <MenuItem>
             <a>
               <Icon glyph="bell" class="inline-block w-6 stroke-current" />
@@ -127,7 +114,7 @@
 
     <Wrapper title="horizontal with icon" classes="flex flex-col space-y-2">
       <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="px-3 shadow-2xl rounded-box horizontal">
+        <Menu class="px-3 shadow-2xl bg-content-100 rounded-box horizontal">
           <MenuItem>
             <a>
               <Icon glyph="bell" class="inline-block w-6 stroke-current" />
@@ -149,29 +136,34 @@
 
     <Wrapper title="veritcal with submenu" classes="flex flex-col space-y-2">
       <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="py-3 shadow-2xl rounded-box">
+        <Menu class="p-4 shadow-2xl bg-content-100 rounded-box">
           <MenuItem>
             <a>
+              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
               Level 1
             </a>
           </MenuItem>
           <MenuItem>
             <a>
+              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
               Level 1
             </a>
             <Menu>
               <MenuItem>
                 <a>
+                  <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
                   Level 2
                 </a>
               </MenuItem>
               <MenuItem>
                 <a>
+                  <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
                   Level 2
                 </a>
                 <Menu>
                   <MenuItem>
                     <a>
+                      <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
                       Level 3
                     </a>
                   </MenuItem>
@@ -179,6 +171,7 @@
               </MenuItem>
               <MenuItem>
                 <a>
+                  <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
                   Level 2
                 </a>
               </MenuItem>

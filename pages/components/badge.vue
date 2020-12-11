@@ -8,6 +8,12 @@
       <Badge class="ghost">ghost</Badge>
     </Wrapper>
 
+    <Wrapper classes="flex items-start space-x-2" title="badge size">
+      <Badge class="ghost lg">987,654</Badge>
+      <Badge class="ghost">987,654</Badge>
+      <Badge class="ghost sm">987,654</Badge>
+    </Wrapper>
+
     <Wrapper classes="flex items-start space-x-2" title="badge variants">
       <Badge class="info">
         <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
