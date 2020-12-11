@@ -3,20 +3,20 @@
     <Wrapper title="veritcal with icons" classes="flex flex-col space-y-2">
       <div class="p-10 w-96 bg-content-400 rounded-box">
         <Menu class="py-3 shadow-2xl bg-content-100 rounded-box">
-          <MenuItem class="menu-label">
+          <MenuItem class="menu-title">
             <span>
               Menu Title
             </span>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="eye" class="inline-block w-5 mr-2 stroke-current" />
-              Item with icon
+              Item without icon
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              Item without icon
+              <Icon glyph="eye" class="inline-block w-5 mr-2 stroke-current" />
+              Item with icon
             </a>
           </MenuItem>
           <MenuItem>
@@ -32,7 +32,7 @@
     <Wrapper title="veritcal with icons and padding" classes="flex flex-col space-y-2">
       <div class="p-10 w-96 bg-content-400 rounded-box">
         <Menu class="p-4 shadow-2xl bg-content-100 rounded-box">
-          <MenuItem class="menu-label">
+          <MenuItem class="menu-title">
             <span>
               Menu Title
             </span>
@@ -53,6 +53,35 @@
             <a>
               <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
               Item with icon
+            </a>
+          </MenuItem>
+        </Menu>
+      </div>
+    </Wrapper>
+    <Wrapper title="bordered, hover-bordered, disabled" classes="flex flex-col space-y-2">
+      <div class="p-10 w-96 bg-content-400 rounded-box">
+        <Menu class="py-4 shadow-2xl bg-content-100 rounded-box">
+          <MenuItem class="menu-title">
+            <span>
+              Menu Title
+            </span>
+          </MenuItem>
+          <MenuItem class="bordered disabled">
+            <a>
+              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              Item is disabled
+            </a>
+          </MenuItem>
+          <MenuItem class="bordered">
+            <a>
+              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              It has border
+            </a>
+          </MenuItem>
+          <MenuItem class="hover-bordered">
+            <a>
+              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              It shows border on hover
             </a>
           </MenuItem>
         </Menu>
