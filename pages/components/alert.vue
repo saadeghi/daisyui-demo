@@ -6,21 +6,32 @@
         <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
       </Alert>
     </Wrapper>
-    <Wrapper title="alert" classes="flex flex-col space-y-2">
-      <Alert>
-        <Icon glyph="warning" class="w-6 ml-2" color="#ff5722" />
+
+    <Wrapper title="alert state: info" classes="flex flex-col space-y-2">
+      <Alert class="info">
+        <Icon glyph="info" class="w-6 ml-2 stroke-current" />
         <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
       </Alert>
     </Wrapper>
-    <Wrapper title="alert" classes="flex flex-col space-y-2">
-      <Alert>
-        <Icon glyph="arrow" class="w-6 ml-2" color="#607d8b" />
+    <Wrapper title="alert state: success" classes="flex flex-col space-y-2">
+      <Alert class="success">
+        <Icon glyph="folder" class="w-6 ml-2 stroke-current" />
         <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
-        <Button class="sm ghost square">
-          <Icon glyph="close" class="w-6 stroke-current" />
-        </Button>
       </Alert>
     </Wrapper>
+    <Wrapper title="alert state: warning" classes="flex flex-col space-y-2">
+      <Alert class="warning">
+        <Icon glyph="warning" class="w-6 ml-2 stroke-current" />
+        <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
+      </Alert>
+    </Wrapper>
+    <Wrapper title="alert state: error" classes="flex flex-col space-y-2">
+      <Alert class="error">
+        <Icon glyph="invalid" class="w-6 ml-2 stroke-current" />
+        <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
+      </Alert>
+    </Wrapper>
+
     <Wrapper title="alert" classes="flex flex-col space-y-2">
       <Alert>
         <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
