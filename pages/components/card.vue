@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Wrapper title="card" classes="grid grid-cols-3 gap-6">
+    <Wrapper title="card" classes="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
       <Card>
         <figure>
@@ -10,7 +10,7 @@
           <h2 class="card-title">With button <Badge class="success">NEW</Badge></h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="justify-end space-x-2 card-actions">
-            <Button classes="ghost">More info</Button>
+            <Button>More info</Button>
           </div>
         </div>
       </Card>
@@ -46,7 +46,7 @@
 
     </Wrapper>
 
-    <Wrapper title="card with shadow, image-full, small image size" classes="grid grid-cols-3 gap-6">
+    <Wrapper title="card with shadow, image-full, small image size" classes="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
       <Card class="text-center shadow-2xl">
         <figure class="px-10 pt-10">
@@ -137,7 +137,7 @@
 
     </Wrapper>
 
-    <Wrapper title="mini cards" classes="grid grid-cols-3 gap-6">
+    <Wrapper title="mini cards" classes="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
       <Card class="shadow-2xl side bg-primary text-content-primary">
         <div class="card-body">
