@@ -9,14 +9,14 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/markdownit": "latest",
     "@tailwindcss/typography": "^0.3.1",
     "core-js": "^3.6.5",
-    "daisyui": "latest",
+    "daisyui": "^0.1.18",
     "nuxt": "^2.14.6",
     "tailwindcss": "^2.0.1-compat",
     "theme-change": "^1.0.60",
     "vue-highlightjs": "^1.3.3",
-    "wget-improved": "^3.2.1",
-    "@nuxtjs/markdownit": "latest"
+    "wget-improved": "^3.2.1"
   }
 }
