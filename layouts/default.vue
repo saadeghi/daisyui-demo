@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen lg:flex-row">
-    <aside class="flex flex-col justify-between w-full h-auto bg-content-100 lg:sticky lg:w-1/5 lg:h-screen lg:top-0">
+    <aside class="flex flex-col justify-between w-full h-auto border-r bg-default border-content-200 lg:sticky lg:w-1/5 lg:h-screen lg:top-0">
       <Menu class="flex flex-col p-4 lg:overflow-y-auto compact">
         <MenuItem>
           <NuxtLink to="/" class="font-bold">DaisyUI</NuxtLink>
@@ -57,10 +57,10 @@
           </span>
         </MenuItem>
       </Menu>
-      <div id="theme-change" class="sticky bottom-0 w-full px-10">
-        <select class="capitalize" data-choose-theme>
-          <option value="">Default</option>
-          <option v-for="(theme, index) in themes" :value="theme">{{ theme }}</option>
+      <div class="sticky bottom-0 w-full bg-content-200 focus-within:bg-content-300">
+        <select class="w-full px-10 py-5 text-sm capitalize bg-transparent appearance-none curson-pointer focus:outline-none" data-choose-theme>
+          <option value="">Change theme</option>
+          <option v-for="(theme, index) in themes" :value="theme.id">{{ theme.name }}</option>
         </select>
       </div>
     </aside>
@@ -69,18 +69,6 @@
     </main>
   </div>
 </template>
-
-<style>
-#theme-change {
-  background: #eaebf0;
-}
-#theme-change select {
-  background-color: transparent;
-  padding: 1em;
-  width: 100%;
-  font-size: 0.8em;
-}
-</style>
 
 <script>
 export default {
@@ -93,11 +81,11 @@ export default {
       componentPages: [],
       demoPages: [],
       themes: [
-        'dark',
-        'black',
-        'retro',
-        'dracula',
-        'christmas',
+        {id: 'dark', name:'🌚 dark'},
+        {id: 'black', name:'⬛️ black'},
+        {id: 'retro', name:'👴 retro'},
+        {id: 'dracula', name:'🧛‍♂️ dracula'},
+        {id: 'christmas', name:'🎄 christmas'},
       ],
     }
   },
