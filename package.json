@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nwget https://raw.githubusercontent.com/saadeghi/daisyui/master/README.md -O dist/daisyui-readme.md && nuxt",
+    "getmd": "nwget https://raw.githubusercontent.com/saadeghi/daisyui/master/README.md -O dist/daisyui-readme.md",
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nwget https://raw.githubusercontent.com/saadeghi/daisyui/master/README.md -O dist/daisyui-readme.md && nuxt generate"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.3.1",
