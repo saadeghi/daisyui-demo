@@ -62,7 +62,12 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    '@nuxtjs/markdownit'
   ],
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
