@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "getmd": "nwget https://raw.githubusercontent.com/saadeghi/daisyui/master/README.md -O static/daisyui-readme.md",
     "dev": "nwget https://raw.githubusercontent.com/saadeghi/daisyui/master/README.md -O static/daisyui-readme.md && nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
