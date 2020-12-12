@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Wrapper title="colors" classes="grid grid-cols-3 gap-6" nocode>
+    <Wrapper title="Brand colors" classes="grid grid-cols-3 gap-6" nocode>
       <div class="block h-40" v-for="(variant, index) in colors.variants">
         <div class="relative flex h-32 overflow-hidden rounded shadow-lg">
           <div class="absolute flex items-center justify-center w-full h-full text-content-primary"><span class="font-mono tracking-widest uppercase">{{ index }}</span></div>
@@ -15,6 +15,12 @@
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">default</div>
       </div>
       <div class="block h-40" v-for="(color, index) in colors.content">
+        <div :class="'h-32 overflow-hidden rounded shadow-lg ' + color"></div>
+        <div class="pt-2 mb-4 text-xs uppercase opacity-25">{{ color }}</div>
+      </div>
+    </Wrapper>
+    <Wrapper title="State colors" classes="grid grid-cols-4 gap-6" nocode>
+      <div class="block h-40" v-for="(color, index) in colors.state">
         <div :class="'h-32 overflow-hidden rounded shadow-lg ' + color"></div>
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">{{ color }}</div>
       </div>
@@ -55,7 +61,13 @@ export default {
           'bg-content-700',
           'bg-content-800',
           'bg-content-900',
-        ]
+        ],
+        'state': [
+          'bg-info',
+          'bg-success',
+          'bg-warning',
+          'bg-error',
+        ],
       }
     }
   },

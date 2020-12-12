@@ -92,6 +92,11 @@
   --rounded-box: 0;
   --rounded-badge: 0;
 
+  --color-info: 240, 100%, 50%;
+  --color-success: 120, 100%, 25%;
+  --color-warning: 60, 100%, 50%;
+  --color-error: 0, 100%, 50%;
+
 }
 
 [data-theme='retro'] {
