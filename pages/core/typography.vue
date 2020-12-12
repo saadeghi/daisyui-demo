@@ -1,5 +1,10 @@
 <template>
   <div class="prose text-content-800">
+    <Wrapper title="Typography" nocode>
+      <p>You should use official <a target="_blank" href="https://github.com/tailwindlabs/tailwindcss-typography">TailwindCSS Typography</a> plugin.
+      It handles everything and it's fully customizable</p>
+      <p>You can see demo elemnts below:</p>
+    </Wrapper>
     <Wrapper title="headings" nocode>
       <h1>Heading</h1>
       <h2>Heading</h2>

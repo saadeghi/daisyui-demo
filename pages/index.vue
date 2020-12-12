@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid grid-cols-3 gap-6 mt-10">
+    <div class="grid grid-cols-1 gap-6 mt-10 lg:grid-cols-3">
       <Card class="text-center shadow-2xl side bg-secondary text-content-accent">
         <div class="card-body">
           <div class="flex justify-center">

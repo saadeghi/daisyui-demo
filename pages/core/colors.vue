@@ -1,5 +1,10 @@
 <template>
   <div>
+    <div class="prose text-content-800">
+      <Wrapper title="Colors and theming" nocode>
+        Read everything about colors and theming <a target="_blank" href="https://github.com/saadeghi/daisyui/blob/master/docs/theming.md">here</a>
+      </Wrapper>
+    </div>
     <Wrapper title="Brand colors" classes="grid grid-cols-3 gap-6" nocode>
       <div class="block h-40" v-for="(variant, index) in colors.variants">
         <div class="relative flex h-32 overflow-hidden rounded shadow-lg">
@@ -9,19 +14,19 @@
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">{{ index }}</div>
       </div>
     </Wrapper>
-    <Wrapper title="content colors" classes="grid grid-cols-5 gap-6" nocode>
+    <Wrapper title="content colors" classes="grid grid-cols-10 gap-6" nocode>
       <div class="block h-40">
         <div class="h-32 overflow-hidden rounded shadow-lg bg-default"></div>
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">default</div>
       </div>
       <div class="block h-40" v-for="(color, index) in colors.content">
-        <div :class="'h-32 overflow-hidden rounded shadow-lg ' + color"></div>
+        <div :class="'h-32 overflow-hidden rounded shadow-lg bg-content-' + color"></div>
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">{{ color }}</div>
       </div>
     </Wrapper>
     <Wrapper title="State colors" classes="grid grid-cols-4 gap-6" nocode>
       <div class="block h-40" v-for="(color, index) in colors.state">
-        <div :class="'h-32 overflow-hidden rounded shadow-lg ' + color"></div>
+        <div :class="'h-16 overflow-hidden rounded shadow-lg bg-' + color"></div>
         <div class="pt-2 mb-4 text-xs uppercase opacity-25">{{ color }}</div>
       </div>
     </Wrapper>
@@ -52,21 +57,21 @@ export default {
           ],
         },
         'content': [
-          'bg-content-100',
-          'bg-content-200',
-          'bg-content-300',
-          'bg-content-400',
-          'bg-content-500',
-          'bg-content-600',
-          'bg-content-700',
-          'bg-content-800',
-          'bg-content-900',
+          '100',
+          '200',
+          '300',
+          '400',
+          '500',
+          '600',
+          '700',
+          '800',
+          '900',
         ],
         'state': [
-          'bg-info',
-          'bg-success',
-          'bg-warning',
-          'bg-error',
+          'info',
+          'success',
+          'warning',
+          'error',
         ],
       }
     }
