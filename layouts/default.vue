@@ -1,9 +1,9 @@
 <template>
-  <div class="flex min-h-screen">
-    <aside id="sidebar" class="sticky top-0 flex flex-col justify-between w-1/5 h-screen bg-content-100">
-      <Menu class="flex flex-col p-4 overflow-y-auto compact">
+  <div class="flex flex-col min-h-screen lg:flex-row">
+    <aside class="flex flex-col justify-between w-full h-auto bg-content-100 lg:sticky lg:w-1/5 lg:h-screen lg:top-0">
+      <Menu class="flex flex-col p-4 lg:overflow-y-auto compact">
         <MenuItem>
-          <NuxtLink to="/">Home</NuxtLink>
+          <NuxtLink to="/" class="font-bold">DaisyUI</NuxtLink>
         </MenuItem>
         <MenuItem class="mt-4 menu-title">
           <span>
@@ -64,7 +64,7 @@
         </select>
       </div>
     </aside>
-    <main class="w-4/5 p-10 bg-default text-content-900">
+    <main class="w-full p-10 bg-default text-content-900 lg:w-4/5">
       <Nuxt />
     </main>
   </div>
