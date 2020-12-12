@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="prose text-content-800">
-      <div v-html="aboutContent"></div>
-    </div>
     <div class="grid grid-cols-3 gap-6 mt-10">
       <Card class="text-center shadow-2xl side bg-secondary text-content-accent">
         <div class="card-body">
@@ -47,11 +44,16 @@
         </div>
       </Card>
     </div>
+
+    <div class="mt-16 prose text-content-800">
+      <div v-html="aboutContent"></div>
+    </div>
+
   </div>
 </template>
 
 <script>
-import aboutContent from '../dist/daisyui-readme.md'
+import aboutContent from '../static/daisyui-readme.md'
 export default {
   computed: {
     aboutContent() {
