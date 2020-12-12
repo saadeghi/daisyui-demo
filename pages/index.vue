@@ -1,10 +1,7 @@
 <template>
   <div>
     <div class="prose text-content-800">
-      <h1>DaisyUI</h1>
-      <p>
-        Unstyled (and styled) UI component library for Tailwind CSS users.
-      </p>
+      <div v-html="aboutContent"></div>
     </div>
     <div class="grid grid-cols-3 gap-6 mt-10">
       <Card class="text-center shadow-2xl side bg-secondary text-content-accent">
@@ -54,7 +51,14 @@
 </template>
 
 <script>
-export default {};
+import aboutContent from '../dist/daisyui-readme.md'
+export default {
+  computed: {
+    aboutContent() {
+      return aboutContent
+    }
+  }
+};
 </script>
 
 <style>
