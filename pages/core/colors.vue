@@ -2,7 +2,7 @@
   <div>
     <div class="prose text-content-800">
       <Wrapper title="Colors and theming" nocode>
-        Read everything about colors and theming <a target="_blank" href="https://github.com/saadeghi/daisyui/blob/master/docs/theming.md">here</a>
+        Read everything about DaisyUI colors and theming <a target="_blank" href="https://github.com/saadeghi/daisyui/blob/master/docs/theming.md">here</a>
       </Wrapper>
     </div>
     <Wrapper title="Brand colors" classes="grid grid-cols-3 gap-6" nocode>
