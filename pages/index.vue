@@ -45,7 +45,7 @@
       </Card>
     </div>
 
-    <div class="mt-16 prose text-content-800">
+    <div class="mx-auto mt-16 prose text-content-800">
       <div v-html="aboutContent"></div>
     </div>
 
