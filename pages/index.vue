@@ -11,11 +11,11 @@
         <a target="_blank" href="https://packagephobia.com/result?p=daisyui">
           <img class="inline-block" src="https://badgen.net/packagephobia/publish/daisyui?label=package%20install%20size&amp;icon=npm&amp;color=purple" alt="">
         </a>
-        <a target="_blank" href="https://unpkg.com/daisyui@latest/dist/base.min.css">
-          <img class="inline-block" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/base.min.css?label=base.css%20size&amp;color=purple" alt="">
+        <a target="_blank" href="https://unpkg.com/daisyui@latest/dist/base.css">
+          <img class="inline-block" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/base.css?label=base.css%20size&amp;color=purple" alt="">
         </a>
-        <a target="_blank" href="https://unpkg.com/daisyui@latest/dist/styled.min.css">
-          <img class="inline-block" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.min.css?label=styled.css%20size&amp;color=purple" alt="">
+        <a target="_blank" href="https://unpkg.com/daisyui@latest/dist/styled.css">
+          <img class="inline-block" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.css?label=styled.css%20size&amp;color=purple" alt="">
         </a>
         <br>
         <a target="_blank" href="https://github.com/saadeghi/daisyui/actions">
