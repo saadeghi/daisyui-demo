@@ -60,7 +60,7 @@
         </Menu>
     </div>
       <div class="sticky bottom-0 w-full bg-content-200 focus-within:bg-content-300">
-        <select class="w-full px-10 py-5 text-sm capitalize bg-transparent appearance-none curson-pointer focus:outline-none" data-choose-theme>
+        <select class="w-full px-10 py-5 text-sm capitalize bg-transparent appearance-none text-content-900 curson-pointer focus:outline-none" data-choose-theme>
           <option value="">Change theme</option>
           <option v-for="(theme, index) in themes" :value="theme.id">{{ theme.name }}</option>
         </select>

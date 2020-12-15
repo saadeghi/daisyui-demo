@@ -4,7 +4,7 @@
 
       <Card>
         <figure>
-          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+          <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">With button <Badge class="success">NEW</Badge></h2>
@@ -25,13 +25,13 @@
           </div>
         </div>
         <figure>
-          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+          <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
       </Card>
 
       <Card>
         <figure>
-          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=50&amp;q=80" />
+          <img src="https://picsum.photos/id/1005/60/40" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Small image file</h2>
@@ -50,7 +50,7 @@
 
       <Card class="text-center shadow-2xl">
         <figure class="px-10 pt-10">
-          <img class="rounded-xl" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+          <img class="rounded-xl" src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">shadow, center, padding</h2>
@@ -63,7 +63,7 @@
 
       <Card class="shadow-xl image-full">
         <figure>
-          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+          <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="justify-end card-body">
           <h2 class="card-title">Image bottom</h2>
@@ -76,7 +76,7 @@
 
       <Card class="shadow-sm bg-accent text-content-accent">
         <figure>
-          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+          <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Accent color</h2>
@@ -93,7 +93,7 @@
 
       <Card class="side">
         <figure class="w-1/3">
-          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+          <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="w-2/3 card-body">
           <h2 class="card-title">Two Buttons</h2>
@@ -115,7 +115,7 @@
           </div>
         </div>
         <figure class="w-1/3">
-          <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" />
+          <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
       </Card>
 
