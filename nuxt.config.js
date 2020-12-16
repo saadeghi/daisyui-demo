@@ -11,7 +11,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     // script: [{src: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]
-    ...(process.env.NODE_ENV === 'production' ? {script: [{src: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]} : []),
+    ...(process.env.NODE_ENV === 'production' ? {link: [{rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]} : []),
 
   },
 
@@ -33,7 +33,8 @@ export default {
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/artboard']),
 
     // I'm using this theme config instead of original one because color names change when they convert to json object
-    ...(process.env.NODE_ENV === 'production' ? [] : ['~/assets/css/daisy-config']),
+    // ...(process.env.NODE_ENV === 'production' ? [] : ['~/assets/css/daisy-config']),
+    '~/assets/css/daisy-config',
 
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/accordion']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/alert']),
