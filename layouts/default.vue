@@ -5,7 +5,7 @@
         <NuxtLink to="/" class="block m-4 mb-0 text-center rounded hover:bg-primary hover:bg-opacity-20">
           <div class="inline-block mx-4 my-6 w-28" v-html="src"></div>
         </NuxtLink>
-        <Menu class="flex flex-col p-4 pb-10 compact">
+        <Menu class="flex flex-col p-4 pb-10 compact text-content-700">
           <MenuItem class="mt-4 menu-title">
             <span>
               Core
