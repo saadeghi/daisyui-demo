@@ -19,6 +19,6 @@ module.exports = {
     process.env.NODE_ENV === 'production' ? [] : ''
   ],
   presets: [
-    process.env.NODE_ENV === 'production' ? [] : require('../daisyui/preset')
+    process.env.NODE_ENV === 'production' ? require('daisyui/preset') : require('../daisyui/preset')
   ],
 }
