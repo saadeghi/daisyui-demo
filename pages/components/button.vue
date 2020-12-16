@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <Wrapper classes="flex items-start space-x-2" title="button">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button">
       <Button classes="">neutral</Button>
       <Button classes="primary">primary</Button>
       <Button classes="secondary">secondary</Button>
@@ -10,14 +10,14 @@
       <Button classes="link">link</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="outline button">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="outline button">
       <Button classes="outline">neutral</Button>
       <Button classes="outline primary">primary</Button>
       <Button classes="outline secondary">secondary</Button>
       <Button classes="outline accent">accent</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="disabled button">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="disabled button">
       <Button disabled>neutral</Button>
       <Button disabled classes="primary">primary</Button>
       <Button disabled classes="ghost">ghost</Button>
@@ -25,7 +25,7 @@
       <Button classes="disabled" tabindex="-1" role="button" aria-disabled="true">visually disabled</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="active state button">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="active state button">
       <Button classes="active" role="button" aria-pressed="true">neutral</Button>
       <Button classes="primary active" role="button" aria-pressed="true">primary</Button>
       <Button classes="secondary active" role="button" aria-pressed="true">secondary</Button>
@@ -33,7 +33,7 @@
       <Button classes="link active" role="button" aria-pressed="true">link</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="button with diffrent HTML tags">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button with diffrent HTML tags">
       <a class="btn" href="#" role="button">Link</a>
       <button class="btn" type="submit">Button</button>
       <input class="btn" type="button" value="Input">
@@ -41,21 +41,30 @@
       <input class="btn" type="reset" value="Reset">
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="button size">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button size">
       <Button classes="lg">Large</Button>
       <Button classes="">Normal</Button>
       <Button classes="sm">Small</Button>
       <Button classes="xs">Tiny</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="button wide">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button wide">
       <Button classes="wide lg">neutral large</Button>
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button wide">
       <Button classes="wide primary">primary</Button>
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button wide">
       <Button classes="wide sm secondary">secondary small</Button>
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button wide">
       <Button classes="wide xs accent">accent tiny</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="icon button start">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="icon button start">
       <Button classes="lg">
         <Icon glyph="close" class="inline-block w-6 mr-2 stroke-current" />
         Large
@@ -74,7 +83,7 @@
       </Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="icon button end">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="icon button end">
       <Button classes="lg">
         Large
         <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
@@ -93,7 +102,7 @@
       </Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="button shapes">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button shapes">
       <Button classes="circle lg">
         <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
@@ -107,6 +116,9 @@
         <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
 
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button shapes">
       <Button classes="square lg">
         <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
@@ -120,6 +132,9 @@
         <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
 
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button shapes">
       <Button classes="outline circle lg">
         <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
@@ -133,6 +148,9 @@
         <Icon glyph="close" class="inline-block w-4 stroke-current" />
       </Button>
 
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button shapes">
       <Button classes="outline square lg">
         <Icon glyph="close" class="inline-block w-6 stroke-current" />
       </Button>
@@ -147,27 +165,33 @@
       </Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="button block">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button block">
       <Button classes="block">block</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="button loading">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button loading">
       <Button classes="lg loading">loading</Button>
       <Button classes="primary loading">loading</Button>
       <Button classes="sm secondary loading">loading</Button>
       <Button classes="xs accent loading">loading</Button>
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button loading">
       <Button classes="sm outline primary loading">loading</Button>
       <Button classes="sm outline secondary loading">loading</Button>
       <Button classes="sm outline accent loading">loading</Button>
       <Button classes="sm ghost loading">loading</Button>
     </Wrapper>
 
-    <Wrapper classes="flex items-start space-x-2" title="button loading">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button loading">
       <Button classes="lg square loading"></Button>
       <Button classes="square loading"></Button>
       <Button classes="sm square loading"></Button>
       <Button classes="xs square loading"></Button>
 
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button loading">
       <Button classes="lg circle loading"></Button>
       <Button classes="circle loading"></Button>
       <Button classes="sm circle loading"></Button>
