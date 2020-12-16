@@ -9,7 +9,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    // script: [{src: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]
+    ...(process.env.NODE_ENV === 'production' ? {script: [{src: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]} : []),
+
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
