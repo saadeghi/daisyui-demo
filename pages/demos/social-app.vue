@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden w-80 bg-content-100 rounded-box h-96">
+  <div class="relative overflow-hidden bg-content-100 rounded-box artboard phone-1">
     <div class="flex flex-col items-center p-10 text-center">
       <div class="avatar online">
         <div class="w-32 h-32 rounded-full">

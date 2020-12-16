@@ -27,6 +27,7 @@ export default {
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/form']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/menu']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/hero']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/artboard']),
 
     // I'm using this theme config instead of original one because color names change when they convert to json object
     ...(process.env.NODE_ENV === 'production' ? [] : ['~/assets/css/daisy-config']),
@@ -40,6 +41,7 @@ export default {
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/form']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/menu']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/hero']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/artboard']),
 
     'node_modules/tailwindcss/utilities',
 
