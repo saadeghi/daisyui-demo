@@ -56,7 +56,7 @@
           <h2 class="card-title">shadow, center, padding</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="justify-center space-x-2 card-actions">
-            <Button classes="outline accent">More info</Button>
+            <Button classes="btn-outline btn-accent">More info</Button>
           </div>
         </div>
       </Card>
@@ -69,7 +69,7 @@
           <h2 class="card-title">Image bottom</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
-            <Button classes="primary">Get Started</Button>
+            <Button classes="btn-primary">Get Started</Button>
           </div>
         </div>
       </Card>
@@ -82,7 +82,7 @@
           <h2 class="card-title">Accent color</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
-            <Button classes="secondary">More info</Button>
+            <Button classes="btn-secondary">More info</Button>
           </div>
         </div>
       </Card>
