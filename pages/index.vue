@@ -43,7 +43,7 @@
           </div>
           <p>Read full document on github</p>
           <div class="justify-center space-x-2 card-actions">
-            <a class="btn active secondary" href="https://github.com/saadeghi/daisyui" target="_blank">
+            <a class="shadow-lg btn btn-secondary btn-active btn-block" href="https://github.com/saadeghi/daisyui" target="_blank">
               Github
               <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
             </a>
@@ -57,7 +57,7 @@
           </div>
           <p>Use NPM package</p>
           <div class="justify-center space-x-2 card-actions">
-            <a class="btn active accent" href="https://www.npmjs.com/package/daisyui" target="_blank">
+            <a class="shadow-lg btn btn-accent btn-active btn-block" href="https://www.npmjs.com/package/daisyui" target="_blank">
               NPM
               <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
             </a>
@@ -71,7 +71,7 @@
           </div>
           <p>Try it online</p>
           <div class="justify-center space-x-2 card-actions">
-            <a class="btn active primary" href="https://play.tailwindcss.com/fF3zRoCJSr" target="_blank">
+            <a class="shadow-lg btn btn-primary btn-active btn-block" href="https://play.tailwindcss.com/fF3zRoCJSr" target="_blank">
               Tailwind Play
               <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
             </a>

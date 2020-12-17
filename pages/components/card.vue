@@ -20,8 +20,8 @@
           <h2 class="card-title">Image bottom</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
-            <Button classes="primary">Login</Button>
-            <Button classes="ghost">Register</Button>
+            <Button classes="btn-primary">Login</Button>
+            <Button classes="btn-ghost">Register</Button>
           </div>
         </div>
         <figure>
@@ -37,9 +37,9 @@
           <h2 class="card-title">Small image file</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
-            <Badge class="ghost">Article</Badge>
-            <Badge class="ghost">Photography</Badge>
-            <Badge class="ghost">Creativity</Badge>
+            <Badge class="badge-ghost">Article</Badge>
+            <Badge class="badge-ghost">Photography</Badge>
+            <Badge class="badge-ghost">Creativity</Badge>
           </div>
         </div>
       </Card>
@@ -99,8 +99,8 @@
           <h2 class="card-title">Two Buttons</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
-            <Button classes="primary">Get Started</Button>
-            <Button classes="ghost">More info</Button>
+            <Button classes="btn-primary">Get Started</Button>
+            <Button classes="btn-ghost">More info</Button>
           </div>
         </div>
       </Card>
@@ -110,8 +110,8 @@
           <h2 class="card-title">Image on other side <Badge>NEW</Badge></h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
-            <Button classes="primary">Get Started</Button>
-            <Button classes="ghost">More info</Button>
+            <Button classes="btn-primary">Get Started</Button>
+            <Button classes="btn-ghost">More info</Button>
           </div>
         </div>
         <figure class="w-1/3">
@@ -129,8 +129,8 @@
           <h2 class="card-title">No Images</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
-            <Button classes="primary">Get Started</Button>
-            <Button classes="ghost">More info</Button>
+            <Button classes="btn-primary">Get Started</Button>
+            <Button classes="btn-ghost">More info</Button>
           </div>
         </div>
       </Card>
@@ -143,7 +143,7 @@
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-end space-x-2 card-actions">
-            <Button classes="primary">
+            <Button classes="btn-primary">
               More info
               <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
             </Button>
@@ -154,7 +154,7 @@
       <Card class="shadow-2xl side bg-secondary text-content-secondary">
         <div class="card-body">
           <div class="justify-end space-x-2 card-actions">
-            <Button classes="secondary square">
+            <Button classes="btn-secondary btn-square">
               <Icon glyph="close" class="inline-block w-6 stroke-current" />
             </Button>
           </div>
@@ -166,8 +166,8 @@
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-center space-x-2 card-actions">
-            <Button classes="accent">Start now</Button>
-            <Button classes="accent">More info</Button>
+            <Button classes="btn-accent">Start now</Button>
+            <Button classes="btn-accent">More info</Button>
           </div>
         </div>
       </Card>

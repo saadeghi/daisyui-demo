@@ -2,42 +2,42 @@
   <div>
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-x-0 space-y-2 md:space-y-0 flex-col md:flex-row" title="badge">
       <Badge>neutral</Badge>
-      <Badge class=" primary">primary</Badge>
-      <Badge class=" secondary">secondary</Badge>
-      <Badge class=" accent">accent</Badge>
-      <Badge class=" ghost">ghost</Badge>
+      <Badge class="badge-primary">primary</Badge>
+      <Badge class="badge-secondary">secondary</Badge>
+      <Badge class="badge-accent">accent</Badge>
+      <Badge class="badge-ghost">ghost</Badge>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-x-0 space-y-2 md:space-y-0 flex-col md:flex-row" title="badge size">
-      <Badge class=" ghost lg">987,654</Badge>
-      <Badge class=" ghost">987,654</Badge>
-      <Badge class=" ghost sm">987,654</Badge>
+      <Badge class="badge-ghost badge-lg">987,654</Badge>
+      <Badge class="badge-ghost">987,654</Badge>
+      <Badge class="badge-ghost badge-sm">987,654</Badge>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-x-0 space-y-2 md:space-y-0 flex-col md:flex-row" title="badge variants">
-      <Badge class=" info">
+      <Badge class="badge-info">
         <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
         info
       </Badge>
-      <Badge class=" success">
+      <Badge class="badge-success">
         <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
         success
       </Badge>
-      <Badge class=" warning">
+      <Badge class="badge-warning">
         <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
         warning
       </Badge>
-      <Badge class=" error">
+      <Badge class="badge-error">
         <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
         error
       </Badge>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-x-0 space-y-2 md:space-y-0 flex-col md:flex-row" title="badge outline">
-      <Badge class=" outline">neutral</Badge>
-      <Badge class=" primary outline">primary</Badge>
-      <Badge class=" secondary outline">secondary</Badge>
-      <Badge class=" accent outline">accent</Badge>
+      <Badge class="badge-outline">neutral</Badge>
+      <Badge class="badge-primary badge-outline">primary</Badge>
+      <Badge class="badge-secondary badge-outline">secondary</Badge>
+      <Badge class="badge-accent badge-outline">accent</Badge>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-x-0 space-y-2 md:space-y-0 flex-col md:flex-row" title="Badg in text">
@@ -45,31 +45,31 @@
         <div>
           <h2 class="mb-5 text-2xl">
             Heading
-            <Badge class="outline">New</Badge>
+            <Badge class="badge-outline">New</Badge>
           </h2>
         </div>
         <div>
           <h2 class="mb-5 text-xl">
             Heading
-            <Badge class="outline">New</Badge>
+            <Badge class="badge-outline">New</Badge>
           </h2>
         </div>
         <div>
           <h2 class="mb-5 text-lg">
             Heading
-            <Badge class="outline">New</Badge>
+            <Badge class="badge-outline">New</Badge>
           </h2>
         </div>
         <div>
           <h2 class="mb-5 text-md">
             Heading
-            <Badge class="outline">New</Badge>
+            <Badge class="badge-outline">New</Badge>
           </h2>
         </div>
         <div>
           <h2 class="mb-5 text-sm">
             Heading
-            <Badge class="outline">New</Badge>
+            <Badge class="badge-outline">New</Badge>
           </h2>
         </div>
       </div>
@@ -80,17 +80,17 @@
         Version 2.7.0
         <Badge class="ml-2">new</Badge>
       </Button>
-      <Button classes=" primary">
+      <Button classes="btn-primary">
         Inbox
-        <Badge class="ml-2 outline">3</Badge>
+        <Badge class="ml-2 badge-outline">3</Badge>
       </Button>
-      <Button classes=" secondary outline">
+      <Button classes="btn-secondary btn-outline">
         Notifications
-        <Badge class="ml-2 outline">+999</Badge>
+        <Badge class="ml-2 badge-outline">+999</Badge>
       </Button>
-      <Button classes=" accent">
+      <Button classes="btn-accent">
         accent
-        <Badge class="ml-2 outline">new</Badge>
+        <Badge class="ml-2 badge-outline">new</Badge>
       </Button>
     </Wrapper>
   </div>

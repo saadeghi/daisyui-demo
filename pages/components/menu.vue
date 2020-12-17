@@ -1,8 +1,8 @@
 <template>
   <div>
     <Wrapper title="veritcal with icons" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="py-3 shadow-2xl text-content-700 bg-content-100 rounded-box">
+      <div class="py-4 artboard artboard-demo bg-content-100">
+        <Menu class="py-3 shadow-lg bg-default text-content-700 rounded-box">
           <MenuItem class="menu-title">
             <span>
               Menu Title
@@ -30,8 +30,8 @@
       </div>
     </Wrapper>
     <Wrapper title="veritcal with icons and padding" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="p-4 shadow-2xl text-content-700 bg-content-100 rounded-box">
+      <div class="py-4 artboard artboard-demo bg-content-100">
+        <Menu class="p-4 shadow-lg bg-default text-content-700 rounded-box">
           <MenuItem class="menu-title">
             <span>
               Menu Title
@@ -59,8 +59,8 @@
       </div>
     </Wrapper>
     <Wrapper title="bordered, hover-bordered, disabled" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="py-4 shadow-2xl text-content-700 bg-content-100 rounded-box">
+      <div class="py-4 artboard artboard-demo bg-content-100">
+        <Menu class="py-4 shadow-lg bg-default text-content-700 rounded-box">
           <MenuItem class="menu-title">
             <span>
               Menu Title
@@ -88,8 +88,8 @@
       </div>
     </Wrapper>
     <Wrapper title="horizontal" classes="flex flex-col space-y-2">
-      <div class="p-10 bg-content-400 rounded-box">
-        <Menu class="items-stretch px-3 shadow-2xl text-content-700 bg-content-100 horizontal rounded-box">
+      <div class="py-4 artboard artboard-demo bg-content-100">
+        <Menu class="items-stretch px-3 shadow-lg bg-default text-content-700 horizontal rounded-box">
           <MenuItem>
             <a>
               With link
@@ -119,8 +119,8 @@
     </Wrapper>
 
     <Wrapper title="veritcal with icon" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="w-16 py-3 shadow-2xl text-content-700 bg-content-100 rounded-box">
+      <div class="py-4 artboard artboard-demo bg-content-100">
+        <Menu class="w-16 py-3 shadow-lg bg-default text-content-700 rounded-box">
           <MenuItem>
             <a>
               <Icon glyph="bell" class="inline-block w-6 stroke-current" />
@@ -142,8 +142,8 @@
 
 
     <Wrapper title="horizontal with icon" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="px-3 shadow-2xl text-content-700 bg-content-100 rounded-box horizontal">
+      <div class="py-4 artboard artboard-demo bg-content-100">
+        <Menu class="px-3 shadow-lg bg-default text-content-700 rounded-box horizontal">
           <MenuItem>
             <a>
               <Icon glyph="bell" class="inline-block w-6 stroke-current" />
@@ -164,8 +164,8 @@
     </Wrapper>
 
     <Wrapper title="veritcal with submenu" classes="flex flex-col space-y-2">
-      <div class="p-10 w-96 bg-content-400 rounded-box">
-        <Menu class="p-4 shadow-2xl text-content-700 bg-content-100 rounded-box">
+      <div class="py-4 artboard artboard-demo bg-content-100">
+        <Menu class="p-4 shadow-lg bg-default text-content-700 rounded-box">
           <MenuItem>
             <a>
               <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />

@@ -10,7 +10,7 @@
             <p class="mb-5">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
             </p>
-            <Button class="primary">Get Started</Button>
+            <Button class="btn-primary">Get Started</Button>
           </div>
         </div>
       </Hero>
@@ -25,7 +25,7 @@
             <p class="mb-5">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
             </p>
-            <Button class="primary">Get Started</Button>
+            <Button class="btn-primary">Get Started</Button>
           </div>
           <div class="hero-figure">
             <img class="rounded-lg shadow-2xl" src="https://picsum.photos/id/1005/600/600" />
@@ -48,19 +48,22 @@
             <Card class="shadow-2xl bg-default">
               <div class="card-body">
                 <FormControl>
-                  <label>
+                  <label class="label">
                     <span class="label-text">Email</span>
                   </label>
-                  <Input type="text" placeholder="email" />
+                  <Input class="input-text bordered" type="text" placeholder="email" />
                 </FormControl>
                 <FormControl>
-                  <label>
+                  <label class="label">
                     <span class="label-text">Password</span>
                   </label>
-                  <Input type="text" placeholder="password" />
+                  <Input class="input-text bordered" type="text" placeholder="password" />
+                  <label class="label">
+                    <a href="#" class="label-text-alt">Forgot password?</a>
+                  </label>
                 </FormControl>
                 <FormControl class="mt-6">
-                  <input class="btn primary" type="button" value="Register">
+                  <input class="btn btn-primary" type="button" value="Login">
                 </FormControl>
               </div>
             </Card>
@@ -78,7 +81,7 @@
             <p class="mb-5">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
             </p>
-            <Button class="primary">Get Started</Button>
+            <Button class="btn-primary">Get Started</Button>
           </div>
         </div>
       </Hero>

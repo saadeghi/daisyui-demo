@@ -1,7 +1,7 @@
 <template>
   <div>
     <Wrapper title="input" classes="flex flex-col space-y-2 w-92">
-      <div class="p-10 w-96 bg-content-100 rounded-box">
+      <div class="py-4 artboard phone artboard-demo bg-content-100">
         <FormControl>
           <label class="label">
             <span class="label-text">Username</span>
@@ -11,7 +11,7 @@
       </div>
     </Wrapper>
     <Wrapper title="input" classes="flex flex-col space-y-2 w-92">
-      <div class="p-10 w-96 bg-content-100 rounded-box">
+      <div class="py-4 artboard phone artboard-demo bg-content-100">
         <FormControl>
           <label class="label">
             <span class="label-text">Username</span>
@@ -21,7 +21,7 @@
       </div>
     </Wrapper>
     <Wrapper title="input" classes="flex flex-col space-y-2 w-92">
-      <div class="p-10 w-96 bg-content-100 rounded-box">
+      <div class="py-4 artboard phone artboard-demo bg-content-100">
         <FormControl>
           <label class="label">
             <span class="label-text">Username</span>
@@ -31,7 +31,7 @@
       </div>
     </Wrapper>
     <Wrapper title="input helper texts" classes="flex flex-col space-y-2 w-92">
-      <div class="p-10 w-96 bg-content-100 rounded-box">
+      <div class="py-4 artboard phone artboard-demo bg-content-100">
         <FormControl>
           <label class="label">
             <span class="label-text">Username</span>
@@ -48,7 +48,7 @@
       </div>
     </Wrapper>
     <Wrapper title="input states" classes="flex flex-col space-y-2 w-92">
-      <div class="p-10 w-96 bg-content-100 rounded-box">
+      <div class="py-4 artboard phone artboard-demo bg-content-100">
         <FormControl>
           <label class="label">
             <span class="label-text">Username</span>

@@ -48,8 +48,8 @@
           <label class="mx-3">Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
         <div class="alert-grow-0">
-          <Button classes="sm ghost mr-2">Cancel</Button>
-          <Button classes="sm primary">Apply</Button>
+          <Button classes="btn-sm btn-ghost mr-2">Cancel</Button>
+          <Button classes="btn-sm btn-primary">Apply</Button>
         </div>
       </Alert>
     </Wrapper>
@@ -60,7 +60,7 @@
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
         <div class="alert-grow-0">
-          <Button classes="sm ghost">
+          <Button classes="btn-sm btn-ghost">
             <Icon glyph="bell" class="inline-block w-4 mr-2 stroke-current" />
             Remind me later
           </Button>
@@ -83,7 +83,7 @@
           </label>
         </div>
         <div class="alert-grow-0">
-          <Button class="sm ghost square">
+          <Button class="btn-sm btn-ghost btn-square">
             <Icon glyph="dots" class="w-6 stroke-current" />
           </Button>
         </div>
