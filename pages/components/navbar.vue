@@ -68,7 +68,7 @@
           </div>
           <div class="navbar-grow-0">
             <FormControl>
-              <Input type="text" placeholder="Search" />
+              <Input type="text" class="ghost" placeholder="Search" />
             </FormControl>
           </div>
           <div class="navbar-grow-0">
