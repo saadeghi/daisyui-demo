@@ -35,8 +35,9 @@ export default {
 
     // I'm using this theme config instead of original one because color names change when they convert to json object
     // ...(process.env.NODE_ENV === 'production' ? [] : ['~/assets/css/daisy-config']),
-    '~/assets/css/daisy-config',
+    // '~/assets/css/daisy-config',
 
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/config']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/accordion']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/alert']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/avatar']),
