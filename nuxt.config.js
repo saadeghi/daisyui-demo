@@ -21,6 +21,7 @@ export default {
     'node_modules/tailwindcss/base',
     'node_modules/tailwindcss/components',
 
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/typography']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/accordion']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/alert']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/avatar']),
