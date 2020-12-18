@@ -8,8 +8,8 @@
     </div>
     <div class="my-16 text-center">
       <p>
-        <a target="_blank" href="https://packagephobia.com/result?p=daisyui">
-          <img class="inline-block" src="https://badgen.net/packagephobia/publish/daisyui?label=package%20install%20size&amp;icon=npm&amp;color=purple" alt="">
+        <a target="_blank" href="https://bundlephobia.com/result?p=daisyui">
+          <img class="inline-block" src="https://badgen.net/bundlephobia/min/daisyui?&color=purple" alt="">
         </a>
         <a target="_blank" href="https://unpkg.com/daisyui@latest/dist/base.css">
           <img class="inline-block" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/base.css?label=base.css%20size&amp;color=purple" alt="">
