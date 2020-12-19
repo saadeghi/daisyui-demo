@@ -1,42 +1,5 @@
 /*! purgecss start ignore */
-:root {
-  --d: 0 0% 100%; /* default */
 
-  --p1: 259 94% 61%; /* primary-1 */
-  --p2: 259 94% 51%; /* primary-2 */
-  --p3: 259 94% 41%; /* primary-3 */
-
-  --s1: 314 100% 57%; /* secondary-1 */
-  --s2: 314 100% 47%; /* secondary-2 */
-  --s3: 314 100% 37%; /* secondary-3 */
-
-  --a1: 174 60% 61%; /* accent-1 */
-  --a2: 174 60% 51%; /* accent-2 */
-  --a3: 174 60% 41%; /* accent-3 */
-
-  --cp: 0 0% 100%; /* content-primary */
-  --cs: 0 0% 100%; /* content-secondary */
-  --ca: 0 0% 100%; /* content-accent */
-
-  --c1: 220 14% 96%; /* content-1 */
-  --c2: 228 14% 93%; /* content-2 */
-  --c3: 220 15% 84%; /* content-3 */
-  --c4: 218 14% 65%; /* content-4 */
-  --c5: 220 14% 46%; /* content-5 */
-  --c6: 220 14% 37%; /* content-6 */
-  --c7: 219 14% 28%; /* content-7 */
-  --c8: 222 13% 19%; /* content-8 */
-  --c9: 223 14% 10%; /* content-9 */
-
-  --in: 207 90% 54%; /* info */
-  --su: 174 100% 29%; /* success */
-  --wa: 36 100% 50%; /* warning */
-  --er: 14 100% 57%; /* error */
-
-  --rounded-box: 1rem;
-  --rounded-btn: 0.5rem;
-  --rounded-badge: 9999px;
-}
 
 [data-theme='dark'] {
   --d: 223 14% 10%;
