@@ -4,7 +4,7 @@
       <Progress value="60" max="100"></Progress>
       <Progress max="100"></Progress>
       <Progress value="60"></Progress>
-      <Progress>xxx</Progress>
+      <Progress></Progress>
     </Wrapper>
   </div>
 </template>
