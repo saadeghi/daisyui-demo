@@ -87,7 +87,7 @@ export default {
         {id: 'black', name:'⬛️ black'},
         {id: 'retro', name:'👴 retro'},
         {id: 'dracula', name:'🧛‍♂️ dracula'},
-        {id: 'christmas', name:'🎄 christmas'},
+        {id: 'synthwave', name:'🌃 synthwave'},
       ],
     }
   },
