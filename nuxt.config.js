@@ -33,6 +33,7 @@ export default {
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/hero']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/artboard']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/navbar']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/progress']),
 
     // I'm using this theme config instead of original one because color names change when they convert to json object
     // ...(process.env.NODE_ENV === 'production' ? [] : ['~/assets/css/daisy-config']),
@@ -51,6 +52,7 @@ export default {
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/hero']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/artboard']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/navbar']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/progress']),
 
     'node_modules/tailwindcss/utilities',
 
