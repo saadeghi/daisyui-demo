@@ -7,7 +7,7 @@
       <Navbar class="flex-none w-full bg-content-800 text-content-100">
         <div class="navbar-grow-0">
           <Button classes="btn-circle btn-ghost">
-            <Icon glyph="menu" class="inline-block w-6 stroke-current" />
+            <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
           </Button>
         </div>
         <div class="px-2 mx-2 navbar-grow">
@@ -17,7 +17,7 @@
         </div>
         <div class="navbar-grow-0">
           <Button classes="btn-circle btn-ghost">
-            <Icon glyph="search" class="inline-block w-6 stroke-current" />
+            <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
           </Button>
         </div>
       </Navbar>
@@ -43,27 +43,27 @@
       >
         <MenuItem>
           <a>
-            <Icon glyph="bell" class="inline-block w-6 stroke-current" />
+            <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
           </a>
         </MenuItem>
         <MenuItem>
           <a>
-            <Icon glyph="code" class="inline-block w-6 stroke-current" />
+            <Icon glyph="code" class="inline-block w-6 h-6 stroke-current" />
           </a>
         </MenuItem>
         <MenuItem>
           <a>
-            <Icon glyph="eye" class="inline-block w-6 stroke-current" />
+            <Icon glyph="eye" class="inline-block w-6 h-6 stroke-current" />
           </a>
         </MenuItem>
         <MenuItem>
           <a>
-            <Icon glyph="folder" class="inline-block w-6 stroke-current" />
+            <Icon glyph="folder" class="inline-block w-6 h-6 stroke-current" />
           </a>
         </MenuItem>
         <MenuItem>
           <a>
-            <Icon glyph="info" class="inline-block w-6 stroke-current" />
+            <Icon glyph="info" class="inline-block w-6 h-6 stroke-current" />
           </a>
         </MenuItem>
       </Menu>

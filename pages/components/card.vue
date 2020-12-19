@@ -145,7 +145,7 @@
           <div class="justify-end space-x-2 card-actions">
             <Button classes="btn-primary">
               More info
-              <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
+              <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
             </Button>
           </div>
         </div>
@@ -155,7 +155,7 @@
         <div class="card-body">
           <div class="justify-end space-x-2 card-actions">
             <Button classes="btn-secondary btn-square">
-              <Icon glyph="close" class="inline-block w-6 stroke-current" />
+              <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>

@@ -66,19 +66,19 @@
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="icon button start">
       <Button classes="btn-lg">
-        <Icon glyph="close" class="inline-block w-6 mr-2 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 mr-2 stroke-current" />
         Large
       </Button>
       <Button classes="">
-        <Icon glyph="close" class="inline-block w-6 mr-2 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 mr-2 stroke-current" />
         Normal
       </Button>
       <Button classes="btn-sm">
-        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 mr-2 stroke-current" />
         Small
       </Button>
       <Button classes="btn-xs">
-        <Icon glyph="close" class="inline-block w-4 mr-1 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 mr-1 stroke-current" />
         Tiny
       </Button>
     </Wrapper>
@@ -86,82 +86,82 @@
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="icon button end">
       <Button classes="btn-lg">
         Large
-        <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
+        <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </Button>
       <Button classes="">
         Normal
-        <Icon glyph="arrow" class="inline-block w-6 ml-2 stroke-current" />
+        <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </Button>
       <Button classes="btn-sm">
         Small
-        <Icon glyph="arrow" class="inline-block w-4 ml-2 stroke-current" />
+        <Icon glyph="arrow" class="inline-block w-4 h-4 ml-2 stroke-current" />
       </Button>
       <Button classes="btn-xs">
         Tiny
-        <Icon glyph="arrow" class="inline-block w-4 ml-1 stroke-current" />
+        <Icon glyph="arrow" class="inline-block w-4 h-4 ml-1 stroke-current" />
       </Button>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button shapes">
       <Button classes="btn-circle btn-lg">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
       </Button>
       <Button classes="btn-circle">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
       </Button>
       <Button classes="btn-circle btn-sm">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 stroke-current" />
       </Button>
       <Button classes="btn-circle btn-xs">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 stroke-current" />
       </Button>
 
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button shapes">
       <Button classes="btn-square btn-lg">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
       </Button>
       <Button classes="btn-square">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
       </Button>
       <Button classes="btn-square btn-sm">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 stroke-current" />
       </Button>
       <Button classes="btn-square btn-xs">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 stroke-current" />
       </Button>
 
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button shapes">
       <Button classes="btn-outline btn-circle btn-lg">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
       </Button>
       <Button classes="btn-outline btn-circle">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
       </Button>
       <Button classes="btn-outline btn-circle btn-sm">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 stroke-current" />
       </Button>
       <Button classes="btn-outline btn-circle btn-xs">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 stroke-current" />
       </Button>
 
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button shapes">
       <Button classes="btn-outline btn-square btn-lg">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
       </Button>
       <Button classes="btn-outline btn-square">
-        <Icon glyph="close" class="inline-block w-6 stroke-current" />
+        <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" />
       </Button>
       <Button classes="btn-outline btn-square btn-sm">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 stroke-current" />
       </Button>
       <Button classes="btn-outline btn-square btn-xs">
-        <Icon glyph="close" class="inline-block w-4 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 stroke-current" />
       </Button>
     </Wrapper>
 

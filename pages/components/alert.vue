@@ -3,7 +3,7 @@
     <Wrapper title="alert" classes="flex flex-col space-y-2">
       <Alert>
         <div class="alert-grow">
-          <Icon glyph="info" class="w-6 mx-2" color="#2196f3" />
+          <Icon glyph="info" class="w-6 h-6 mx-2" color="#2196f3" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
       </Alert>
@@ -12,7 +12,7 @@
     <Wrapper title="alert state: info" classes="flex flex-col space-y-2">
       <Alert class="alert-info">
         <div class="alert-grow">
-          <Icon glyph="info" class="w-6 mx-2 stroke-current" />
+          <Icon glyph="info" class="w-6 h-6 mx-2 stroke-current" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
       </Alert>
@@ -20,7 +20,7 @@
     <Wrapper title="alert state: success" classes="flex flex-col space-y-2">
       <Alert class="alert-success">
         <div class="alert-grow">
-          <Icon glyph="folder" class="w-6 mx-2 stroke-current" />
+          <Icon glyph="folder" class="w-6 h-6 mx-2 stroke-current" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
       </Alert>
@@ -28,7 +28,7 @@
     <Wrapper title="alert state: warning" classes="flex flex-col space-y-2">
       <Alert class="alert-warning">
         <div class="alert-grow">
-          <Icon glyph="warning" class="w-6 mx-2 stroke-current" />
+          <Icon glyph="warning" class="w-6 h-6 mx-2 stroke-current" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
       </Alert>
@@ -36,7 +36,7 @@
     <Wrapper title="alert state: error" classes="flex flex-col space-y-2">
       <Alert class="alert-error">
         <div class="alert-grow">
-          <Icon glyph="invalid" class="w-6 mx-2 stroke-current" />
+          <Icon glyph="invalid" class="w-6 h-6 mx-2 stroke-current" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
       </Alert>
@@ -56,7 +56,7 @@
     <Wrapper title="alert" classes="flex flex-col space-y-2">
       <Alert>
         <div class="alert-grow">
-          <Icon glyph="invalid" class="w-6 mx-2" color="#ff5722" />
+          <Icon glyph="invalid" class="w-6 h-6 mx-2" color="#ff5722" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
         <div class="alert-grow-0">
@@ -70,7 +70,7 @@
     <Wrapper title="alert" classes="flex flex-col space-y-2">
       <Alert>
         <div class="alert-grow">
-          <Icon glyph="bell" class="flex-shrink-0 w-6 mx-2" color="#009688" />
+          <Icon glyph="bell" class="flex-shrink-0 w-6 h-6 mx-2" color="#009688" />
           <label>
             <h4>Lorem ipsum dolor sit!</h4>
             <p class="text-sm text-content-400">
@@ -84,7 +84,7 @@
         </div>
         <div class="alert-grow-0">
           <Button class="btn-sm btn-ghost btn-square">
-            <Icon glyph="dots" class="w-6 stroke-current" />
+            <Icon glyph="dots" class="w-6 h-6 stroke-current" />
           </Button>
         </div>
       </Alert>

@@ -15,13 +15,13 @@
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="eye" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="eye" class="inline-block w-5 h-5 mr-2 stroke-current" />
               Item with icon
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
               Item with icon
               <Badge class="ml-2 success">3</Badge>
             </a>
@@ -39,19 +39,19 @@
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="eye" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="eye" class="inline-block w-5 h-5 mr-2 stroke-current" />
               Item with icon
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="code" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="code" class="inline-block w-5 h-5 mr-2 stroke-current" />
               Item with icon
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
               Item with icon
             </a>
           </MenuItem>
@@ -68,19 +68,19 @@
           </MenuItem>
           <MenuItem class="bordered disabled">
             <a>
-              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
               Item is disabled
             </a>
           </MenuItem>
           <MenuItem class="bordered">
             <a>
-              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
               It has border
             </a>
           </MenuItem>
           <MenuItem class="hover-bordered">
             <a>
-              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
               It shows border on hover
             </a>
           </MenuItem>
@@ -109,7 +109,7 @@
             <a>
               <Icon
                 glyph="eye"
-                class="inline-block w-6 mr-2 stroke-current"
+                class="inline-block w-6 h-6 mr-2 stroke-current"
               />
               With icon
             </a>
@@ -123,17 +123,17 @@
         <Menu class="w-16 py-3 shadow-lg bg-default text-content-700 rounded-box">
           <MenuItem>
             <a>
-              <Icon glyph="bell" class="inline-block w-6 stroke-current" />
+              <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="code" class="inline-block w-6 stroke-current" />
+              <Icon glyph="code" class="inline-block w-6 h-6 stroke-current" />
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="eye" class="inline-block w-6 stroke-current" />
+              <Icon glyph="eye" class="inline-block w-6 h-6 stroke-current" />
             </a>
           </MenuItem>
         </Menu>
@@ -146,17 +146,17 @@
         <Menu class="px-3 shadow-lg bg-default text-content-700 rounded-box horizontal">
           <MenuItem>
             <a>
-              <Icon glyph="bell" class="inline-block w-6 stroke-current" />
+              <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="code" class="inline-block w-6 stroke-current" />
+              <Icon glyph="code" class="inline-block w-6 h-6 stroke-current" />
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="eye" class="inline-block w-6 stroke-current" />
+              <Icon glyph="eye" class="inline-block w-6 h-6 stroke-current" />
             </a>
           </MenuItem>
         </Menu>
@@ -168,31 +168,31 @@
         <Menu class="p-4 shadow-lg bg-default text-content-700 rounded-box">
           <MenuItem>
             <a>
-              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
               Level 1
             </a>
           </MenuItem>
           <MenuItem>
             <a>
-              <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+              <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
               Level 1
             </a>
             <Menu>
               <MenuItem>
                 <a>
-                  <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+                  <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
                   Level 2
                 </a>
               </MenuItem>
               <MenuItem>
                 <a>
-                  <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+                  <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
                   Level 2
                 </a>
                 <Menu>
                   <MenuItem>
                     <a>
-                      <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+                      <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
                       Level 3
                     </a>
                   </MenuItem>
@@ -200,7 +200,7 @@
               </MenuItem>
               <MenuItem>
                 <a>
-                  <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
+                  <Icon glyph="folder" class="inline-block w-5 h-5 mr-2 stroke-current" />
                   Level 2
                 </a>
               </MenuItem>

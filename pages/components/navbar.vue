@@ -5,7 +5,7 @@
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="menu" class="inline-block w-6 stroke-current" />
+              <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="px-2 mx-2 navbar-grow">
@@ -15,7 +15,7 @@
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="dots" class="inline-block w-6 stroke-current" />
+              <Icon glyph="dots" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
         </Navbar>
@@ -26,7 +26,7 @@
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="back" class="inline-block w-6 stroke-current text-success" />
+              <Icon glyph="back" class="inline-block w-6 h-6 stroke-current text-success" />
             </Button>
           </div>
           <div class="px-2 mx-2 navbar-grow">
@@ -47,7 +47,7 @@
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="close" class="inline-block w-6 stroke-current text-error" />
+              <Icon glyph="close" class="inline-block w-6 h-6 stroke-current text-error" />
             </Button>
           </div>
         </Navbar>
@@ -58,7 +58,7 @@
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="menu" class="inline-block w-6 stroke-current" />
+              <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="px-2 mx-2 navbar-grow">
@@ -73,12 +73,12 @@
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="search" class="inline-block w-6 stroke-current" />
+              <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="bell" class="inline-block w-6 stroke-current" />
+              <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="navbar-grow-0">
@@ -118,12 +118,12 @@
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="heart" class="inline-block w-6 stroke-current" />
+              <Icon glyph="heart" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="search" class="inline-block w-6 stroke-current" />
+              <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
         </Navbar>
@@ -163,7 +163,7 @@
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="menu" class="inline-block w-6 stroke-current" />
+              <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
         </Navbar>
@@ -197,12 +197,12 @@
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="bell" class="inline-block w-6 stroke-current" />
+              <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="navbar-grow-0">
             <Button classes="square btn-ghost">
-              <Icon glyph="search" class="inline-block w-6 stroke-current" />
+              <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
         </Navbar>
