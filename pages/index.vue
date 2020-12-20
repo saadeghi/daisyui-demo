@@ -71,7 +71,7 @@
           </div>
           <p>Try it online</p>
           <div class="justify-center space-x-2 card-actions">
-            <a class="shadow-lg btn btn-primary btn-active btn-block" href="https://play.tailwindcss.com/fF3zRoCJSr" target="_blank">
+            <a class="shadow-lg btn btn-primary btn-active btn-block" href="https://play.tailwindcss.com/hn9vnQsIn2" target="_blank">
               Tailwind Play
               <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
             </a>
