@@ -1,3 +1,14 @@
+function getFiles(path, format= 'css') {
+  const fs = require('fs');
+  let filesArray = [];
+  fs.readdirSync(path).forEach(file => {
+    if(file.endsWith('.' + format) && !file.startsWith('index')){
+      filesArray.push(path + '/' + file)
+    }
+  });
+  return filesArray;
+}
+
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -20,40 +31,10 @@ export default {
     // '~/assets/css/tailwind',
     'node_modules/tailwindcss/base',
     'node_modules/tailwindcss/components',
-
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/typography']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/accordion']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/alert']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/avatar']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/badge']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/button']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/card']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/form']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/menu']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/hero']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/artboard']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/navbar']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/base/components/progress']),
-
-    // I'm using this theme config instead of original one because color names change when they convert to json object
-    // ...(process.env.NODE_ENV === 'production' ? [] : ['~/assets/css/daisy-config']),
-    '~/assets/css/daisy-config',
-    // 'node_modules/daisyui/styled/config',
-
-    // ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/config']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/accordion']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/alert']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/avatar']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/badge']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/button']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/card']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/form']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/menu']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/hero']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/artboard']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/navbar']),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/styled/components/progress']),
-
+    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/base')]),
+    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/base/components')]),
+    '~/assets/css/themes',
+    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/styled/components')]),
     'node_modules/tailwindcss/utilities',
 
   ],
