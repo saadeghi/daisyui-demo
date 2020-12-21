@@ -4,7 +4,7 @@
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
@@ -14,7 +14,7 @@
             </span>
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="dots" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
@@ -25,7 +25,7 @@
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="back" class="inline-block w-6 h-6 stroke-current text-success" />
             </Button>
           </div>
@@ -46,7 +46,7 @@
             </span>
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="close" class="inline-block w-6 h-6 stroke-current text-error" />
             </Button>
           </div>
@@ -57,7 +57,7 @@
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
@@ -72,12 +72,12 @@
             </FormControl>
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
@@ -117,12 +117,12 @@
 
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="heart" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
@@ -162,7 +162,7 @@
 
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
@@ -196,12 +196,12 @@
 
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
           <div class="navbar-grow-0">
-            <Button classes="square btn-ghost">
+            <Button classes="btn-square btn-ghost">
               <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
