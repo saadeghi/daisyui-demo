@@ -1,12 +1,12 @@
 <template>
-  <div class="grid grid-cols-3 gap-6 p-10 bg-content-100 rounded-box">
+  <div class="grid grid-cols-1 gap-6 p-10 xl:grid-cols-3 bg-content-100 rounded-box">
 
 
 
 
 
 
-    <Navbar class="col-span-3 shadow-lg bg-content-800 text-content-100 rounded-box">
+    <Navbar class="col-span-1 shadow-lg xl:col-span-3 bg-content-800 text-content-100 rounded-box">
       <div class="navbar-grow-0">
         <Button classes="btn-square btn-ghost">
           <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
@@ -136,7 +136,7 @@
 
 
 
-      <Card class="col-span-2 row-span-3 shadow-lg bg-default">
+      <Card class="col-span-1 row-span-3 shadow-lg xl:col-span-2 bg-default">
         <div class="card-body">
           <h2 class="my-4 text-4xl font-bold card-title">Top 10 UI Components</h2>
           <div class="mb-4 space-x-2 card-actions">
@@ -219,7 +219,7 @@
       </Menu>
 
 
-      <Alert class="col-span-2 bg-default">
+      <Alert class="col-span-1 xl:col-span-2 bg-default">
         <div class="alert-grow">
           <label class="mx-3">Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
@@ -229,14 +229,14 @@
         </div>
       </Alert>
 
-      <Alert class="col-span-2 alert-info">
+      <Alert class="col-span-1 xl:col-span-2 alert-info">
         <div class="alert-grow">
           <Icon glyph="info" class="w-6 h-6 mx-2 stroke-current" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
       </Alert>
 
-      <Alert class="col-span-2 alert-success">
+      <Alert class="col-span-1 xl:col-span-2 alert-success">
         <div class="alert-grow">
           <Icon glyph="folder" class="w-6 h-6 mx-2 stroke-current" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
