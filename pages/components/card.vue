@@ -92,10 +92,10 @@
     <Wrapper title="card with side image" classes="grid grid-cols-1 gap-6">
 
       <Card class="side bordered">
-        <figure class="w-1/3">
+        <figure class="lg:w-1/3">
           <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
-        <div class="w-2/3 card-body">
+        <div class="lg:w-2/3 card-body">
           <h2 class="card-title">Horizontal</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
@@ -106,7 +106,10 @@
       </Card>
 
       <Card class="side bordered">
-        <div class="w-2/3 card-body">
+        <figure class="lg:w-1/3">
+          <img src="https://picsum.photos/id/1005/600/400" />
+        </figure>
+        <div class="lg:w-2/3 card-body">
           <h2 class="card-title">Horizontal<Badge class="mx-2">NEW</Badge></h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
@@ -114,9 +117,6 @@
             <Button classes="btn-ghost">More info</Button>
           </div>
         </div>
-        <figure class="w-1/3">
-          <img src="https://picsum.photos/id/1005/600/400" />
-        </figure>
       </Card>
 
 
