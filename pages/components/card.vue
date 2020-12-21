@@ -2,20 +2,20 @@
   <div>
     <Wrapper title="card" classes="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <Card>
+      <Card class="bordered">
         <figure>
           <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">With button <Badge class="success">NEW</Badge></h2>
+          <h2 class="card-title">Top image<Badge class="mx-2 badge-secondary">NEW</Badge></h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="justify-end space-x-2 card-actions">
-            <Button>More info</Button>
+            <Button class="btn-secondary">More info</Button>
           </div>
         </div>
       </Card>
 
-      <Card>
+      <Card class="bordered">
         <div class="card-body">
           <h2 class="card-title">Image bottom</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
@@ -29,7 +29,7 @@
         </figure>
       </Card>
 
-      <Card>
+      <Card class="bordered">
         <figure>
           <img src="https://picsum.photos/id/1005/60/40" />
         </figure>
@@ -66,7 +66,7 @@
           <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="justify-end card-body">
-          <h2 class="card-title">Image bottom</h2>
+          <h2 class="card-title">Image overlay</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
             <Button classes="btn-primary">Get Started</Button>
@@ -91,12 +91,12 @@
 
     <Wrapper title="card with side image" classes="grid grid-cols-1 gap-6">
 
-      <Card class="side">
+      <Card class="side bordered">
         <figure class="w-1/3">
           <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="w-2/3 card-body">
-          <h2 class="card-title">Two Buttons</h2>
+          <h2 class="card-title">Horizontal</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
             <Button classes="btn-primary">Get Started</Button>
@@ -105,9 +105,9 @@
         </div>
       </Card>
 
-      <Card class="side">
+      <Card class="side bordered">
         <div class="w-2/3 card-body">
-          <h2 class="card-title">Image on other side <Badge>NEW</Badge></h2>
+          <h2 class="card-title">Horizontal<Badge class="mx-2">NEW</Badge></h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
             <Button classes="btn-primary">Get Started</Button>
@@ -124,7 +124,7 @@
 
     <Wrapper title="card with out image" classes="grid grid-cols-1 gap-6">
 
-      <Card class="side">
+      <Card class="side bordered">
         <div class="card-body">
           <h2 class="card-title">No Images</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
@@ -132,6 +132,24 @@
             <Button classes="btn-primary">Get Started</Button>
             <Button classes="btn-ghost">More info</Button>
           </div>
+        </div>
+      </Card>
+
+    </Wrapper>
+
+    <Wrapper title="card with out image" classes="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <Card class="shadow side">
+        <div class="card-body">
+          <h2 class="card-title">no border with shadow</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi</p>
+        </div>
+      </Card>
+
+      <Card class="shadow-lg side">
+        <div class="card-body">
+          <h2 class="card-title">no border with shadow</h2>
+          <p>Rerum reiciendis beatae tenetur excepturi</p>
         </div>
       </Card>
 
