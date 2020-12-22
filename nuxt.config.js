@@ -19,11 +19,10 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ...(process.env.NODE_ENV === 'production') ? {rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/styled.css'} : [],
+      ...(process.env.NODE_ENV === 'production') ? {rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/themes.css'} : [],
     ],
-    // script: [{src: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]
-    ...(process.env.NODE_ENV === 'production' ? {link: [{rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]} : []),
-    ...(process.env.NODE_ENV === 'production' ? {link: [{rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/themes.css'}]} : []),
 
   },
 
