@@ -20,8 +20,14 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      ...(process.env.NODE_ENV === 'production') ? {rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/styled.css'} : [],
-      ...(process.env.NODE_ENV === 'production') ? {rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/themes.css'} : [],
+      {
+        rel: 'stylesheet',
+        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@latest/dist/styled.css' : ''
+      },
+      {
+        rel: 'stylesheet',
+        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@latest/dist/themes.css' : ''
+      },
     ],
 
   },
