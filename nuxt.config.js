@@ -23,6 +23,7 @@ export default {
     ],
     // script: [{src: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]
     ...(process.env.NODE_ENV === 'production' ? {link: [{rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/styled.css'}]} : []),
+    ...(process.env.NODE_ENV === 'production' ? {link: [{rel: 'stylesheet',href: 'https://unpkg.com/daisyui@latest/dist/themes.css'}]} : []),
 
   },
 
@@ -33,7 +34,7 @@ export default {
     'node_modules/tailwindcss/components',
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/base')]),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/base/components')]),
-    '~/assets/css/themes',
+    // '~/assets/css/themes',
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/styled/components')]),
     'node_modules/tailwindcss/utilities',
 
