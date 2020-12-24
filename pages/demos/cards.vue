@@ -18,7 +18,7 @@
         </span>
       </div>
       <div class="flex justify-center px-2 mx-2 navbar-grow">
-        <div class="flex items-stretch">
+        <div class="items-stretch hidden lg:flex">
           <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
             Home
           </a>
