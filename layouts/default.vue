@@ -1,18 +1,29 @@
 <template>
   <div class="flex flex-col min-h-screen lg:flex-row">
-    <aside class="flex flex-col justify-between w-full h-auto border-r bg-default border-content-200 lg:sticky lg:w-1/5 lg:h-screen lg:top-0">
+    <aside :class="'flex flex-col justify-between w-full h-auto border-r bg-default border-content-200 lg:sticky lg:w-1/5 lg:h-screen lg:top-0 '">
       <div class="lg:overflow-y-auto">
-        <NuxtLink to="/" class="block m-4 mb-0 text-center rounded hover:bg-primary hover:bg-opacity-20">
-          <div class="inline-block mx-4 my-6 w-28" v-html="src"></div>
-        </NuxtLink>
-        <Menu class="flex flex-col p-4 pb-10 compact text-content-700">
+        <div class="flex items-center">
+
+          <NuxtLink to="/" class="mx-3 mb-0 text-center transition-all duration-300 ease-in-out rounded-btn flex-0 lg:flex-1 lg:text-center hover:bg-primary hover:bg-opacity-20 lg:mt-4 lg:mx-4">
+            <div class="inline-block w-20 mx-4 my-1 lg:my-6 lg:w-28" v-html="src"></div>
+          </NuxtLink>
+
+          <div class="flex-1 block lg:hidden"></div>
+
+          <button class="m-4 btn btn-ghost btn-circle flex-0 lg:hidden text-content-900" v-on:click="showMainMenu = !showMainMenu">
+            <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" v-if="!showMainMenu" />
+            <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" v-if="showMainMenu" />
+          </button>
+
+        </div>
+        <Menu :class="(showMainMenu ? ' flex ' : ' hidden ') + ' lg:flex flex-col p-4 pb-10 compact text-content-700 '">
           <MenuItem class="mt-4 menu-title">
             <span>
               Core
             </span>
           </MenuItem>
           <MenuItem v-for="(item, itemindex) in corePages" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
-            <NuxtLink class="capitalize" v-if="item.path" :to="item.path">
+            <NuxtLink class="capitalize" v-if="item.path" :to="item.path" v-on:click.native="showMainMenu = false">
               {{ item.name }}
             </NuxtLink>
             <span class="capitalize" v-if="!item.path">
@@ -29,7 +40,7 @@
             </span>
           </MenuItem>
           <MenuItem v-for="(item, itemindex) in componentPages" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
-            <NuxtLink class="capitalize" v-if="item.path" :to="item.path">
+            <NuxtLink class="capitalize" v-if="item.path" :to="item.path" v-on:click.native="showMainMenu = false">
               {{ item.name }}
             </NuxtLink>
             <span class="capitalize" v-if="!item.path">
@@ -46,7 +57,7 @@
             </span>
           </MenuItem>
           <MenuItem v-for="(item, itemindex) in demoPages" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
-            <NuxtLink class="capitalize" v-if="item.path" :to="item.path">
+            <NuxtLink class="capitalize" v-if="item.path" :to="item.path" v-on:click.native="showMainMenu = false">
               {{ item.name }}
             </NuxtLink>
             <span class="capitalize" v-if="!item.path">
@@ -59,14 +70,14 @@
           </MenuItem>
         </Menu>
     </div>
-      <div class="sticky bottom-0 w-full bg-content-200 focus-within:bg-content-300">
+      <div :class="(showMainMenu ? ' sticky ' : ' hidden ') + ' lg:block lg:sticky bottom-0 w-full bg-content-200 focus-within:bg-content-300'">
         <select class="w-full px-10 py-5 text-sm capitalize bg-transparent appearance-none text-content-900 curson-pointer focus:outline-none" data-choose-theme>
           <option value="">🎨 Change theme</option>
           <option v-for="(theme, index) in themes" :value="theme.id">{{ theme.name }}</option>
         </select>
       </div>
     </aside>
-    <main class="w-full p-10 bg-default text-content-900 lg:w-4/5">
+    <main :class="(showMainMenu ? ' hidden ' : ' block ') + ' lg:block w-full p-4 lg:p-10 bg-default text-content-900 lg:w-4/5'">
       <Nuxt />
     </main>
   </div>
@@ -91,6 +102,7 @@ export default {
         {id: 'black', name:'🏴 black'},
         {id: 'dracula', name:'🧛‍♂️ dracula'},
       ],
+      showMainMenu: false,
     }
   },
   created () {

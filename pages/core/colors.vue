@@ -122,7 +122,7 @@ See how components will look like using you color palette
 
 
 <div>
-  <div class="grid grid-cols-1 gap-6 p-10 xl:grid-cols-3 bg-content-100 rounded-box">
+  <div class="grid grid-cols-1 gap-6 lg:p-10 xl:grid-cols-3 lg:bg-content-100 rounded-box">
 
 
 
