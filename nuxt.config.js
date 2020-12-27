@@ -41,7 +41,7 @@ export default {
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/base/components')]),
     // '~/assets/css/themes',
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/styled/components')]),
-    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/themes')]),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/themes/index']),
     'node_modules/tailwindcss/utilities',
 
   ],
