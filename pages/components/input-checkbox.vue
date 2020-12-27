@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Wrapper title="input" classes="flex flex-col space-y-2 w-60">
-      <div class="p-6 card bordered w-92">
+    <Wrapper title="input" classes="flex flex-col space-y-2 max-w-xs">
+      <div class="p-6 card bordered">
         <FormControl>
           <label class="cursor-pointer label">
             <span class="label-text">Remember me</span>
@@ -10,8 +10,8 @@
         </FormControl>
       </div>
     </Wrapper>
-    <Wrapper title="input primary" classes="flex flex-col space-y-2 w-60">
-      <div class="p-6 card bordered w-92">
+    <Wrapper title="input primary" classes="flex flex-col space-y-2 max-w-xs">
+      <div class="p-6 card bordered">
         <FormControl>
           <label class="cursor-pointer label">
             <span class="label-text">Remember me</span>
@@ -20,8 +20,8 @@
         </FormControl>
       </div>
     </Wrapper>
-    <Wrapper title="input secondary" classes="flex flex-col space-y-2 w-60">
-      <div class="p-6 card bordered w-92">
+    <Wrapper title="input secondary" classes="flex flex-col space-y-2 max-w-xs">
+      <div class="p-6 card bordered">
         <FormControl>
           <label class="cursor-pointer label">
             <span class="label-text">Remember me</span>
@@ -30,8 +30,8 @@
         </FormControl>
       </div>
     </Wrapper>
-    <Wrapper title="input accent" classes="flex flex-col space-y-2 w-60">
-      <div class="p-6 card bordered w-92">
+    <Wrapper title="input accent" classes="flex flex-col space-y-2 max-w-xs">
+      <div class="p-6 card bordered">
         <FormControl>
           <label class="cursor-pointer label">
             <span class="label-text">Remember me</span>
