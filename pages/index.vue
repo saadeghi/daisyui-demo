@@ -3,7 +3,7 @@
     <div class="mx-auto mt-16 prose text-center text-content-800">
       <img class="inline-block" src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo.svg" alt="">
       <p>
-        Modern CSS components for Tailwind CSS
+        UI Components for Tailwind CSS
       </p>
     </div>
     <div class="my-16 text-center">
