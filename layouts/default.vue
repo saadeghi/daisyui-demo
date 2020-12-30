@@ -5,7 +5,7 @@
         <div class="flex items-center">
 
           <NuxtLink to="/" class="mx-3 mb-0 text-center transition-all duration-300 ease-in-out rounded-btn flex-0 lg:flex-1 lg:text-center hover:bg-primary hover:bg-opacity-20 lg:mt-4 lg:mx-4">
-            <div class="inline-block w-20 mx-4 my-1 lg:my-6 lg:w-28" v-html="src"></div>
+            <div class="inline-block w-20 mx-4 my-1 lg:my-6 lg:w-28" v-html="svgLogo"></div>
           </NuxtLink>
 
           <div class="flex-1 block lg:hidden"></div>
@@ -133,9 +133,8 @@ export default {
     })
   },
   computed: {
-    src() {
-        const src = require(`~/static/logo.svg?raw`)
-        return src
+    svgLogo() {
+      return require(`~/static/logo.svg?raw`)
     }
   }
 }

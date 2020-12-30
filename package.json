@@ -14,7 +14,7 @@
     "daisyui": "^0.3.18",
     "nuxt": "^2.14.6",
     "tailwindcss": "^2.0.1-compat",
-    "theme-change": "^1.0.60",
+    "theme-change": "^1.0.66",
     "vue-highlightjs": "^1.3.3"
   },
   "devDependencies": {
