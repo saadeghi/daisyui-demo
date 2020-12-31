@@ -1,3 +1,3 @@
 import Vue from 'vue'
-import {themeBtn} from "theme-change"
-Vue.use(themeBtn)
+import {themeSelect} from "theme-change"
+Vue.use(themeSelect)

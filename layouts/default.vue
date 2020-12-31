@@ -4,7 +4,7 @@
       <div class="lg:overflow-y-auto">
         <div class="flex items-center">
 
-          <NuxtLink to="/" class="mx-3 mb-0 text-center transition-all duration-300 ease-in-out rounded-btn flex-0 lg:flex-1 lg:text-center hover:bg-primary hover:bg-opacity-20 lg:mt-4 lg:mx-4">
+          <NuxtLink to="/" v-on:click.native="showMainMenu = false" class="mx-3 mb-0 text-center transition-all duration-300 ease-in-out rounded-btn flex-0 lg:flex-1 lg:text-center hover:bg-primary hover:bg-opacity-20 lg:mt-4 lg:mx-4">
             <div class="inline-block w-20 mx-4 my-1 lg:my-6 lg:w-28" v-html="svgLogo"></div>
           </NuxtLink>
 
@@ -69,15 +69,15 @@
             </span>
           </MenuItem>
         </Menu>
-    </div>
+      </div>
       <div :class="(showMainMenu ? ' sticky ' : ' hidden ') + ' lg:block lg:sticky bottom-0 w-full bg-content-200 focus-within:bg-content-300'">
-        <select class="w-full px-10 py-5 text-sm capitalize bg-transparent appearance-none text-content-900 curson-pointer focus:outline-none" data-choose-theme>
-          <option value="">🎨 Change theme</option>
+        <select class="w-full px-10 py-5 text-sm capitalize bg-transparent appearance-none cursor-pointer text-content-900 focus:outline-none" data-choose-theme>
+          <option value="">🎨 theme: auto</option>
           <option v-for="(theme, index) in themes" :value="theme.id">{{ theme.name }}</option>
         </select>
       </div>
     </aside>
-    <main :class="(showMainMenu ? ' hidden ' : ' block ') + ' lg:block w-full p-4 lg:p-10 bg-default text-content-900 lg:w-4/5'">
+    <main :class="'block lg:block w-full p-4 lg:p-10 flex-grow bg-default text-content-900 lg:w-4/5'">
       <Nuxt />
     </main>
   </div>
@@ -94,14 +94,14 @@ export default {
       componentPages: [],
       demoPages: [],
       themes: [
-        {id: 'light', name:'🌝 light'},
-        {id: 'dark', name:'🌚 dark'},
-        {id: 'valentine', name:'🌸 valentine'},
-        {id: 'retro', name:'👴 retro'},
-        {id: 'synthwave', name:'🌃 synthwave'},
-        {id: 'cyberpunk', name:'🤖 cyberpunk'},
-        {id: 'black', name:'🏴 black'},
-        {id: 'dracula', name:'🧛‍♂️ dracula'},
+        {id: 'light', name:'🌝 theme: light'},
+        {id: 'dark', name:'🌚 theme: dark'},
+        {id: 'valentine', name:'🌸 theme: valentine'},
+        {id: 'retro', name:'👴 theme: retro'},
+        {id: 'synthwave', name:'🌃 theme: synthwave'},
+        {id: 'cyberpunk', name:'🤖 theme: cyberpunk'},
+        {id: 'black', name:'🏴 theme: black'},
+        {id: 'dracula', name:'🧛‍♂️ theme: dracula'},
       ],
       showMainMenu: false,
     }

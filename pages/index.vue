@@ -1,66 +1,10 @@
 <template>
   <div>
     <div class="mx-auto mt-16 prose text-center text-content-800">
-      <div class="inline-block w-20 lg:w-44" v-html="svgLogo"></div>
+      <div class="inline-block w-44 lg:w-56" v-html="svgLogo"></div>
       <p>
         UI Components for Tailwind CSS
       </p>
-    </div>
-    <div class="flex space-x-4 h-36">
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="">
-        <div style="background: hsl(0 0% 100%)"></div>
-        <div style="background: hsl(259 94% 51%)"></div>
-        <div style="background: hsl(314 100% 47%)"></div>
-        <div style="background: hsl(174 60% 41%)"></div>
-      </div>
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="light">
-        <div style="background: hsl(0 0% 100%)"></div>
-        <div style="background: hsl(259 94% 51%)"></div>
-        <div style="background: hsl(314 100% 47%)"></div>
-        <div style="background: hsl(174 60% 41%)"></div>
-      </div>
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="dark">
-        <div style="background: hsl(223 14% 10%)"></div>
-        <div style="background: hsl(259 94% 51%)"></div>
-        <div style="background: hsl(314 100% 47%)"></div>
-        <div style="background: hsl(174 60% 51%)"></div>
-      </div>
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="valentine">
-        <div style="background: hsl(319 45% 89%)"></div>
-        <div style="background: hsl(353 74% 57%)"></div>
-        <div style="background: hsl(254 87% 67%)"></div>
-        <div style="background: hsl(181 55% 60%)"></div>
-      </div>
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="retro">
-        <div style="background: hsl(45 47% 80%)"></div>
-        <div style="background: hsl(3 74% 66%)"></div>
-        <div style="background: hsl(145 27% 62%)"></div>
-        <div style="background: hsl(49 67% 66%)"></div>
-      </div>
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="synthwave">
-        <div style="background: hsl(257 63% 17%)"></div>
-        <div style="background: hsl(321 70% 59%)"></div>
-        <div style="background: hsl(197 87% 75%)"></div>
-        <div style="background: hsl(48 89% 67%)"></div>
-      </div>
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="cyberpunk">
-        <div style="background: hsl(56 100% 50%)"></div>
-        <div style="background: hsl(344 100% 67%)"></div>
-        <div style="background: hsl(194 66% 61%)"></div>
-        <div style="background: hsl(276 76% 63%)"></div>
-      </div>
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="black">
-        <div style="background: hsl(0 0% 0%)"></div>
-        <div style="background: hsl(0 0% 100%)"></div>
-        <div style="background: hsl(0 0% 100%)"></div>
-        <div style="background: hsl(0 0% 100%)"></div>
-      </div>
-      <div class="grid w-8 grid-cols-1 overflow-hidden shadow cursor-pointer rounded-btn" data-set-theme="dracula">
-        <div style="background: hsl(233 13% 13%)"></div>
-        <div style="background: hsl(330 100% 75%)"></div>
-        <div style="background: hsl(115 100% 75%)"></div>
-        <div style="background: hsl(60 100% 75%)"></div>
-      </div>
     </div>
     <div class="my-16 text-center">
       <p>
