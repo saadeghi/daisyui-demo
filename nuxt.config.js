@@ -22,7 +22,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@latest/dist/styled.css' : ''
+        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@latest/dist/full.css' : ''
       },
       {
         rel: 'stylesheet',
@@ -39,7 +39,6 @@ export default {
     'node_modules/tailwindcss/components',
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/base')]),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/base/components')]),
-    // '~/assets/css/themes',
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/styled/components')]),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/src/themes/index']),
     'node_modules/tailwindcss/utilities',
