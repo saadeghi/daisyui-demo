@@ -17,7 +17,9 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
   ],
-  presets: [
-    process.env.NODE_ENV === 'production' ? require('daisyui/preset') : require('../daisyui/preset')
-  ],
+  theme: {
+    extend: {
+      colors: require('daisyui/colors')
+    },
+  },
 }
