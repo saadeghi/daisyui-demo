@@ -41,7 +41,7 @@
           <div class="flex justify-center">
             <Icon glyph="info" class="inline-block w-8 h-8 mb-4 stroke-current" />
           </div>
-          <p>Read full document on github</p>
+          <p>Read docs on github</p>
           <div class="justify-center space-x-2 card-actions">
             <a class="shadow-lg btn btn-secondary btn-active btn-block" href="https://github.com/saadeghi/daisyui" target="_blank">
               Github
