@@ -396,12 +396,11 @@ This is your custom color theme. add it to your CSS file!
 </template>}</code></pre>
 </div>
 
-
-<style v-if="applyCustomThemeToSite" v-for="(color, index) in colorValues">
+<component is="style" v-if="applyCustomThemeToSite" v-for="(color, index) in colorValues">
 :root {
   --{{ index }}: {{ color.hsl }};
 }
-</style>
+</component>
 
 
 
