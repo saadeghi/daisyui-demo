@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/components/input-toggle", {data:[{}],fetch:[],mutations:void 0});
