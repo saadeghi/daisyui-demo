@@ -69,6 +69,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    publicPath: '/nuxt-files/',
     parallel: true,
     cache: true,
     // hardSource: false,
@@ -79,5 +80,9 @@ export default {
         'tailwindcss': {},
       },
     }
-  }
+  },
+  target: 'static',
+  router: {
+    base: (process.env.ROUTER_BASE) ? process.env.ROUTER_BASE : '/'
+  },
 }
