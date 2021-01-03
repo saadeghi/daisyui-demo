@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "generate-for-gh": "ROUTER_BASE='/daisyui-demo/' nuxt generate",
     "gh-pages": "gh-pages -d dist",
-    "deploy-gh": "ROUTER_BASE='/daisyui-demo/' npm run generate && npm run gh-pages"
+    "deploy-gh": "npm run generate-for-gh && npm run gh-pages"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.3.1",
