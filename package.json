@@ -7,8 +7,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "generate-for-gh": "ROUTER_BASE='/daisyui-demo/' nuxt generate",
     "gh-pages": "gh-pages -d dist",
-    "deploy": "ROUTER_BASE='/daisyui-demo/' npm run generate && npm run gh-pages"
+    "deploy-gh": "ROUTER_BASE='/daisyui-demo/' npm run generate && npm run gh-pages"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.3.1",
