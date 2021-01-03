@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/components/input-checkbox", {data:[{}],fetch:[],mutations:void 0});
