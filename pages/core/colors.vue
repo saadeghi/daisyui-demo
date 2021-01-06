@@ -9,7 +9,7 @@
         <div class="pt-10 text-xl font-bold text-content-900">Customize colors!</div>
         <div>
         Click each color to change it, then use the
-        <a class="inline-block btn btn-sm" href="#output">generated theme ↓</a>
+        <NuxtLink to="#output" class="inline-block btn btn-sm">generated theme ↓</NuxtLink>
         on your site
         </div>
       </Wrapper>
@@ -32,14 +32,14 @@
 
         <div class="block h-16 md:h-40" v-for="(brand, index) in colors.brand">
           <div class="grid rounded h-14 md:h-32">
-            <div class="z-10 flex items-center justify-center col-start-1 row-start-1 place-self-center">
+            <div class="relative z-10 flex items-center justify-center col-start-1 row-start-1 place-self-center">
               <label :class="'transform transition-all cursor-pointer hover:-translate-y-1 font-black tracking-widest uppercase ' + colors['contentBrand'][index]['class']" :for="colors['contentBrand'][index]['name']">
                 {{ index }}
               </label>
               <input
                 type="color"
                 :id="colors['contentBrand'][index]['name']"
-                class="absolute invisible h-0 opacity-0 top-14 md:top-32"
+                class="absolute top-0 invisible opacity-0"
                 v-model="colorValues[colors['contentBrand'][index]['name']]['hex']"
                 v-on:change="hexToHsl(colors['contentBrand'][index]['name']); applyCustomThemeToSite = true; showCustomThemeTogglerSwitch = true; "
               >
@@ -50,7 +50,7 @@
                 <input
                   type="color"
                   :id="shade.name"
-                  class="absolute invisible h-0 opacity-0 top-14 md:top-32"
+                  class="absolute top-0 invisible opacity-0"
                   v-model="colorValues[shade.name]['hex']"
                   v-on:change="hexToHsl(shade.name); applyCustomThemeToSite = true; showCustomThemeTogglerSwitch = true; "
                 >
@@ -62,23 +62,23 @@
 
       </Wrapper>
       <Wrapper title="content colors" classes="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-6" nocode>
-        <div class="block h-16 md:h-40">
+        <div class="relative block h-16 md:h-40">
           <label class="block overflow-hidden transition-all transform rounded shadow-lg cursor-pointer hover:-translate-y-1 h-14 md:h-32 bg-default" for="d"></label>
           <input
             type="color"
             id="d"
-            class="absolute invisible h-0 opacity-0"
+            class="absolute top-0 invisible opacity-0"
             v-model="colorValues['d']['hex']"
             v-on:change="hexToHsl('d'); applyCustomThemeToSite = true; showCustomThemeTogglerSwitch = true; "
           >
           <div class="pt-2 mb-4 text-xs uppercase opacity-25">default</div>
         </div>
-        <div class="block h-16 md:h-40" v-for="(color, index) in colors.content">
+        <div class="relative block h-16 md:h-40" v-for="(color, index) in colors.content">
           <label :class="'block h-14 md:h-32 overflow-hidden rounded shadow-lg cursor-pointer transform hover:-translate-y-1 transition-all ' + color.class" :for="color.name"></label>
           <input
             type="color"
             :id="color.name"
-            class="absolute invisible h-0 opacity-0"
+            class="absolute top-0 invisible opacity-0"
             v-model="colorValues[color.name]['hex']"
             v-on:change="hexToHsl(color.name); applyCustomThemeToSite = true; showCustomThemeTogglerSwitch = true; "
           >
@@ -86,12 +86,12 @@
         </div>
       </Wrapper>
       <Wrapper title="State colors" classes="grid grid-cols-2 md:grid-cols-4 gap-6" nocode>
-        <div class="block h-16 md:h-40" v-for="(color, index) in colors.state">
+        <div class="relative block h-16 md:h-40" v-for="(color, index) in colors.state">
           <label :class="'block h-14 md:h-16 overflow-hidden rounded shadow-lg cursor-pointer transform hover:-translate-y-1 transition-all ' + color.class" :for="color.name"></label>
           <input
             type="color"
             :id="color.name"
-            class="absolute invisible h-0 opacity-0"
+            class="absolute top-0 invisible opacity-0"
             v-model="colorValues[color.name]['hex']"
             v-on:change="hexToHsl(color.name); applyCustomThemeToSite = true; showCustomThemeTogglerSwitch = true; "
           >
@@ -396,7 +396,7 @@ This is your custom color theme. add it to your CSS file!
 </template>}</code></pre>
 </div>
 
-<component is="style" v-if="applyCustomThemeToSite" v-for="(color, index) in colorValues">
+<component is="style" v-if="applyCustomThemeToSite" v-for="(color, index) in colorValues" :key="index">
 :root {
   --{{ index }}: {{ color.hsl }};
 }
