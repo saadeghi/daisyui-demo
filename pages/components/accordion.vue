@@ -41,7 +41,7 @@
       </Accordion>
     </Wrapper>
     <Wrapper title="accordion with arrow" classes="flex flex-col space-y-2">
-      <Accordion class="arrow">
+      <Accordion class="accordion-arrow">
         <AccordionItem
           classes="text-xl font-medium accordion-title"
           title="Aperiam iure expedita non fugit?"
@@ -84,7 +84,7 @@
       title="accordion with plus/minus"
       classes="flex flex-col space-y-2"
     >
-      <Accordion class="plus">
+      <Accordion class="accordion-plus">
         <AccordionItem
           classes="text-xl font-medium accordion-title"
           title="Aperiam iure expedita non fugit?"
@@ -125,7 +125,7 @@
     </Wrapper>
 
     <Wrapper title="accordion with border" classes="flex flex-col space-y-2">
-      <Accordion class="w-64 bordered arrow">
+      <Accordion class="w-64 accordion-bordered accordion-arrow">
         <AccordionItem
           classes="text-xl font-medium accordion-title"
           title="Aperiam iure?"

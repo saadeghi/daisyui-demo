@@ -1,5 +1,5 @@
 <template>
-  <li>
+  <li class="accordion-item">
     <input :id="'item-'+id" type="checkbox" />
     <label :for= "'item-'+id" :class="classes">
       {{  title }}
