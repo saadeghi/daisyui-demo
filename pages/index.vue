@@ -36,15 +36,29 @@
       </p>
     </div>
     <div class="grid grid-cols-1 gap-6 mt-10 lg:grid-cols-3">
-      <Card class="text-center shadow-2xl side bg-secondary text-content-accent">
+      <Card class="text-center shadow-2xl side bg-primary text-content-primary">
         <div class="card-body">
           <div class="flex justify-center">
             <Icon glyph="info" class="inline-block w-8 h-8 mb-4 stroke-current" />
           </div>
           <p>Read docs on github</p>
           <div class="justify-center space-x-2 card-actions">
-            <a class="shadow-lg btn btn-secondary btn-active btn-block" href="https://github.com/saadeghi/daisyui" target="_blank">
+            <a class="shadow-lg btn btn-primary btn-active btn-block" href="https://github.com/saadeghi/daisyui" target="_blank">
               Github
+              <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
+            </a>
+          </div>
+        </div>
+      </Card>
+      <Card class="text-center shadow-2xl side bg-secondary text-content-secondary">
+        <div class="card-body">
+          <div class="flex justify-center">
+            <Icon glyph="code" class="inline-block w-8 h-8 mb-4 stroke-current" />
+          </div>
+          <p>Use NPM package</p>
+          <div class="justify-center space-x-2 card-actions">
+            <a class="shadow-lg btn btn-secondary btn-active btn-block" href="https://www.npmjs.com/package/daisyui" target="_blank">
+              NPM
               <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
             </a>
           </div>
@@ -53,25 +67,11 @@
       <Card class="text-center shadow-2xl side bg-accent text-content-accent">
         <div class="card-body">
           <div class="flex justify-center">
-            <Icon glyph="code" class="inline-block w-8 h-8 mb-4 stroke-current" />
-          </div>
-          <p>Use NPM package</p>
-          <div class="justify-center space-x-2 card-actions">
-            <a class="shadow-lg btn btn-accent btn-active btn-block" href="https://www.npmjs.com/package/daisyui" target="_blank">
-              NPM
-              <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
-            </a>
-          </div>
-        </div>
-      </Card>
-      <Card class="text-center shadow-2xl side bg-primary text-content-accent">
-        <div class="card-body">
-          <div class="flex justify-center">
             <Icon glyph="eye" class="inline-block w-8 h-8 mb-4 stroke-current" />
           </div>
           <p>Try it online</p>
           <div class="justify-center space-x-2 card-actions">
-            <a class="shadow-lg btn btn-primary btn-active btn-block" href="https://play.tailwindcss.com/908kXKMIeO" target="_blank">
+            <a class="shadow-lg btn btn-accent btn-active btn-block" href="https://play.tailwindcss.com/908kXKMIeO" target="_blank">
               Tailwind Play
               <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
             </a>
