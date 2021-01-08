@@ -102,6 +102,7 @@ export default {
         {id: 'cyberpunk', name:'🤖 theme: cyberpunk'},
         {id: 'black', name:'🏴 theme: black'},
         {id: 'dracula', name:'🧛‍♂️ theme: dracula'},
+        {id: 'garden', name:'🌳 theme: garden'},
       ],
       showMainMenu: false,
     }
