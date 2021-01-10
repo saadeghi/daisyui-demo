@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Wrapper title="avatar" classes="flex items-center space-x-8 space-y-8 flex-wrap">
+    <Wrapper title="avatar" classes="flex items-center gap-8 flex-wrap">
       <Avatar classes="rounded w-32 h-32">
         <img src="https://i.pravatar.cc/500?img=32" />
       </Avatar>
@@ -15,7 +15,7 @@
       </Avatar>
     </Wrapper>
 
-    <Wrapper title="avatar circle" classes="flex items-center space-x-8 space-y-8 flex-wrap">
+    <Wrapper title="avatar circle" classes="flex items-center gap-8 flex-wrap">
       <Avatar classes="rounded-full w-32 h-32">
         <img src="https://i.pravatar.cc/500?img=32" />
       </Avatar>
@@ -30,7 +30,7 @@
       </Avatar>
     </Wrapper>
 
-    <Wrapper title="avatar with border" classes="flex items-center space-x-8 space-y-8 flex-wrap">
+    <Wrapper title="avatar with border" classes="flex items-center gap-8 flex-wrap">
       <Avatar classes="rounded w-32 h-32 ring ring-primary ring-offset-default ring-offset-2">
         <img src="https://i.pravatar.cc/500?img=32" />
       </Avatar>
@@ -45,7 +45,7 @@
       </Avatar>
     </Wrapper>
 
-    <Wrapper title="avatar circle" classes="flex items-center space-x-8 space-y-8 flex-wrap">
+    <Wrapper title="avatar circle" classes="flex items-center gap-8 flex-wrap">
       <Avatar classes="rounded-full w-32 h-32 ring ring-primary ring-offset-default ring-offset-2">
         <img src="https://i.pravatar.cc/500?img=32" />
       </Avatar>
@@ -60,7 +60,7 @@
       </Avatar>
     </Wrapper>
 
-    <Wrapper title="avatar with presense indicator" classes="flex items-center space-x-8 space-y-8 flex-wrap">
+    <Wrapper title="avatar with presense indicator" classes="flex items-center gap-8 flex-wrap">
       <Avatar class="offline" classes="rounded w-32 h-32">
         <img src="https://i.pravatar.cc/500?img=32" />
       </Avatar>
@@ -74,7 +74,7 @@
         <img src="https://i.pravatar.cc/500?img=32" />
       </Avatar>
     </Wrapper>
-    <Wrapper title="avatar with presense indicator" classes="flex items-center space-x-8 space-y-8 flex-wrap">
+    <Wrapper title="avatar with presense indicator" classes="flex items-center gap-8 flex-wrap">
       <Avatar class="offline" classes="rounded-full w-32 h-32">
         <img src="https://i.pravatar.cc/500?img=32" />
       </Avatar>
@@ -88,7 +88,7 @@
         <img src="https://i.pravatar.cc/500?img=32" />
       </Avatar>
     </Wrapper>
-    <Wrapper title="avatar placeholder" classes="flex items-center space-x-8 space-y-8 flex-wrap">
+    <Wrapper title="avatar placeholder" classes="flex items-center gap-8 flex-wrap">
       <Avatar class="placeholder" classes="bg-content-300 text-content-700 rounded-full w-32 h-32">
         <span class="text-3xl">K</span>
       </Avatar>
