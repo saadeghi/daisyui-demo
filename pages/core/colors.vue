@@ -130,17 +130,17 @@ See how components will look like using you color palette
 
 
     <Navbar class="col-span-1 shadow-lg xl:col-span-3 bg-content-800 text-content-100 rounded-box">
-      <div class="navbar-grow-0">
+      <div class="flex-none">
         <Button classes="btn-square btn-ghost">
           <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
         </Button>
       </div>
-      <div class="px-2 mx-2 navbar-grow-0">
+      <div class="flex-none px-2 mx-2">
         <span class="text-lg font-bold">
           DaisyUI
         </span>
       </div>
-      <div class="flex justify-center px-2 mx-2 navbar-grow">
+      <div class="flex justify-center flex-1 px-2 mx-2">
         <div class="items-stretch hidden lg:flex">
           <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
             Home
@@ -157,12 +157,12 @@ See how components will look like using you color palette
         </div>
 
       </div>
-      <div class="navbar-grow-0">
+      <div class="flex-none">
         <Button classes="btn-square btn-ghost">
           <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
         </Button>
       </div>
-      <div class="navbar-grow-0">
+      <div class="flex-none">
         <Button classes="btn-square btn-ghost">
           <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
         </Button>
@@ -343,24 +343,24 @@ See how components will look like using you color palette
 
 
       <Alert class="col-span-1 xl:col-span-2 bg-default">
-        <div class="alert-grow">
+        <div class="flex-1">
           <label class="mx-3">Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
-        <div class="alert-grow-0">
+        <div class="flex-none">
           <Button classes="btn-sm btn-ghost mr-2">Cancel</Button>
           <Button classes="btn-sm btn-primary">Apply</Button>
         </div>
       </Alert>
 
       <Alert class="col-span-1 xl:col-span-2 alert-info">
-        <div class="alert-grow">
+        <div class="flex-1">
           <Icon glyph="info" class="w-6 h-6 mx-2 stroke-current" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>
       </Alert>
 
       <Alert class="col-span-1 xl:col-span-2 alert-success">
-        <div class="alert-grow">
+        <div class="flex-1">
           <Icon glyph="folder" class="w-6 h-6 mx-2 stroke-current" />
           <label>Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>

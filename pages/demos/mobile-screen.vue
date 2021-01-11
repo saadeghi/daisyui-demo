@@ -5,17 +5,17 @@
     <div class="flex flex-col items-center h-full text-center">
 
       <Navbar class="flex-none w-full bg-content-800 text-content-100">
-        <div class="navbar-grow-0">
+        <div class="flex-none">
           <Button classes="btn-circle btn-ghost">
             <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
           </Button>
         </div>
-        <div class="px-2 mx-2 navbar-grow">
+        <div class="flex-1 px-2 mx-2">
           <span class="text-lg font-bold">
 
           </span>
         </div>
-        <div class="navbar-grow-0">
+        <div class="flex-none">
           <Button classes="btn-circle btn-ghost">
             <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
           </Button>
