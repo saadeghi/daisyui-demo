@@ -1,13 +1,21 @@
 <template>
   <div>
 
-    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button">
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button with brand colors">
       <Button classes="">neutral</Button>
       <Button classes="btn-primary">primary</Button>
       <Button classes="btn-secondary">secondary</Button>
       <Button classes="btn-accent">accent</Button>
       <Button classes="btn-ghost">ghost</Button>
       <Button classes="btn-link">link</Button>
+    </Wrapper>
+
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="active state button">
+      <Button classes="btn-active" role="button" aria-pressed="true">neutral</Button>
+      <Button classes="btn-primary btn-active" role="button" aria-pressed="true">primary</Button>
+      <Button classes="btn-secondary btn-active" role="button" aria-pressed="true">secondary</Button>
+      <Button classes="btn-accent btn-active" role="button" aria-pressed="true">accent</Button>
+      <Button classes="btn-link btn-active" role="button" aria-pressed="true">link</Button>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="outline button">
@@ -25,12 +33,11 @@
       <Button classes="btn-disabled" tabindex="-1" role="button" aria-disabled="true">visually disabled</Button>
     </Wrapper>
 
-    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="active state button">
-      <Button classes="btn-active" role="button" aria-pressed="true">neutral</Button>
-      <Button classes="btn-primary btn-active" role="button" aria-pressed="true">primary</Button>
-      <Button classes="btn-secondary btn-active" role="button" aria-pressed="true">secondary</Button>
-      <Button classes="btn-accent btn-active" role="button" aria-pressed="true">accent</Button>
-      <Button classes="btn-link btn-active" role="button" aria-pressed="true">link</Button>
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button with state colors">
+      <Button classes="btn-info">info</Button>
+      <Button classes="btn-success">success</Button>
+      <Button classes="btn-warning">warning</Button>
+      <Button classes="btn-error">error</Button>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button with diffrent HTML tags">
@@ -49,19 +56,19 @@
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button wide">
-      <Button classes="btn-wide btn-lg">neutral large</Button>
+      <Button classes="btn-wide btn-lg">large</Button>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button wide">
-      <Button classes="btn-wide btn-primary">primary</Button>
+      <Button classes="btn-wide">normal</Button>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button wide">
-      <Button classes="btn-wide btn-sm btn-secondary">secondary small</Button>
+      <Button classes="btn-wide btn-sm">small</Button>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button wide">
-      <Button classes="btn-wide btn-xs btn-accent">accent tiny</Button>
+      <Button classes="btn-wide btn-xs">tiny</Button>
     </Wrapper>
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="icon button start">
