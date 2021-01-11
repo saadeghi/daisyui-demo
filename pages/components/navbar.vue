@@ -3,17 +3,17 @@
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
-          <div class="px-2 mx-2 navbar-grow">
+          <div class="flex-1 px-2 mx-2">
             <span class="text-lg font-bold">
-              Navbar with start and end icons
+              With two icons
             </span>
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="dots" class="inline-block w-6 h-6 stroke-current" />
             </Button>
@@ -24,14 +24,14 @@
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="back" class="inline-block w-6 h-6 stroke-current text-success" />
             </Button>
           </div>
-          <div class="px-2 mx-2 navbar-grow">
+          <div class="flex-1 px-2 mx-2">
             <span class="text-lg font-bold">
-              Navbar with start icon
+              With one icon
             </span>
           </div>
         </Navbar>
@@ -40,12 +40,12 @@
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
-          <div class="px-2 mx-2 navbar-grow">
+          <div class="flex-1 px-2 mx-2">
             <span class="text-lg font-bold">
               DaisyUI
             </span>
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="close" class="inline-block w-6 h-6 stroke-current text-error" />
             </Button>
@@ -56,32 +56,32 @@
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
-          <div class="navbar-grow-0">
+          <div class="flex-none hidden lg:flex">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
-          <div class="px-2 mx-2 navbar-grow">
+          <div class="flex-1 hidden px-2 mx-2 lg:flex">
             <span class="text-lg font-bold">
               DaisyUI
             </span>
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-1 lg:flex-none">
             <FormControl>
               <Input type="text" class="input input-ghost" placeholder="Search" />
             </FormControl>
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Avatar classes="rounded-full w-10 h-10 m-1">
               <img src="https://i.pravatar.cc/500?img=32" />
             </Avatar>
@@ -94,13 +94,13 @@
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
-          <div class="px-2 mx-2 navbar-grow-0">
+          <div class="flex-none px-2 mx-2">
             <span class="text-lg font-bold">
               DaisyUI
             </span>
           </div>
-          <div class="px-2 mx-2 navbar-grow">
-            <div class="flex items-stretch">
+          <div class="flex-1 px-2 mx-2">
+            <div class="items-stretch hidden lg:flex">
               <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
                 Home
               </a>
@@ -116,12 +116,12 @@
             </div>
 
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="heart" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
@@ -135,12 +135,12 @@
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
-          <div class="px-2 mx-2 navbar-grow">
+          <div class="flex-1 px-2 mx-2">
             <span class="text-lg font-bold">
               DaisyUI
             </span>
           </div>
-          <div class="px-2 mx-2 navbar-grow-0">
+          <div class="flex-none hidden px-2 mx-2 lg:flex">
             <div class="flex items-stretch">
               <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
                 <Icon glyph="heart" class="inline-block w-5 mr-2 stroke-current" />
@@ -161,7 +161,7 @@
             </div>
 
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
             </Button>
@@ -173,12 +173,12 @@
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
         <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
-          <div class="px-2 mx-2 navbar-grow-0">
+          <div class="flex-1 px-2 mx-2 lg:flex-none">
             <span class="text-lg font-bold">
               DaisyUI
             </span>
           </div>
-          <div class="flex justify-center px-2 mx-2 navbar-grow">
+          <div class="justify-center flex-1 hidden px-2 mx-2 lg:flex">
             <div class="flex items-stretch">
               <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
                 Home
@@ -195,12 +195,12 @@
             </div>
 
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="bell" class="inline-block w-6 h-6 stroke-current" />
             </Button>
           </div>
-          <div class="navbar-grow-0">
+          <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="search" class="inline-block w-6 h-6 stroke-current" />
             </Button>
