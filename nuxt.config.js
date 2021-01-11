@@ -83,6 +83,8 @@ export default {
   },
   target: 'static',
   router: {
-    base: (process.env.ROUTER_BASE) ? process.env.ROUTER_BASE : '/'
+    base: (process.env.ROUTER_BASE) ? process.env.ROUTER_BASE : '/',
+    // linkActiveClass: 'bg-primary bg-opacity-20 text-primary',
+    linkExactActiveClass: 'bg-primary bg-opacity-20 text-primary',
   },
 }
