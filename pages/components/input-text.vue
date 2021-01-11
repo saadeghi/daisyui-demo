@@ -19,7 +19,7 @@
       title="input without border"
       classes="flex flex-col space-y-2 max-w-xs"
     >
-      <div class="p-4 card bg-content-100">
+      <div class="p-10 card bg-content-100">
         <FormControl>
           <label class="label">
             <span class="label-text">Username</span>
@@ -32,7 +32,7 @@
       title="input ghost (no background)"
       classes="flex flex-col space-y-2 max-w-xs"
     >
-      <div class="p-4 card bg-content-100">
+      <div class="p-10 card bg-content-100">
         <FormControl>
           <label class="label">
             <span class="label-text">Username</span>
