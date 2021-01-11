@@ -91,7 +91,7 @@
 
     <Wrapper title="card with side image" classes="grid grid-cols-1 gap-6">
 
-      <Card class="side bordered">
+      <Card class="card-side bordered">
         <figure class="lg:w-1/3">
           <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
@@ -105,7 +105,7 @@
         </div>
       </Card>
 
-      <Card class="side bordered">
+      <Card class="card-side bordered">
         <figure class="lg:w-1/3">
           <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
@@ -124,7 +124,7 @@
 
     <Wrapper title="card with out image" classes="grid grid-cols-1 gap-6">
 
-      <Card class="side bordered">
+      <Card class="card-side bordered">
         <div class="card-body">
           <h2 class="card-title">No Images</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
@@ -139,14 +139,14 @@
 
     <Wrapper title="card with out image" classes="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-      <Card class="shadow side">
+      <Card class="shadow card-side">
         <div class="card-body">
           <h2 class="card-title">no border with shadow</h2>
           <p>Rerum reiciendis beatae tenetur excepturi</p>
         </div>
       </Card>
 
-      <Card class="shadow-lg side">
+      <Card class="shadow-lg card-side">
         <div class="card-body">
           <h2 class="card-title">no border with shadow</h2>
           <p>Rerum reiciendis beatae tenetur excepturi</p>
@@ -157,7 +157,7 @@
 
     <Wrapper title="mini cards" classes="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <Card class="shadow-2xl side bg-primary text-content-primary">
+      <Card class="shadow-2xl card-side bg-primary text-content-primary">
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-end space-x-2 card-actions">
@@ -169,7 +169,7 @@
         </div>
       </Card>
 
-      <Card class="shadow-2xl side bg-secondary text-content-secondary">
+      <Card class="shadow-2xl card-side bg-secondary text-content-secondary">
         <div class="card-body">
           <div class="justify-end space-x-2 card-actions">
             <Button classes="btn-secondary btn-square">
@@ -180,7 +180,7 @@
         </div>
       </Card>
 
-      <Card class="text-center shadow-2xl side bg-accent text-content-accent">
+      <Card class="text-center shadow-2xl card-side bg-accent text-content-accent">
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-center space-x-2 card-actions">
