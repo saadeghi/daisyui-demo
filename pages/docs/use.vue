@@ -1,0 +1,44 @@
+<template>
+    <Wrapper title="Use DaisyUI" nocode>
+
+      <h2 class="my-6 text-5xl font-bold">
+        <span class="text-primary">Add component classes</span>
+        <span>to your HTML: </span>
+      </h2>
+
+      <p class="prose text-content-800">
+        Once you <NuxtLink to="/docs/install">installed</NuxtLink> DaisyUI, you can use component classes line <span class="badge badge-ghost">btn</span>, <span class="badge badge-ghost">card</span>, etc...
+      </p>
+
+      <p class="my-4">
+        So instead of making a button like this:
+      </p>
+      <div class="w-full max-w-4xl my-2">
+        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+          <pre><code>&#x3C;button class=&#x22;<span class="text-warning">inline-block px-4 py-3 text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-indigo-500 rounded-md cursor-pointer hover:bg-indigo-600</span>&#x22;&#x3E;Tailwind Button&#x3C;/button&#x3E;</code></pre>
+        </div>
+      </div>
+
+      <div class="w-full my-2">
+        <button class="inline-block px-4 py-3 text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-indigo-500 rounded-md cursor-pointer hover:bg-indigo-600">Tailwind Button</button>
+      </div>
+
+      <p class="my-4">
+        You just need this:
+      </p>
+      <div class="w-full max-w-4xl my-2">
+        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+          <pre><code>&#x3C;button class=&#x22;<span class="text-success">btn btn-primary</span>&#x22;&#x3E;DaisyUI Button&#x3C;/button&#x3E;</code></pre>
+        </div>
+      </div>
+
+      <div class="w-full my-2">
+        <button class="btn btn-primary">DaisyUI Button</button>
+      </div>
+
+      <p class="max-w-4xl my-4">
+        As you can see: cleaner code, better animations, better accessibility, and more importantly, easily themeable.
+      </p>
+
+    </Wrapper>
+</template>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-20">
     <div class="mx-auto mt-16 text-center text-content-800">
       <div class="inline-block w-44 lg:w-60" v-html="svgLogo"></div>
       <p class="py-4 font-bold text-primary">
@@ -28,12 +28,6 @@
           <a target="_blank" href="https://github.com/saadeghi/daisyui/actions">
             <img class="inline-block" src="https://badgen.net/github/checks/saadeghi/daisyui?label=build" alt="">
           </a>
-          <a target="_blank" href="https://bundlephobia.com/result?p=daisyui">
-            <img class="inline-block" src="https://badgen.net/bundlephobia/min/daisyui?&color=purple" alt="">
-          </a>
-          <a target="_blank" href="https://unpkg.com/daisyui@latest/dist/base.css">
-            <img class="inline-block" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/base.css?label=base.css&amp;color=purple" alt="">
-          </a>
           <a target="_blank" href="https://unpkg.com/daisyui@latest/dist/styled.css">
             <img class="inline-block" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.css?label=styled.css&amp;color=purple" alt="">
           </a>
@@ -52,6 +46,136 @@
         </p>
       </div>
     </div>
+
+    <div class="flex justify-center pt-32 pb-12">
+      <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Features</div>
+    </div>
+
+    <div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          CSS components
+        </h2>
+        <p class="text-content-500">It adds component classes to Tailwind. Classes like btn, card, ... <br> No need to deal with hundreds of utility classes.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          Tailwind CSS plugin
+        </h2>
+        <p class="text-content-500">DaisyUI is a Tailwind CSS plugin so you can simply add it to your tailwind.config.js file.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          Scalable
+        </h2>
+        <p class="text-content-500">All your components will use the same design system.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          Customizable
+        </h2>
+        <p class="text-content-500">Customize the style of elements with Tailwind utility classes.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          Themeable
+        </h2>
+        <p class="text-content-500">Add multiple themes or change colors with a CSS variable. You can even set a theme for a specific section of your page.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          Semantic color names
+        </h2>
+        <p class="text-content-500">Use color names like primary, secondary, accent,... just like your design system defines.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          Beatiful UI library
+        </h2>
+        <p class="text-content-500">If you use "Styled" version of DaisyUI you won't need to design any component (but you can still customizable everything)</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          Designer-friendly
+        </h2>
+        <p class="text-content-500">If you use "Base" version of DaisyUI, you only get the skeleton of components. No style, no colors. You can style everything using utility classes</p>
+      </div>
+
+    </div>
+
+    <div class="flex justify-center pt-32 pb-12">
+      <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Try It online</div>
+    </div>
+
+
+    <div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
+
+      <div class="card card-side bordered">
+        <div class="card-body">
+          <p>Try it on Tailwind Play</p>
+          <div class="justify-end space-x-2 card-actions">
+            <a class="btn btn-accent" href="https://play.tailwindcss.com/908kXKMIeO" target="_blank">
+              Try Now
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-side bordered">
+        <div class="card-body">
+          <p>Try DaisyUI on TailwindPlay</p>
+          <div class="justify-end space-x-2 card-actions">
+            <a class="btn btn-secondary" href="https://codepen.io/saadeghi/pen/gOwWKvv" target="_blank">
+              Try Now
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="flex justify-center pt-32 pb-12">
+      <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Install Now</div>
+    </div>
+
+
+    <div class="flex flex-col items-center">
+      <div class="w-full max-w-lg my-10">
+        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+          <pre data-prefix="$"><code>npm i daisyui</code></pre>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <NuxtLink to="/docs/install" class="shadow-lg btn-lg btn btn-primary">
+          Get Started
+        </NuxtLink>
+      </div>
+    </div>
+
+
   </div>
 </template>
 

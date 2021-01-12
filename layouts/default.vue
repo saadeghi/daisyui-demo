@@ -19,6 +19,26 @@
         <Menu :class="(showMainMenu ? ' flex ' : ' hidden ') + ' lg:flex flex-col p-4 pb-10 compact text-content-700 '">
           <MenuItem class="mt-4 menu-title">
             <span>
+              Docs
+            </span>
+          </MenuItem>
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/docs/install" v-on:click.native="showMainMenu = false">
+              install
+            </NuxtLink>
+          </MenuItem>
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/docs/use" v-on:click.native="showMainMenu = false">
+              use
+            </NuxtLink>
+          </MenuItem>
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/docs/customize" v-on:click.native="showMainMenu = false">
+              customize
+            </NuxtLink>
+          </MenuItem>
+          <MenuItem class="mt-4 menu-title">
+            <span>
               Core
             </span>
           </MenuItem>
@@ -90,6 +110,7 @@ export default {
   },
   data() {
     return {
+      docPages: [],
       corePages: [],
       componentPages: [],
       demoPages: [],
@@ -108,6 +129,14 @@ export default {
     }
   },
   created () {
+    this.$router.options.routes.forEach((routeOption) => {
+      if (routeOption.path.startsWith('/docs')) {
+        this.docPages.push({
+          name: routeOption.name.replace("docs-", ""),
+          path: routeOption.path,
+        })
+      }
+    })
     this.$router.options.routes.forEach((routeOption) => {
       if (routeOption.path.startsWith('/core')) {
         this.corePages.push({
