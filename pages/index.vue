@@ -11,16 +11,8 @@
     </div>
     <div class="flex flex-col items-center">
       <div class="w-full max-w-lg my-10">
-        <div class="shadow-lg card bg-content-800 text-content-100">
-          <div class="flex gap-2 p-5">
-            <span class="w-3 h-3 rounded-full bg-content-600"></span>
-            <span class="w-3 h-3 rounded-full bg-content-600"></span>
-            <span class="w-3 h-3 rounded-full bg-content-600"></span>
-          </div>
-          <div class="flex p-4 pt-0 pb-6 font-mono">
-            <div class="mx-4 select-none text-content-600">$</div>
-            <pre><code>npm i daisyui</code></pre>
-          </div>
+        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+          <pre data-prefix="$"><code>npm i daisyui</code></pre>
         </div>
       </div>
       <div class="flex gap-4">
