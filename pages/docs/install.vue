@@ -28,18 +28,18 @@
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
         <pre><code>module.exports = {
 
-        plugins: [
-          <span class="badge badge-ghost">require('daisyui/styled'),</span>
-        ],
+      plugins: [
+        <span class="badge badge-ghost">require('daisyui'),</span>
+      ],
 
-        <span class="text-content-500">// OPTIONAL: if you want to use DaisyUI colors everywhere</span>
-        theme: {
-          extend: {
-            <span class="badge badge-ghost">colors: require('daisyui/colors'),</span>
-          },
+      <span class="text-content-500">// OPTIONAL: if you want to use DaisyUI colors everywhere</span>
+      theme: {
+        extend: {
+          <span class="badge badge-ghost">colors: require('daisyui/colors'),</span>
         },
+      },
 
-      }</code></pre>
+    }</code></pre>
         </div>
       </div>
 
@@ -70,7 +70,7 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -88,7 +88,7 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/styled.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/styled.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -107,7 +107,7 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/full.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/full.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 

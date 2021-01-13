@@ -56,7 +56,7 @@
       </p>
 
       <p class="max-w-4xl my-4">
-        On your <span class="badge">tailwind.config.js</span> file, you just need to <span class="badge badge-success">require('daisyui')</span> instead of <span class="badge badge-info">require('daisyui/styled')</span>
+        On your <span class="badge">tailwind.config.js</span> file, you just need to set <span class="badge badge-success">styled</span> config to <span class="badge badge-success">true</span>
       </p>
 
       <div class="w-full max-w-4xl my-2">
@@ -64,8 +64,13 @@
         <pre><code>module.exports = {
 
         plugins: [
-          <span class="badge badge-ghost">require('daisyui'),</span>
+          require('daisyui'),
         ],
+        daisyui: {
+          styled: true,
+          <span class="badge badge-ghost">themes: true,</span>
+          rtl: false,
+        },
 
       }</code></pre>
         </div>

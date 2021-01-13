@@ -77,7 +77,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
           Scalable
         </h2>
-        <p class="text-content-500">All your components will use the same design system.</p>
+        <p class="text-content-500">All your components will use the same design system. No more classname madness when your app gets bigger.</p>
       </div>
 
       <div>
@@ -91,14 +91,6 @@
       <div>
         <h2 class="text-xl font-bold card-title">
           <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
-          Themeable
-        </h2>
-        <p class="text-content-500">Add multiple themes or change colors with a CSS variable. You can even set a theme for a specific section of your page.</p>
-      </div>
-
-      <div>
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
           Semantic color names
         </h2>
         <p class="text-content-500">Use color names like primary, secondary, accent,... just like your design system defines.</p>
@@ -107,9 +99,17 @@
       <div>
         <h2 class="text-xl font-bold card-title">
           <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
-          Beatiful UI library
+          RTL supported
         </h2>
-        <p class="text-content-500">If you use "Styled" version of DaisyUI you won't need to design any component (but you can still customizable everything)</p>
+        <p class="text-content-500">Enable "rtl" config for right to left layouts.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold card-title">
+          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          Themeable
+        </h2>
+        <p class="text-content-500">Add multiple themes or change colors with a CSS variable. You can even set a theme for a specific section of your page.</p>
       </div>
 
       <div>
@@ -117,7 +117,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
           Designer-friendly
         </h2>
-        <p class="text-content-500">If you use "Base" version of DaisyUI, you only get the skeleton of components. No style, no colors. You can style everything using utility classes</p>
+        <p class="text-content-500">You can disable "styled" config and only get the skeleton of components. No style, no colors. You can style everything using utility classes.</p>
       </div>
 
     </div>

@@ -33,6 +33,11 @@
             </NuxtLink>
           </MenuItem>
           <MenuItem>
+            <NuxtLink class="capitalize" to="/docs/config" v-on:click.native="showMainMenu = false">
+              config
+            </NuxtLink>
+          </MenuItem>
+          <MenuItem>
             <NuxtLink class="capitalize" to="/docs/customize" v-on:click.native="showMainMenu = false">
               customize
             </NuxtLink>
