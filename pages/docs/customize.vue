@@ -1,12 +1,11 @@
 <template>
   <div>
-      <h2 class="my-6 text-5xl font-bold">
-        <span class="text-primary">Customize components</span>
-        <span>with utility classes</span>
-      </h2>
-
+    <h2 class="my-6 text-5xl font-bold">
+      <span class="text-primary">Customize components</span>
+      <span>with utility classes</span>
+    </h2>
     <Wrapper nocode>
-      <p class="max-w-4xl my-4">
+      <p class="max-w-4xl mb-4">
         DaisyUI components comes with many variants necessary for design systems and you won't usually need to customize anything but you can still add Tailwind's utility classes to customize components.
       </p>
 
@@ -79,10 +78,20 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@latest/dist/base.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
         </div>
       </div>
 
     </Wrapper>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      daisyuiMaxVersion: process.env.daisyuiMaxVersion,
+    }
+  }
+}
+</script>

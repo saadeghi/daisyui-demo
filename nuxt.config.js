@@ -22,11 +22,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@latest/dist/full.css' : ''
+        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@'+ process.env.daisyuiMaxVersion +'/dist/full.css' : ''
       },
       {
         rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@latest/dist/themes.css' : ''
+        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@'+ process.env.daisyuiMaxVersion +'/dist/themes.css' : ''
       },
     ],
 
@@ -86,5 +86,8 @@ export default {
     base: (process.env.ROUTER_BASE) ? process.env.ROUTER_BASE : '/',
     // linkActiveClass: 'bg-primary bg-opacity-20 text-primary',
     linkExactActiveClass: 'bg-primary bg-opacity-20 text-primary',
+  },
+  env: {
+    daisyuiMaxVersion: '0.7.x',
   },
 }

@@ -31,8 +31,8 @@
           <a target="_blank" href="https://github.com/saadeghi/daisyui/actions">
             <img class="inline-block" src="https://badgen.net/github/checks/saadeghi/daisyui?label=build" alt="">
           </a>
-          <a target="_blank" href="https://unpkg.com/daisyui@latest/dist/styled.css">
-            <img class="inline-block" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.css?label=styled.css&amp;color=purple" alt="">
+          <a target="_blank" :href="'https://unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/styled.css'">
+            <img class="inline-block" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/styled.css?label=styled.css&amp;color=purple'" alt="">
           </a>
           <a target="_blank" href="https://www.npmjs.com/package/daisyui">
             <img class="inline-block" src="https://badgen.net/npm/v/daisyui?label=version&amp;icon=npm&amp;color=purple" alt="">
@@ -195,6 +195,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      daisyuiMaxVersion: process.env.daisyuiMaxVersion,
+    }
+  },
   computed: {
     svgLogo() {
       return require(`~/static/logo.svg?raw`)

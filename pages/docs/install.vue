@@ -56,7 +56,7 @@
       </p>
 
       <div class="mt-10 text-content-800">
-        <h2 class="text-2xl font-bold">1. Base version <img class="inline-block m-0" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/base.css?label=base.css&color=purple" alt="base.css"/></h2>
+        <h2 class="text-2xl font-bold">1. Base version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/base.css?label=base.css&color=purple'" alt="base.css"/></h2>
         <p class="prose">
           <ul>
             <li>Unstyled UI components (skeleton only)</li>
@@ -70,13 +70,13 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@latest/dist/base.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
         </div>
       </div>
 
 
       <div class="mt-10 text-content-800">
-        <h2 class="text-2xl font-bold">2. Styled version <img class="inline-block m-0" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.css?label=styled.css&color=purple" alt="styled.css"/></h2>
+        <h2 class="text-2xl font-bold">2. Styled version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/styled.css?label=styled.css&color=purple'" alt="styled.css"/></h2>
         <p class="prose">
           <ul>
             <li>Ready-to-use styled UI components</li>
@@ -88,14 +88,14 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@latest/dist/styled.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/styled.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
         </div>
       </div>
 
 
 
       <div class="mt-10 text-content-800">
-        <h2 class="text-2xl font-bold">3. Full version <img class="inline-block m-0" src="https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/full.css?label=full.css&color=purple" alt="full.css"/></h2>
+        <h2 class="text-2xl font-bold">3. Full version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/full.css?label=full.css&color=purple'" alt="full.css"/></h2>
         <p class="prose">
           <ul>
             <li>Ready-to-use styled UI components</li>
@@ -107,7 +107,7 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@latest/dist/full.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/full.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -115,3 +115,12 @@
     </Wrapper>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      daisyuiMaxVersion: process.env.daisyuiMaxVersion,
+    }
+  }
+}
+</script>
