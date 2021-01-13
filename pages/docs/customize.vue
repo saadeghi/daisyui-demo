@@ -41,8 +41,8 @@
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
           <pre><code>.btn {
-        <span class="text-success">@apply rounded-full</span>;
-      }</code></pre>
+      <span class="text-success">@apply rounded-full</span>;
+    }</code></pre>
         </div>
       </div>
 
@@ -56,23 +56,23 @@
       </p>
 
       <p class="max-w-4xl my-4">
-        On your <span class="badge">tailwind.config.js</span> file, you just need to set <span class="badge badge-success">styled</span> config to <span class="badge badge-success">true</span>
+        On your <span class="badge">tailwind.config.js</span> file, you just need to set <span class="badge badge-success">styled: false</span>.
       </p>
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
         <pre><code>module.exports = {
 
-        plugins: [
-          require('daisyui'),
-        ],
-        daisyui: {
-          styled: true,
-          <span class="badge badge-ghost">themes: true,</span>
-          rtl: false,
-        },
+      plugins: [
+        require('daisyui'),
+      ],
+      daisyui: {
+        <span class="badge badge-ghost">styled: false,</span>
+        themes: false,
+        rtl: false,
+      },
 
-      }</code></pre>
+    }</code></pre>
         </div>
       </div>
 
