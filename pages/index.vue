@@ -54,14 +54,14 @@
       <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Features</div>
     </div>
 
-    <div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
+    <div class="grid max-w-4xl grid-cols-1 gap-20 mx-auto lg:grid-cols-2">
 
       <div>
         <h2 class="text-xl font-bold card-title">
           <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
           CSS components
         </h2>
-        <p class="text-content-500">It adds component classes to Tailwind. Classes like btn, card, ... <br> No need to deal with hundreds of utility classes.</p>
+        <p class="text-content-500">It adds component classes to Tailwind. Classes like btn, card,... No need to deal with hundreds of utility classes.</p>
       </div>
 
       <div>
@@ -127,12 +127,12 @@
     </div>
 
 
-    <div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
+    <div class="grid max-w-4xl grid-cols-1 gap-20 mx-auto lg:grid-cols-2">
 
       <div class="card card-side bordered">
-        <div class="card-body">
+        <div class="text-center card-body">
           <p>Try it on Tailwind Play</p>
-          <div class="justify-end space-x-2 card-actions">
+          <div class="justify-center space-x-2 card-actions">
             <a class="btn btn-accent" href="https://play.tailwindcss.com/908kXKMIeO" target="_blank">
               Try Now
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">
@@ -144,9 +144,9 @@
       </div>
 
       <div class="card card-side bordered">
-        <div class="card-body">
+        <div class="text-center card-body">
           <p>Try DaisyUI on TailwindPlay</p>
-          <div class="justify-end space-x-2 card-actions">
+          <div class="justify-center space-x-2 card-actions">
             <a class="btn btn-secondary" href="https://codepen.io/saadeghi/pen/gOwWKvv" target="_blank">
               Try Now
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">
