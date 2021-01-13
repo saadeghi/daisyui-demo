@@ -1,7 +1,6 @@
 <template>
   <div>
     <div>
-
       <h2 class="my-6 text-5xl font-bold">
         <span class="text-primary">Typography</span>
       </h2>

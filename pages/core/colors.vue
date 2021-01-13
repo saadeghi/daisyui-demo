@@ -1,12 +1,12 @@
 <template>
   <div>
 
-      <h2 class="my-6 text-5xl font-bold">
-        <span class="text-primary">Colors</span>
-      </h2>
+    <h2 class="my-6 text-5xl font-bold">
+      <span class="text-primary">Colors</span>
+    </h2>
 
     <div class="text-content-800">
-      <Wrapper title="Colors and theming" nocode>
+      <Wrapper nocode>
         <div class="pt-4 text-xl font-bold text-content-900">Read the documents</div>
         <div>Read everything about DaisyUI colors and theming:
           <a class="inline-block btn btn-sm btn-primary" target="_blank" href="https://github.com/saadeghi/daisyui/blob/master/docs/theming.md">Theming guide ↗︎</a>

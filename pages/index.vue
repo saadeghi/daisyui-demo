@@ -57,67 +57,67 @@
       <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Features</div>
     </div>
 
-    <div class="grid max-w-4xl grid-cols-1 gap-20 mx-auto lg:grid-cols-2">
+    <div class="grid grid-cols-1 gap-10 mx-auto lg:max-w-5xl lg:text-center lg:grid-cols-2 justify-items-center">
 
-      <div>
+      <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           CSS components
         </h2>
         <p class="text-content-500">It adds component classes to Tailwind. Classes like btn, card,... No need to deal with hundreds of utility classes.</p>
       </div>
 
-      <div>
+      <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Tailwind CSS plugin
         </h2>
         <p class="text-content-500">DaisyUI is a Tailwind CSS plugin so you can simply add it to your tailwind.config.js file.</p>
       </div>
 
-      <div>
+      <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Scalable
         </h2>
         <p class="text-content-500">All your components will use the same design system. No more classname madness when your app gets bigger.</p>
       </div>
 
-      <div>
+      <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Customizable
         </h2>
         <p class="text-content-500">Customize the style of elements with Tailwind utility classes.</p>
       </div>
 
-      <div>
+      <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Semantic color names
         </h2>
         <p class="text-content-500">Use color names like primary, secondary, accent,... just like your design system defines.</p>
       </div>
 
-      <div>
+      <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           RTL supported
         </h2>
         <p class="text-content-500">Enable "rtl" config for right to left layouts.</p>
       </div>
 
-      <div>
+      <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Themeable
         </h2>
         <p class="text-content-500">Add multiple themes or change colors with a CSS variable. You can even set a theme for a specific section of your page.</p>
       </div>
 
-      <div>
+      <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current text-success" />
+          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Designer-friendly
         </h2>
         <p class="text-content-500">You can disable "styled" config and only get the skeleton of components. No style, no colors. You can style everything using utility classes.</p>
