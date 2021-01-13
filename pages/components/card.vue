@@ -139,14 +139,14 @@
 
     <Wrapper title="card with out image" classes="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-      <Card class="shadow card-side">
+      <Card class="shadow">
         <div class="card-body">
           <h2 class="card-title">no border with shadow</h2>
           <p>Rerum reiciendis beatae tenetur excepturi</p>
         </div>
       </Card>
 
-      <Card class="shadow-lg card-side">
+      <Card class="shadow-lg">
         <div class="card-body">
           <h2 class="card-title">no border with shadow</h2>
           <p>Rerum reiciendis beatae tenetur excepturi</p>
