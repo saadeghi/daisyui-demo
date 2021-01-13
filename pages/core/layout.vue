@@ -1,6 +1,11 @@
 <template>
-  <div class="prose text-content-800">
-    <Wrapper title="Layout" nocode>
+  <div>
+
+    <h2 class="my-6 text-5xl font-bold">
+      <span class="text-primary">Layout</span>
+    </h2>
+
+    <Wrapper nocode class="prose text-content-800">
       <p>Layout, sizing, grids, spacing, etc are all will be handled by Tailwind CSS's utility classes</p>
       <p>
         Read more about:
