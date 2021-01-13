@@ -27,7 +27,7 @@
 
       <h2 class="my-6 text-3xl font-bold">
         <span class="text-primary">Mehtod 1:</span>
-        <span>install with Node.js</span>
+        <span>Enable config</span>
       </h2>
 
       <p class="my-4 text-lg">
@@ -59,19 +59,6 @@
         </div>
       </div>
 
-      <p class="my-4 text-lg">
-        And you need to add <span class="badge">data-theme="THEME_NAME"</span> to &lt;html&gt; tag.
-      </p>
-      <p class="my-4 text-lg prose">
-        I suggest using <a href="https://github.com/saadeghi/theme-change" target="_blank">them-change</a> for this, so you can switch themes and save selected theme in local storage.
-      </p>
-
-      <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;html</span> data-theme="dark"<span class="text-content-400">&gt;</span></code></pre>
-        </div>
-      </div>
-
       <h2 class="my-6 text-3xl font-bold">
         <span class="text-primary">Mehtod 2:</span>
         <span>Using CDN</span>
@@ -84,6 +71,23 @@
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
           <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/themes.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+        </div>
+      </div>
+
+      <h2 class="my-6 text-3xl font-bold">
+        <span class="text-primary">Enable theme:</span>
+      </h2>
+
+      <p class="my-4 text-lg">
+        And you need to add <span class="badge">data-theme="THEME_NAME"</span> to &lt;html&gt; tag.
+      </p>
+      <p class="my-4 text-lg prose">
+        I suggest using <a href="https://github.com/saadeghi/theme-change" target="_blank">them-change</a> for this, so you can switch themes and save selected theme in local storage.
+      </p>
+
+      <div class="w-full max-w-4xl my-2">
+        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+          <pre><code><span class="text-content-400">&lt;html</span> data-theme="dark"<span class="text-content-400">&gt;</span></code></pre>
         </div>
       </div>
 
