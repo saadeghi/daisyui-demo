@@ -1,10 +1,10 @@
 <template>
-    <Wrapper title="Install DaisyUI" nocode>
-
-      <h2 class="my-6 text-5xl font-bold">
-        <span class="text-primary">Method 1: </span>
-        <span>install with Node.js</span>
-      </h2>
+  <div>
+    <h2 class="my-6 text-5xl font-bold">
+      <span class="text-primary">Method 1: </span>
+      <span>install with Node.js</span>
+    </h2>
+    <Wrapper nocode>
 
       <p class="prose text-content-800">
         You need
@@ -113,4 +113,5 @@
 
 
     </Wrapper>
+  </div>
 </template>

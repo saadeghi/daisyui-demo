@@ -1,11 +1,11 @@
 <template>
-    <Wrapper title="Use DaisyUI" nocode>
+  <div>
+    <h2 class="my-6 text-5xl font-bold">
+      <span class="text-primary">Add component classes</span>
+      <span>to your HTML: </span>
+    </h2>
 
-      <h2 class="my-6 text-5xl font-bold">
-        <span class="text-primary">Add component classes</span>
-        <span>to your HTML: </span>
-      </h2>
-
+    <Wrapper nocode>
       <p class="prose text-content-800">
         Once you <NuxtLink to="/docs/install">installed</NuxtLink> DaisyUI, you can use component classes line <span class="badge badge-ghost">btn</span>, <span class="badge badge-ghost">card</span>, etc...
       </p>
@@ -41,4 +41,5 @@
       </p>
 
     </Wrapper>
+  </div>
 </template>
