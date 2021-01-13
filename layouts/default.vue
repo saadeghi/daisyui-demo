@@ -47,6 +47,11 @@
               Default Themes
             </NuxtLink>
           </MenuItem>
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/docs/add-themes" v-on:click.native="showMainMenu = false">
+              Add Themes
+            </NuxtLink>
+          </MenuItem>
           <MenuItem class="mt-4 menu-title">
             <span>
               Core
