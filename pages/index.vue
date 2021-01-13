@@ -26,13 +26,16 @@
       </div>
     </div>
     <div class="flex flex-col items-center">
-      <div class="w-full max-w-md mt-20 text-center">
-        <p>
+      <div class="w-full max-w-lg mt-20 text-center">
+        <p class="mt-6">
           <a target="_blank" href="https://github.com/saadeghi/daisyui/actions">
             <img class="inline-block" src="https://badgen.net/github/checks/saadeghi/daisyui?label=build" alt="">
           </a>
+          <a target="_blank" :href="'https://bundlephobia.com/result?p=daisyui'">
+            <img class="inline-block" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/styled.css?label=Package%20size&amp;color=purple'" alt="">
+          </a>
           <a target="_blank" :href="'https://unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/styled.css'">
-            <img class="inline-block" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/styled.css?label=styled.css&amp;color=purple'" alt="">
+            <img class="inline-block" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/styled.css?label=CSS%20size&color=purple'" alt="">
           </a>
           <a target="_blank" href="https://www.npmjs.com/package/daisyui">
             <img class="inline-block" src="https://badgen.net/npm/v/daisyui?label=version&amp;icon=npm&amp;color=purple" alt="">
@@ -123,44 +126,6 @@
     </div>
 
     <div class="flex justify-center pt-32 pb-12">
-      <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Try It online</div>
-    </div>
-
-
-    <div class="grid max-w-4xl grid-cols-1 gap-20 mx-auto lg:grid-cols-2">
-
-      <div class="card card-side bordered">
-        <div class="text-center card-body">
-          <p>Try it on Tailwind Play</p>
-          <div class="justify-center space-x-2 card-actions">
-            <a class="btn btn-accent" href="https://play.tailwindcss.com/908kXKMIeO" target="_blank">
-              Try Now
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card card-side bordered">
-        <div class="text-center card-body">
-          <p>Try DaisyUI on TailwindPlay</p>
-          <div class="justify-center space-x-2 card-actions">
-            <a class="btn btn-secondary" href="https://codepen.io/saadeghi/pen/gOwWKvv" target="_blank">
-              Try Now
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="flex justify-center pt-32 pb-12">
       <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Install Now</div>
     </div>
 
@@ -176,6 +141,16 @@
           Get Started
         </NuxtLink>
       </div>
+    </div>
+
+    <div class="mt-40 text-center">
+      <a class="btn btn-link btn-sm" target="_blank" href="https://play.tailwindcss.com/908kXKMIeO">Tailwind Play</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+      <br>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
     </div>
 
 
