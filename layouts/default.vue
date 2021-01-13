@@ -42,6 +42,11 @@
               customize
             </NuxtLink>
           </MenuItem>
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/docs/default-themes" v-on:click.native="showMainMenu = false">
+              Default Themes
+            </NuxtLink>
+          </MenuItem>
           <MenuItem class="mt-4 menu-title">
             <span>
               Core
