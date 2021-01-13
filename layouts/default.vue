@@ -39,7 +39,7 @@
           </MenuItem>
           <MenuItem>
             <NuxtLink class="capitalize" to="/docs/customize" v-on:click.native="showMainMenu = false">
-              customize
+              customize components
             </NuxtLink>
           </MenuItem>
           <MenuItem>
