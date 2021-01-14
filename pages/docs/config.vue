@@ -63,7 +63,7 @@
       </p>
       <p class="my-4">
         If it's true, 9 default themes will be included.
-        <a class="inline-block btn btn-sm btn-primary" target="_blank" href="https://github.com/saadeghi/daisyui/blob/master/docs/theming.md">Theming guide ↗︎</a>
+        <NuxtLink to="/docs/default-themes" class="inline-block btn btn-sm">Default themes</NuxtLink>
       </p>
 
       <h2 class="mt-6 text-2xl font-bold">

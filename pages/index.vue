@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-20">
+  <div class="pb-10">
     <div class="mx-auto mt-16 text-center text-content-800">
       <div class="inline-block w-44 lg:w-60" v-html="svgLogo"></div>
       <p class="py-4 font-bold text-primary">
@@ -57,14 +57,14 @@
       <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Features</div>
     </div>
 
-    <div class="grid grid-cols-1 gap-10 mx-auto lg:max-w-5xl lg:text-center lg:grid-cols-2 justify-items-center">
+    <div class="grid grid-cols-1 gap-10 py-20 mx-auto lg:max-w-5xl lg:text-center lg:grid-cols-2 justify-items-center rounded-box bg-content-100">
 
       <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           CSS components
         </h2>
-        <p class="text-content-500">It adds component classes to Tailwind. Classes like btn, card,... No need to deal with hundreds of utility classes.</p>
+        <p class="text-content-500">It adds component classes to Tailwind. Classes like <span class="badge badge-info">btn</span>, <span class="badge badge-info">card</span>,... No need to deal with hundreds of utility classes.</p>
       </div>
 
       <div class="max-w-xs">
@@ -96,7 +96,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Semantic color names
         </h2>
-        <p class="text-content-500">Use color names like primary, secondary, accent,... just like your design system defines.</p>
+        <p class="text-content-500">Use color names like <span class="badge badge-info">primary</span>, <span class="badge badge-info">secondary</span>, <span class="badge badge-info">accent</span>,... just like your design system defines.</p>
       </div>
 
       <div class="max-w-xs">
@@ -104,7 +104,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           RTL supported
         </h2>
-        <p class="text-content-500">Enable "rtl" config for right to left layouts.</p>
+        <p class="text-content-500">Enable <span class="badge badge-info">rtl</span> config for right to left layouts.</p>
       </div>
 
       <div class="max-w-xs">
@@ -120,37 +120,39 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Designer-friendly
         </h2>
-        <p class="text-content-500">You can disable "styled" config and only get the skeleton of components. No style, no colors. You can style everything using utility classes.</p>
+        <p class="text-content-500">You can disable <span class="badge badge-info">styled</span> config and only get the skeleton of components. No style, no colors. You can style everything using utility classes.</p>
       </div>
 
     </div>
 
-    <div class="flex justify-center pt-32 pb-12">
-      <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Install Now</div>
-    </div>
 
+    <div class="grid grid-cols-1 mt-20">
 
-    <div class="flex flex-col items-center">
-      <div class="w-full max-w-lg my-10">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre data-prefix="$"><code>npm i daisyui</code></pre>
+      <div class="flex justify-center">
+        <div class="flex-row items-center max-w-xs space-x-4 card-body">
+          <div>
+            <div class="avatar">
+              <div class="rounded-full shadow w-14 h-14">
+                <img src="https://unavatar.now.sh/github/saadeghi">
+              </div>
+            </div>
+          </div>
+          <a href="https://twitter.com/Saadeghi" target="_blank" class="hover:opacity-75">
+            <p class="text-xs text-content-400">Designed and developed by</p>
+            <h2 class="card-title">Pouya Saadeghi</h2>
+          </a>
         </div>
       </div>
-      <div class="flex gap-4">
-        <NuxtLink to="/docs/install" class="shadow-lg btn-lg btn btn-primary">
-          Get Started
-        </NuxtLink>
-      </div>
-    </div>
 
-    <div class="mt-40 text-center">
-      <a class="btn btn-link btn-sm" target="_blank" href="https://play.tailwindcss.com/908kXKMIeO">Tailwind Play</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
-      <br>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
+      <div class="text-center">
+        <a class="btn btn-link btn-sm" target="_blank" href="https://play.tailwindcss.com/908kXKMIeO">Tailwind Play</a>
+        <a class="btn btn-link btn-sm" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+        <a class="btn btn-link btn-sm" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
+        <a class="btn btn-link btn-sm" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
+        <a class="btn btn-link btn-sm" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
+        <a class="btn btn-link btn-sm" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
+      </div>
+
     </div>
 
 
