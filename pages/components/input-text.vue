@@ -206,7 +206,7 @@
         </label>
         <div class="relative">
           <Input
-            class="input input-primary input-bordered"
+            class="w-full pr-16 input input-primary input-bordered"
             type="text"
             placeholder="Search"
           />
@@ -219,7 +219,7 @@
         </label>
         <div class="flex space-x-2">
           <Input
-            class="input input-primary input-bordered"
+            class="w-full input input-primary input-bordered"
             type="text"
             placeholder="Search"
           />
