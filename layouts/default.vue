@@ -24,31 +24,37 @@
           </MenuItem>
           <MenuItem>
             <NuxtLink class="capitalize" to="/docs/install" v-on:click.native="showMainMenu = false">
+              <Icon glyph="inbox-in" class="inline-block w-6 h-6 mr-2 stroke-current" />
               install
             </NuxtLink>
           </MenuItem>
           <MenuItem>
             <NuxtLink class="capitalize" to="/docs/use" v-on:click.native="showMainMenu = false">
+              <Icon glyph="lightning-bolt" class="inline-block w-6 h-6 mr-2 stroke-current" />
               use
             </NuxtLink>
           </MenuItem>
           <MenuItem>
             <NuxtLink class="capitalize" to="/docs/config" v-on:click.native="showMainMenu = false">
+              <Icon glyph="adjustments" class="inline-block w-6 h-6 mr-2 stroke-current" />
               config
             </NuxtLink>
           </MenuItem>
           <MenuItem>
             <NuxtLink class="capitalize" to="/docs/customize" v-on:click.native="showMainMenu = false">
+              <Icon glyph="code" class="inline-block w-6 h-6 mr-2 stroke-current" />
               customize components
             </NuxtLink>
           </MenuItem>
           <MenuItem>
             <NuxtLink class="capitalize" to="/docs/default-themes" v-on:click.native="showMainMenu = false">
+              <Icon glyph="color-swatch" class="inline-block w-6 h-6 mr-2 stroke-current" />
               Default Themes
             </NuxtLink>
           </MenuItem>
           <MenuItem>
             <NuxtLink class="capitalize" to="/docs/add-themes" v-on:click.native="showMainMenu = false">
+              <Icon glyph="document-add" class="inline-block w-6 h-6 mr-2 stroke-current" />
               Add Themes
             </NuxtLink>
           </MenuItem>
@@ -57,17 +63,23 @@
               Core
             </span>
           </MenuItem>
-          <MenuItem v-for="(item, itemindex) in corePages" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
-            <NuxtLink class="capitalize" v-if="item.path" :to="item.path" v-on:click.native="showMainMenu = false">
-              {{ item.name }}
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/core/colors" v-on:click.native="showMainMenu = false">
+              <Icon glyph="color-swatch" class="inline-block w-6 h-6 mr-2 stroke-current" />
+              Colors
             </NuxtLink>
-            <span class="capitalize" v-if="!item.path">
-              <Icon
-                glyph="folder"
-                class="inline-block w-4 mr-2 -ml-6 stroke-current color-primary"
-              />
-              {{ item.name }}
-            </span>
+          </MenuItem>
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/core/layout" v-on:click.native="showMainMenu = false">
+              <Icon glyph="template" class="inline-block w-6 h-6 mr-2 stroke-current" />
+              Layout
+            </NuxtLink>
+          </MenuItem>
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/core/typography" v-on:click.native="showMainMenu = false">
+              <Icon glyph="text" class="inline-block w-6 h-6 mr-2 fill-current" />
+              Typography
+            </NuxtLink>
           </MenuItem>
           <MenuItem class="mt-4 menu-title">
             <span>

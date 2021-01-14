@@ -8,9 +8,11 @@
     <div class="text-content-800">
       <Wrapper nocode>
         <div class="pt-4 text-xl font-bold text-content-900">Read the documents</div>
-        <div>Read everything about DaisyUI colors and theming:
-          <a class="inline-block btn btn-sm btn-primary" target="_blank" href="https://github.com/saadeghi/daisyui/blob/master/docs/theming.md">Theming guide ↗︎</a>
-        </div>
+        <p>Read everything about DaisyUI colors and theming:</p>
+        <p class="mt-4">
+          <NuxtLink to="/docs/default-themes" class="inline-block btn btn-sm">Default themes</NuxtLink>
+          <NuxtLink to="/docs/add-themes" class="inline-block btn btn-sm">Add themes</NuxtLink>
+        </p>
         <div class="pt-10 text-xl font-bold text-content-900">Customize colors!</div>
         <div>
         Click each color to change it, then use the
