@@ -16,7 +16,29 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: '' },
+      { name: "twitter:site", content: "@bobross" },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        hid: "twitter:url",
+        name: "twitter:url",
+        content: "http://daisyui.netlify.app/",
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: "DaisyUI - UI Components for Tailwind CSS",
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content: "You have everything from Tailwind CSS, but you can also use component classes",
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image",
+        content: "/banner.png",
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
