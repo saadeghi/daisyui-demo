@@ -112,18 +112,27 @@
 
 
       <h2 class="my-6 text-3xl font-bold">
-        <span class="text-primary">Set up custom border radius for each theme</span>
+        <span class="text-primary">Other variables</span>
       </h2>
 
       <p class="my-4 text-lg">
-        You can also customize border-radius of elements for each theme. DaisyUI components use 3 additional border-radius values:
+        You can also set more variables customize your theme.
       </p>
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-        <pre><code>--rounded-box: 1rem; <span class="text-content-400">/* used for cards and other big elements */</span>
-    --rounded-btn: 0.5rem; <span class="text-content-400">/* used for buttons and similar elements */</span>
-    --rounded-badge: 9999px; <span class="text-content-400">/* used for badges and other small elements */</span></code></pre>
+        <pre><code>--rounded-box: 1rem; <span class="text-content-400">/* border-radius for cards and other big elements */</span>
+    --rounded-btn: 0.5rem; <span class="text-content-400">/* border-radius for buttons and similar elements */</span>
+    --rounded-badge: 9999px; <span class="text-content-400">/* border-radius for badge and other small elements */</span>
+
+    --animation-btn: 0.25s; <span class="text-content-400">/* bounce animation time for button */</span>
+    --animation-input: .4s; <span class="text-content-400">/* bounce animation time for checkbox, toggle, etc */</span>
+
+    --padding-card: 2rem; <span class="text-content-400">/* default card-body padding */</span>
+
+    --btn-text-case: uppercase; <span class="text-content-400">/* default text case for buttons */</span>
+    --navbar-padding: .5rem; <span class="text-content-400">/* default padding for navbar */</span>
+    --border-btn: 1px; <span class="text-content-400">/* default border size for button */</span></code></pre>
         </div>
       </div>
 
