@@ -29,6 +29,14 @@
             <Radio name="opt" classes="radio-accent" />
           </label>
         </FormControl>
+
+        <FormControl>
+          <label class="label">
+            <span class="label-text">Disabled</span>
+            <input type="radio" name="opt" checked="checked" class="radio radio-accent" value="" disabled>
+            <span class="radio-mark"></span>
+          </label>
+        </FormControl>
       </div>
     </Wrapper>
   </div>

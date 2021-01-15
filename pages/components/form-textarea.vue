@@ -41,5 +41,21 @@
         </FormControl>
       </div>
     </Wrapper>
+    <Wrapper
+      title="Textarea disabled"
+      classes="flex flex-col space-y-2 max-w-xs"
+    >
+      <FormControl>
+        <label class="label">
+          <span class="label-text">Disabled</span>
+        </label>
+        <Textarea
+          class="h-24 textarea textarea-bordered"
+          placeholder="Disabled"
+          disabled="disabled"
+        >
+        </Textarea>
+      </FormControl>
+    </Wrapper>
   </div>
 </template>

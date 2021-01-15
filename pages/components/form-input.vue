@@ -41,6 +41,24 @@
         </FormControl>
       </div>
     </Wrapper>
+
+    <Wrapper
+      title="input disabled"
+      classes="flex flex-col space-y-2 max-w-xs"
+    >
+      <FormControl>
+        <label class="label">
+          <span class="label-text">Disabled input</span>
+        </label>
+        <Input
+          class="input input-bordered"
+          type="text"
+          placeholder="username"
+          disabled
+        />
+      </FormControl>
+    </Wrapper>
+
     <Wrapper
       title="input helper texts"
       classes="flex flex-col space-y-2 max-w-xs"
