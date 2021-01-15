@@ -40,6 +40,12 @@
       <Button classes="btn-error">error</Button>
     </Wrapper>
 
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="glass">
+      <div class="p-20 bg-cover card bg-content-100" style="background-image: url(https://picsum.photos/id/314/400/300)">
+        <Button classes="glass">Glass button</Button>
+      </div>
+    </Wrapper>
+
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="button with diffrent HTML tags">
       <a class="btn" href="#" role="button">Link</a>
       <button class="btn" type="submit">Button</button>

@@ -155,6 +155,27 @@
 
     </Wrapper>
 
+    <Wrapper title="glass card">
+
+      <div class="flex items-center w-full px-4 py-10 bg-cover card bg-content-100" style="background-image: url(https://picsum.photos/id/314/1000/300)">
+        <Card class="glass card-side">
+          <figure class="lg:w-1/3">
+            <img src="https://picsum.photos/id/1005/400/350" />
+          </figure>
+          <div class="card-body lg:w-2/3">
+            <h2 class="card-title">Glass</h2>
+            <p>Rerum reiciendis beatae tenetur excepturi</p>
+            <div class="card-actions">
+              <Button classes="glass">Get Started</Button>
+            </div>
+          </div>
+        </Card>
+      </div>
+
+
+
+    </Wrapper>
+
     <Wrapper title="mini cards" classes="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
       <Card class="shadow-2xl card-side bg-primary text-content-primary">
