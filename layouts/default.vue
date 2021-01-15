@@ -58,6 +58,12 @@
               Add Themes
             </NuxtLink>
           </MenuItem>
+          <MenuItem>
+            <NuxtLink class="capitalize" to="/docs/features" v-on:click.native="showMainMenu = false">
+              <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current" />
+              Features
+            </NuxtLink>
+          </MenuItem>
           <MenuItem class="mt-4 menu-title">
             <span>
               Core

@@ -62,7 +62,7 @@
       <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          CSS components
+          Component classes
         </h2>
         <p class="text-content-500">It adds component classes to Tailwind. Classes like <span class="badge badge-info">btn</span>, <span class="badge badge-info">card</span>,... No need to deal with hundreds of utility classes.</p>
       </div>
@@ -80,7 +80,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Based on design system
         </h2>
-        <p class="text-content-500">DaisyUI applies design system concepts to Tailwind CSS. All components on your page are committed to a single design system.</p>
+        <p class="text-content-500">DaisyUI applies design system concepts to Tailwind CSS. Every component on your page is committed to a single design system.</p>
       </div>
 
       <div class="max-w-xs">
