@@ -32,7 +32,7 @@
             <img class="inline-block" src="https://badgen.net/github/checks/saadeghi/daisyui?label=build" alt="">
           </a>
           <a target="_blank" :href="'https://bundlephobia.com/result?p=daisyui'">
-            <img class="inline-block" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.css?label=Package%20size&amp;color=purple'" alt="">
+            <img class="inline-block" :src="'https://badgen.net/bundlephobia/min/daisyui?label=Package%20size&amp;color=purple'" alt="">
           </a>
           <a target="_blank" :href="'https://unpkg.com/daisyui@' + daisyuiMaxVersion + '/dist/styled.css'">
             <img class="inline-block" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.css?label=CSS%20size&color=purple'" alt="">
