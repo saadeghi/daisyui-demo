@@ -136,7 +136,7 @@
     </div>
 
 
-    <div class="grid grid-cols-1 my-20">
+    <div class="grid grid-cols-1 mt-20 mb-6">
 
       <div class="flex justify-center">
         <div class="flex-row items-center max-w-xs space-x-4 card-body">
