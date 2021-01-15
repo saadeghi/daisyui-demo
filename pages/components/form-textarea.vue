@@ -9,7 +9,7 @@
           <span class="label-text">Your bio</span>
         </label>
         <Textarea
-          class="textarea textarea-bordered"
+          class="h-24 textarea textarea-bordered"
           placeholder="Bio"
         >
         </Textarea>
@@ -24,7 +24,7 @@
           <label class="label">
             <span class="label-text">Your bio</span>
           </label>
-          <Textarea class="textarea" placeholder="Bio" /></Textarea>
+          <Textarea class="h-24 textarea" placeholder="Bio" /></Textarea>
         </FormControl>
       </div>
     </Wrapper>
@@ -37,7 +37,7 @@
           <label class="label">
             <span class="label-text">Your bio</span>
           </label>
-          <Textarea class="textarea textarea-ghost" placeholder="Bio" /></Textarea>
+          <Textarea class="h-24 textarea textarea-ghost" placeholder="Bio" /></Textarea>
         </FormControl>
       </div>
     </Wrapper>
