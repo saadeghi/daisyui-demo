@@ -53,6 +53,16 @@
       </div>
     </div>
 
+    <div class="mt-6 text-center">
+      <a class="btn btn-link btn-sm" target="_blank" href="https://play.tailwindcss.com/908kXKMIeO">Tailwind Play</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
+    </div>
+
+
     <div class="flex justify-center pt-32 pb-12">
       <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Features</div>
     </div>
@@ -142,15 +152,6 @@
             <h2 class="card-title">Pouya Saadeghi</h2>
           </a>
         </div>
-      </div>
-
-      <div class="text-center">
-        <a class="btn btn-link btn-sm" target="_blank" href="https://play.tailwindcss.com/908kXKMIeO">Tailwind Play</a>
-        <a class="btn btn-link btn-sm" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
-        <a class="btn btn-link btn-sm" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
-        <a class="btn btn-link btn-sm" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
-        <a class="btn btn-link btn-sm" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
-        <a class="btn btn-link btn-sm" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
       </div>
 
     </div>
