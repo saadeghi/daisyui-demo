@@ -113,6 +113,16 @@
 
 
     </Wrapper>
+
+
+    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
+      <NuxtLink to="/docs/use" class="btn-lg btn btn-outline text-xs lg:text-lg">
+        Next: How to use
+        <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
+      </NuxtLink>
+    </div>
+
+
   </div>
 </template>
 <script>
