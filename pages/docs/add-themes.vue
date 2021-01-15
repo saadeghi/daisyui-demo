@@ -132,7 +132,9 @@
 
     --btn-text-case: uppercase; <span class="text-content-400">/* default text case for buttons */</span>
     --navbar-padding: .5rem; <span class="text-content-400">/* default padding for navbar */</span>
-    --border-btn: 1px; <span class="text-content-400">/* default border size for button */</span></code></pre>
+    --border-btn: 1px; <span class="text-content-400">/* default border size for button */</span>
+    --focus-ring: 2px; <span class="text-content-400">/* focus ring size for button and inputs */</span>
+    --focus-ring-offset: 2px; <span class="text-content-400">/* focus ring offset size for button and inputs */</span></code></pre>
         </div>
       </div>
 
