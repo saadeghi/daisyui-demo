@@ -159,8 +159,8 @@
 
       <div class="flex items-center w-full px-4 py-10 bg-cover card bg-content-100" style="background-image: url(https://picsum.photos/id/314/1000/300)">
         <Card class="glass card-side">
-          <figure class="lg:w-1/3">
-            <img src="https://picsum.photos/id/1005/400/350" />
+          <figure class="p-6 lg:w-1/3">
+            <img src="https://picsum.photos/id/1005/400/350" class="rounded-lg shadow-lg" />
           </figure>
           <div class="card-body lg:w-2/3">
             <h2 class="card-title">Glass</h2>
