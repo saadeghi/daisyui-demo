@@ -72,7 +72,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Tailwind CSS plugin
         </h2>
-        <p class="text-content-500">DaisyUI is a Tailwind CSS plugin so you can simply add it to your tailwind.config.js file.</p>
+        <p class="text-content-500">DaisyUI is a Tailwind CSS plugin so you can simply add it to your <span class="badge badge-info">tailwind.config.js</span> file.</p>
       </div>
 
       <div class="max-w-xs">
@@ -80,7 +80,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Scalable
         </h2>
-        <p class="text-content-500">All your components will use the same design system. No more classname madness when your app gets bigger.</p>
+        <p class="text-content-500">All your components will use the same design system. No need to micro manage utility classes for hundreds of duplicate components when your app gets bigger.</p>
       </div>
 
       <div class="max-w-xs">
@@ -88,7 +88,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Customizable
         </h2>
-        <p class="text-content-500">Customize the style of elements with Tailwind utility classes.</p>
+        <p class="text-content-500">You can customize the style of components with Tailwind utility classes.</p>
       </div>
 
       <div class="max-w-xs">
