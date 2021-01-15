@@ -116,7 +116,7 @@
       </h2>
 
       <p class="my-4 text-lg">
-        You can also set more variables customize your theme.
+        You can also set more variables to customize your theme.
       </p>
 
       <div class="w-full max-w-4xl my-2">
