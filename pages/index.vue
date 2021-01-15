@@ -78,9 +78,9 @@
       <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          Scalable
+          Design system
         </h2>
-        <p class="text-content-500">All your components will use the same design system. No need to micro manage utility classes for hundreds of duplicate components when your app gets bigger.</p>
+        <p class="text-content-500">DaisyUI applies design system concepts to Tailwind CSS. All components on your page are committed to a single design system.</p>
       </div>
 
       <div class="max-w-xs">
@@ -88,7 +88,7 @@
           <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
           Customizable
         </h2>
-        <p class="text-content-500">You can customize the style of components with Tailwind utility classes.</p>
+        <p class="text-content-500">You can customize the design of components with Tailwind utility classes and CSS variables.</p>
       </div>
 
       <div class="max-w-xs">

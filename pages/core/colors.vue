@@ -397,10 +397,12 @@ See how components will look like using you color palette
 <div>
 This is your custom color theme. add it to your CSS file!
 </div>
-<div class="mt-6 prose-sm prose">
-<pre><code>:root {
-<template v-for="(color, index) in colorValues">  --{{ index }}: {{ color.hsl }};
-</template>}</code></pre>
+<div class="w-full max-w-2xl my-2">
+  <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+  <pre><code>:root {
+  <template v-for="(color, index) in colorValues">  --{{ index }}: {{ color.hsl }};
+  </template>}</code></pre>
+  </div>
 </div>
 
 <component is="style" v-if="applyCustomThemeToSite" v-for="(color, index) in colorValues" :key="index">
