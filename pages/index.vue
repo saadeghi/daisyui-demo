@@ -54,7 +54,7 @@
     </div>
 
     <div class="mt-6 text-center">
-      <a class="btn btn-link btn-sm" target="_blank" href="https://play.tailwindcss.com/908kXKMIeO">Tailwind Play</a>
+      <a class="btn btn-link btn-sm" target="_blank" href="https://play.tailwindcss.com/whCH0z6ZlQ">Tailwind Play</a>
       <a class="btn btn-link btn-sm" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
       <a class="btn btn-link btn-sm" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
       <a class="btn btn-link btn-sm" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
