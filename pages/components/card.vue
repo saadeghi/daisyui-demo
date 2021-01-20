@@ -162,11 +162,11 @@
           <figure class="p-6 lg:w-1/3">
             <img src="https://picsum.photos/id/1005/400/350" class="rounded-lg shadow-lg" />
           </figure>
-          <div class="card-body lg:w-2/3">
+          <div class="max-w-md card-body lg:w-2/3">
             <h2 class="card-title">Glass</h2>
-            <p>Rerum reiciendis beatae tenetur excepturi</p>
+            <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
             <div class="card-actions">
-              <Button classes="glass">Get Started</Button>
+              <Button classes="glass rounded-full">Get Started</Button>
             </div>
           </div>
         </Card>
