@@ -50,6 +50,7 @@
 
       daisyui: {
         styled: true,
+        utils: true,
         <span class="badge badge-ghost">themes: true,</span>
         rtl: false,
       },
@@ -98,7 +99,7 @@
 
 
     <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/docs/add-themes" class="btn-lg btn btn-outline text-xs lg:text-lg">
+      <NuxtLink to="/docs/add-themes" class="text-xs btn-lg btn btn-outline lg:text-lg">
         Next: Add themes
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>
