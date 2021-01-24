@@ -32,7 +32,7 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./dist
 
-      - name: Create CNAME file
+      - name: "Create CNAME file"
       - uses: "finnp/create-file-action@master"
       env:
         FILE_NAME: "CNAME"
