@@ -12,7 +12,7 @@
     <div class="flex flex-col items-center">
       <div class="w-full max-w-lg my-10">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre data-prefix="$"><code>npm i daisyui</code></pre>
+          <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
         </div>
       </div>
       <div class="flex gap-4">

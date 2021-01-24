@@ -82,7 +82,7 @@
 
 
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
           <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
         </div>
       </div>

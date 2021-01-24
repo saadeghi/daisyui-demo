@@ -17,7 +17,7 @@
       </p>
       <div class="w-full max-w-xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre data-prefix="$"><code>npm i daisyui</code></pre>
+          <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
         </div>
       </div>
 
@@ -25,7 +25,7 @@
         Then add DaisyUI to your <span class="badge">tailwind.config.js</span>
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
         <pre><code>module.exports = {
 
       plugins: [
@@ -68,7 +68,7 @@
       </div>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
           <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
@@ -86,7 +86,7 @@
       </div>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
           <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/styled.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
@@ -105,7 +105,7 @@
       </div>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
           <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/full.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
