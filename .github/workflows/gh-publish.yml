@@ -34,6 +34,6 @@ jobs:
 
       - name: Create CNAME file
       - uses: finnp/create-file-action@master
-          env:
-            FILE_NAME: "CNAME"
-            FILE_DATA: "daisy.js.org"
+            env:
+              FILE_NAME: "CNAME"
+              FILE_DATA: "daisy.js.org"
