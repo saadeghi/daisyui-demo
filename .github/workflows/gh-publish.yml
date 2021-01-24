@@ -38,8 +38,8 @@ jobs:
           echo daisy.js.org >> CNAME
           cat CNAME
       - name: Commit CNAME file
-        uses: EndBug/add-and-commit@v7
+        uses: actions/upload-artifact@v2
         with:
-          add: 'CNAME'
-          branch: gh-pages
+          name: CNAME
+          path: CNAME
 
