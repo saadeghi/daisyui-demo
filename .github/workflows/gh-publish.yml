@@ -31,15 +31,3 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./dist
-
-      - name: Create CNAME file
-        run: |
-          touch CNAME
-          echo daisy.js.org >> CNAME
-          cat CNAME
-      - name: Commit CNAME file
-        uses: actions/upload-artifact@v2
-        with:
-          name: CNAME
-          path: CNAME
-
