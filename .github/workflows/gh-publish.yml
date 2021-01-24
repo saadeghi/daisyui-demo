@@ -33,7 +33,7 @@ jobs:
           publish_dir: ./dist
 
       - name: Create CNAME file
-        uses: DamianReeves/write-file-action@1.0
+        uses: DamianReeves/write-file-action@master
         with:
           path: ${{ env.home}}/CNAME
           contents: |
