@@ -33,7 +33,9 @@ jobs:
           publish_dir: ./dist
 
       - name: Create CNAME file
-      - uses: finnp/create-file-action@master
-            env:
-              FILE_NAME: "CNAME"
-              FILE_DATA: "daisy.js.org"
+        uses: DamianReeves/write-file-action@master
+        with:
+          path: CNAME
+          contents: |
+            echo "daisy.js.org"
+          write-mode: overwrite
