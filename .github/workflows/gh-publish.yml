@@ -33,9 +33,9 @@ jobs:
           publish_dir: ./dist
 
       - name: Create CNAME file
-        uses: DamianReeves/write-file-action@master
+      - uses: 1arp/create-a-file-action@0.2
         with:
-          path: ${{ env.home}}/CNAME
-          contents: |
-            echo "daisy.js.org"
-          write-mode: overwrite
+          path: ''
+          file: 'CNAME'
+          content: |
+            daisy.js.org
