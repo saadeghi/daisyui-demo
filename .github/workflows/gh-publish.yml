@@ -37,4 +37,9 @@ jobs:
           touch CNAME
           echo daisy.js.org >> CNAME
           cat CNAME
+      - name: Commit CNAME file
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: 'CNAME'
+          branch: gh-pages
 
