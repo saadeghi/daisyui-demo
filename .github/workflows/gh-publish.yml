@@ -33,5 +33,5 @@ jobs:
           publish_dir: ./dist
 
       - name: Create CNAME file
-      - run: echo daisy.js.org > CNAME
+        run: echo daisy.js.org > CNAME
 
