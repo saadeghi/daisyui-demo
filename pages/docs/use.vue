@@ -7,7 +7,7 @@
 
     <Wrapper nocode>
       <p class="prose text-content-800">
-        Once you <NuxtLink to="/docs/install">installed</NuxtLink> DaisyUI, you can use component classes line <span class="badge badge-ghost">btn</span>, <span class="badge badge-ghost">card</span>, etc...
+        Once you <NuxtLink to="/docs/install">installed</NuxtLink> DaisyUI, you can use component classes like <span class="badge badge-ghost">btn</span>, <span class="badge badge-ghost">card</span>, etc...
       </p>
 
       <p class="my-4">
@@ -46,7 +46,7 @@
 
 
     <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/docs/config" class="btn-lg btn btn-outline text-xs lg:text-lg">
+      <NuxtLink to="/docs/config" class="text-xs btn-lg btn btn-outline lg:text-lg">
         Next: Config
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>
