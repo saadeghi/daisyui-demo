@@ -35,7 +35,7 @@ jobs:
       - name: Create CNAME file
         uses: DamianReeves/write-file-action@master
         with:
-          path: /CNAME
+          path: ${{ env.home}}/CNAME
           contents: |
             echo "daisy.js.org"
           write-mode: overwrite
