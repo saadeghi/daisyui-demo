@@ -15,7 +15,7 @@
           <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
         </div>
       </div>
-      <div class="flex gap-4">
+      <div class="flex space-x-4">
         <NuxtLink to="/docs/install" class="shadow-lg btn-lg btn btn-primary">
           Get started
         </NuxtLink>

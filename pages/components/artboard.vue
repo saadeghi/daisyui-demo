@@ -1,7 +1,7 @@
 <template>
   <div>
     <Wrapper title="artboard - phone" classes="overflow-x-auto bg-content-100 p-10 rounded-lg border border-content-300">
-      <div class="flex w-auto gap-10 flex-nowrap">
+      <div class="flex w-auto space-x-10 flex-nowrap">
         <div class="artboard phone-1 artboard-demo">
           phone-1
         </div>
