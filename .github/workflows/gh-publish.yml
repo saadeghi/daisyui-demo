@@ -33,5 +33,10 @@ jobs:
           publish_dir: ./dist
 
       - name: Create CNAME file
-        run: echo daisy.js.org > CNAME
+        uses: 1arp/create-a-file-action@0.2
+        with:
+          path: ''
+          file: 'CNAME'
+          content: |
+            daisy.js.org
 
