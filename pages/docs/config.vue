@@ -28,7 +28,6 @@
       <span class="text-content-500">// config (optional)</span>
       daisyui: {
         styled: true,
-        utils: true,
         themes: false,
         rtl: false,
       },
@@ -54,17 +53,6 @@
         If it's true, components will have colors and style so you won't need to design anything.
         <br>
         If it's false, components will have no color and no visual style so you can design your own style on a basic skeleton.
-      </p>
-
-      <h2 class="mt-6 text-2xl font-bold">
-        <span>utils</span>
-      </h2>
-      <p class="badge">
-        default: true
-      </p>
-      <p class="my-4">
-        DaisyUI components use a few extended utility classes like <span class="badge badge-ghost">rounded-box</span>, <span class="badge badge-ghost">rounded-btn</span>, etc...
-        This config lets you use them on other elements as well
       </p>
 
       <h2 class="mt-6 text-2xl font-bold">

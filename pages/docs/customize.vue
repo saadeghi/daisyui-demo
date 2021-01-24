@@ -68,7 +68,6 @@
       ],
       daisyui: {
         <span class="badge badge-ghost">styled: false,</span>
-        utils: true,
         themes: false,
         rtl: false,
       },

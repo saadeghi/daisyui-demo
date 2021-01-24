@@ -16,19 +16,19 @@
 
     <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-x-0 space-y-2 md:space-y-0 flex-col md:flex-row" title="badge variants">
       <Badge class="badge-info">
-        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 mr-2 stroke-current" />
         info
       </Badge>
       <Badge class="badge-success">
-        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 mr-2 stroke-current" />
         success
       </Badge>
       <Badge class="badge-warning">
-        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 mr-2 stroke-current" />
         warning
       </Badge>
       <Badge class="badge-error">
-        <Icon glyph="close" class="inline-block w-4 mr-2 stroke-current" />
+        <Icon glyph="close" class="inline-block w-4 h-4 mr-2 stroke-current" />
         error
       </Badge>
     </Wrapper>

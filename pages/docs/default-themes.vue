@@ -50,7 +50,6 @@
 
       daisyui: {
         styled: true,
-        utils: true,
         <span class="badge badge-ghost">themes: true,</span>
         rtl: false,
       },
