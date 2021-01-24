@@ -44,11 +44,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@'+ process.env.daisyuiMaxVersion +'/dist/full.css' : ''
+        href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.daisyuiMaxVersion +'/dist/full.css' : ''
       },
       {
         rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://unpkg.com/daisyui@'+ process.env.daisyuiMaxVersion +'/dist/themes.css' : ''
+        href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.daisyuiMaxVersion +'/dist/themes.css' : ''
       },
     ],
 

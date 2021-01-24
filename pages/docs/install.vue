@@ -63,14 +63,13 @@
             <li>No color, no visual style</li>
             <li>You need to style elements yourself</li>
             <li>You need to add Tailwind CSS Separately</li>
-            <li>You can't use DaisyUI colors on other elements</li>
           </ul>
         </p>
       </div>
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -80,7 +79,7 @@
         <p class="prose">
           <ul>
             <li>Ready-to-use styled UI components</li>
-            <li>You can't use DaisyUI colors on other elements</li>
+            <li>You can't use DaisyUI colors (like primary, secondary, etc...) on other elements</li>
             <li>You need to add Tailwind CSS Separately</li>
           </ul>
         </p>
@@ -88,7 +87,7 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/styled.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/styled.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -99,15 +98,15 @@
         <p class="prose">
           <ul>
             <li>Ready-to-use styled UI components</li>
-            <li>You can use DaisyUI colors on all elements</li>
             <li>Tailwind's default style included</li>
+            <li>You can use DaisyUI colors on all elements</li>
           </ul>
         </p>
       </div>
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://unpkg.com/daisyui@{{ daisyuiMaxVersion }}/dist/full.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+          <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/full.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
