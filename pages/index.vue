@@ -2,11 +2,11 @@
   <div class="pb-10">
     <div class="mx-auto mt-16 text-center text-content-800">
       <div class="inline-block w-44 lg:w-60" v-html="svgLogo"></div>
-      <p class="py-4 font-bold text-primary">
+      <p class="py-4 font-bold text-secondary">
         Tailwind CSS Components
       </p>
       <div class="text-sm italic text-content-600">
-        Adds components like btn, card and more to Tailwind CSS
+        Adds components like <NuxtLink to="/components/button" class="px-0 lowercase btn btn-sm btn-link">btn</NuxtLink>, <NuxtLink to="/components/card" class="px-0 lowercase btn btn-sm btn-link">card</NuxtLink> and <NuxtLink to="/components/accordion" class="px-0 lowercase btn btn-sm btn-link">more...</NuxtLink> to Tailwind CSS
       </div>
     </div>
     <div class="flex flex-col items-center">
