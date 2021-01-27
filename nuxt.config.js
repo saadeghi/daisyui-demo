@@ -110,6 +110,6 @@ export default {
     linkExactActiveClass: 'bg-primary bg-opacity-20 text-primary',
   },
   env: {
-    daisyuiMaxVersion: '0.9.x',
+    daisyuiMaxVersion: '0.10.x',
   },
 }
