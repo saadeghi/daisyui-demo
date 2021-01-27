@@ -5,8 +5,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "daisyuiMaxVersion='0.10.x' nuxt generate",
-    "predeploy": "ROUTER_BASE='/' daisyuiMaxVersion='0.10.x' nuxt generate",
+    "generate": "daisyuiMaxVersion='0.11.x' nuxt generate",
+    "predeploy": "ROUTER_BASE='/' daisyuiMaxVersion='0.11.x' nuxt generate",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
