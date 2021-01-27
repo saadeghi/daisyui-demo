@@ -3,10 +3,10 @@
     <div class="mx-auto mt-16 text-center text-content-800">
       <div class="inline-block w-44 lg:w-60" v-html="svgLogo"></div>
       <p class="py-4 font-bold text-primary">
-        UI Components for Tailwind CSS
+        Tailwind CSS Components
       </p>
       <div class="text-sm italic text-content-600">
-        You have everything from Tailwind CSS, <br>but you can also use component classes like btn, card, etc...
+        Adds components like btn, card and more to Tailwind CSS
       </div>
     </div>
     <div class="flex flex-col items-center">

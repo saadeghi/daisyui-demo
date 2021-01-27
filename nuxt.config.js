@@ -12,7 +12,7 @@ function getFiles(path, format= 'css') {
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'DaisyUI Demo',
+    title: 'DaisyUI - Tailwind CSS Components',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,12 +22,12 @@ export default {
       {
         hid: "twitter:url",
         name: "twitter:url",
-        content: "http://daisyui.netlify.app/",
+        content: "https://daisy.js.org/",
       },
       {
         hid: "twitter:title",
         name: "twitter:title",
-        content: "DaisyUI - UI Components for Tailwind CSS",
+        content: "DaisyUI - Tailwind CSS Components",
       },
       {
         hid: "twitter:description",
