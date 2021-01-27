@@ -4,7 +4,7 @@
 
       <Card class="bordered">
         <figure>
-          <img src="https://picsum.photos/id/1005/600/400" />
+          <img src="https://picsum.photos/id/1005/400/250" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Top image<Badge class="mx-2 badge-secondary">NEW</Badge></h2>
@@ -25,13 +25,13 @@
           </div>
         </div>
         <figure>
-          <img src="https://picsum.photos/id/1005/600/400" />
+          <img src="https://picsum.photos/id/1005/400/250" />
         </figure>
       </Card>
 
       <Card class="bordered">
         <figure>
-          <img src="https://picsum.photos/id/1005/60/40" />
+          <img class="w-full" src="https://picsum.photos/id/1005/60/40" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Small image file</h2>
@@ -50,7 +50,7 @@
 
       <Card class="text-center shadow-2xl">
         <figure class="px-10 pt-10">
-          <img class="rounded-xl" src="https://picsum.photos/id/1005/600/400" />
+          <img class="rounded-xl" src="https://picsum.photos/id/1005/400/250" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">shadow, center, padding</h2>
@@ -63,7 +63,7 @@
 
       <Card class="shadow-xl image-full">
         <figure>
-          <img src="https://picsum.photos/id/1005/600/400" />
+          <img src="https://picsum.photos/id/1005/400/250" />
         </figure>
         <div class="justify-end card-body">
           <h2 class="card-title">Image overlay</h2>
@@ -76,7 +76,7 @@
 
       <Card class="shadow-sm bg-accent text-content-accent">
         <figure>
-          <img src="https://picsum.photos/id/1005/600/400" />
+          <img src="https://picsum.photos/id/1005/400/250" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Accent color</h2>
@@ -91,11 +91,11 @@
 
     <Wrapper title="card with side image" classes="grid grid-cols-1 gap-6">
 
-      <Card class="card-side bordered">
-        <figure class="lg:w-1/3">
-          <img src="https://picsum.photos/id/1005/600/400" />
+      <Card class="lg:card-side bordered">
+        <figure>
+          <img src="https://picsum.photos/id/1005/400/250" />
         </figure>
-        <div class="lg:w-2/3 card-body">
+        <div class="card-body">
           <h2 class="card-title">Horizontal</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
@@ -105,11 +105,11 @@
         </div>
       </Card>
 
-      <Card class="card-side bordered">
-        <figure class="lg:w-1/3">
-          <img src="https://picsum.photos/id/1005/600/400" />
+      <Card class="lg:card-side bordered">
+        <figure>
+          <img src="https://picsum.photos/id/1005/400/250" />
         </figure>
-        <div class="lg:w-2/3 card-body">
+        <div class="card-body">
           <h2 class="card-title">Horizontal<Badge class="mx-2">NEW</Badge></h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
           <div class="space-x-2 card-actions">
@@ -122,9 +122,9 @@
 
     </Wrapper>
 
-    <Wrapper title="card with out image" classes="grid grid-cols-1 gap-6">
+    <Wrapper title="card without image" classes="grid grid-cols-1 gap-6">
 
-      <Card class="card-side bordered">
+      <Card class="lg:card-side bordered">
         <div class="card-body">
           <h2 class="card-title">No Images</h2>
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
@@ -158,11 +158,11 @@
     <Wrapper title="glass card">
 
       <div class="flex items-center w-full px-4 py-10 bg-cover card bg-content-100" style="background-image: url(https://picsum.photos/id/314/1000/300)">
-        <Card class="glass card-side">
-          <figure class="p-6 lg:w-1/3">
-            <img src="https://picsum.photos/id/1005/400/350" class="rounded-lg shadow-lg" />
+        <Card class="glass lg:card-side">
+          <figure class="p-6">
+            <img src="https://picsum.photos/id/1005/300/200" class="rounded-lg shadow-lg" />
           </figure>
-          <div class="max-w-md card-body lg:w-2/3">
+          <div class="max-w-md card-body">
             <h2 class="card-title">Glass</h2>
             <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
             <div class="card-actions">
@@ -178,7 +178,7 @@
 
     <Wrapper title="mini cards" classes="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <Card class="shadow-2xl card-side bg-primary text-content-primary">
+      <Card class="shadow-2xl lg:card-side bg-primary text-content-primary">
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-end space-x-2 card-actions">
@@ -190,7 +190,7 @@
         </div>
       </Card>
 
-      <Card class="shadow-2xl card-side bg-secondary text-content-secondary">
+      <Card class="shadow-2xl lg:card-side bg-secondary text-content-secondary">
         <div class="card-body">
           <div class="justify-end space-x-2 card-actions">
             <Button classes="btn-secondary btn-square">
@@ -201,7 +201,7 @@
         </div>
       </Card>
 
-      <Card class="text-center shadow-2xl card-side bg-accent text-content-accent">
+      <Card class="text-center shadow-2xl lg:card-side bg-accent text-content-accent">
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-center space-x-2 card-actions">
