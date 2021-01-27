@@ -211,5 +211,9 @@
       <Button classes="btn-xs btn-circle loading"></Button>
     </Wrapper>
 
+    <Wrapper classes="flex flex-wrap items-start md:space-x-2 space-y-2 md:space-y-0 flex-col md:flex-row" title="disable animation">
+      <Button classes="btn-primary btn-no-animation">I don't have click animation</Button>
+    </Wrapper>
+
   </div>
 </template>
