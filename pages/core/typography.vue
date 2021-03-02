@@ -6,7 +6,7 @@
       </h2>
 
     </div>
-    <div class="prose text-content-800">
+    <div class="prose text-base-content">
       <Wrapper nocode>
         <p>You should use official <a target="_blank" href="https://github.com/tailwindlabs/tailwindcss-typography">TailwindCSS Typography</a> plugin.
         It handles everything and it's fully customizable</p>

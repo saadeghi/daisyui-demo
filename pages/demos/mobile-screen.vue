@@ -7,7 +7,7 @@
       >
         <div class="flex flex-col items-center h-full text-center">
 
-          <Navbar class="flex-none w-full pt-6 bg-content-800 text-content-100">
+          <Navbar class="flex-none w-full pt-6 bg-neutral text-base-200">
             <div class="flex-none">
               <Button classes="btn-circle btn-ghost">
                 <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
@@ -25,7 +25,7 @@
             </div>
           </Navbar>
 
-          <div class="flex flex-col items-center justify-center flex-1 h-full p-4 bg-content-100">
+          <div class="flex flex-col items-center justify-center flex-1 h-full p-4 bg-base-200">
             <div class="avatar online">
               <div class="w-32 h-32 rounded-full">
                 <img
@@ -42,7 +42,7 @@
 
 
           <Menu
-            class="justify-center flex-none w-full px-3 pb-4 horizontal bg-default"
+            class="justify-center flex-none w-full px-3 pb-4 horizontal bg-base-100"
           >
             <MenuItem>
               <a>

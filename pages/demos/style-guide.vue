@@ -4,23 +4,23 @@
     <div class="items-end justify-start h-96 hero bg-primary rounded-box">
       <div class="hero-content">
         <div class="py-6 hero-text">
-          <div class="py-2 font-bold text-9xl text-content-primary">
+          <div class="py-2 font-bold text-9xl text-primary-content">
             Aa
           </div>
-          <div class="py-2 text-5xl font-bold text-content-primary">
+          <div class="py-2 text-5xl font-bold text-primary-content">
             Style Guide Demo
           </div>
-          <p class="text-content-primary">Omnis quo eveniet veniam quis odit.</p>
+          <p class="text-primary-content">Omnis quo eveniet veniam quis odit.</p>
         </div>
       </div>
     </div>
 
     <div class="pt-32 pb-12">
-      <div class="inline-block text-2xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Typography</div>
+      <div class="inline-block text-2xl font-bold border-b-8 lg:text-7xl text-base-content border-primary">Typography</div>
     </div>
 
     <div class="flex flex-col lg:space-x-6 lg:flex-row">
-      <div class="space-y-2 font-bold text-content-900">
+      <div class="space-y-2 font-bold text-base-content">
         <div class="text-9xl">AaBb<span class="hidden lg:inline-block">Cc</span></div>
         <div class="text-8xl">AaBb<span class="hidden lg:inline-block">Cc</span></div>
         <div class="text-7xl">AaBb<span class="hidden lg:inline-block">Cc</span></div>
@@ -35,7 +35,7 @@
         <div class="text-sm">AaBb<span class="hidden lg:inline-block">Cc</span></div>
         <div class="text-xs">AaBb<span class="hidden lg:inline-block">Cc</span></div>
       </div>
-      <div class="space-y-2 text-content-900">
+      <div class="space-y-2 text-base-content">
         <div class="text-9xl">AaBb<span class="hidden lg:inline-block">Cc</span></div>
         <div class="text-8xl">AaBb<span class="hidden lg:inline-block">Cc</span></div>
         <div class="text-7xl">AaBb<span class="hidden lg:inline-block">Cc</span></div>
@@ -53,120 +53,111 @@
     </div>
 
     <div class="pt-32 pb-12">
-      <div class="inline-block text-2xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Brand Colors</div>
+      <div class="inline-block text-2xl font-bold border-b-8 lg:text-7xl text-base-content border-primary">Brand Colors</div>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 mt-10 text-xs font-semibold capitalize md:grid-cols-3 lg:grid-cols-4 text-content-400">
+    <div class="grid grid-cols-3 gap-6 mt-10 text-xs font-semibold capitalize">
       <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-primary-lighten"></div>
-        <div class="py-4">primary lighten</div>
-      </div>
-      <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-primary"></div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-primary"></div>
         <div class="py-4">primary</div>
       </div>
       <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-primary-darken"></div>
-        <div class="py-4">primary darken</div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-primary-focus"></div>
+        <div class="py-4">primary focus</div>
+      </div>
+      <div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-primary-content"></div>
+        <div class="py-4">primary content</div>
       </div>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 mt-10 text-xs font-semibold capitalize md:grid-cols-3 lg:grid-cols-4 text-content-400">
+    <div class="grid grid-cols-3 gap-6 mt-10 text-xs font-semibold capitalize">
       <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-secondary-lighten"></div>
-        <div class="py-4">secondary lighten</div>
-      </div>
-      <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-secondary"></div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-secondary"></div>
         <div class="py-4">secondary</div>
       </div>
       <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-secondary-darken"></div>
-        <div class="py-4">secondary darken</div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-secondary-focus"></div>
+        <div class="py-4">secondary focus</div>
+      </div>
+      <div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-secondary-content"></div>
+        <div class="py-4">secondary content</div>
       </div>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 mt-10 text-xs font-semibold capitalize md:grid-cols-3 lg:grid-cols-4 text-content-400">
+    <div class="grid grid-cols-3 gap-6 mt-10 text-xs font-semibold capitalize">
       <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-accent-lighten"></div>
-        <div class="py-4">accent lighten</div>
-      </div>
-      <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-accent"></div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-accent"></div>
         <div class="py-4">accent</div>
       </div>
       <div>
-        <div class="h-16 shadow-lg w-fill lg:w-52 lg:h-52 rounded-box bg-accent-darken"></div>
-        <div class="py-4">accent darken</div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-accent-focus"></div>
+        <div class="py-4">accent focus</div>
+      </div>
+      <div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-accent-content"></div>
+        <div class="py-4">accent content</div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-6 mt-10 text-xs font-semibold capitalize">
+      <div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-neutral"></div>
+        <div class="py-4">neutral</div>
+      </div>
+      <div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-neutral-focus"></div>
+        <div class="py-4">neutral focus</div>
+      </div>
+      <div>
+        <div class="w-20 h-20 shadow-lg w-fill lg:w-32 lg:h-32 rounded-box bg-neutral-content"></div>
+        <div class="py-4">neutral content</div>
       </div>
     </div>
 
     <div class="pt-32 pb-12">
-      <div class="inline-block text-2xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">Content Colors</div>
+      <div class="inline-block text-2xl font-bold border-b-8 lg:text-7xl text-base-content border-primary">Base Colors</div>
     </div>
 
-    <div class="grid grid-cols-2 gap-6 mt-10 text-xs font-semibold capitalize lg:grid-cols-5 text-content-400">
+    <div class="grid grid-cols-2 gap-6 mt-10 text-xs font-semibold capitalize lg:grid-cols-5">
       <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-default"></div>
-        <div class="py-4">default</div>
-      </div>
-      <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-100"></div>
+        <div class="w-20 h-20 shadow-lg rounded-box bg-base-100"></div>
         <div class="py-4">100</div>
       </div>
       <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-200"></div>
+        <div class="w-20 h-20 shadow-lg rounded-box bg-base-200"></div>
         <div class="py-4">200</div>
       </div>
       <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-300"></div>
+        <div class="w-20 h-20 shadow-lg rounded-box bg-base-300"></div>
         <div class="py-4">300</div>
       </div>
       <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-400"></div>
-        <div class="py-4">400</div>
-      </div>
-      <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-500"></div>
-        <div class="py-4">500</div>
-      </div>
-      <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-600"></div>
-        <div class="py-4">600</div>
-      </div>
-      <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-700"></div>
-        <div class="py-4">700</div>
-      </div>
-      <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-800"></div>
-        <div class="py-4">800</div>
-      </div>
-      <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-content-900"></div>
-        <div class="py-4">900</div>
+        <div class="w-20 h-20 shadow-lg rounded-box bg-base-content"></div>
+        <div class="py-4">content</div>
       </div>
     </div>
 
     <div class="pt-32 pb-12">
-      <div class="inline-block text-2xl font-bold border-b-8 lg:text-7xl text-content-900 border-primary">State Colors</div>
+      <div class="inline-block text-2xl font-bold border-b-8 lg:text-7xl text-base-content border-primary">State Colors</div>
     </div>
 
-    <div class="grid grid-cols-2 gap-6 mt-10 text-xs font-semibold capitalize lg:grid-cols-5 text-content-400">
+    <div class="grid grid-cols-2 gap-6 mt-10 text-xs font-semibold capitalize lg:grid-cols-5">
       <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-info"></div>
+        <div class="w-20 h-20 shadow-lg rounded-box bg-info"></div>
         <div class="py-4">info</div>
       </div>
       <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-success"></div>
+        <div class="w-20 h-20 shadow-lg rounded-box bg-success"></div>
         <div class="py-4">success</div>
       </div>
       <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-warning"></div>
+        <div class="w-20 h-20 shadow-lg rounded-box bg-warning"></div>
         <div class="py-4">warning</div>
       </div>
       <div>
-        <div class="w-32 h-32 shadow-lg rounded-box bg-error"></div>
+        <div class="w-20 h-20 shadow-lg rounded-box bg-error"></div>
         <div class="py-4">error</div>
       </div>
     </div>

@@ -107,7 +107,7 @@ export default {
   router: {
     base: (process.env.ROUTER_BASE) ? process.env.ROUTER_BASE : '/',
     // linkActiveClass: 'bg-primary bg-opacity-20 text-primary',
-    linkExactActiveClass: 'bg-primary bg-opacity-20 text-primary',
+    linkExactActiveClass: 'active',
   },
   env: {
     daisyuiMaxVersion: '0.11.5',

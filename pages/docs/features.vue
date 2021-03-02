@@ -12,7 +12,7 @@
         This is how you usually design a normal button with Tailwind CSS:
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre><code>&#x3C;button class=&#x22;<span class="text-warning">inline-block px-4 py-3 text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-indigo-500 rounded-md cursor-pointer hover:bg-indigo-600</span>&#x22;&#x3E;Tailwind Button&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
@@ -24,7 +24,7 @@
         With DaisyUI, you can use component classes:
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre><code>&#x3C;button class=&#x22;<span class="text-success">btn btn-primary</span>&#x22;&#x3E;DaisyUI Button&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
@@ -36,7 +36,7 @@
         And still use utility classes for customization:
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre><code>&#x3C;button class=&#x22;<span class="text-success">btn btn-primary</span> <span class="text-info">rounded-full</span>&#x22;&#x3E;DaisyUI Button&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
@@ -44,7 +44,7 @@
         <button class="rounded-full btn btn-primary">DaisyUI Button</button>
       </div>
 
-      <div class="py-6 mb-4 text-content-700">
+      <div class="py-6 mb-4 text-opacity-50 text-base-content">
         <p class="prose">
           Repeating all those low-level classes all over your code base makes it hard to manage, hard to edit and hard to scale.
           <br>
@@ -60,7 +60,7 @@
         <blockquote>- But I'm using a templating system (vue, blade, hbs, ...) <br>and I use one component for all my buttons.</blockquote>
       </div>
 
-      <div class="py-6 mb-4 text-content-700">
+      <div class="py-6 mb-4 text-opacity-50 text-base-content">
         <p class="prose">
           Yes, That might be solution in some cases but then again, you need to define every variant for your component by mixing design decisions inside your logic code. You need diffrent variants of almost all your components, that can be handled in CSS (unless you want to make your job harder)
           <br>
@@ -107,7 +107,7 @@
       <p class="mb-4 prose">
       Tailwind CSS provides a wide range of colors and it won't limit your choice when you're styling your page. DaisyUI however, is focusing on design system concepts and if you're creating a design system, you need to define your brand colors and create your layout commited to that color palette.
       <br>
-        Instead of using general-purpose color names like <span class="badge badge-warning">blue-600</span> or <span class="badge badge-warning">gray-100</span> use semantic role names like <span class="badge badge-success">primary</span>, <span class="badge badge-success">content-300</span> or <span class="badge badge-success">info</span>. This way, you can change primary color of your whole project using a single CSS variable. No need to replace all color classes in all files. You can also define multiple themes (not just dark-mode) using CSS variables.
+        Instead of using general-purpose color names like <span class="badge badge-warning">blue-600</span> or <span class="badge badge-warning">gray-100</span> use semantic role names like <span class="badge badge-success">primary</span>, <span class="badge badge-success">neutral-300</span> or <span class="badge badge-success">info</span>. This way, you can change primary color of your whole project using a single CSS variable. No need to replace all color classes in all files. You can also define multiple themes (not just dark-mode) using CSS variables.
       </p>
 
 
@@ -175,8 +175,8 @@
 
 
 
-    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/core/colors" class="btn-lg btn btn-outline text-xs lg:text-lg">
+    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-base-200">
+      <NuxtLink to="/core/colors" class="text-xs btn-lg btn lg:text-lg">
         Next: Colors
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>

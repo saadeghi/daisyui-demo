@@ -2,7 +2,7 @@
   <div>
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
-        <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
+        <Navbar class="mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
@@ -23,7 +23,7 @@
     </Wrapper>
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
-        <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
+        <Navbar class="mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div class="flex-none">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="back" class="inline-block w-6 h-6 stroke-current text-success" />
@@ -39,7 +39,7 @@
     </Wrapper>
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
-        <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
+        <Navbar class="mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div class="flex-1 px-2 mx-2">
             <span class="text-lg font-bold">
               DaisyUI
@@ -55,7 +55,7 @@
     </Wrapper>
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
-        <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
+        <Navbar class="mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div class="flex-none hidden lg:flex">
             <Button classes="btn-square btn-ghost">
               <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
@@ -93,7 +93,7 @@
 
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
-        <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
+        <Navbar class="mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div class="flex-none px-2 mx-2">
             <span class="text-lg font-bold">
               DaisyUI
@@ -101,16 +101,16 @@
           </div>
           <div class="flex-1 px-2 mx-2">
             <div class="items-stretch hidden lg:flex">
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 Home
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 Portfolio
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 About
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 Contact
               </a>
             </div>
@@ -134,7 +134,7 @@
 
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
-        <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
+        <Navbar class="mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div class="flex-1 px-2 mx-2">
             <span class="text-lg font-bold">
               DaisyUI
@@ -142,19 +142,19 @@
           </div>
           <div class="flex-none hidden px-2 mx-2 lg:flex">
             <div class="flex items-stretch">
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 <Icon glyph="heart" class="inline-block w-5 mr-2 stroke-current" />
                 Likes
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 <Icon glyph="bell" class="inline-block w-5 mr-2 stroke-current" />
                 Notifications
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 <Icon glyph="folder" class="inline-block w-5 mr-2 stroke-current" />
                 Files
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 <Icon glyph="code" class="inline-block w-5 mr-2 stroke-current" />
                 Config
               </a>
@@ -172,7 +172,7 @@
 
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
 
-        <Navbar class="mb-2 shadow-lg bg-content-800 text-content-100 rounded-box">
+        <Navbar class="mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div class="flex-1 px-2 mx-2 lg:flex-none">
             <span class="text-lg font-bold">
               DaisyUI
@@ -180,16 +180,16 @@
           </div>
           <div class="justify-center flex-1 hidden px-2 mx-2 lg:flex">
             <div class="flex items-stretch">
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 Home
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 Portfolio
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 About
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+              <a class="btn btn-ghost btn-sm rounded-btn">
                 Contact
               </a>
             </div>

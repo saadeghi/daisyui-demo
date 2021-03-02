@@ -1,7 +1,7 @@
 <template>
   <div>
     <Wrapper title="hero">
-      <Hero class="min-h-screen bg-content-100">
+      <Hero class="min-h-screen bg-base-200">
         <div class="text-center hero-content">
           <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-bold">
@@ -16,7 +16,7 @@
       </Hero>
     </Wrapper>
     <Wrapper title="hero with figure">
-      <Hero class="min-h-screen bg-content-100">
+      <Hero class="min-h-screen bg-base-200">
         <div class="flex-col hero-content lg:flex-row-reverse">
           <img class="max-w-sm rounded-lg shadow-2xl" src="https://picsum.photos/id/1005/600/600" />
           <div>
@@ -32,7 +32,7 @@
       </Hero>
     </Wrapper>
     <Wrapper title="hero with form">
-      <Hero class="min-h-screen bg-content-100">
+      <Hero class="min-h-screen bg-base-200">
         <div class="flex-col justify-center hero-content lg:flex-row">
           <div class="text-center lg:text-left">
             <h1 class="mb-5 text-5xl font-bold">
@@ -42,7 +42,7 @@
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
             </p>
           </div>
-          <Card class="flex-shrink-0 w-full max-w-sm shadow-2xl bg-default">
+          <Card class="flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <div class="card-body">
               <FormControl>
                 <label class="label">
@@ -70,7 +70,7 @@
     <Wrapper title="hero">
       <Hero class="min-h-screen" style="background-image: url(https://picsum.photos/id/1005/1600/1400)">
         <div class="hero-overlay bg-opacity-60"></div>
-        <div class="text-center hero-content text-content-100">
+        <div class="text-center hero-content text-neutral-content">
           <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-bold">
               Hello there

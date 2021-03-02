@@ -1,12 +1,12 @@
 <template>
-  <div class="grid grid-cols-1 gap-6 lg:p-10 xl:grid-cols-3 lg:bg-content-100 rounded-box">
+  <div class="grid grid-cols-1 gap-6 lg:p-10 xl:grid-cols-3 lg:bg-base-200 rounded-box">
 
 
 
 
 
 
-    <Navbar class="col-span-1 shadow-lg xl:col-span-3 bg-content-800 text-content-100 rounded-box">
+    <Navbar class="col-span-1 shadow-lg xl:col-span-3 bg-neutral-focus text-neutral-content rounded-box">
       <div class="flex-none">
         <Button classes="btn-square btn-ghost">
           <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" />
@@ -19,16 +19,16 @@
       </div>
       <div class="flex justify-center flex-1 px-2 mx-2">
         <div class="items-stretch hidden lg:flex">
-          <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+          <a class="btn btn-ghost btn-sm rounded-btn">
             Home
           </a>
-          <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+          <a class="btn btn-ghost btn-sm rounded-btn">
             Portfolio
           </a>
-          <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+          <a class="btn btn-ghost btn-sm rounded-btn">
             About
           </a>
-          <a class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+          <a class="btn btn-ghost btn-sm rounded-btn">
             Contact
           </a>
         </div>
@@ -47,7 +47,7 @@
     </Navbar>
 
 
-      <Card class="shadow-lg compact side bg-default">
+      <Card class="shadow-lg compact side bg-base-100">
         <div class="flex-row items-center space-x-4 card-body">
           <div>
             <Avatar classes="rounded-full w-14 h-14 shadow">
@@ -56,7 +56,7 @@
           </div>
           <div class="">
             <h2 class="card-title">Janis Johnson</h2>
-            <p class="text-content-400">Accounts Agent</p>
+            <p class="text-base-content text-opacity-40">Accounts Agent</p>
           </div>
         </div>
       </Card>
@@ -65,11 +65,11 @@
 
 
 
-      <Card class="shadow-lg compact side bg-default">
+      <Card class="shadow-lg compact side bg-base-100">
         <div class="flex-row items-center space-x-4 card-body">
           <div class="flex-1">
             <h2 class="card-title">Meredith Mayer</h2>
-            <p class="text-content-400">Data Liaison</p>
+            <p class="text-base-content text-opacity-40">Data Liaison</p>
           </div>
           <div class="flex-0">
             <Button classes="btn-sm">Follow</Button>
@@ -81,14 +81,14 @@
 
 
 
-      <Card class="row-span-3 shadow-lg compact bg-default">
+      <Card class="row-span-3 shadow-lg compact bg-base-100">
         <figure>
           <img src="https://picsum.photos/id/1005/600/400" />
         </figure>
         <div class="flex-row items-center space-x-4 card-body">
           <div class="">
             <h2 class="card-title">Karolann Collins</h2>
-            <p class="text-content-400">Direct Interactions Liaison</p>
+            <p class="text-base-content text-opacity-40">Direct Interactions Liaison</p>
           </div>
         </div>
       </Card>
@@ -97,11 +97,11 @@
 
 
 
-      <Card class="shadow-lg compact side bg-default">
+      <Card class="shadow-lg compact side bg-base-100">
         <div class="flex-row items-center space-x-4 card-body">
           <div class="flex-1">
             <h2 class="card-title text-primary">4,600</h2>
-            <p class="text-content-400">Page views</p>
+            <p class="text-base-content text-opacity-40">Page views</p>
           </div>
           <div class="flex space-x-2 flex-0">
             <Button classes="btn-sm btn-square">
@@ -121,14 +121,14 @@
 
 
 
-      <Card class="shadow-lg compact side bg-default">
+      <Card class="shadow-lg compact side bg-base-100">
         <div class="flex-row items-center space-x-4 card-body">
           <label class="flex-0">
             <Toggle classes="toggle-primary" />
           </label>
           <div class="flex-1">
             <h2 class="card-title">Enable Notifications</h2>
-            <p class="text-content-400">To get latest updates</p>
+            <p class="text-base-content text-opacity-40">To get latest updates</p>
           </div>
         </div>
       </Card>
@@ -136,7 +136,7 @@
 
 
 
-      <Card class="col-span-1 row-span-3 shadow-lg xl:col-span-2 bg-default">
+      <Card class="col-span-1 row-span-3 shadow-lg xl:col-span-2 bg-base-100">
         <div class="card-body">
           <h2 class="my-4 text-4xl font-bold card-title">Top 10 UI Components</h2>
           <div class="mb-4 space-x-2 card-actions">
@@ -155,7 +155,7 @@
 
 
 
-      <Card class="shadow-lg compact side bg-default">
+      <Card class="shadow-lg compact side bg-base-100">
         <div class="flex-row items-center space-x-4 card-body">
           <div class="flex-1">
             <h2 class="flex card-title">
@@ -180,7 +180,7 @@
 
 
 
-      <Card class="shadow-lg compact side bg-default">
+      <Card class="shadow-lg compact side bg-base-100">
         <div class="flex-row items-center space-x-4 card-body">
           <label class="cursor-pointer label">
             <Checkbox classes="checkbox-accent" checked />
@@ -192,7 +192,7 @@
 
 
 
-      <Menu class="row-span-3 p-4 shadow-lg bg-default text-content-700 rounded-box">
+      <Menu class="row-span-3 p-4 shadow-lg bg-base-100 text-base-content text-opacity-40 rounded-box">
         <MenuItem class="menu-title">
           <span>
             Menu Title
@@ -219,7 +219,7 @@
       </Menu>
 
 
-      <Alert class="col-span-1 xl:col-span-2 bg-default">
+      <Alert class="col-span-1 xl:col-span-2 bg-base-100">
         <div class="flex-1">
           <label class="mx-3">Lorem ipsum dolor sit amet, consectetur adip!</label>
         </div>

@@ -19,7 +19,7 @@
       title="Textarea without border"
       classes="flex flex-col space-y-2 max-w-xs"
     >
-      <div class="p-10 card bg-content-100">
+      <div class="p-10 card bg-base-200">
         <FormControl>
           <label class="label">
             <span class="label-text">Your bio</span>
@@ -32,7 +32,7 @@
       title="input ghost (no background)"
       classes="flex flex-col space-y-2 max-w-xs"
     >
-      <div class="p-10 card bg-content-100">
+      <div class="p-10 card bg-base-200">
         <FormControl>
           <label class="label">
             <span class="label-text">Your bio</span>

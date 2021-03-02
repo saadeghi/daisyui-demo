@@ -6,7 +6,7 @@
     </h2>
 
     <Wrapper nocode>
-      <p class="prose text-content-800">
+      <p class="prose text-base-content">
         Once you <NuxtLink to="/docs/install">installed</NuxtLink> DaisyUI, you can use component classes like <span class="badge badge-ghost">btn</span>, <span class="badge badge-ghost">card</span>, etc...
       </p>
 
@@ -14,7 +14,7 @@
         So instead of making a button like this:
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre><code>&#x3C;button class=&#x22;<span class="text-warning">inline-block px-4 py-3 text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-indigo-500 rounded-md cursor-pointer hover:bg-indigo-600</span>&#x22;&#x3E;Tailwind Button&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
@@ -27,7 +27,7 @@
         You just need this:
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre><code>&#x3C;button class=&#x22;<span class="text-success">btn btn-primary</span>&#x22;&#x3E;DaisyUI Button&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
@@ -45,8 +45,8 @@
 
 
 
-    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/docs/config" class="text-xs btn-lg btn btn-outline lg:text-lg">
+    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-base-200">
+      <NuxtLink to="/docs/config" class="text-xs btn-lg btn lg:text-lg">
         Next: Config
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>

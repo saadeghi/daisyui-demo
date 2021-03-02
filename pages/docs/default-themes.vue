@@ -5,7 +5,7 @@
     </h2>
     <Wrapper nocode>
 
-      <p class="mb-4 text-content-400">
+      <p class="mb-4 text-neutral-content text-opacity-20">
         DaisyUI is themeable, powered by CSS variables.
       </p>
       <p class="mb-4 text-lg font-bold">
@@ -35,9 +35,9 @@
       </p>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-        <pre><code><span class="text-content-500">module.exports = {</span>
-    <span class="text-content-500">...</span>
+        <div class="shadow-lg mockup-code">
+        <pre><code><span class="text-neutral-content text-opacity-20">module.exports = {</span>
+    <span class="text-neutral-content text-opacity-20">...</span>
 
       purge: {
         content: ['yourfiles/**/*.html'],
@@ -54,8 +54,8 @@
         rtl: false,
       },
 
-    <span class="text-content-500">...</span>
-    <span class="text-content-500">}</span></code></pre>
+    <span class="text-neutral-content text-opacity-20">...</span>
+    <span class="text-neutral-content text-opacity-20">}</span></code></pre>
         </div>
       </div>
 
@@ -69,8 +69,8 @@
       </p>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/themes.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+        <div class="text-sm shadow-lg mockup-code">
+          <pre><code><span class="text-neutral-content text-opacity-20">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/themes.css<span class="text-neutral-content text-opacity-20">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -86,8 +86,8 @@
       </p>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;html</span> data-theme="dark"<span class="text-content-400">&gt;</span></code></pre>
+        <div class="shadow-lg mockup-code">
+          <pre><code><span class="text-neutral-content text-opacity-20">&lt;html</span> data-theme="dark"<span class="text-neutral-content text-opacity-20">&gt;</span></code></pre>
         </div>
       </div>
 
@@ -97,8 +97,8 @@
 
 
 
-    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/docs/add-themes" class="text-xs btn-lg btn btn-outline lg:text-lg">
+    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-base-200">
+      <NuxtLink to="/docs/add-themes" class="text-xs btn-lg btn lg:text-lg">
         Next: Add themes
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>

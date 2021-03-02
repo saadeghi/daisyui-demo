@@ -10,22 +10,22 @@
       </p>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
         <pre><code>module.exports = {
 
-      <span class="text-content-500">// add DaisyUI plugin</span>
+      <span class="text-neutral-content text-opacity-20">// add DaisyUI plugin</span>
       plugins: [
         require('daisyui'),
       ],
 
-      <span class="text-content-500">// add DaisyUI colors (optional)</span>
+      <span class="text-neutral-content text-opacity-20">// add DaisyUI colors (optional)</span>
       theme: {
         extend: {
           colors: require('daisyui/colors'),
         },
       },
 
-      <span class="text-content-500">// config (optional)</span>
+      <span class="text-neutral-content text-opacity-20">// config (optional)</span>
       daisyui: {
         styled: true,
         themes: false,
@@ -83,8 +83,8 @@
 
 
 
-    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/docs/customize" class="text-xs btn-lg btn btn-outline lg:text-lg">
+    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-base-200">
+      <NuxtLink to="/docs/customize" class="text-xs btn-lg btn lg:text-lg">
         Next: Customize components
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>

@@ -6,7 +6,7 @@
     </h2>
     <Wrapper nocode>
 
-      <p class="prose text-content-800">
+      <p class="prose text-base-content">
         You need
         <a target="_blank" href="https://nodejs.org/en/download/">Node.js</a> and
         <a target="_blank" href="https://tailwindcss.com/docs/installation">Tailwind CSS</a> installed.
@@ -16,7 +16,7 @@
         Install DaisyUI:
       </p>
       <div class="w-full max-w-xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
         </div>
       </div>
@@ -25,14 +25,14 @@
         Then add DaisyUI to your <span class="badge">tailwind.config.js</span>
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="text-sm shadow-lg mockup-code">
         <pre><code>module.exports = {
 
       plugins: [
         <span class="badge badge-ghost">require('daisyui'),</span>
       ],
 
-      <span class="text-content-500">// OPTIONAL: if you want to use DaisyUI colors everywhere</span>
+      <span class="text-neutral-content text-opacity-20">// OPTIONAL: if you want to use DaisyUI colors everywhere</span>
       theme: {
         extend: {
           <span class="badge badge-ghost">colors: require('daisyui/colors'),</span>
@@ -48,14 +48,14 @@
         <span>Use a CDN</span>
       </h2>
 
-      <p class="mt-4 prose text-content-800">
+      <p class="mt-4 prose text-base-content">
         You don't need to install anything. You can just add the CSS file. However, you can't customize anything and you can't purge unused styles.
       </p>
       <p class="mt-4 font-bold text-primary">
         You have 3 options:
       </p>
 
-      <div class="mt-10 text-content-800">
+      <div class="mt-10 text-base-content">
         <h2 class="text-2xl font-bold">1. Base version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/base.css?label=base.css&color=purple'" alt="base.css"/></h2>
         <p class="prose">
           <ul>
@@ -68,13 +68,13 @@
       </div>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+        <div class="text-sm shadow-lg mockup-code">
+          <pre><code><span class="text-neutral-content text-opacity-20">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-neutral-content text-opacity-20">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
 
-      <div class="mt-10 text-content-800">
+      <div class="mt-10 text-base-content">
         <h2 class="text-2xl font-bold">2. Styled version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.css?label=styled.css&color=purple'" alt="styled.css"/></h2>
         <p class="prose">
           <ul>
@@ -86,14 +86,14 @@
       </div>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/styled.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+        <div class="text-sm shadow-lg mockup-code">
+          <pre><code><span class="text-neutral-content text-opacity-20">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/styled.css<span class="text-neutral-content text-opacity-20">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
 
 
-      <div class="mt-10 text-content-800">
+      <div class="mt-10 text-base-content">
         <h2 class="text-2xl font-bold">3. Full version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/full.css?label=full.css&color=purple'" alt="full.css"/></h2>
         <p class="prose">
           <ul>
@@ -105,8 +105,8 @@
       </div>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/full.css<span class="text-content-400">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+        <div class="text-sm shadow-lg mockup-code">
+          <pre><code><span class="text-neutral-content text-opacity-20">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/full.css<span class="text-neutral-content text-opacity-20">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -114,8 +114,8 @@
     </Wrapper>
 
 
-    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/docs/use" class="text-xs btn-lg btn btn-outline lg:text-lg">
+    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-base-200">
+      <NuxtLink to="/docs/use" class="text-xs btn-lg btn lg:text-lg">
         Next: How to use
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>

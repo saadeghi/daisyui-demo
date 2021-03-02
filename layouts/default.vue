@@ -1,22 +1,22 @@
 <template>
   <div class="flex flex-col min-h-screen lg:flex-row">
-    <aside :class="'flex flex-col justify-between w-full h-auto border-r bg-default border-content-200 lg:sticky lg:w-1/5 lg:h-screen lg:top-0 '">
+    <aside :class="'flex flex-col justify-between w-full h-auto border-r bg-base-100 border-base-200 lg:sticky lg:w-1/5 lg:h-screen lg:top-0 '">
       <div class="lg:overflow-y-auto">
         <div class="flex items-center">
 
-          <NuxtLink to="/" v-on:click.native="showMainMenu = false" class="mx-3 mb-0 text-center transition-all duration-300 ease-in-out rounded-btn flex-0 lg:flex-1 lg:text-center hover:bg-primary hover:bg-opacity-20 lg:mt-4 lg:mx-4">
+          <NuxtLink to="/" v-on:click.native="showMainMenu = false" class="mx-3 mb-0 text-center transition-all duration-300 ease-in-out rounded-btn flex-0 lg:flex-1 lg:text-center hover:bg-neutral hover:bg-opacity-10 lg:mt-4 lg:mx-4">
             <div class="inline-block w-20 mx-4 my-1 lg:my-6 lg:w-28" v-html="svgLogo"></div>
           </NuxtLink>
 
           <div class="flex-1 block lg:hidden"></div>
 
-          <button class="m-4 btn btn-ghost btn-circle flex-0 lg:hidden text-content-900" v-on:click="showMainMenu = !showMainMenu">
+          <button class="m-4 btn btn-ghost btn-circle flex-0 lg:hidden text-base-content" v-on:click="showMainMenu = !showMainMenu">
             <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" v-if="!showMainMenu" />
             <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" v-if="showMainMenu" />
           </button>
 
         </div>
-        <Menu :class="(showMainMenu ? ' flex ' : ' hidden ') + ' lg:flex flex-col p-4 pb-10 compact text-content-700 '">
+        <Menu :class="(showMainMenu ? ' flex ' : ' hidden ') + ' lg:flex flex-col p-4 pb-10 compact text-base-content '">
           <MenuItem class="mt-4 menu-title">
             <span>
               Docs
@@ -123,14 +123,14 @@
           </MenuItem>
         </Menu>
       </div>
-      <div :class="(showMainMenu ? ' sticky ' : ' hidden ') + ' lg:block lg:sticky bottom-0 w-full bg-content-200 focus-within:bg-content-300'">
-        <select class="w-full px-10 py-5 text-sm capitalize bg-transparent appearance-none cursor-pointer text-content-900 focus:outline-none" data-choose-theme>
+      <div :class="(showMainMenu ? ' sticky ' : ' hidden ') + ' lg:block p-2 lg:sticky bottom-0 w-full bg-base-300 focus-within:bg-base-300'">
+        <select class="w-full select bg-base-300 text-base-content" data-choose-theme>
           <option value="">🎨 theme: auto</option>
           <option v-for="(theme, index) in themes" :value="theme.id">{{ theme.name }}</option>
         </select>
       </div>
     </aside>
-    <main :class="'block lg:block w-full p-4 lg:p-10 flex-grow bg-default text-content-900 lg:w-4/5'">
+    <main :class="'block lg:block w-full p-4 lg:p-10 flex-grow bg-base-100 text-base-content lg:w-4/5'">
       <Nuxt />
     </main>
   </div>

@@ -74,7 +74,7 @@
         </div>
       </Card>
 
-      <Card class="shadow-sm bg-accent text-content-accent">
+      <Card class="shadow-sm bg-accent text-accent-content">
         <figure>
           <img src="https://picsum.photos/id/1005/400/250" />
         </figure>
@@ -157,7 +157,7 @@
 
     <Wrapper title="glass card">
 
-      <div class="flex items-center w-full px-4 py-10 bg-cover card bg-content-100" style="background-image: url(https://picsum.photos/id/314/1000/300)">
+      <div class="flex items-center w-full px-4 py-10 bg-cover card bg-base-200" style="background-image: url(https://picsum.photos/id/314/1000/300)">
         <Card class="glass lg:card-side">
           <figure class="p-6">
             <img src="https://picsum.photos/id/1005/300/200" class="rounded-lg shadow-lg" />
@@ -178,7 +178,7 @@
 
     <Wrapper title="mini cards" classes="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <Card class="shadow-2xl lg:card-side bg-primary text-content-primary">
+      <Card class="shadow-2xl lg:card-side bg-primary text-primary-content">
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-end space-x-2 card-actions">
@@ -190,7 +190,7 @@
         </div>
       </Card>
 
-      <Card class="shadow-2xl lg:card-side bg-secondary text-content-secondary">
+      <Card class="shadow-2xl lg:card-side bg-secondary text-secondary-content">
         <div class="card-body">
           <div class="justify-end space-x-2 card-actions">
             <Button classes="btn-secondary btn-square">
@@ -201,7 +201,7 @@
         </div>
       </Card>
 
-      <Card class="text-center shadow-2xl lg:card-side bg-accent text-content-accent">
+      <Card class="text-center shadow-2xl lg:card-side bg-accent text-accent-content">
         <div class="card-body">
           <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.</p>
           <div class="justify-center space-x-2 card-actions">

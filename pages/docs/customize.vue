@@ -13,7 +13,7 @@
         Let's say, you wanna customize this button:
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre><code>&#x3C;button class=&#x22;<span class="text-success">btn btn-primary</span>&#x22;&#x3E;DaisyUI Button&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
@@ -26,7 +26,7 @@
         You just need to add Tailwind's utility classes:
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre><code>&#x3C;button class=&#x22;<span class="text-success">btn btn-primary rounded-full</span>&#x22;&#x3E;DaisyUI Button customized&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
@@ -39,7 +39,7 @@
         You can also customize components on your CSS file, using Tailwind's <span class="badge badge-ghost">@apply</span> directive.
       </p>
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
           <pre><code>.btn {
       <span class="text-success">@apply rounded-full</span>;
     }</code></pre>
@@ -60,7 +60,7 @@
       </p>
 
       <div class="w-full max-w-4xl my-2">
-        <div class="shadow-lg mockup-code bg-content-800 text-content-100">
+        <div class="shadow-lg mockup-code">
         <pre><code>module.exports = {
 
       plugins: [
@@ -82,8 +82,8 @@
 
 
       <div class="w-full max-w-4xl my-2">
-        <div class="text-sm shadow-lg mockup-code bg-content-800 text-content-100">
-          <pre><code><span class="text-content-400">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-content-400">" rel="stylesheet" /&gt;</span></code></pre>
+        <div class="text-sm shadow-lg mockup-code">
+          <pre><code><span class="text-neutral-content text-opacity-20">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-neutral-content text-opacity-20">" rel="stylesheet" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -93,8 +93,8 @@
 
 
 
-    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/docs/default-themes" class="text-xs btn-lg btn btn-outline lg:text-lg">
+    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-base-200">
+      <NuxtLink to="/docs/default-themes" class="text-xs btn-lg btn lg:text-lg">
         Next: Default themes
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>

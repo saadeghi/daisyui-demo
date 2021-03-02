@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Wrapper title="artboard - phone" classes="overflow-x-auto bg-content-100 p-10 rounded-lg border border-content-300">
+    <Wrapper title="artboard - phone" classes="overflow-x-auto bg-base-200 p-10 rounded-box border border-base-content border-opacity-10">
       <div class="flex w-auto space-x-10 flex-nowrap">
         <div class="artboard phone-1 artboard-demo">
           phone-1
@@ -22,7 +22,7 @@
         </div>
       </div>
     </Wrapper>
-    <Wrapper title="artboard - phone horizontal" classes="overflow-x-auto bg-content-100 p-4 rounded-lg border border-content-300">
+    <Wrapper title="artboard - phone horizontal" classes="overflow-x-auto bg-base-200 p-4 rounded-box border border-base-content border-opacity-10">
       <div class="flex w-auto space-x-4 flex-nowrap">
         <div class="artboard phone-1 horizontal artboard-demo">
           phone-1

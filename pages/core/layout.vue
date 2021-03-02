@@ -5,7 +5,7 @@
       <span class="text-primary">Layout</span>
     </h2>
 
-    <Wrapper nocode class="prose text-content-800">
+    <Wrapper nocode class="prose text-base-content">
       <p>Layout, sizing, grids, spacing, etc are all will be handled by Tailwind CSS's utility classes</p>
       <p>
         Read more about:
@@ -21,8 +21,8 @@
     </Wrapper>
 
 
-    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-content-200">
-      <NuxtLink to="/core/typography" class="btn-lg btn btn-outline text-xs lg:text-lg">
+    <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-base-200">
+      <NuxtLink to="/core/typography" class="btn-lg btn text-xs lg:text-lg">
         Next: typography
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>
