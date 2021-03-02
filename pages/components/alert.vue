@@ -73,7 +73,7 @@
           <Icon glyph="bell" class="flex-shrink-0 w-6 h-6 mx-2" color="#009688" />
           <label>
             <h4>Lorem ipsum dolor sit!</h4>
-            <p class="text-sm bg-neutral-focus">
+            <p class="text-sm text-base-content text-opacity-60">
               Lorem ipsum dolor sit amet, consectetur adip! Lorem ipsum dolor
               sit amet, consectetur adip!Lorem ipsum dolor sit amet, consectetur
               adip!Lorem ipsum dolor sit amet, consectetur adip!Lorem ipsum
