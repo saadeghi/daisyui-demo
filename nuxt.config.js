@@ -110,6 +110,6 @@ export default {
     linkExactActiveClass: 'active',
   },
   env: {
-    daisyuiMaxVersion: '0.12.0',
+    daisyuiMaxVersion: '0.12.1',
   },
 }
