@@ -125,7 +125,7 @@
       </div>
       <div :class="(showMainMenu ? ' sticky ' : ' hidden ') + ' lg:block p-2 lg:sticky bottom-0 w-full bg-base-300 focus-within:bg-base-300'">
         <select class="w-full select bg-base-300 text-base-content" data-choose-theme>
-          <option value="">🎨 theme: auto</option>
+          <option value="">theme: 🎨 auto</option>
           <option v-for="(theme, index) in themes" :value="theme.id">{{ theme.name }}</option>
         </select>
       </div>
@@ -148,15 +148,23 @@ export default {
       componentPages: [],
       demoPages: [],
       themes: [
-        {id: 'light', name:'🌝 theme: light'},
-        {id: 'dark', name:'🌚 theme: dark'},
-        {id: 'valentine', name:'🌸 theme: valentine'},
-        {id: 'retro', name:'👴 theme: retro'},
-        {id: 'synthwave', name:'🌃 theme: synthwave'},
-        {id: 'cyberpunk', name:'🤖 theme: cyberpunk'},
-        {id: 'black', name:'🏴 theme: black'},
-        {id: 'dracula', name:'🧛‍♂️ theme: dracula'},
-        {id: 'garden', name:'🌳 theme: garden'},
+        {id: 'light', name:'theme: 🌝 light'},
+        {id: 'dark', name:'theme: 🌚 dark'},
+        {id: 'valentine', name:'theme: 🌸 valentine'},
+        {id: 'retro', name:'theme: 👴 retro'},
+        {id: 'synthwave', name:'theme: 🌃 synthwave'},
+        {id: 'cyberpunk', name:'theme: 🤖 cyberpunk'},
+        {id: 'black', name:'theme: 🏴 black'},
+        {id: 'dracula', name:'theme: 🧛‍♂️ dracula'},
+        {id: 'garden', name:'theme: 🌷 garden'},
+        {id: 'halloween', name:'theme: 🎃 halloween'},
+        {id: 'aqua', name:'theme: 🐟 aqua'},
+        {id: 'cupcake', name:'theme: 🧁 cupcake'},
+        {id: 'bumblebee', name:'theme: 🐝 bumblebee'},
+        {id: 'pastel', name:'theme: 🖍 pastel'},
+        {id: 'forest', name:'theme: 🌲 forest'},
+        {id: 'fantasy', name:'theme: 🧚‍♀️ fantasy'},
+        {id: 'luxury', name:'theme: 💎 luxury'},
       ],
       showMainMenu: false,
     }
