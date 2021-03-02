@@ -29,13 +29,13 @@
         <pre><code>module.exports = {
 
       plugins: [
-        <span class="badge badge-ghost">require('daisyui'),</span>
+        <span class="badge badge-primary">require('daisyui'),</span>
       ],
 
       <span class="text-neutral-content text-opacity-20">// OPTIONAL: if you want to use DaisyUI colors everywhere</span>
       theme: {
         extend: {
-          <span class="badge badge-ghost">colors: require('daisyui/colors'),</span>
+          <span class="badge badge-primary">colors: require('daisyui/colors'),</span>
         },
       },
 

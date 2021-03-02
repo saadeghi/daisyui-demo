@@ -166,11 +166,11 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code">
-        <pre><code>&lt;html <span class="badge badge-ghost">data-theme="dark"</span>&gt;
+        <pre><code>&lt;html <span class="badge badge-primary">data-theme="dark"</span>&gt;
 
-      &lt;div <span class="badge badge-ghost">data-theme="light"</span>&gt;
+      &lt;div <span class="badge badge-primary">data-theme="light"</span>&gt;
         This div will always use light theme
-          &lt;span <span class="badge badge-ghost">data-theme="retro"</span>&gt;
+          &lt;span <span class="badge badge-primary">data-theme="retro"</span>&gt;
             This span will always use retro theme!
           &lt;/span&gt;
       &lt;/div&gt;
@@ -193,7 +193,7 @@
         <div class="shadow-lg mockup-code">
         <pre><code>options: {
       safelist: [
-        <span class="badge badge-ghost">/data-theme$/,</span>
+        <span class="badge badge-primary">/data-theme$/,</span>
       ],
     },</code></pre>
         </div>
@@ -205,11 +205,11 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code">
-        <pre><code><span class="badge badge-ghost">/*! purgecss start ignore */</span>
+        <pre><code><span class="badge badge-primary">/*! purgecss start ignore */</span>
     [data-theme='dark'] {
       <span class="text-neutral-content text-opacity-20">...</span>
     }
-    <span class="badge badge-ghost">/*! purgecss end ignore */</span></code></pre>
+    <span class="badge badge-primary">/*! purgecss end ignore */</span></code></pre>
         </div>
       </div>
 

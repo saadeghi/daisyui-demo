@@ -67,7 +67,7 @@
         require('daisyui'),
       ],
       daisyui: {
-        <span class="badge badge-ghost">styled: false,</span>
+        <span class="badge badge-primary">styled: false,</span>
         themes: false,
         rtl: false,
       },

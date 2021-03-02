@@ -43,14 +43,14 @@
         content: ['yourfiles/**/*.html'],
         options: {
           safelist: [
-            <span class="badge badge-ghost">/data-theme$/,</span>
+            <span class="badge badge-primary">/data-theme$/,</span>
           ]
         },
       },
 
       daisyui: {
         styled: true,
-        <span class="badge badge-ghost">themes: true,</span>
+        <span class="badge badge-primary">themes: true,</span>
         rtl: false,
       },
 
