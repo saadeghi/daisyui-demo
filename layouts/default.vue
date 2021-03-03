@@ -1,138 +1,139 @@
 <template>
-  <div class="flex flex-col min-h-screen lg:flex-row">
-    <aside :class="'flex flex-col justify-between w-full h-auto border-r bg-base-100 border-base-200 lg:sticky lg:w-1/5 lg:h-screen lg:top-0 '">
-      <div class="lg:overflow-y-auto">
-        <div class="flex items-center">
+  <div class="h-screen drawer drawer-mobile">
+    <input id="main-menu" type="checkbox" class="drawer-toggle" v-model="showMainMenu" >
+    <main class="flex-grow block w-full bg-base-100 text-base-content drawer-content">
 
-          <NuxtLink to="/" v-on:click.native="showMainMenu = false" class="mx-3 mb-0 text-center transition-all duration-300 ease-in-out rounded-btn flex-0 lg:flex-1 lg:text-center hover:bg-neutral hover:bg-opacity-10 lg:mt-4 lg:mx-4">
-            <div class="inline-block w-20 mx-4 my-1 lg:my-6 lg:w-28" v-html="svgLogo"></div>
-          </NuxtLink>
-
-          <div class="flex-1 block lg:hidden"></div>
-
-          <button class="m-4 btn btn-ghost btn-circle flex-0 lg:hidden text-base-content" v-on:click="showMainMenu = !showMainMenu">
-            <Icon glyph="menu" class="inline-block w-6 h-6 stroke-current" v-if="!showMainMenu" />
-            <Icon glyph="close" class="inline-block w-6 h-6 stroke-current" v-if="showMainMenu" />
-          </button>
-
+      <div class="sticky inset-x-0 top-0 z-50 border-b navbar bg-base-100 bg-opacity-95 text-base-content border-base-200 lg:hidden">
+        <div class="flex-none">
+          <label for="main-menu" class="btn btn-square btn-ghost drawer-button lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </label>
         </div>
-        <Menu :class="(showMainMenu ? ' flex ' : ' hidden ') + ' lg:flex flex-col p-4 pb-10 compact text-base-content '">
-          <MenuItem class="mt-4 menu-title">
-            <span>
-              Docs
-            </span>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/docs/install" v-on:click.native="showMainMenu = false">
-              <Icon glyph="inbox-in" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              install
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/docs/use" v-on:click.native="showMainMenu = false">
-              <Icon glyph="lightning-bolt" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              use
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/docs/config" v-on:click.native="showMainMenu = false">
-              <Icon glyph="adjustments" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              config
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/docs/customize" v-on:click.native="showMainMenu = false">
-              <Icon glyph="code" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              customize components
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/docs/default-themes" v-on:click.native="showMainMenu = false">
-              <Icon glyph="color-swatch" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              Default Themes
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/docs/add-themes" v-on:click.native="showMainMenu = false">
-              <Icon glyph="document-add" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              Add Themes
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/docs/features" v-on:click.native="showMainMenu = false">
-              <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              Features
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem class="mt-4 menu-title">
-            <span>
-              Core
-            </span>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/core/colors" v-on:click.native="showMainMenu = false">
-              <Icon glyph="color-swatch" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              Colors
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/core/layout" v-on:click.native="showMainMenu = false">
-              <Icon glyph="template" class="inline-block w-6 h-6 mr-2 stroke-current" />
-              Layout
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem>
-            <NuxtLink class="capitalize" to="/core/typography" v-on:click.native="showMainMenu = false">
-              <Icon glyph="text" class="inline-block w-6 h-6 mr-2 fill-current" />
-              Typography
-            </NuxtLink>
-          </MenuItem>
-          <MenuItem class="mt-4 menu-title">
-            <span>
-              Components
-            </span>
-          </MenuItem>
-          <MenuItem v-for="(item, itemindex) in componentPages" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
-            <NuxtLink class="capitalize" v-if="item.path" :to="item.path" v-on:click.native="showMainMenu = false">
-              {{ item.name }}
-            </NuxtLink>
-            <span class="capitalize" v-if="!item.path">
-              <Icon
-                glyph="folder"
-                class="inline-block w-4 mr-2 -ml-6 stroke-current color-primary"
-              />
-              {{ item.name }}
-            </span>
-          </MenuItem>
-          <MenuItem class="mt-4 menu-title">
-            <span>
-              Demos
-            </span>
-          </MenuItem>
-          <MenuItem v-for="(item, itemindex) in demoPages" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
-            <NuxtLink class="capitalize" v-if="item.path" :to="item.path" v-on:click.native="showMainMenu = false">
-              {{ item.name }}
-            </NuxtLink>
-            <span class="capitalize" v-if="!item.path">
-              <Icon
-                glyph="folder"
-                class="inline-block w-4 mr-2 -ml-6 stroke-current color-primary"
-              />
-              {{ item.name }}
-            </span>
-          </MenuItem>
-        </Menu>
+        <div class="flex-1">
+          <NuxtLink to="/" class="px-2 text-center transition-all duration-300 ease-in-out rounded-btn flex-0 hover:bg-neutral hover:bg-opacity-10">
+            <div class="inline-block w-20 pt-2" v-html="svgLogo"></div>
+          </NuxtLink>
+        </div>
       </div>
-      <div :class="(showMainMenu ? ' sticky ' : ' hidden ') + ' lg:block p-2 lg:sticky bottom-0 w-full bg-base-300 focus-within:bg-base-300'">
-        <select class="w-full select bg-base-300 text-base-content" data-choose-theme>
-          <option value="">theme: 🎨 auto</option>
-          <option v-for="(theme, index) in themes" :value="theme.id">{{ theme.name }}</option>
-        </select>
+      <div class="p-4 lg:p-10">
+        <Nuxt />
       </div>
-    </aside>
-    <main :class="'block lg:block w-full p-4 lg:p-10 flex-grow bg-base-100 text-base-content lg:w-4/5'">
-      <Nuxt />
+
     </main>
+    <div class="drawer-side">
+      <label for="main-menu" class="drawer-overlay"></label>
+      <aside class="flex flex-col justify-between h-screen overflow-y-auto border-r bg-base-100 border-base-200 w-80">
+        <div>
+          <div class="flex items-center">
+
+            <NuxtLink v-on:click.native="showMainMenu = false" to="/" class="flex-1 hidden mx-4 mt-4 mb-0 text-center transition-all duration-300 ease-in-out lg:block rounded-btn flex-0 hover:bg-neutral hover:bg-opacity-10">
+              <div class="inline-block w-20 mx-4 my-1 lg:my-6 lg:w-28" v-html="svgLogo"></div>
+            </NuxtLink>
+
+          </div>
+          <Menu class="flex flex-col p-4 pb-10 compact text-base-content">
+            <MenuItem class="mt-4 menu-title">
+              <span>
+                Docs
+              </span>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/docs/install">
+                <Icon glyph="inbox-in" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                install
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/docs/use">
+                <Icon glyph="lightning-bolt" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                use
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/docs/config">
+                <Icon glyph="adjustments" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                config
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/docs/customize">
+                <Icon glyph="code" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                customize components
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/docs/default-themes">
+                <Icon glyph="color-swatch" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                Default Themes
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/docs/add-themes">
+                <Icon glyph="document-add" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                Add Themes
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/docs/features">
+                <Icon glyph="check" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                Features
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem class="mt-4 menu-title">
+              <span>
+                Core
+              </span>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/core/colors">
+                <Icon glyph="color-swatch" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                Colors
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/core/layout">
+                <Icon glyph="template" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                Layout
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/core/typography">
+                <Icon glyph="text" class="inline-block w-6 h-6 mr-2 fill-current" />
+                Typography
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem class="mt-4 menu-title">
+              <span>
+                Components
+              </span>
+            </MenuItem>
+            <MenuItem v-for="(item, itemindex) in componentPages" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" v-if="item.path" :to="item.path">
+                {{ item.name }}
+              </NuxtLink>
+            </MenuItem>
+            <MenuItem class="mt-4 menu-title">
+              <span>
+                Demos
+              </span>
+            </MenuItem>
+            <MenuItem v-for="(item, itemindex) in demoPages" v-bind:key="item.itemindex" v-bind:class="{ 'disabled' : !item.path }">
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" v-if="item.path" :to="item.path">
+                {{ item.name }}
+              </NuxtLink>
+            </MenuItem>
+          </Menu>
+        </div>
+        <div class="sticky bottom-0 w-full p-2 bg-base-300 focus-within:bg-base-300">
+          <select class="w-full select bg-base-300 text-base-content" data-choose-theme>
+            <option value="">theme: 🎨 auto</option>
+            <option v-for="(theme, index) in themes" :value="theme.id">{{ theme.name }}</option>
+          </select>
+        </div>
+      </aside>
+    </div>
   </div>
 </template>
 
