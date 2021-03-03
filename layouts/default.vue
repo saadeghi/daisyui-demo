@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen drawer drawer-mobile">
+  <div class="drawer drawer-mobile">
     <input id="main-menu" type="checkbox" class="drawer-toggle" v-model="showMainMenu" >
     <main class="flex-grow block w-full bg-base-100 text-base-content drawer-content">
 
