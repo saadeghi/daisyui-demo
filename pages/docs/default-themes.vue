@@ -13,15 +13,23 @@
       </p>
       <div class="prose">
         <ul>
-          <li>light</li>
+          <li>aqua</li>
+          <li>black</li>
+          <li>bumblebee</li>
+          <li>cupcake</li>
+          <li>cyberpunk</li>
           <li>dark</li>
-          <li>valentine</li>
-          <li>garden</li>
           <li>dracula</li>
+          <li>fantasy</li>
+          <li>forest</li>
+          <li>garden</li>
+          <li>halloween</li>
+          <li>light</li>
+          <li>luxury</li>
+          <li>pastel</li>
           <li>retro</li>
           <li>synthwave</li>
-          <li>cyberpunk</li>
-          <li>black</li>
+          <li>valentine</li>
         </ul>
       </div>
 

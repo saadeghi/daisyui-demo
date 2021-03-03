@@ -62,7 +62,7 @@
         default: false
       </p>
       <p class="my-4">
-        If it's true, 9 default themes will be included.
+        If it's true, default themes will be included.
         <NuxtLink to="/docs/default-themes" class="inline-block btn btn-sm">Default themes</NuxtLink>
       </p>
 
