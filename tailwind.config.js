@@ -23,6 +23,6 @@ module.exports = {
   //   },
   // },
   presets: [
-    process.env.NODE_ENV === 'production' ? 'node_modules/tailwindcss/stubs/defaultConfig.stub.js' : require('../daisyui/src/tailwind/tailwind.config.js')
+    process.env.NODE_ENV === 'production' ? 'node_modules/tailwindcss/stubs/defaultConfig.stub.js' : require('../daisyui/src/tailwind.config.js')
   ],
 }
