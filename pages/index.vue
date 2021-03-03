@@ -67,7 +67,7 @@
       <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-base-content border-primary">Features</div>
     </div>
 
-    <div class="grid grid-cols-1 gap-10 py-20 mx-auto lg:max-w-5xl lg:text-center lg:grid-cols-2 justify-items-center rounded-box bg-base-200">
+    <div class="grid grid-cols-1 gap-10 px-4 py-20 mx-auto lg:max-w-5xl lg:text-center lg:grid-cols-2 justify-items-center rounded-box bg-base-200">
 
       <div class="max-w-xs">
         <h2 class="text-xl font-bold card-title">
