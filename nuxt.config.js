@@ -77,16 +77,11 @@ export default {
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
-  // components: true,
-  components: [
-    '~/components',
-    '~/components/ui',
-  ],
+  components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    "@nuxtjs/svg",
-    // "nuxt-vite"
+    "@nuxtjs/svg"
     // https://go.nuxtjs.dev/tailwindcss
     // '@nuxtjs/tailwindcss',
   ],
