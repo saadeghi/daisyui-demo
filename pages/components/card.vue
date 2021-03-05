@@ -39,20 +39,6 @@
           <div class="card-actions">
             <Badge class="badge-ghost">Article</Badge>
             <Badge class="badge-ghost">Photography</Badge>
-            <Badge class="badge-ghost">Creativity Creativity Creativity</Badge>
-            <Badge class="badge-ghost">Creativity</Badge>
-            <Badge class="badge-ghost">Creativity</Badge>
-            <Badge class="badge-ghost">Creativity</Badge>
-            <Badge class="badge-ghost">Creativity</Badge>
-            <Badge class="badge-ghost">Creativity</Badge>
-          </div>
-          <div class="card-actions">
-            <Button classes="btn-primary">Login</Button>
-            <Button classes="btn-primary">Login</Button>
-            <Button classes="btn-primary">Login</Button>
-            <Button classes="btn-primary">Login</Button>
-            <Button classes="btn-primary">Login</Button>
-            <Button classes="btn-ghost">Register</Button>
           </div>
         </div>
       </Card>
