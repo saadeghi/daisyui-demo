@@ -1,7 +1,7 @@
 <template>
   <div class="drawer drawer-mobile">
     <input id="main-menu" type="checkbox" class="drawer-toggle" v-model="showMainMenu" >
-    <main class="flex-grow block w-full bg-base-100 text-base-content drawer-content">
+    <main class="flex-grow block w-full overflow-x-hidden bg-base-100 text-base-content drawer-content">
 
       <div class="sticky inset-x-0 top-0 z-50 border-b navbar bg-base-100 text-base-content border-base-200 lg:hidden">
         <div class="flex-none">
