@@ -89,16 +89,16 @@
       </Avatar>
     </Wrapper>
     <Wrapper title="avatar placeholder" classes="flex items-center space-x-8 flex-wrap">
-      <Avatar class="placeholder" classes="bg-neutral-focus bg-neutral-focus rounded-full w-32 h-32">
+      <Avatar class="placeholder" classes="bg-neutral-focus text-neutral-content rounded-full w-32 h-32">
         <span class="text-3xl">K</span>
       </Avatar>
-      <Avatar class="online placeholder" classes="bg-neutral-focus bg-neutral-focus rounded-full w-24 h-24">
+      <Avatar class="online placeholder" classes="bg-neutral-focus text-neutral-content rounded-full w-24 h-24">
         <span class="text-xl">JO</span>
       </Avatar>
-      <Avatar class="placeholder" classes="bg-neutral-focus bg-neutral-focus rounded-full w-16 h-16">
+      <Avatar class="placeholder" classes="bg-neutral-focus text-neutral-content rounded-full w-16 h-16">
         <span>MX</span>
       </Avatar>
-      <Avatar class="placeholder" classes="bg-neutral-focus bg-neutral-focus rounded-full w-10 h-10">
+      <Avatar class="placeholder" classes="bg-neutral-focus text-neutral-content rounded-full w-10 h-10">
         <span>AA</span>
       </Avatar>
     </Wrapper>
