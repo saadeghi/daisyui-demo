@@ -96,7 +96,7 @@
 export default {
   data() {
     return {
-      daisyuiMaxVersion: process.env.daisyuiMaxVersion,
+      DAISYUI_VERSION: process.env.DAISYUI_VERSION,
     }
   }
 }

@@ -44,11 +44,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.daisyuiMaxVersion +'/dist/full.css' : ''
+        href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.DAISYUI_VERSION +'/dist/full.css' : ''
       },
       {
         rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.daisyuiMaxVersion +'/dist/themes.css' : ''
+        href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.DAISYUI_VERSION +'/dist/themes.css' : ''
       },
     ],
 
@@ -85,6 +85,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@nuxtjs/dotenv',
     "@nuxtjs/svg",
     // "nuxt-vite"
     // https://go.nuxtjs.dev/tailwindcss
@@ -114,8 +115,5 @@ export default {
     base: (process.env.ROUTER_BASE) ? process.env.ROUTER_BASE : '/',
     // linkActiveClass: 'bg-primary bg-opacity-20 text-primary',
     linkExactActiveClass: 'active',
-  },
-  env: {
-    daisyuiMaxVersion: '0.14.2',
   },
 }

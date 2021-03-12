@@ -83,7 +83,7 @@
 
       <div class="w-full max-w-4xl my-2">
         <div class="text-sm shadow-lg mockup-code">
-          <pre><code><span class="text-neutral-content text-opacity-20">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ daisyuiMaxVersion }}/dist/base.css<span class="text-neutral-content text-opacity-20">" rel="stylesheet" /&gt;</span></code></pre>
+          <pre><code><span class="text-neutral-content text-opacity-20">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ DAISYUI_VERSION }}/dist/base.css<span class="text-neutral-content text-opacity-20">" rel="stylesheet" /&gt;</span></code></pre>
         </div>
       </div>
 
@@ -107,7 +107,7 @@
 export default {
   data() {
     return {
-      daisyuiMaxVersion: process.env.daisyuiMaxVersion,
+      DAISYUI_VERSION: process.env.DAISYUI_VERSION,
     }
   }
 }

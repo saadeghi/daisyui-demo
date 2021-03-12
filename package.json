@@ -5,11 +5,12 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "daisyuiMaxVersion='0.14.2' nuxt generate",
-    "predeploy": "ROUTER_BASE='/' daisyuiMaxVersion='0.14.2' nuxt generate",
+    "generate": "nuxt generate",
+    "predeploy": "ROUTER_BASE='/' nuxt generate",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
     "@tailwindcss/typography": "^0.3.1",
     "core-js": "^3.6.5",
     "daisyui": "^0.4.1",
