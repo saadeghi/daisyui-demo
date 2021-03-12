@@ -92,6 +92,12 @@
                 Features
               </NuxtLink>
             </MenuItem>
+            <MenuItem>
+              <NuxtLink v-on:click.native="showMainMenu = false" class="capitalize" to="/docs/whats-included">
+                <Icon glyph="info" class="inline-block w-6 h-6 mr-2 stroke-current" />
+                What's included?
+              </NuxtLink>
+            </MenuItem>
             <MenuItem class="mt-4 menu-title">
               <span>
                 Core
