@@ -43,6 +43,31 @@
         </div>
       </div>
 
+      <p class="my-4">
+        If you are using <a target="_blank" href="https://windicss.org/">windicss</a>, make these changes to
+        <span class="badge">tailwind.config.js</span>
+      </p>
+      <div class="w-full max-w-4xl my-2">
+        <div class="text-sm shadow-lg mockup-code">
+        <pre><code><span class="badge badge-primary">const { transform } = require('windicss/helpers')</span>
+
+    module.exports = {
+
+      plugins: [
+        <span class="badge badge-primary">transform('daisyui'),</span>
+      ],
+
+      <span class="text-neutral-content text-opacity-20">// OPTIONAL: if you want to use DaisyUI colors everywhere</span>
+      theme: {
+        extend: {
+          <span class="badge badge-primary">colors: require('daisyui/colors/windi'),</span>
+        },
+      },
+
+    }</code></pre>
+        </div>
+      </div>
+
       <h2 class="mt-20 text-5xl font-bold">
         <span class="text-primary">Method 2: </span>
         <span>Use a CDN</span>
