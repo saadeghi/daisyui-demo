@@ -1,7 +1,8 @@
-# DaisyUI Demo  
+# DaisyUI Document site  
 
-Demos and examples for [DaisyUI](https://github.com/saadeghi/daisyui)
+Docs, demos and examples for [DaisyUI](https://github.com/saadeghi/daisyui)
 
+Site is available on Github pages and Netlify:
 
 - [saadeghi.github.io/daisyui-demo](https://saadeghi.github.io/daisyui-demo/)  
   [![][build]][build-url]  
