@@ -154,7 +154,7 @@
       </h2>
 
       <p class="my-4 text-lg prose">
-        You just need to add <span class="badge badge-ghost">data-theme="dark"</span> to your <span class="badge badge-ghost">&lt;html&gt;</span> tag. Easiest way to handle it with JavaScript is to this tiny library: <a href="https://github.com/saadeghi/theme-change" target="_blank">them-change</a>
+        You just need to add <span class="badge badge-outline">data-theme="dark"</span> to your <span class="badge badge-outline">&lt;html&gt;</span> tag. Easiest way to handle it with JavaScript is to this tiny library: <a href="https://github.com/saadeghi/theme-change" target="_blank">them-change</a>
       </p>
 
       <h2 class="my-6 text-3xl font-bold">

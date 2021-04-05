@@ -52,7 +52,7 @@
           <br>
           If you use DaisyUI, you will be focusing on your design system only, not tons of class names you need on every project.
           <br>
-          Instead of using lots of utility classes for all elements, use component classes like <span class="badge">btn</span>, <span class="badge">card</span>, <span class="badge">navbar</span>, etc... for your common elements to make sure all your elements use same style.
+          Instead of using lots of utility classes for all elements, use component classes like <span class="badge badge-outline">btn</span>, <span class="badge badge-outline">card</span>, <span class="badge badge-outline">navbar</span>, etc... for your common elements to make sure all your elements use same style.
         </p>
       </div>
 
@@ -64,7 +64,7 @@
         <p class="prose">
           Yes, That might be solution in some cases but then again, you need to define every variant for your component by mixing design decisions inside your logic code. You need diffrent variants of almost all your components, that can be handled in CSS (unless you want to make your job harder)
           <br>
-          You just need to use a <span class="badge">btn</span> or a <span class="badge">btn-primary</span> for a variant.
+          You just need to use a <span class="badge badge-outline">btn</span> or a <span class="badge badge-outline">btn-primary</span> for a variant.
         </p>
       </div>
 
@@ -74,7 +74,7 @@
         2. Tailwind CSS plugin
       </p>
       <p class="mb-4 prose">
-        DaisyUI is a Tailwind CSS plugin so you can simply add it to your <span class="badge badge-info">tailwind.config.js</span> file.
+        DaisyUI is a Tailwind CSS plugin so you can simply add it to your <span class="badge badge-outline">tailwind.config.js</span> file.
       </p>
 
 
@@ -116,7 +116,7 @@
         6. RTL support
       </p>
       <p class="mb-4 prose">
-        Enable <span class="badge badge-info">rtl</span> config for right to left layouts.
+        Enable <span class="badge badge-outline">rtl</span> config for right to left layouts.
       </p>
 
 
@@ -126,7 +126,7 @@
       <p class="mb-4 prose">
         Using semantic color names and CSS variables makes theming easy and fun. Every theme is just a set of CSS variables so you can add multiple themes (not just light/dark) and you can change the colors by changing a CSS variable.
         <br>
-        You can also use DaisyUI default themes if you enabe <span class="badge badge-info">themes</span> config.
+        You can also use DaisyUI default themes if you enabe <span class="badge badge-outline">themes</span> config.
       </p>
 
 
@@ -135,7 +135,7 @@
         8. Designer-friendly
       </p>
       <p class="mb-4 prose">
-        DaisyUI separated the skeleton style of every component from its visual style. You can disable <span class="badge badge-info">styled</span> config and components won't have visual style. Now you can set colors or other visual styles based on a skeleton.
+        DaisyUI separated the skeleton style of every component from its visual style. You can disable <span class="badge badge-outline">styled</span> config and components won't have visual style. Now you can set colors or other visual styles based on a skeleton.
       </p>
 
 
@@ -146,7 +146,7 @@
       <p class="mb-4 prose">
         Tailwind utility classes gives you ultimate flexibility for spacing and layout It's easy to create any layout with flexbox or grid. Also for spacing (margins, paddings, etc...), Tailwind classes are perfect.
         <br>
-        So, there is no grid system or strict layout rules. You can create any layout with <span class="badge badge-info">flexbox</span> or <span class="badge badge-info">CSS gird</span> using Tailwind's utility classes.
+        So, there is no grid system or strict layout rules. You can create any layout with <span class="badge badge-outline">flexbox</span> or <span class="badge badge-outline">CSS gird</span> using Tailwind's utility classes.
         <br>
         For typography, you should use the official <a href="https://twitter.com/Saadeghi" target="_blank">Tailwind Typography plugin ↗︎</a>.
       </p>

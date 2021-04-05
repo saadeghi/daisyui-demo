@@ -36,7 +36,7 @@
       </div>
 
       <p class="max-w-4xl my-4">
-        You can also customize components on your CSS file, using Tailwind's <span class="badge badge-ghost">@apply</span> directive.
+        You can also customize components on your CSS file, using Tailwind's <span class="badge badge-outline">@apply</span> directive.
       </p>
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code">
@@ -52,11 +52,11 @@
       </h2>
 
       <p class="max-w-4xl my-4">
-        If you want to design everything and apply your very own style, you can use DaisyUI <span class="badge badge-ghost">base</span> (unstyled UI) version. It has no colors and no visual style but components will have a skeleton style which makes your job easier.
+        If you want to design everything and apply your very own style, you can use DaisyUI <span class="badge badge-outline">base</span> (unstyled UI) version. It has no colors and no visual style but components will have a skeleton style which makes your job easier.
       </p>
 
       <p class="max-w-4xl my-4">
-        On your <span class="badge">tailwind.config.js</span> file, you just need to set <span class="badge badge-success">styled: false</span>.
+        On your <span class="badge badge-outline">tailwind.config.js</span> file, you just need to set <span class="badge badge-outline">styled: false</span>.
       </p>
 
       <div class="w-full max-w-4xl my-2">
@@ -77,7 +77,7 @@
       </div>
 
       <p class="max-w-4xl my-4">
-        Or use <span class="badge">base.css</span> from CDN:
+        Or use <span class="badge badge-outline">base.css</span> from CDN:
       </p>
 
 

@@ -34,10 +34,10 @@
       </div>
 
       <p class="my-4 text-lg">
-        The default theme is <span class="badge">light</span> theme and it's included in DaisyUI even if you don't activate the themes config.
+        The default theme is <span class="badge badge-outline">light</span> theme and it's included in DaisyUI even if you don't activate the themes config.
       </p>
       <p class="my-4 text-lg">
-        To include other themes, you need to enable <span class="badge">themes</span> config or use the <span class="badge">themes.css</span> file from CDN.
+        To include other themes, you need to enable <span class="badge badge-outline">themes</span> config or use the <span class="badge badge-outline">themes.css</span> file from CDN.
       </p>
       <p class="my-4 text-lg">
         To use your own theme, please see
@@ -53,7 +53,7 @@
       </h2>
 
       <p class="my-4 text-lg">
-        Enable <span class="badge">themes</span> config and safelist <span class="badge">/data-theme$/</span> for purge options on your <span class="badge">tailwind.config.js</span> file.
+        Enable <span class="badge badge-outline">themes</span> config and safelist <span class="badge badge-outline">/data-theme$/</span> for purge options on your <span class="badge badge-outline">tailwind.config.js</span> file.
       </p>
 
       <div class="w-full max-w-4xl my-2">
@@ -101,7 +101,7 @@
       </h2>
 
       <p class="my-4 text-lg">
-        And you need to add <span class="badge">data-theme="THEME_NAME"</span> to &lt;html&gt; tag.
+        And you need to add <span class="badge badge-outline">data-theme="THEME_NAME"</span> to &lt;html&gt; tag.
       </p>
       <p class="my-4 text-lg prose">
         I suggest using <a href="https://github.com/saadeghi/theme-change" target="_blank">them-change</a> for this, so you can switch themes and save selected theme in local storage.
