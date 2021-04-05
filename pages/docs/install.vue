@@ -22,7 +22,7 @@
       </div>
 
       <p class="my-4">
-        Then add DaisyUI to your <span class="badge">tailwind.config.js</span>
+        Then add DaisyUI to your <span class="badge badge-outline">tailwind.config.js</span>
       </p>
       <div class="w-full max-w-4xl my-2">
         <div class="text-sm shadow-lg mockup-code">
@@ -45,7 +45,7 @@
 
       <p class="my-4">
         If you are using <a target="_blank" href="https://windicss.org/">windicss</a>, make these changes to
-        <span class="badge">tailwind.config.js</span>
+        <span class="badge badge-outline">tailwind.config.js</span>
       </p>
       <div class="w-full max-w-4xl my-2">
         <div class="text-sm shadow-lg mockup-code">

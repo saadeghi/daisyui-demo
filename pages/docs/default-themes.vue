@@ -5,7 +5,7 @@
     </h2>
     <Wrapper nocode>
 
-      <p class="mb-4 text-neutral-content text-opacity-20">
+      <p class="mb-4 text-base-content text-opacity-60">
         DaisyUI is themeable, powered by CSS variables.
       </p>
       <p class="mb-4 text-lg font-bold">

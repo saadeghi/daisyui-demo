@@ -5,7 +5,7 @@
     </h2>
     <Wrapper nocode>
 
-      <p class="mb-4 text-neutral-content text-opacity-20">
+      <p class="mb-4 text-base-content text-opacity-60">
         DaisyUI uses HSL color system for better theming.
       </p>
       <p class="mb-4 prose">

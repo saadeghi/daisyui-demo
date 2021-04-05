@@ -6,7 +6,7 @@
     <Wrapper nocode>
 
       <p class="mb-4">
-        DaisyUI can be configed from your <span class="badge">tailwind.config.js</span> file
+        DaisyUI can be configed from your <span class="badge badge-outline">tailwind.config.js</span> file
       </p>
 
       <div class="w-full max-w-4xl my-2">
@@ -46,7 +46,7 @@
       <h2 class="mt-6 text-2xl font-bold">
         <span>styled</span>
       </h2>
-      <p class="badge">
+      <p class="badge badge-outline">
         default: true
       </p>
       <p class="my-4">
@@ -58,7 +58,7 @@
       <h2 class="mt-6 text-2xl font-bold">
         <span>themes</span>
       </h2>
-      <p class="badge">
+      <p class="badge badge-outline">
         default: false
       </p>
       <p class="my-4">
@@ -69,11 +69,11 @@
       <h2 class="mt-6 text-2xl font-bold">
         <span>rtl</span>
       </h2>
-      <p class="badge">
+      <p class="badge badge-outline">
         default: false
       </p>
       <p class="my-4">
-        If it's true, your theme will be right-to-left. You also need to add <span class="badge">dir="rtl"</span> to your body tag
+        If it's true, your theme will be right-to-left. You also need to add <span class="badge badge-outline">dir="rtl"</span> to your body tag
       </p>
 
 

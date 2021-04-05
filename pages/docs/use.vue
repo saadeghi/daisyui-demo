@@ -7,7 +7,7 @@
 
     <Wrapper nocode>
       <p class="prose text-base-content">
-        Once you <NuxtLink to="/docs/install">installed</NuxtLink> DaisyUI, you can use component classes like <span class="badge badge-ghost">btn</span>, <span class="badge badge-ghost">card</span>, etc...
+        Once you <NuxtLink to="/docs/install">installed</NuxtLink> DaisyUI, you can use component classes like <span class="badge badge-outline">btn</span>, <span class="badge badge-outline">card</span>, etc...
       </p>
 
       <p class="my-4">
