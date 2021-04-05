@@ -64,6 +64,8 @@
       <p class="my-4">
         If it's true, default themes will be included.
         <NuxtLink to="/docs/default-themes" class="inline-block btn btn-sm">Default themes</NuxtLink>
+        <br>
+        if it's false, DaisyUI will use the <span class="badge badge-outline">light</span> theme.
       </p>
 
       <h2 class="mt-6 text-2xl font-bold">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="my-6 text-5xl font-bold">
-      <span class="text-primary">Default Themes</span>
+      <span class="text-primary">Included Themes</span>
     </h2>
     <Wrapper nocode>
 
@@ -9,29 +9,43 @@
         DaisyUI is themeable, powered by CSS variables.
       </p>
       <p class="mb-4 text-lg font-bold">
-        List of default themes
+        List of included themes
       </p>
       <div class="prose">
         <ul>
-          <li>aqua</li>
-          <li>black</li>
-          <li>bumblebee</li>
-          <li>cupcake</li>
-          <li>cyberpunk</li>
-          <li>dark</li>
-          <li>dracula</li>
-          <li>fantasy</li>
-          <li>forest</li>
-          <li>garden</li>
-          <li>halloween</li>
-          <li>light</li>
-          <li>luxury</li>
-          <li>pastel</li>
-          <li>retro</li>
-          <li>synthwave</li>
-          <li>valentine</li>
+          <li class="h-6">aqua</li>
+          <li class="h-6">black</li>
+          <li class="h-6">bumblebee</li>
+          <li class="h-6">cupcake</li>
+          <li class="h-6">cyberpunk</li>
+          <li class="h-6">dark</li>
+          <li class="h-6">dracula</li>
+          <li class="h-6">fantasy</li>
+          <li class="h-6">forest</li>
+          <li class="h-6">garden</li>
+          <li class="h-6">halloween</li>
+          <li class="h-6">light (default)</li>
+          <li class="h-6">luxury</li>
+          <li class="h-6">pastel</li>
+          <li class="h-6">retro</li>
+          <li class="h-6">synthwave</li>
+          <li class="h-6">valentine</li>
         </ul>
       </div>
+
+      <p class="my-4 text-lg">
+        The default theme is <span class="badge">light</span> theme and it's included in DaisyUI even if you don't activate the themes config.
+      </p>
+      <p class="my-4 text-lg">
+        To include other themes, you need to enable <span class="badge">themes</span> config or use the <span class="badge">themes.css</span> file from CDN.
+      </p>
+      <p class="my-4 text-lg">
+        To use your own theme, please see
+        <NuxtLink to="/docs/add-themes" class="inline-block btn btn-sm">
+          add themes
+        </NuxtLink>
+        page
+      </p>
 
       <h2 class="my-6 text-3xl font-bold">
         <span class="text-primary">Mehtod 1:</span>
@@ -73,7 +87,7 @@
       </h2>
 
       <p class="my-4 text-lg">
-        Alternatively you can load default themes from CDN:
+        Alternatively you can load included themes from CDN:
       </p>
 
       <div class="w-full max-w-4xl my-2">
