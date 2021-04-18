@@ -6,7 +6,7 @@
     </h2>
 
     <Wrapper nocode class="prose text-base-content">
-      <p>Layout, sizing, grids, spacing, etc are all will be handled by Tailwind CSS's utility classes</p>
+      <p>Layout, sizing, grids, spacing, etc... all will be handled by Tailwind CSS's utility classes</p>
       <p>
         Read more about:
         <ul>
@@ -22,7 +22,7 @@
 
 
     <div class="flex justify-end max-w-4xl pt-10 mt-20 border-t-2 border-base-200">
-      <NuxtLink to="/core/typography" class="btn-lg btn text-xs lg:text-lg">
+      <NuxtLink to="/core/typography" class="text-xs btn-lg btn lg:text-lg">
         Next: typography
         <Icon glyph="arrow" class="inline-block w-6 h-6 ml-2 stroke-current" />
       </NuxtLink>
