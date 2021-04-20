@@ -5,7 +5,6 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "pregenerate": "npm install daisyui@latest --legacy-peer-deps",
     "generate": "nuxt generate",
     "predeploy": "ROUTER_BASE='/' nuxt generate",
     "deploy": "gh-pages -d dist"
