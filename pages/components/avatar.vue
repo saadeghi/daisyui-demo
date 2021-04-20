@@ -30,6 +30,18 @@
       </Avatar>
     </Wrapper>
 
+    <Wrapper title="avatar with mask" classes="flex items-center space-x-8 flex-wrap">
+      <Avatar classes="mb-8 w-32 h-32 mask mask-squircle">
+        <img src="https://i.pravatar.cc/500?img=32" />
+      </Avatar>
+      <Avatar classes="mb-8 w-32 h-32 mask mask-hexagon">
+        <img src="https://i.pravatar.cc/500?img=32" />
+      </Avatar>
+      <Avatar classes="mb-8 w-32 h-32 mask mask-decagon">
+        <img src="https://i.pravatar.cc/500?img=32" />
+      </Avatar>
+    </Wrapper>
+
     <Wrapper title="avatar with border" classes="flex items-center space-x-8 flex-wrap">
       <Avatar classes="mb-8 rounded-btn w-32 h-32 ring ring-primary ring-offset-base-100 ring-offset-2">
         <img src="https://i.pravatar.cc/500?img=32" />
