@@ -6,7 +6,7 @@
         Tailwind CSS Components
       </p>
       <div class="text-sm italic text-opacity-50 text-base-content">
-        Adds components like <NuxtLink to="/components/button" class="px-0 lowercase btn btn-sm btn-link">btn</NuxtLink>, <NuxtLink to="/components/card" class="px-0 lowercase btn btn-sm btn-link">card</NuxtLink> and <NuxtLink to="/components/accordion" class="px-0 lowercase btn btn-sm btn-link">more...</NuxtLink> to Tailwind CSS
+        Adds components like <NuxtLink to="/components/button" class="link">btn</NuxtLink>, <NuxtLink to="/components/card" class="link">card</NuxtLink> and <NuxtLink to="/components/accordion" class="link">more...</NuxtLink> to Tailwind CSS
       </div>
     </div>
     <div class="flex flex-col items-center">
