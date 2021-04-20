@@ -13,7 +13,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "@tailwindcss/typography": "^0.3.1",
     "core-js": "^3.6.5",
-    "daisyui": "^0.4.1",
+    "daisyui": "^0.17.1",
     "nuxt": "^2.15.2",
     "tailwindcss": "^2.0.1-compat",
     "theme-change": "^1.2.0",
