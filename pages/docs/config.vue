@@ -18,17 +18,12 @@
         require('daisyui'),
       ],
 
-      <span class="text-neutral-content text-opacity-20">// add DaisyUI colors (optional)</span>
-      theme: {
-        extend: {
-          colors: require('daisyui/colors'),
-        },
-      },
-
       <span class="text-neutral-content text-opacity-20">// config (optional)</span>
       daisyui: {
         styled: true,
-        themes: false,
+        themes: true,
+        resets: true,
+        utils: true,
         rtl: false,
       },
 
@@ -59,13 +54,33 @@
         <span>themes</span>
       </h2>
       <p class="badge badge-outline">
-        default: false
+        default: true
       </p>
       <p class="my-4">
-        If it's true, default themes will be included.
-        <NuxtLink to="/docs/default-themes" class="inline-block btn btn-sm">Default themes</NuxtLink>
+        If it's true, all themes will be included.
+        <NuxtLink to="/docs/default-themes" class="link">read more about default themes</NuxtLink>
         <br>
         if it's false, DaisyUI will use the <span class="badge badge-outline">light</span> theme.
+      </p>
+
+      <h2 class="mt-6 text-2xl font-bold">
+        <span>resets</span>
+      </h2>
+      <p class="badge badge-outline">
+        default: true
+      </p>
+      <p class="my-4">
+        If it's true, <a target="_blank" class="link" href="https://github.com/saadeghi/daisyui/blob/master/src/resets">a very small reset style</a> will be added
+      </p>
+
+      <h2 class="mt-6 text-2xl font-bold">
+        <span>utils</span>
+      </h2>
+      <p class="badge badge-outline">
+        default: true
+      </p>
+      <p class="my-4">
+        If it's true, <a target="_blank" class="link" href="https://github.com/saadeghi/daisyui/tree/master/src/utilities">a few utility classes</a> will be added
       </p>
 
       <h2 class="mt-6 text-2xl font-bold">

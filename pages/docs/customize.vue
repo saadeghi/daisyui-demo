@@ -14,7 +14,7 @@
       </p>
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code">
-          <pre><code>&#x3C;button class=&#x22;<span class="text-success">btn btn-primary</span>&#x22;&#x3E;DaisyUI Button&#x3C;/button&#x3E;</code></pre>
+          <pre><code>&#x3C;button class=&#x22;<span class="text-info">btn btn-primary</span>&#x22;&#x3E;DaisyUI Button&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
 
@@ -27,7 +27,7 @@
       </p>
       <div class="w-full max-w-4xl my-2">
         <div class="shadow-lg mockup-code">
-          <pre><code>&#x3C;button class=&#x22;<span class="text-success">btn btn-primary rounded-full</span>&#x22;&#x3E;DaisyUI Button customized&#x3C;/button&#x3E;</code></pre>
+          <pre><code>&#x3C;button class=&#x22;<span class="text-info">btn btn-primary</span> <span class="text-success">rounded-full</span>&#x22;&#x3E;DaisyUI Button customized&#x3C;/button&#x3E;</code></pre>
         </div>
       </div>
 
@@ -68,8 +68,6 @@
       ],
       daisyui: {
         <span class="badge badge-primary">styled: false,</span>
-        themes: false,
-        rtl: false,
       },
 
     }</code></pre>

@@ -13,7 +13,7 @@
       </p>
 
       <p class="my-4">
-        Install DaisyUI:
+        1.Install DaisyUI:
       </p>
       <div class="w-full max-w-xl my-2">
         <div class="shadow-lg mockup-code">
@@ -22,7 +22,7 @@
       </div>
 
       <p class="my-4">
-        Then add DaisyUI to your <span class="badge badge-outline">tailwind.config.js</span>
+        2. Then add DaisyUI to your <span class="badge badge-outline">tailwind.config.js</span>
       </p>
       <div class="w-full max-w-4xl my-2">
         <div class="text-sm shadow-lg mockup-code">
@@ -32,19 +32,12 @@
         <span class="badge badge-primary">require('daisyui'),</span>
       ],
 
-      <span class="text-neutral-content text-opacity-20">// OPTIONAL: if you want to use DaisyUI colors everywhere</span>
-      theme: {
-        extend: {
-          <span class="badge badge-primary">colors: require('daisyui/colors'),</span>
-        },
-      },
-
     }</code></pre>
         </div>
       </div>
 
-      <p class="my-4">
-        If you are using <a target="_blank" href="https://windicss.org/">windicss</a>, make these changes to
+      <p class="my-4 mt-10">
+        If you are using <a target="_blank" class="link" href="https://windicss.org/">windicss</a>, make these changes to
         <span class="badge badge-outline">tailwind.config.js</span>
       </p>
       <div class="w-full max-w-4xl my-2">
@@ -81,7 +74,7 @@
       </p>
 
       <div class="mt-10 text-base-content">
-        <h2 class="text-2xl font-bold">1. Base version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/base.css?label=base.css&color=purple'" alt="base.css"/></h2>
+        <h2 class="text-2xl font-bold">1. Base version</h2>
         <p class="prose">
           <ul>
             <li>Unstyled UI components (skeleton only)</li>
@@ -100,7 +93,7 @@
 
 
       <div class="mt-10 text-base-content">
-        <h2 class="text-2xl font-bold">2. Styled version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/styled.css?label=styled.css&color=purple'" alt="styled.css"/></h2>
+        <h2 class="text-2xl font-bold">2. Styled version</h2>
         <p class="prose">
           <ul>
             <li>Ready-to-use styled UI components</li>
@@ -119,7 +112,7 @@
 
 
       <div class="mt-10 text-base-content">
-        <h2 class="text-2xl font-bold">3. Full version <img class="inline-block m-0" :src="'https://badgen.net/badgesize/normal/https/unpkg.com/daisyui/dist/full.css?label=full.css&color=purple'" alt="full.css"/></h2>
+        <h2 class="text-2xl font-bold">3. Full version</h2>
         <p class="prose">
           <ul>
             <li>Ready-to-use styled UI components</li>

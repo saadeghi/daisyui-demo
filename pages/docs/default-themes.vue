@@ -34,10 +34,13 @@
       </div>
 
       <p class="my-4 text-lg">
-        The default theme is <span class="badge badge-outline">light</span> theme and it's included in DaisyUI even if you don't activate the themes config.
+        The default theme is <span class="badge badge-outline">light</span> theme and it's included in DaisyUI even if you disable the <span class="badge badge-outline">themes</span> config.
       </p>
       <p class="my-4 text-lg">
-        To include other themes, you need to enable <span class="badge badge-outline">themes</span> config or use the <span class="badge badge-outline">themes.css</span> file from CDN.
+        You can also use the <span class="badge badge-outline">themes.css</span> file from CDN.
+      </p>
+      <p class="my-4 text-lg">
+        If you don't want to include themes, you need to disable <span class="badge badge-outline">themes</span> config.
       </p>
       <p class="my-4 text-lg">
         To use your own theme, please see
@@ -47,13 +50,21 @@
         page
       </p>
 
+
+      <h2 class="my-6 text-3xl font-bold">
+        <span>Enable themes</span>
+      </h2>
+
       <h2 class="my-6 text-3xl font-bold">
         <span class="text-primary">Mehtod 1:</span>
-        <span>Enable config</span>
+        <span>Config file</span>
       </h2>
 
       <p class="my-4 text-lg">
-        Enable <span class="badge badge-outline">themes</span> config and safelist <span class="badge badge-outline">/data-theme$/</span> for purge options on your <span class="badge badge-outline">tailwind.config.js</span> file.
+        <span class="badge badge-outline">themes</span> config is enabled by default. you just need to safelist <span class="badge badge-outline">/data-theme$/</span> for purge options on your <span class="badge badge-outline">tailwind.config.js</span> file.
+      </p>
+      <p class="my-4 text-lg">
+        You don't need to do anything if you're using Tailwind's <span class="badge badge-outline">mode: 'jit'</span> config.
       </p>
 
       <div class="w-full max-w-4xl my-2">
@@ -97,7 +108,7 @@
       </div>
 
       <h2 class="my-6 text-3xl font-bold">
-        <span class="text-primary">Enable theme:</span>
+        <span>How to use themes?</span>
       </h2>
 
       <p class="my-4 text-lg">
