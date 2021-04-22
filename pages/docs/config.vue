@@ -24,6 +24,7 @@
         themes: true,
         resets: true,
         utils: true,
+        logs: true,
         rtl: false,
       },
 
@@ -81,6 +82,16 @@
       </p>
       <p class="my-4">
         If it's true, <a target="_blank" class="link" href="https://github.com/saadeghi/daisyui/tree/master/src/utilities">a few utility classes</a> will be added
+      </p>
+
+      <h2 class="mt-6 text-2xl font-bold">
+        <span>logs</span>
+      </h2>
+      <p class="badge badge-outline">
+        default: true
+      </p>
+      <p class="my-4">
+        If it's true, DaisyUI shows logs in terminal while CSS is building
       </p>
 
       <h2 class="mt-6 text-2xl font-bold">
