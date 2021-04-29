@@ -60,10 +60,10 @@ export default {
     'node_modules/tailwindcss/base',
     'node_modules/tailwindcss/components',
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/resets')]),
-    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/base/components')]),
-    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/styled/components')]),
+    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/components/base')]),
+    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/components/styled')]),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/utilities')]),
-    ...(process.env.NODE_ENV === 'production' ? [] : ['../daisyui/src/themes/index']),
+    ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/themes')]),
     'node_modules/tailwindcss/utilities',
 
   ],
