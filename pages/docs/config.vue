@@ -101,7 +101,7 @@
         default: false
       </p>
       <p class="my-4">
-        If it's true, your theme will be right-to-left. You also need to add <span class="badge badge-outline">dir="rtl"</span> to your body tag
+        If it's true, your theme will be right-to-left. You need to add <span class="badge badge-outline">dir="rtl"</span> to your body tag. If you're using DaisyUI with RTL option, I also suggest using <a class="link" href="https://github.com/cvrajeesh/tailwindcss-flip" target="_blank">tailwindcss-flip</a> plugin. It flips all your tailwind utilities automatically.
       </p>
 
 
