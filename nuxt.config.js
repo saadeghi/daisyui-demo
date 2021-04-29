@@ -42,29 +42,29 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.DAISYUI_VERSION +'/dist/full.css' : ''
-      },
-      {
-        rel: 'stylesheet',
-        href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.DAISYUI_VERSION +'/dist/themes.css' : ''
-      },
+      // {
+      //   rel: 'stylesheet',
+      //   href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.DAISYUI_VERSION +'/dist/full.css' : ''
+      // },
+      // {
+      //   rel: 'stylesheet',
+      //   href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.DAISYUI_VERSION +'/dist/themes.css' : ''
+      // },
     ],
 
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    // '~/assets/css/tailwind',
-    'node_modules/tailwindcss/base',
-    'node_modules/tailwindcss/components',
+    ...(process.env.NODE_ENV === 'production' ? ['~/assets/css/style'] : []),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['node_modules/tailwindcss/base']),
+    ...(process.env.NODE_ENV === 'production' ? [] : ['node_modules/tailwindcss/components']),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/resets')]),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/components/base')]),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/components/styled')]),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/utilities')]),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../daisyui/src/themes')]),
-    'node_modules/tailwindcss/utilities',
+    ...(process.env.NODE_ENV === 'production' ? [] : ['node_modules/tailwindcss/utilities']),
 
   ],
 
@@ -103,12 +103,12 @@ export default {
     cache: true,
     // hardSource: false,
     // sourceMap: false,
-    postcss: {
-      plugins: {
-        'postcss-nested': {},
-        'tailwindcss': {},
-      },
-    }
+    // postcss: {
+    //   plugins: {
+    //     'postcss-nested': {},
+    //     'tailwindcss': {},
+    //   },
+    // }
   },
   target: 'static',
   router: {

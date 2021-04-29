@@ -16,12 +16,8 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    process.env.NODE_ENV === 'production' ? require('daisyui') : [],
   ],
-  // theme: {
-  //   extend: {
-  //     colors: require('daisyui/colors')
-  //   },
-  // },
   presets: [
     process.env.NODE_ENV === 'production' ? 'node_modules/tailwindcss/stubs/defaultConfig.stub.js' : require('../daisyui/src/tailwind.config.js')
   ],
