@@ -5,8 +5,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "npm i daisyui@latest && postcss node_modules/tailwindcss/tailwind.css -o assets/css/style.css && nuxt generate",
-    "predeploy": "ROUTER_BASE='/' nuxt generate",
+    "style": "npm i daisyui@latest && postcss node_modules/tailwindcss/tailwind.css -o assets/css/style.css",
+    "generate": "npm run style && nuxt generate",
+    "predeploy": "npm run style && ROUTER_BASE='/' nuxt generate",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
