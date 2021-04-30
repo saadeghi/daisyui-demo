@@ -51,7 +51,13 @@ export default {
       //   href: (process.env.NODE_ENV === 'production') ? 'https://cdn.jsdelivr.net/npm/daisyui@'+ process.env.DAISYUI_VERSION +'/dist/themes.css' : ''
       // },
     ],
-
+    // script: [
+    //   {
+    //     src: "https://cdn.jsdelivr.net/npm/theme-change@2.0.1/index.js",
+    //     body: true,
+    //     async: true, defer: true
+    //   },
+    // ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -73,7 +79,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     '~/plugins/vue-highlightjs',
-    { src: "~/plugins/theme-change", mode: "client" },
+    // { src: "~/plugins/theme-change", mode: "client" },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -81,6 +87,7 @@ export default {
   components: [
     '~/components',
     '~/components/ui',
+    '~/components/demo',
   ],
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)

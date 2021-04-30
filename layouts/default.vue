@@ -155,6 +155,7 @@
 </template>
 
 <script>
+import {themeChange} from "theme-change"
 export default {
   props: {
     classes: String
@@ -225,6 +226,9 @@ export default {
     svgLogo() {
       return require(`~/static/logo.svg?raw`)
     }
-  }
+  },
+  mounted(){
+    themeChange(false)
+  },
 }
 </script>

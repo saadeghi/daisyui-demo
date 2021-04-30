@@ -22,7 +22,7 @@
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.2",
     "tailwindcss": "^2.0.1-compat",
-    "theme-change": "^1.2.0",
+    "theme-change": "^2.0.2",
     "vue-highlightjs": "^1.3.3"
   },
   "devDependencies": {

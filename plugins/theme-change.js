@@ -1,3 +1,3 @@
 import Vue from 'vue'
-import {themeSelect} from "theme-change"
-Vue.use(themeSelect)
+import {themeChange} from "theme-change"
+export default themeChange

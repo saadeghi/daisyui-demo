@@ -1,184 +1,691 @@
 <template>
-  <div class="pb-10">
-    <div class="mx-auto mt-16 text-center text-base-content">
-      <div class="inline-block w-44 lg:w-60" v-html="svgLogo"></div>
-      <p class="py-4 font-bold text-secondary">
-        Tailwind CSS Components
-      </p>
-      <div class="text-sm italic text-opacity-50 text-base-content">
-        Adds components like <NuxtLink to="/components/button" class="link">btn</NuxtLink>, <NuxtLink to="/components/card" class="link">card</NuxtLink> and <NuxtLink to="/components/accordion" class="link">more...</NuxtLink> to Tailwind CSS
+  <div>
+    <div
+      class="min-h-screen overflow-hidden hero bg-gradient-to-br from-primary to-accent text-primary-content"
+    >
+      <div
+        class="inline-block w-full transform opacity-5 -rotate-12"
+        v-html="svgLogoSolid"
+      ></div>
+      <div class="flex-col w-full hero-content lg:flex-row">
+        <div
+          class="w-full max-w-3xl my-10 text-center lg:w-3/4 lg:text-left lg:my-0"
+        >
+          <!--
+      <div class="btn-group">
+        <button class="btn btn-xs btn-square" style="background:white;border-color:white;color:gray" data-set-theme="" title="auto" data-act-class="ACTIVECLASS">A</button>
+        <button class="btn btn-xs btn-square" style="background:hsl(259 94% 51%);border-color:hsl(259 94% 51%);" data-set-theme="light" title="light" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(259 94% 61%);border-color:hsl(259 94% 61%);" data-set-theme="dark" title="dark" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(3 74% 76%);border-color:hsl(3 74% 76%);" data-set-theme="retro" title="retro" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(0 0% 100%);border-color:hsl(0 0% 100%);" data-set-theme="black" title="black" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(353 74% 67%);border-color:hsl(353 74% 67%);" data-set-theme="valentine" title="valentine" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(330 100% 85%);border-color:hsl(330 100% 85%);" data-set-theme="dracula" title="dracula" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(189 100% 63%);border-color:hsl(189 100% 63%);" data-set-theme="aqua" title="aqua" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(345 100% 73%);border-color:hsl(345 100% 73%);" data-set-theme="cyberpunk" title="cyberpunk" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(321 70% 69%);border-color:hsl(321 70% 69%);" data-set-theme="synthwave" title="synthwave" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(50 94% 58%);border-color:hsl(50 94% 58%);" data-set-theme="bumblebee" title="bumblebee" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(296 83% 25%);border-color:hsl(296 83% 25%);" data-set-theme="fantasy" title="fantasy" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(141 72% 42%);border-color:hsl(141 72% 42%);" data-set-theme="forest" title="forest" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(138 16% 43%);border-color:hsl(138 16% 43%);" data-set-theme="garden" title="garden" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(32 89% 52%);border-color:hsl(32 89% 52%);" data-set-theme="halloween" title="halloween" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(0 0% 100%);border-color:hsl(0 0% 100%);" data-set-theme="luxury" title="luxury" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(283 21% 80%);border-color:hsl(283 21% 80%);" data-set-theme="pastel" title="pastel" data-act-class="ACTIVECLASS"></button>
+        <button class="btn btn-xs btn-square" style="background:hsl(183 47% 59%);border-color:hsl(183 47% 59%);" data-set-theme="cupcake" title="cupcake" data-act-class="ACTIVECLASS"></button>
       </div>
-    </div>
-    <div class="flex flex-col items-center">
-      <div class="w-full max-w-lg my-10">
-        <div class="shadow-lg mockup-code">
-          <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
-        </div>
-      </div>
-      <div class="flex space-x-4">
-        <NuxtLink to="/docs/install" class="shadow-lg btn-lg btn btn-primary">
-          Get started
-        </NuxtLink>
-        <a class="btn-lg btn btn-ghost" href="https://github.com/saadeghi/daisyui" target="_blank">
-          <svg width="24" height="24" fill="currentColor" class="mr-2 text-base-content"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.606 9.606 0 0112 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48C19.137 20.107 22 16.373 22 11.969 22 6.463 17.522 2 12 2z"></path></svg>
-          Github
-        </a>
-      </div>
-    </div>
-    <div class="flex flex-col items-center">
-      <div class="w-full max-w-lg mt-20 text-center">
-        <p class="mt-6">
-          <a target="_blank" href="https://github.com/saadeghi/daisyui/actions">
-            <img class="inline-block" src="https://badgen.net/github/checks/saadeghi/daisyui?label=build" alt="">
-          </a>
-          <a target="_blank" href="https://www.npmjs.com/package/daisyui">
-            <img class="inline-block" src="https://badgen.net/npm/v/daisyui?label=version&amp;icon=npm&amp;color=purple" alt="">
-          </a>
-          <a target="_blank" :href="'https://bundlephobia.com/result?p=daisyui'">
-            <img class="inline-block" :src="'https://badgen.net/bundlephobia/minzip/daisyui?label=install%20size&amp;color=purple'" alt="">
-          </a>
-          <a target="_blank" href="https://www.npmjs.com/package/daisyui">
-            <img class="inline-block" src="https://badgen.net/npm/dt/daisyui?icon=npm&amp;color=purple" alt="">
-          </a>
-          <a target="_blank" href="https://github.com/saadeghi/daisyui">
-            <img class="inline-block" src="https://badgen.net/github/last-commit/saadeghi/daisyui?icon=github&amp;color=purple" alt="">
-          </a>
-          <a target="_blank" href="https://github.com/saadeghi/daisyui/blob/master/LICENSE">
-            <img class="inline-block" src="https://badgen.net/github/license/saadeghi/daisyui?color=purple" alt="">
-          </a>
-        </p>
-      </div>
-    </div>
-
-    <div class="mt-6 text-center">
-      <a class="btn btn-link btn-sm" target="_blank" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
-      <a class="btn btn-link btn-sm" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
-    </div>
-
-
-    <div class="flex justify-center pt-32 pb-12">
-      <div class="inline-block text-3xl font-bold border-b-8 lg:text-7xl text-base-content border-primary">Features</div>
-    </div>
-
-    <div class="grid grid-cols-1 gap-10 px-4 py-20 mx-auto lg:max-w-5xl lg:text-center lg:grid-cols-2 justify-items-center rounded-box bg-base-200">
-
-      <div class="max-w-xs">
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          Component classes
-        </h2>
-        <p class="text-opacity-50 text-base-content">It adds component classes to Tailwind. Classes like <span class="badge badge-info">btn</span>, <span class="badge badge-info">card</span>,... No need to deal with hundreds of utility classes.</p>
-      </div>
-
-      <div class="max-w-xs">
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          Tailwind CSS plugin
-        </h2>
-        <p class="text-opacity-50 text-base-content">DaisyUI is a Tailwind CSS plugin so you can simply add it to your <span class="badge badge-info">tailwind.config.js</span> file.</p>
-      </div>
-
-      <div class="max-w-xs">
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          Based on design system
-        </h2>
-        <p class="text-opacity-50 text-base-content">DaisyUI applies design system concepts to Tailwind CSS. Every component on your page is committed to a single design system.</p>
-      </div>
-
-      <div class="max-w-xs">
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          Customizable
-        </h2>
-        <p class="text-opacity-50 text-base-content">You can customize the design of components with Tailwind utility classes and CSS variables.</p>
-      </div>
-
-      <div class="max-w-xs">
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          Semantic color names
-        </h2>
-        <p class="text-opacity-50 text-base-content">Use color names like <span class="badge badge-info">primary</span>, <span class="badge badge-info">secondary</span>, <span class="badge badge-info">accent</span>,... just like your design system defines.</p>
-      </div>
-
-      <div class="max-w-xs">
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          RTL supported
-        </h2>
-        <p class="text-opacity-50 text-base-content">Enable <span class="badge badge-info">rtl</span> config for right to left layouts.</p>
-      </div>
-
-      <div class="max-w-xs">
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          Themeable
-        </h2>
-        <p class="text-opacity-50 text-base-content">Add multiple themes or change colors with a CSS variable. You can even set a theme for a specific section of your page.</p>
-      </div>
-
-      <div class="max-w-xs">
-        <h2 class="text-xl font-bold card-title">
-          <Icon glyph="check" class="inline-block w-6 h-6 mb-2 mr-2 stroke-current text-success" /><br>
-          Designer-friendly
-        </h2>
-        <p class="text-opacity-50 text-base-content">You can disable <span class="badge badge-info">styled</span> config and only get the skeleton of components. No style, no colors. You can style everything using utility classes.</p>
-      </div>
-
-    </div>
-
-
-    <div class="grid grid-cols-1 mt-20 mb-6">
-
-      <div class="flex justify-center">
-        <div class="flex-row items-center max-w-xs space-x-4 card-body">
-          <div>
-            <div class="avatar">
-              <div class="rounded-full shadow w-14 h-14">
-                <img src="https://unavatar.now.sh/github/saadeghi">
-              </div>
+      -->
+          <h1 class="py-10 mb-5 text-5xl font-extrabold md:py-0">
+            Beautiful Components
+            <br />For Tailwind CSS
+          </h1>
+          <div
+            class="w-full max-w-sm mx-auto mb-6 text-left shadow-lg lg:max-w-sm mockup-code glass lg:mx-0 text-primary-content"
+          >
+            <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
+          </div>
+          <div class="max-w-md mx-auto text-left lg:mx-0">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block w-6 h-6 mb-2 mr-2 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              Clean HTML with component classes
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block w-6 h-6 mb-2 mr-2 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              Customizable and themeable
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block w-6 h-6 mb-2 mr-2 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              Pure CSS, No dependencies
             </div>
           </div>
-          <a href="https://twitter.com/Saadeghi" target="_blank" class="hover:opacity-75">
-            <p class="text-xs text-opacity-50 text-base-content">Designed and developed by</p>
-            <h2 class="card-title">Pouya Saadeghi</h2>
-          </a>
+          <NuxtLink to="/docs/install" class="mt-4 shadow-lg btn-lg btn">
+            Get started
+          </NuxtLink>
+          <NuxtLink
+            to="/components/accordion"
+            class="mt-4 btn-lg btn btn-ghost"
+          >
+            See components
+          </NuxtLink>
+        </div>
+        <div class="flex flex-col items-center w-full lg:w-1/4">
+          <div id="slider" class="grid items-center w-96">
+            <div
+              class="grid grid-cols-3 col-start-1 row-start-1 gap-6 p-6 glass rounded-box place-items-center"
+            >
+              <Button classes="">Button</Button>
+              <Button classes="btn-primary">Button</Button>
+              <Button classes="btn-secondary">Button</Button>
+              <Button classes="btn-accent">Button</Button>
+              <Button classes="btn-success">Button</Button>
+              <Button classes="btn-info">Button</Button>
+              <Button classes="btn-warning">Button</Button>
+              <Button classes="btn-error">Button</Button>
+              <Button classes="glass">Button</Button>
+              <Button classes="btn-outline">Button</Button>
+              <Button classes="btn-ghost">Button</Button>
+              <Button classes="btn-disabled">Button</Button>
+            </div>
+            <div
+              class="col-start-1 row-start-1 place-items-center place-content-center"
+            >
+              <div>
+                <div class="justify-center w-full tabs">
+                  <a
+                    class="tab tab-lg tab-border-none tab-lifted text-secondary-content"
+                    >Tab one</a
+                  >
+                  <a class="tab tab-lg tab-border-none tab-lifted tab-active"
+                    >Tab two</a
+                  >
+                  <a
+                    class="tab tab-lg tab-border-none tab-lifted text-secondary-content"
+                    >Tab three</a
+                  >
+                </div>
+                <div class="w-full p-4 card bg-base-100">
+                  <div class="w-4/5 h-4 m-3 rounded-full bg-base-200"></div>
+                  <div class="w-2/5 h-4 m-3 rounded-full bg-base-200"></div>
+                  <div class="w-3/5 h-4 m-3 rounded-full bg-base-200"></div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-start-1 row-start-1 place-items-center place-content-center"
+            >
+              <Menu
+                class="py-3 shadow-lg bg-base-100 text-base-content rounded-box"
+              >
+                <MenuItem class="menu-title">
+                  <span>
+                    List Title
+                  </span>
+                </MenuItem>
+                <MenuItem>
+                  <a>
+                    <Icon
+                      glyph="lightning-bolt"
+                      class="inline-block w-5 h-5 mr-2 stroke-current"
+                    />
+                    List item with icon
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a>
+                    <Icon
+                      glyph="bell"
+                      class="inline-block w-5 h-5 mr-2 stroke-current"
+                    />
+                    List item with icon
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a>
+                    <Icon
+                      glyph="folder"
+                      class="inline-block w-5 h-5 mr-2 stroke-current"
+                    />
+                    List item with icon
+                    <Badge class="ml-2 success">9</Badge>
+                  </a>
+                </MenuItem>
+              </Menu>
+            </div>
+
+            <div
+              class="grid grid-cols-1 col-start-1 row-start-1 gap-6 place-items-center place-content-center"
+            >
+              <div class="btn-group">
+                <button class="btn btn-sm">Previous</button>
+                <button class="btn btn-sm">1</button>
+                <button class="btn btn-sm btn-active">2</button>
+                <button class="btn btn-sm">3</button>
+                <button class="btn btn-sm">4</button>
+                <button class="btn btn-sm">Next</button>
+              </div>
+              <div class="btn-group">
+                <button class="btn">Previous</button>
+                <button class="btn">1</button>
+                <button class="btn btn-active">2</button>
+                <button class="btn">3</button>
+                <button class="btn">4</button>
+                <button class="btn">Next</button>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-xs">Previous</button>
+                <button class="btn btn-xs">1</button>
+                <button class="btn btn-xs btn-active">2</button>
+                <button class="btn btn-xs">3</button>
+                <button class="btn btn-xs">4</button>
+                <button class="btn btn-xs">Next</button>
+              </div>
+            </div>
+
+            <div
+              class="grid grid-cols-4 col-start-1 row-start-1 gap-6 p-6 shadow-xl bg-base-100 bg-opacity-80 rounded-box place-items-center place-content-center"
+            >
+              <label class="label"> <Toggle classes="toggle-primary"/></label>
+              <label class="label"> <Toggle classes="toggle-secondary"/></label>
+              <label class="label"> <Toggle classes="toggle-accent"/></label>
+              <label class="label"> <Toggle classes=""/></label>
+              <label class="label"> <Toggle classes="toggle-primary"/></label>
+              <label class="label"> <Toggle classes="toggle-secondary"/></label>
+              <label class="label"> <Toggle classes="toggle-accent"/></label>
+              <label class="label"> <Toggle classes=""/></label>
+              <label class="label"> <Toggle classes="toggle-primary"/></label>
+              <label class="label"> <Toggle classes="toggle-secondary"/></label>
+              <label class="label"> <Toggle classes="toggle-accent"/></label>
+              <label class="label"> <Toggle classes=""/></label>
+              <label class="label"> <Toggle classes="toggle-primary"/></label>
+              <label class="label"> <Toggle classes="toggle-secondary"/></label>
+              <label class="label"> <Toggle classes="toggle-accent"/></label>
+              <label class="label"> <Toggle classes=""/></label>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="min-h-screen hero bg-base-100 text-base-content">
+      <div class="w-full max-w-sm text-center md:max-w-5xl hero-content">
+        <div class="w-full">
+          <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
+            Clean HTML
+          </h2>
+          <h3 class="mb-5 text-3xl font-bold">with component classes</h3>
+          <p class="w-full mx-auto mb-5 md:max-w-lg">
+            Your HTML doesn't need to be messy.
+            DaisyUI adds component classes to Tailwind CSS. Classes like
+            <span class="badge badge-outline">btn</span>,
+            <span class="badge badge-outline">card</span>, etc... No need to
+            deal with hundreds of utility classes.
+          </p>
+
+          <div class="flex flex-col w-full my-20 lg:flex-row">
+            <div class="flex-1 w-full max-w-xl mx-auto text-left shadow-lg mockup-code">
+              <pre><code>&#x3C;a class=&#x22;<span class="text-warning">inline-block px-4 py-3
+      text-sm font-semibold text-center
+      text-white uppercase transition
+      duration-200 ease-in-out bg-indigo-500
+      rounded-md cursor-pointer
+      hover:bg-indigo-600</span>&#x22;&#x3E;Button&#x3C;/a&#x3E;</code></pre>
+            </div>
+
+            <div class="hidden divider lg:flex divider-vertical text-base-content text-opacity-30">VS</div>
+            <div class="divider lg:hidden text-base-content text-opacity-30">VS</div>
+
+            <div class="flex-1 w-full max-w-xl mx-auto text-left shadow-lg mockup-code">
+              <pre><code>&#x3C;a class=&#x22;<span class="text-success">btn btn-primary</span>&#x22;&#x3E;Button&#x3C;/a&#x3E;</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="min-h-screen hero bg-neutral text-neutral-content">
+      <div class="w-full text-center md:max-w-2xl hero-content">
+        <div class="w-full">
+          <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
+            Highly customizable
+          </h2>
+          <h3 class="mb-5 text-3xl font-bold">using Tailwind's utility classes</h3>
+          <p class="w-full mx-auto mb-5 md:max-w-lg">
+            DaisyUI is based on Tailwind's utility classes and all components have low specificity so you can customize everything using utility classes.
+            <br/>You can even <NuxtLink to="/docs/customize" class="link">use @apply</NuxtLink> to add your custom styles to components or you can <NuxtLink to="/docs/add-themes" class="link">change colors and other design decisions</NuxtLink> using CSS variables.
+          </p>
+
+          <div class="flex flex-col w-full max-w-xs mx-auto my-20 md:max-w-md">
+            <div class="flex-1 w-full text-left shadow-lg mockup-code bg-neutral-focus">
+              <pre><code>&#x3C;a class=&#x22;<span class="text-info">btn btn-primary</span>&#x22;&#x3E;Button&#x3C;/a&#x3E;</code></pre>
+            </div>
+
+            <div
+              class="divider text-neutral-content text-opacity-30"
+            >
+              ↓
+            </div>
+
+            <div class="flex-1 w-full text-left shadow-lg mockup-code bg-neutral-focus">
+              <pre><code>&#x3C;a class=&#x22;<span class="text-info">btn btn-primary</span> <span class="text-success">rounded-full</span>&#x22;&#x3E;Button&#x3C;/a&#x3E;</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="min-h-screen hero bg-gradient-to-br from-primary to-accent text-primary-content">
+      <div class="w-full text-center md:max-w-2xl hero-content">
+        <div class="w-full">
+          <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
+            Powerful theming
+          </h2>
+          <h3 class="mb-5 text-3xl font-bold">Apply your own design decisions</h3>
+          <p class="w-full mx-auto mb-5 md:max-w-lg">
+            DaisyUI adds a set of semantic color names to Tailwind. So instead of using generic color names
+            like <span class="badge badge-ghost">bg-blue-500</span>,
+            we can use semantic role names like <span class="badge badge-ghost">bg-primary</span>
+            or <span class="badge badge-ghost">bg-success</span>.
+            <br>All colors are CSS variables so you easily add dark mode by chaning a few CSS variables.
+            Try DaisyUI <NuxtLink to="/docs/default-themes" class="link">default themes</NuxtLink> or <NuxtLink to="/docs/add-themes" class="link">create your own theme</NuxtLink> in less than a minute!
+          </p>
+
+          <div class="flex flex-col w-full my-20 space-y-2 md:space-y-0 md:space-x-2 md:flex-row">
+            <div class="flex-1 w-full max-w-sm p-8 mx-auto card bg-base-100 text-base-content" data-theme="luxury">
+              <h3 class="text-sm font-bold">Luxury Theme</h3>
+              <div class="flex flex-col mt-2 space-y-2">
+                <progress class="progress" value="40" max="100"></progress>
+                <div class="flex items-center justify-center space-x-2">
+                  <div class="btn btn-accent btn-sm btn-square">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><!----> <!----> <!---->
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+                    </svg>
+                  </div>
+                  <label class="label"> <Toggle/></label>
+                  <label class="label"> <Checkbox/></label>
+                </div>
+                <button class="btn btn-block btn-sm btn-primary">Primary</button>
+                <button class="btn btn-block btn-sm btn-secondary">Secondary</button>
+                <button class="btn btn-block btn-sm btn-outline">Outline</button>
+              </div>
+            </div>
+
+            <div class="flex-1 w-full max-w-sm p-8 mx-auto card bg-base-100 text-base-content" data-theme="cupcake">
+              <h3 class="text-sm font-bold">Cupcake Theme</h3>
+              <div class="flex flex-col mt-2 space-y-2">
+                <progress class="progress" value="40" max="100"></progress>
+                <div class="flex items-center justify-center space-x-2">
+                  <div class="btn btn-accent btn-sm btn-square">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><!----> <!----> <!---->
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+                    </svg>
+                  </div>
+                  <label class="label"> <Toggle/></label>
+                  <label class="label"> <Checkbox/></label>
+                </div>
+                <button class="btn btn-block btn-sm btn-primary">Primary</button>
+                <button class="btn btn-block btn-sm btn-secondary">Secondary</button>
+                <button class="btn btn-block btn-sm btn-outline">Outline</button>
+              </div>
+            </div>
+
+            <div class="flex-1 w-full max-w-sm p-8 mx-auto card bg-base-100 text-base-content" data-theme="cyberpunk">
+              <h3 class="text-sm font-bold">Cyberpunk Theme</h3>
+              <div class="flex flex-col mt-2 space-y-2">
+                <progress class="progress" value="40" max="100"></progress>
+                <div class="flex items-center justify-center space-x-2">
+                  <div class="btn btn-accent btn-sm btn-square">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><!----> <!----> <!---->
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+                    </svg>
+                  </div>
+                  <label class="label"> <Toggle/></label>
+                  <label class="label"> <Checkbox/></label>
+                </div>
+                <button class="btn btn-block btn-sm btn-primary">Primary</button>
+                <button class="btn btn-block btn-sm btn-secondary">Secondary</button>
+                <button class="btn btn-block btn-sm btn-outline">Outline</button>
+              </div>
+            </div>
+
+          </div>
+            <NuxtLink to="/docs/default-themes" class="mb-20 btn btn-ghost btn-sm">Read more about themes</NuxtLink>
+          <div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="min-h-screen hero bg-base-200 text-base-content">
+      <div class="w-full text-center lg:max-w-5xl hero-content">
+        <div class="w-full">
+          <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
+            Try it online
+          </h2>
+          <h3 class="mb-5 text-3xl font-bold"></h3>
+          <p class="w-full mx-auto mb-5 md:max-w-lg">
+            Use DaisyUI file from CDN (Tailwind CSS default style included)
+          </p>
+          <div class="w-full max-w-xs mx-auto my-2 md:max-w-md lg:max-w-2xl">
+            <div class="text-sm shadow-lg mockup-code">
+              <pre><code><span class="text-neutral-content text-opacity-40">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ DAISYUI_VERSION }}/dist/full.css<span class="text-neutral-content text-opacity-40">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
+            </div>
+          </div>
+          <p class="max-w-lg mx-auto mt-10 mb-5">
+            Or try it online:
+          </p>
+          <div class="w-full max-w-md mx-auto space-x-2">
+            <a class="btn-outline btn-sm btn-primary btn" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+            <a class="btn-outline btn-sm btn-primary btn" target="_blank" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="min-h-screen hero bg-base-100 text-base-content">
+      <div class="w-full max-w-sm text-center md:max-w-5xl hero-content">
+        <div class="w-full">
+          <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
+            Install DaisyUI
+          </h2>
+          <h3 class="mb-5 text-3xl font-bold">¯\_(ツ)_/¯</h3>
+          <p class="w-full mx-auto mb-5 md:max-w-lg">
+            Install DaisyUI as a Node package, use it as a plugin for Tailwind CSS or use the CSS file as a component library
+          </p>
+
+          <div class="w-full max-w-md mx-auto my-2">
+            <div class="text-left shadow-lg mockup-code">
+              <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
+            </div>
+
+            <div class="w-full max-w-4xl my-2">
+              <div class="text-sm text-left shadow-lg mockup-code">
+        <pre><code><span class="text-neutral-content text-opacity-40">// tailwind.config.js</span>
+    module.exports = {
+      plugins: [
+        <span class="badge badge-ghost">require('daisyui'),</span>
+      ],
+    }</code></pre>
+        </div>
+        </div>
+
+          <NuxtLink to="/docs/install" class="mt-4 mb-20 shadow-lg btn-wide btn-primary btn">
+            Read More
+          </NuxtLink>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="hero bg-neutral text-neutral-content">
+      <div class="w-full max-w-6xl py-20 text-center hero-content">
+        <div>
+          <div class="mt-6 mb-20 text-center">
+            <a class="btn btn-ghost btn-xs" target="_blank" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
+            <a class="btn btn-ghost btn-xs" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+            <a class="btn btn-ghost btn-xs" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
+            <a class="btn btn-ghost btn-xs" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
+            <a class="btn btn-ghost btn-xs" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
+            <a class="btn btn-ghost btn-xs" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
+          </div>
+          <div>
+            <a href="https://twitter.com/Saadeghi" target="_blank" class="inline-flex items-center justify-center">
+              <div class="mr-3 avatar">
+                <div class="w-14 h-14">
+                  <img src="https://unavatar.now.sh/github/saadeghi" class="mask mask-squircle">
+                </div>
+              </div>
+              <div class="text-left">
+                <p class="text-xs text-opacity-50 text-neutral-content">Designed and developed by</p>
+                <h2 class="text-lg font-bold text-neutral-content">Pouya Saadeghi</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   </div>
 </template>
-
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+#slider > div {
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.95);
+  opacity: 0;
+  --items: 5;
+  --pause: 5s;
+  animation: slider calc(var(--pause) * var(--items)) linear infinite;
+}
+#slider > div:nth-child(1) {
+  animation-delay: calc(var(--pause) * 0);
+}
+#slider > div:nth-child(2) {
+  animation-delay: calc(var(--pause) * 1);
+}
+#slider > div:nth-child(3) {
+  animation-delay: calc(var(--pause) * 2);
+}
+#slider > div:nth-child(4) {
+  animation-delay: calc(var(--pause) * 3);
+}
+#slider > div:nth-child(5) {
+  animation-delay: calc(var(--pause) * 4);
+}
+@keyframes slider {
+  100%,
+  0%,
+  16% {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+  17%,
+  99% {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.95);
+  }
 }
 </style>
-
 <script>
+import { themeChange } from "theme-change";
+
 export default {
+  layout: "landing",
   data() {
     return {
-      DAISYUI_VERSION: process.env.DAISYUI_VERSION,
-    }
+      DAISYUI_VERSION: process.env.DAISYUI_VERSION
+    };
   },
   computed: {
     svgLogo() {
-      return require(`~/static/logo.svg?raw`)
+      return require(`~/static/logo.svg?raw`);
+    },
+    svgLogoSolid() {
+      return require(`~/static/logo-solid.svg?raw`);
     }
+  },
+  mounted() {
+    themeChange(false);
   }
-}
+};
 </script>
