@@ -7,9 +7,9 @@
         class="inline-block w-full transform opacity-5 -rotate-12"
         v-html="svgLogoSolid"
       ></div>
-      <div class="flex-col w-full hero-content lg:flex-row">
+      <div class="flex-col justify-between w-full hero-content lg:flex-row">
         <div
-          class="w-full max-w-3xl my-10 text-center lg:w-3/4 lg:text-left lg:my-0"
+          class="flex-grow"
         >
           <!--
       <div class="btn-group">
@@ -33,16 +33,16 @@
         <button class="btn btn-xs btn-square" style="background:hsl(183 47% 59%);border-color:hsl(183 47% 59%);" data-set-theme="cupcake" title="cupcake" data-act-class="ACTIVECLASS"></button>
       </div>
       -->
-          <h1 class="py-10 mb-5 text-5xl font-extrabold md:py-0">
+          <h1 class="py-10 mb-5 text-3xl font-extrabold text-center md:text-5xl md:py-0 lg:text-left">
             Beautiful Components
             <br />For Tailwind CSS
           </h1>
           <div
-            class="w-full max-w-sm mx-auto mb-6 text-left shadow-lg lg:max-w-sm mockup-code glass lg:mx-0 text-primary-content"
+            class="w-full max-w-xs mx-auto mb-6 text-left shadow-lg lg:max-w-sm mockup-code glass lg:mx-0 text-primary-content"
           >
             <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
           </div>
-          <div class="max-w-md mx-auto text-left lg:mx-0">
+          <div class="max-w-sm mx-auto text-left md:max-w-md lg:mx-0">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,18 +92,20 @@
               Pure CSS, No dependencies
             </div>
           </div>
-          <NuxtLink to="/docs/install" class="mt-4 shadow-lg btn-lg btn">
-            Get started
+          <div class="flex justify-center lg:justify-start">
+            <NuxtLink to="/docs/install" class="mt-4 shadow-lg btn-lg btn">
+              Get started
+            </NuxtLink>
+            <NuxtLink
+              to="/components/accordion"
+              class="mt-4 btn-lg btn btn-ghost"
+            >
+              See components
           </NuxtLink>
-          <NuxtLink
-            to="/components/accordion"
-            class="mt-4 btn-lg btn btn-ghost"
-          >
-            See components
-          </NuxtLink>
+          </div>
         </div>
-        <div class="flex flex-col items-center w-full lg:w-1/4">
-          <div id="slider" class="grid items-center w-96">
+        <div class="flex flex-col items-center">
+          <div id="slider" class="grid items-center flex-grow-0">
             <div
               class="grid grid-cols-3 col-start-1 row-start-1 gap-6 p-6 glass rounded-box place-items-center"
             >
@@ -270,7 +272,7 @@
 
 
     <div class="min-h-screen hero bg-base-100 text-base-content">
-      <div class="w-full max-w-sm text-center md:max-w-5xl hero-content">
+      <div class="w-full max-w-xs text-center md:max-w-5xl hero-content">
         <div class="w-full">
           <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
             Clean HTML
@@ -387,12 +389,12 @@
             like <span class="badge badge-ghost">bg-blue-500</span>,
             we can use semantic role names like <span class="badge badge-ghost">bg-primary</span>
             or <span class="badge badge-ghost">bg-success</span>.
-            <br>All colors are CSS variables so you easily add dark mode by chaning a few CSS variables.
+            <br>All colors are CSS variables so you easily add dark mode by changing a few CSS variables.
             Try DaisyUI <NuxtLink to="/docs/default-themes" class="link">default themes</NuxtLink> or <NuxtLink to="/docs/add-themes" class="link">create your own theme</NuxtLink> in less than a minute!
           </p>
 
           <div class="flex flex-col w-full my-20 space-y-2 md:space-y-0 md:space-x-2 md:flex-row">
-            <div class="flex-1 w-full max-w-sm p-8 mx-auto card bg-base-100 text-base-content" data-theme="luxury">
+            <div class="flex-1 w-full max-w-xs p-8 mx-auto card bg-base-100 text-base-content" data-theme="luxury">
               <h3 class="text-sm font-bold">Luxury Theme</h3>
               <div class="flex flex-col mt-2 space-y-2">
                 <progress class="progress" value="40" max="100"></progress>
@@ -411,7 +413,7 @@
               </div>
             </div>
 
-            <div class="flex-1 w-full max-w-sm p-8 mx-auto card bg-base-100 text-base-content" data-theme="cupcake">
+            <div class="flex-1 w-full max-w-xs p-8 mx-auto card bg-base-100 text-base-content" data-theme="cupcake">
               <h3 class="text-sm font-bold">Cupcake Theme</h3>
               <div class="flex flex-col mt-2 space-y-2">
                 <progress class="progress" value="40" max="100"></progress>
@@ -430,7 +432,7 @@
               </div>
             </div>
 
-            <div class="flex-1 w-full max-w-sm p-8 mx-auto card bg-base-100 text-base-content" data-theme="cyberpunk">
+            <div class="flex-1 w-full max-w-xs p-8 mx-auto card bg-base-100 text-base-content" data-theme="cyberpunk">
               <h3 class="text-sm font-bold">Cyberpunk Theme</h3>
               <div class="flex flex-col mt-2 space-y-2">
                 <progress class="progress" value="40" max="100"></progress>
@@ -513,7 +515,7 @@
           <p class="max-w-lg mx-auto mt-10 mb-5">
             Or try it online:
           </p>
-          <div class="w-full max-w-md mx-auto space-x-2">
+          <div class="w-full max-w-xs mx-auto space-x-2 md:max-w-md">
             <a class="btn-outline btn-sm btn-primary btn" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
             <a class="btn-outline btn-sm btn-primary btn" target="_blank" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
           </div>
@@ -535,7 +537,7 @@
 
 
     <div class="min-h-screen hero bg-base-100 text-base-content">
-      <div class="w-full max-w-sm text-center md:max-w-5xl hero-content">
+      <div class="w-full max-w-xs text-center md:max-w-5xl hero-content">
         <div class="w-full">
           <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
             Install DaisyUI
@@ -561,7 +563,7 @@
         </div>
         </div>
 
-          <NuxtLink to="/docs/install" class="mt-4 mb-20 shadow-lg btn-wide btn-primary btn">
+          <NuxtLink to="/docs/install" class="mt-4 mb-20 shadow-lg btn-wide btn-success btn">
             Read More
           </NuxtLink>
           </div>
