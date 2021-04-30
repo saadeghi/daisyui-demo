@@ -92,7 +92,7 @@
               Pure CSS, No dependencies
             </div>
           </div>
-          <div class="flex justify-center lg:justify-start">
+          <div class="flex justify-center lg:justify-start space-x-2">
             <NuxtLink to="/docs/install" class="mt-4 shadow-lg btn-lg btn">
               Get started
             </NuxtLink>
