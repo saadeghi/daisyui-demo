@@ -346,7 +346,7 @@
             <br/>You can even <NuxtLink to="/docs/customize" class="link">use @apply</NuxtLink> to add your custom styles to components or you can <NuxtLink to="/docs/add-themes" class="link">change colors and other design decisions</NuxtLink> using CSS variables.
           </p>
 
-          <div class="flex flex-col w-full max-w-xs mx-auto my-20 md:max-w-md">
+          <div class="flex flex-col w-full max-w-xs mx-auto my-20 md:max-w-md lg:max-w-xl">
             <div class="flex-1 w-full text-left shadow-lg mockup-code bg-neutral-focus">
               <pre><code>&#x3C;a class=&#x22;<span class="text-info">btn btn-primary</span>&#x22;&#x3E;Button&#x3C;/a&#x3E;</code></pre>
             </div>
