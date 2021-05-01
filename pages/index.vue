@@ -222,22 +222,22 @@
             <div
               class="grid grid-cols-4 col-start-1 row-start-1 gap-6 p-6 shadow-xl bg-base-100 bg-opacity-80 rounded-box place-items-center place-content-center"
             >
-              <label class="label"> <Toggle classes="toggle-primary"/></label>
-              <label class="label"> <Toggle classes="toggle-secondary"/></label>
-              <label class="label"> <Toggle classes="toggle-accent"/></label>
-              <label class="label"> <Toggle classes=""/></label>
-              <label class="label"> <Toggle classes="toggle-primary"/></label>
-              <label class="label"> <Toggle classes="toggle-secondary"/></label>
-              <label class="label"> <Toggle classes="toggle-accent"/></label>
-              <label class="label"> <Toggle classes=""/></label>
-              <label class="label"> <Toggle classes="toggle-primary"/></label>
-              <label class="label"> <Toggle classes="toggle-secondary"/></label>
-              <label class="label"> <Toggle classes="toggle-accent"/></label>
-              <label class="label"> <Toggle classes=""/></label>
-              <label class="label"> <Toggle classes="toggle-primary"/></label>
-              <label class="label"> <Toggle classes="toggle-secondary"/></label>
-              <label class="label"> <Toggle classes="toggle-accent"/></label>
-              <label class="label"> <Toggle classes=""/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-primary"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-secondary"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-accent"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes=""/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-primary"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-secondary"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-accent"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes=""/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-primary"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-secondary"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-accent"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes=""/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-primary"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-secondary"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes="toggle-accent"/></label>
+              <label class="label" aria-label="toggle"> <Toggle classes=""/></label>
             </div>
           </div>
         </div>
@@ -405,8 +405,8 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
                     </svg>
                   </div>
-                  <label class="label"> <Toggle/></label>
-                  <label class="label"> <Checkbox/></label>
+                  <label class="label" aria-label="toggle"> <Toggle/></label>
+                  <label class="label" aria-label="Checkbox"> <Checkbox/></label>
                 </div>
                 <button class="btn btn-block btn-sm btn-primary">Primary</button>
                 <button class="btn btn-block btn-sm btn-secondary">Secondary</button>
@@ -424,8 +424,8 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
                     </svg>
                   </div>
-                  <label class="label"> <Toggle/></label>
-                  <label class="label"> <Checkbox/></label>
+                  <label class="label" aria-label="toggle"> <Toggle/></label>
+                  <label class="label" aria-label="Checkbox"> <Checkbox/></label>
                 </div>
                 <button class="btn btn-block btn-sm btn-primary">Primary</button>
                 <button class="btn btn-block btn-sm btn-secondary">Secondary</button>
@@ -443,8 +443,8 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
                     </svg>
                   </div>
-                  <label class="label"> <Toggle/></label>
-                  <label class="label"> <Checkbox/></label>
+                  <label class="label" aria-label="toggle"> <Toggle/></label>
+                  <label class="label" aria-label="Checkbox"> <Checkbox/></label>
                 </div>
                 <button class="btn btn-block btn-sm btn-primary">Primary</button>
                 <button class="btn btn-block btn-sm btn-secondary">Secondary</button>
