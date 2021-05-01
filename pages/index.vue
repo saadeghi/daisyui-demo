@@ -1,10 +1,10 @@
 <template>
   <div>
     <div
-      class="min-h-screen overflow-hidden hero bg-gradient-to-br from-primary to-accent text-primary-content"
+      class="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br from-primary to-accent text-primary-content"
     >
       <div
-        class="inline-block w-full transform opacity-5 -rotate-12"
+        class="inline-block w-full transform scale-150 opacity-5 -rotate-12"
         v-html="svgLogoSolid"
       ></div>
       <div class="flex-col justify-between w-full hero-content lg:flex-row">
@@ -33,7 +33,7 @@
         <button class="btn btn-xs btn-square" style="background:hsl(183 47% 59%);border-color:hsl(183 47% 59%);" data-set-theme="cupcake" title="cupcake" data-act-class="ACTIVECLASS"></button>
       </div>
       -->
-          <h1 class="py-20 mb-5 text-3xl font-extrabold text-center md:text-5xl md:py-0 lg:text-left">
+          <h1 class="py-20 mb-5 text-3xl font-extrabold text-center md:text-5xl md:py-0 lg:text-left xl:text-6xl">
             Beautiful Components
             <br />For Tailwind CSS
           </h1>
@@ -92,8 +92,8 @@
               Pure CSS, No dependencies
             </div>
           </div>
-          <div class="flex justify-center lg:justify-start space-x-2">
-            <NuxtLink to="/docs/install" class="mt-4 shadow-lg btn-lg btn">
+          <div class="flex justify-center space-x-2 lg:justify-start">
+            <NuxtLink to="/docs/install" class="mt-4 shadow-2xl btn-lg btn">
               Get started
             </NuxtLink>
             <NuxtLink
@@ -538,23 +538,23 @@
 
     <div class="min-h-screen hero bg-base-100 text-base-content">
       <div class="w-full max-w-xs text-center md:max-w-5xl hero-content">
-        <div class="w-full">
+        <div class="w-full max-w-md">
           <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
             Install DaisyUI
           </h2>
           <p class="w-full mx-auto mt-5 md:max-w-lg">
             No dependencies, pure CSS. Can be used as a Tailwind CSS plugin or as an independent CSS library
           </p>
-          <p class="w-full mx-auto mt-5 md:max-w-lg">
-            Install DaisyUI as a Node package:
+          <p class="w-full mx-auto mt-5 text-left md:max-w-lg">
+            1. Install DaisyUI as a Node package:
           </p>
 
           <div class="w-full max-w-md mx-auto my-2">
             <div class="text-left shadow-lg mockup-code">
               <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
             </div>
-            <p class="w-full mx-auto mt-5 md:max-w-lg">
-              Use DaisyUI as a Tailwind CSS plugin:
+            <p class="w-full mx-auto mt-5 text-left md:max-w-lg">
+              2. Use DaisyUI as a Tailwind CSS plugin <span class="badge badge-outline badge-sm">recommended</span>
             </p>
 
             <div class="w-full max-w-4xl my-2">
@@ -569,7 +569,7 @@
             </div>
 
 
-            <p class="w-full mx-auto mt-5 md:max-w-lg">
+            <p class="w-full mx-auto mt-5 text-left md:max-w-lg">
               Or import the CSS file and use it only as a component library:
             </p>
 
@@ -613,9 +613,9 @@
             <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
           </div>
           <div>
-            <a href="https://twitter.com/Saadeghi" target="_blank" class="inline-flex items-center justify-center">
+            <a href="https://twitter.com/Saadeghi" target="_blank" class="inline-flex items-center justify-center hover:opacity-90">
               <div class="mr-3 avatar">
-                <div class="w-14 h-14">
+                <div class="p-px w-14 h-14 mask mask-squircle bg-neutral-focus">
                   <img src="https://unavatar.now.sh/github/saadeghi" class="mask mask-squircle">
                 </div>
               </div>
