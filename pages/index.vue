@@ -33,7 +33,7 @@
         <button class="btn btn-xs btn-square" style="background:hsl(183 47% 59%);border-color:hsl(183 47% 59%);" data-set-theme="cupcake" title="cupcake" data-act-class="ACTIVECLASS"></button>
       </div>
       -->
-          <h1 class="py-10 mb-5 text-3xl font-extrabold text-center md:text-5xl md:py-0 lg:text-left">
+          <h1 class="py-20 mb-5 text-3xl font-extrabold text-center md:text-5xl md:py-0 lg:text-left">
             Beautiful Components
             <br />For Tailwind CSS
           </h1>
@@ -42,7 +42,7 @@
           >
             <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
           </div>
-          <div class="max-w-sm mx-auto text-left md:max-w-md lg:mx-0">
+          <div class="max-w-sm mx-auto my-2 text-left md:max-w-md lg:mx-0 md:my-0">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@
               to="/components/accordion"
               class="mt-4 btn-lg btn btn-ghost"
             >
-              See components
+              <span class="hidden md:inline">See</span>&nbsp; components
           </NuxtLink>
           </div>
         </div>
@@ -542,15 +542,20 @@
           <h2 class="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">
             Install DaisyUI
           </h2>
-          <h3 class="mb-5 text-3xl font-bold">¯\_(ツ)_/¯</h3>
-          <p class="w-full mx-auto mb-5 md:max-w-lg">
-            Install DaisyUI as a Node package, use it as a plugin for Tailwind CSS or use the CSS file as a component library
+          <p class="w-full mx-auto mt-5 md:max-w-lg">
+            No dependencies, pure CSS. Can be used as a Tailwind CSS plugin or as an independent CSS library
+          </p>
+          <p class="w-full mx-auto mt-5 md:max-w-lg">
+            Install DaisyUI as a Node package:
           </p>
 
           <div class="w-full max-w-md mx-auto my-2">
             <div class="text-left shadow-lg mockup-code">
               <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
             </div>
+            <p class="w-full mx-auto mt-5 md:max-w-lg">
+              Use DaisyUI as a Tailwind CSS plugin:
+            </p>
 
             <div class="w-full max-w-4xl my-2">
               <div class="text-sm text-left shadow-lg mockup-code">
@@ -560,12 +565,24 @@
         <span class="badge badge-ghost">require('daisyui'),</span>
       ],
     }</code></pre>
-        </div>
-        </div>
+              </div>
+            </div>
 
-          <NuxtLink to="/docs/install" class="mt-4 mb-20 shadow-lg btn-wide btn-success btn">
-            Read More
-          </NuxtLink>
+
+            <p class="w-full mx-auto mt-5 md:max-w-lg">
+              Or import the CSS file and use it only as a component library:
+            </p>
+
+            <div class="w-full max-w-4xl my-2">
+              <div class="text-sm text-left shadow-lg mockup-code">
+        <pre><code>import 'daisyui/dist/styled.css';</code></pre>
+              </div>
+            </div>
+
+            <NuxtLink to="/docs/install" class="mt-4 mb-20 shadow-lg btn-wide btn-primary btn">
+              Read More
+            </NuxtLink>
+
           </div>
 
 
@@ -587,13 +604,13 @@
     <div class="hero bg-neutral text-neutral-content">
       <div class="w-full max-w-6xl py-20 text-center hero-content">
         <div>
-          <div class="mt-6 mb-20 text-center">
-            <a class="btn btn-ghost btn-xs" target="_blank" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
-            <a class="btn btn-ghost btn-xs" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
-            <a class="btn btn-ghost btn-xs" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
-            <a class="btn btn-ghost btn-xs" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
-            <a class="btn btn-ghost btn-xs" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
-            <a class="btn btn-ghost btn-xs" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
+          <div class="mb-10 text-center">
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
           </div>
           <div>
             <a href="https://twitter.com/Saadeghi" target="_blank" class="inline-flex items-center justify-center">
