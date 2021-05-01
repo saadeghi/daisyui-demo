@@ -7,7 +7,7 @@
         class="inline-block w-full transform scale-150 opacity-5 -rotate-12"
         v-html="svgLogoSolid"
       ></div>
-      <div class="flex-col justify-between w-full hero-content lg:flex-row">
+      <div class="flex-col justify-between w-full max-w-6xl hero-content lg:flex-row">
         <div
           class="flex-grow"
         >
@@ -34,9 +34,10 @@
       </div>
       -->
           <h1 class="py-20 mb-5 text-3xl font-extrabold text-center md:text-5xl md:py-0 lg:text-left xl:text-6xl">
-            Beautiful Components
-            <br />For Tailwind CSS
+            <div class="text-4xl font-normal">DaisyUI</div>
+            Tailwind CSS Components
           </h1>
+
           <div
             class="w-full max-w-xs mx-auto mb-6 text-left shadow-lg lg:max-w-sm mockup-code glass lg:mx-0 text-primary-content"
           >
@@ -101,7 +102,7 @@
               class="mt-4 btn-lg btn btn-ghost"
             >
               <span class="hidden md:inline">See</span>&nbsp; components
-          </NuxtLink>
+            </NuxtLink>
           </div>
         </div>
         <div class="flex flex-col items-center">
@@ -127,16 +128,16 @@
             >
               <div>
                 <div class="justify-center w-full tabs">
-                  <a
+                  <span
                     class="tab tab-lg tab-border-none tab-lifted text-secondary-content"
-                    >Tab one</a
+                    >Tab one</span
                   >
-                  <a class="tab tab-lg tab-border-none tab-lifted tab-active"
-                    >Tab two</a
+                  <span class="tab tab-lg tab-border-none tab-lifted tab-active"
+                    >Tab two</span
                   >
-                  <a
+                  <span
                     class="tab tab-lg tab-border-none tab-lifted text-secondary-content"
-                    >Tab three</a
+                    >Tab three</span
                   >
                 </div>
                 <div class="w-full p-4 card bg-base-100">
@@ -159,7 +160,7 @@
                   </span>
                 </MenuItem>
                 <MenuItem>
-                  <a>
+                  <a href="#">
                     <Icon
                       glyph="lightning-bolt"
                       class="inline-block w-5 h-5 mr-2 stroke-current"
@@ -168,7 +169,7 @@
                   </a>
                 </MenuItem>
                 <MenuItem>
-                  <a>
+                  <a href="#">
                     <Icon
                       glyph="bell"
                       class="inline-block w-5 h-5 mr-2 stroke-current"
@@ -177,7 +178,7 @@
                   </a>
                 </MenuItem>
                 <MenuItem>
-                  <a>
+                  <a href="#">
                     <Icon
                       glyph="folder"
                       class="inline-block w-5 h-5 mr-2 stroke-current"
@@ -516,8 +517,8 @@
             Or try it online:
           </p>
           <div class="w-full max-w-xs mx-auto space-x-2 md:max-w-md">
-            <a class="btn-outline btn-sm btn-primary btn" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
-            <a class="btn-outline btn-sm btn-primary btn" target="_blank" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
+            <a class="btn-outline btn-sm btn-primary btn" target="_blank" rel="noopener" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+            <a class="btn-outline btn-sm btn-primary btn" target="_blank" rel="noopener" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
           </div>
         </div>
       </div>
@@ -580,7 +581,7 @@
             </div>
 
             <NuxtLink to="/docs/install" class="mt-4 mb-20 shadow-lg btn-wide btn-primary btn">
-              Read More
+              Install guide
             </NuxtLink>
 
           </div>
@@ -605,18 +606,18 @@
       <div class="w-full max-w-6xl py-20 text-center hero-content">
         <div>
           <div class="mb-10 text-center">
-            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
-            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
-            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://github.com/saadeghi/daisyui">Github</a>
-            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://www.npmjs.com/package/daisyui">NPM</a>
-            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
-            <a class="my-1 btn btn-ghost btn-xs" target="_blank" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" rel="noopener" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" rel="noopener" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" rel="noopener" href="https://github.com/saadeghi/daisyui">Github</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" rel="noopener" href="https://www.npmjs.com/package/daisyui">NPM</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" rel="noopener" href="https://unpkg.com/browse/daisyui/">Unpkg</a>
+            <a class="my-1 btn btn-ghost btn-xs" target="_blank" rel="noopener" href="https://www.jsdelivr.com/package/npm/daisyui">JSdeliver</a>
           </div>
           <div>
-            <a href="https://twitter.com/Saadeghi" target="_blank" class="inline-flex items-center justify-center hover:opacity-90">
+            <a href="https://twitter.com/Saadeghi" rel="noopener" target="_blank" class="inline-flex items-center justify-center hover:opacity-90">
               <div class="mr-3 avatar">
                 <div class="p-px w-14 h-14 mask mask-squircle bg-neutral-focus">
-                  <img src="https://unavatar.now.sh/github/saadeghi" class="mask mask-squircle">
+                  <img src="https://github.com/saadeghi.png" class="mask mask-squircle" alt="Pouya Saadeghi">
                 </div>
               </div>
               <div class="text-left">
@@ -651,7 +652,7 @@
   transform: scale(0.95);
   opacity: 0;
   --items: 5;
-  --pause: 5s;
+  --pause: 4s;
   animation: slider calc(var(--pause) * var(--items)) linear infinite;
 }
 #slider > div:nth-child(1) {

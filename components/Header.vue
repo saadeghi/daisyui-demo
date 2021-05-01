@@ -86,6 +86,7 @@
         <a
           target="_blank"
           href="https://github.com/saadeghi/daisyui"
+          rel="noopener"
           class="normal-case btn btn-ghost drawer-button btn-square"
         >
           <svg
