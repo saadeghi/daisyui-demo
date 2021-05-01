@@ -2,7 +2,7 @@
   <div
     v-bind:class="{
       'border-base-200 bg-base-100 text-base-content': isHomepage,
-      'border-neutral bg-neutral text-neutral-content': !isHomepage
+      'border-neutral-focus border-opacity-30 bg-neutral text-neutral-content': !isHomepage
     }"
     class="fixed inset-x-0 top-0 z-50 w-full border-b"
   >
@@ -25,7 +25,7 @@
       <div class="flex-1"></div>
       <div class="items-center flex-none hidden lg:block" v-if="isHomepage">
         <NuxtLink
-          to="/components/accordion"
+          to="/components/button"
           class="normal-case btn btn-ghost drawer-button"
         >
           <svg

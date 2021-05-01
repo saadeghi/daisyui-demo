@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br from-primary to-accent text-primary-content"
+      class="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br from-primary to-secondary text-primary-content"
     >
       <div
         class="inline-block w-full transform scale-150 opacity-5 -rotate-12"
@@ -97,7 +97,7 @@
               Get started
             </NuxtLink>
             <NuxtLink
-              to="/components/accordion"
+              to="/components/button"
               class="mt-4 btn-lg btn btn-ghost"
             >
               <span class="hidden md:inline">See</span>&nbsp; components
