@@ -49,7 +49,7 @@
         You can see all available themes on this site.
         <ul>
           <li>Default themes are available on <a :href="`https://cdn.jsdelivr.net/npm/daisyui@` + DAISYUI_VERSION + `/dist/themes.css`" target="_blank">CDN</a>.</li>
-          <li>You can enable it from <NuxtLink to="/docs/config">config file</NuxtLink>.</li>
+          <li>You can disable it from <NuxtLink to="/docs/config">config file</NuxtLink>.</li>
           <li>You can see the source for each theme on <a href="https://github.com/saadeghi/daisyui/tree/master/src/themes" target="_blank">github</a>.</li>
           <li>You can <NuxtLink to="/docs/add-themes">add your own theme</NuxtLink> if you want.</li>
         </ul>
