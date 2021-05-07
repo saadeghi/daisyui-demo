@@ -35,7 +35,7 @@
       -->
           <h1 class="py-20 mb-5 text-3xl font-extrabold text-center md:text-5xl md:py-0 lg:text-left xl:text-6xl">
             <div class="text-4xl font-normal">DaisyUI</div>
-            Tailwind CSS Components
+            Tailwind CSS <br/>Components
           </h1>
 
           <div
@@ -509,7 +509,7 @@
             Use DaisyUI file from CDN (Tailwind CSS default style included)
           </p>
           <div class="w-full max-w-xs mx-auto my-2 md:max-w-md lg:max-w-2xl">
-            <div class="text-sm shadow-lg mockup-code">
+            <div class="text-sm shadow-lg mockup-code bg-neutral-focus">
               <pre><code><span class="text-neutral-content text-opacity-40">&lt;link href="</span>https://cdn.jsdelivr.net/npm/daisyui@{{ DAISYUI_VERSION }}/dist/full.css<span class="text-neutral-content text-opacity-40">" rel="stylesheet" type="text/css" /&gt;</span></code></pre>
             </div>
           </div>
@@ -517,8 +517,8 @@
             Or try it online:
           </p>
           <div class="w-full max-w-xs mx-auto space-x-2 md:max-w-md">
-            <a class="btn-outline btn-sm btn-primary btn" target="_blank" rel="noopener" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
-            <a class="btn-outline btn-sm btn-primary btn" target="_blank" rel="noopener" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
+            <a class="btn-outline btn-sm btn" target="_blank" rel="noopener" href="https://codepen.io/saadeghi/pen/gOwWKvv">Codepen</a>
+            <a class="btn-outline btn-sm btn" target="_blank" rel="noopener" href="https://play.tailwindcss.com/RcIZd1Mwho">Tailwind Play</a>
           </div>
         </div>
       </div>
@@ -563,7 +563,7 @@
         <pre><code><span class="text-neutral-content text-opacity-40">// tailwind.config.js</span>
     module.exports = {
       plugins: [
-        <span class="badge badge-ghost">require('daisyui'),</span>
+        <span class="badge badge-secondary">require('daisyui'),</span>
       ],
     }</code></pre>
               </div>
