@@ -42,8 +42,8 @@
         </NuxtLink>
       </div>
 
-      <div class="flex-none" title="Change Theme">
-        <label class="relative overflow-hidden normal-case btn btn-ghost">
+      <div class="dropdown dropdown-end" title="Change Theme">
+        <div tabindex="0" class="m-1 normal-case btn-ghost btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -57,16 +57,6 @@
               d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
             />
           </svg>
-          <select
-            autofocus="true"
-            class="absolute inset-0 w-full opacity-0 cursor-pointer"
-            data-choose-theme
-          >
-            <option value="">theme: 🎨 auto</option>
-            <option v-for="(theme, index) in themes" :value="theme.id">{{
-              theme.name
-            }}</option>
-          </select>
           <span class="hidden md:inline">
             Change Theme
           </span>
@@ -79,7 +69,14 @@
               d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"
             />
           </svg>
-        </label>
+        </div>
+        <div class="mt-16 overflow-y-auto shadow-2xl top-px dropdown-content h-96 w-52 rounded-b-box bg-base-200 text-base-content">
+          <ul class="p-4 menu compact">
+            <li v-for="(theme, index) in themes">
+              <a tabindex="0" :data-set-theme="theme.id" data-act-class="active">{{ theme.name }}</a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="items-center flex-none" title="Github ↗︎">
@@ -113,23 +110,25 @@ export default {
     return {
       DAISYUI_VERSION: process.env.DAISYUI_VERSION,
       themes: [
-        { id: "light", name: "theme: 🌝 light" },
-        { id: "dark", name: "theme: 🌚 dark" },
-        { id: "valentine", name: "theme: 🌸 valentine" },
-        { id: "retro", name: "theme: 👴 retro" },
-        { id: "synthwave", name: "theme: 🌃 synthwave" },
-        { id: "cyberpunk", name: "theme: 🤖 cyberpunk" },
-        { id: "black", name: "theme: 🏴 black" },
-        { id: "dracula", name: "theme: 🧛‍♂️ dracula" },
-        { id: "garden", name: "theme: 🌷 garden" },
-        { id: "halloween", name: "theme: 🎃 halloween" },
-        { id: "aqua", name: "theme: 🐟 aqua" },
-        { id: "cupcake", name: "theme: 🧁 cupcake" },
-        { id: "bumblebee", name: "theme: 🐝 bumblebee" },
-        { id: "pastel", name: "theme: 🖍 pastel" },
-        { id: "forest", name: "theme: 🌲 forest" },
-        { id: "fantasy", name: "theme: 🧚‍♀️ fantasy" },
-        { id: "luxury", name: "theme: 💎 luxury" }
+        { id: "", name: "🎨  Auto" },
+        { id: "light", name: "🌝  light" },
+        { id: "dark", name: "🌚  dark" },
+        { id: "valentine", name: "🌸  valentine" },
+        { id: "retro", name: "👴  retro" },
+        { id: "synthwave", name: "🌃  synthwave" },
+        { id: "cyberpunk", name: "🤖  cyberpunk" },
+        { id: "black", name: "🏴  black" },
+        { id: "dracula", name: "🧛‍♂️  dracula" },
+        { id: "garden", name: "🌷  garden" },
+        { id: "halloween", name: "🎃  halloween" },
+        { id: "aqua", name: "🐟  aqua" },
+        { id: "cupcake", name: "🧁  cupcake" },
+        { id: "bumblebee", name: "🐝  bumblebee" },
+        { id: "pastel", name: "🖍  pastel" },
+        { id: "forest", name: "🌲  forest" },
+        { id: "fantasy", name: "🧚‍♀️  fantasy" },
+        { id: "luxury", name: "💎  luxury" },
+        { id: "contrast", name: "🌗  Contrast" },
       ]
     };
   },
