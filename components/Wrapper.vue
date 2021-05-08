@@ -1,20 +1,21 @@
 <template>
   <div class="py-2">
-    <div class="py-2 text-xs capitalize opacity-50">
-    <div v-if="!nocode" v-on:click="showcode = !showcode" class="inline-block select-none">
-      <Icon v-if="!showcode" glyph="code" class="inline-block w-4 mr-2 cursor-pointer stroke-current" />
-      <Icon v-if="showcode" glyph="eye" class="inline-block w-4 mr-2 cursor-pointer stroke-current" />
-    </div>
+    <div class="pt-4 text-xs capitalize opacity-60">
       {{ title }}
+    </div>
+    <div class="mt-2 text-xs tabs" v-if="!nocode">
+      <div class="tab tab-lifted" v-bind:class="{ 'tab-active': !showcode }" v-on:click="showcode = false">Preview</div>
+      <div class="tab tab-lifted" v-bind:class="{ 'tab-active': showcode }" v-on:click="showcode = true">HTML</div>
+      <div class="flex-1 cursor-default tab tab-lifted"></div>
     </div>
     <div>
       <collapse-transition>
-      <div v-if="!nocode && showcode">
+      <div v-if="!nocode && showcode" class="pt-2">
         <pre id="myInput" v-highlightjs="sourcecode"><code class="h-64 p-4 font-mono text-xs rounded-lg html"></code></pre>
       </div>
       </collapse-transition>
       <collapse-transition>
-        <div v-if="!showcode">
+        <div class="pt-2" v-if="!showcode">
           <div :class="classes" ref="component">
             <slot></slot>
           </div>
