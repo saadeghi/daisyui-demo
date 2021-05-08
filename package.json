@@ -7,7 +7,7 @@
     "start": "nuxt start",
     "style": "npm i daisyui@latest && postcss node_modules/tailwindcss/tailwind.css -o assets/css/style.css",
     "generate": "NODE_ENV=production npm run style && nuxt generate",
-    "predeploy": "NODE_ENV=production npm run style && ROUTER_BASE='/' nuxt generate",
+    "predeploy": "NODE_ENV=production TAILWIND_MODE=build npm run style && ROUTER_BASE='/' nuxt generate",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
