@@ -135,6 +135,21 @@
 
     </Wrapper>
 
+    <Wrapper title="helper dropdown" classes="flex justify-center h-72 bg-base-200 py-6 rounded-box">
+      A normal text and a helper dropdown
+      <div class="dropdown dropdown-end">
+        <div class="btn btn-circle btn-ghost btn-xs text-info" tabindex="0">
+          <Icon glyph="info" class="inline w-5 h-5 stroke-current" />
+        </div>
+        <div class="shadow card compact dropdown-content bg-base-100 rounded-box w-52" tabindex="0">
+          <div class="card-body">
+            <h2 class="card-title">You needed more info?</h2>
+            <p>Here is more info you wanted. You're welcome!</p>
+          </div>
+        </div>
+      </div>
+    </Wrapper>
+
 
 
   </div>
